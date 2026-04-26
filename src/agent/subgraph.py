@@ -10,6 +10,7 @@ from openai import BadRequestError, InternalServerError
 from src.agent.state import DataCollectionState
 from src.prompts.data_collection import PHASE1_PARSE_PROMPT, PHASE2_PARSE_PROMPT, PHASE2_SYSTEM_PROMPT
 from src.utils.llm import get_llm
+from src.utils.prefetch_formatter import format_prefetch_for_llm
 from src.tools.calculator import FinancialCalculatorTool
 from src.tools.search import RealTimeSearchTool
 from src.tools.structured_data import StructuredDataTool
@@ -121,11 +122,12 @@ def _parse_one_source(
     llm, company: str, stock_code: str, period: str, source_key: str, source_data: str
 ) -> dict:
     """Parse a single data source into collected_data entries."""
+    formatted = format_prefetch_for_llm(source_key, source_data)
     prompt = PHASE1_PARSE_PROMPT.format(
         company=company,
         stock_code=stock_code,
         period=period,
-        raw_data=json.dumps({source_key: source_data}, ensure_ascii=False),
+        raw_data=formatted,
     )
     try:
         response = llm.invoke([HumanMessage(content=prompt)])
