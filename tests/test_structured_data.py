@@ -29,6 +29,8 @@ def test_run_akshare_returns_json_string(mocker):
         "REPORT_DATE": ["2025-12-31"],
         "TOTAL_OPERATE_INCOME": [42358000000.0],
     })
+    mocker.patch("src.tools.structured_data.get_cached", return_value=None)
+    mocker.patch("src.tools.structured_data.set_cached")
     mocker.patch("akshare.stock_profit_sheet_by_quarterly_em", return_value=mock_df)
     result = tool._run(action="get_income_statement_quarterly", params={"symbol": "SH600519"})
     assert "TOTAL_OPERATE_INCOME" in result

@@ -32,8 +32,17 @@ PREFETCH_ACTIONS = [
 ]
 
 MAX_TOOL_CALLS = 30
-PREFETCH_MAX_RECORDS = 8     # keep N most-recent records per interface (on or before cutoff)
+# For quarterly / snapshot interfaces, keep the target period + 1 prior period for YoY context.
+# For annual / cumulative interfaces (income_report, indicators_by_report) keep only the target year.
+PREFETCH_MAX_RECORDS = 2     # quarterly interfaces: 2 records (target + comparison)
+PREFETCH_MAX_RECORDS_ANNUAL = 1  # annual interfaces: 1 record (target year only)
 PREFETCH_MAX_CHARS = 20_000  # hard cap per interface to protect LLM context
+
+# Annual interfaces return cumulative year-to-date data; only the target year is meaningful.
+_ANNUAL_ACTIONS = {
+    "get_income_statement_report",
+    "get_financial_indicators_em_by_report",
+}
 TOOL_RESULT_PARSE_CHARS = 8_000  # chars of raw tool result fed to the inline parse LLM call
 
 _QUARTER_END = {"Q1": "03-31", "Q2": "06-30", "Q3": "09-30", "Q4": "12-31"}
@@ -96,6 +105,7 @@ def prefetch_core_data(stock_code: str, period: str = "") -> dict[str, str]:
                         params={"symbol": f"{stock_code}.{prefix}", "indicator": "按报告期"},
                     ),
                     cutoff,
+                    max_records=PREFETCH_MAX_RECORDS_ANNUAL,
                 )
                 results["get_financial_indicators_em_quarterly"] = _filter_by_period(
                     structured_data_tool._run(
@@ -103,13 +113,16 @@ def prefetch_core_data(stock_code: str, period: str = "") -> dict[str, str]:
                         params={"symbol": f"{stock_code}.{prefix}", "indicator": "按单季度"},
                     ),
                     cutoff,
+                    max_records=PREFETCH_MAX_RECORDS,
                 )
             else:
+                n = PREFETCH_MAX_RECORDS_ANNUAL if action in _ANNUAL_ACTIONS else PREFETCH_MAX_RECORDS
                 results[action] = _filter_by_period(
                     structured_data_tool._run(
                         action=action, params={"symbol": symbol_em}
                     ),
                     cutoff,
+                    max_records=n,
                 )
         except Exception as exc:
             print(f"[data_collection] 阶段一：{action} 失败：{exc}")
@@ -142,17 +155,59 @@ def _parse_one_source(
         return {}
 
 
+_SOURCE_PRIORITY: dict[str, int] = {
+    # Lower number = higher priority; keeps the winning entry on duplicate (label, period).
+    "get_income_statement_quarterly":      1,
+    "get_income_statement_report":         2,
+    "get_cashflow_quarterly":              1,
+    "get_financial_indicators_em_quarterly": 1,
+    "get_financial_indicators_em_by_report": 2,
+    "get_balance_sheet_report":            1,
+    "get_main_business_breakdown":         1,
+}
+
+
+def _dedup_collected(entries_by_source: list[tuple[str, dict]]) -> dict:
+    """
+    Merge per-source dicts, resolving (label, period) collisions by source priority.
+    Entries from higher-priority sources (lower score) overwrite lower-priority ones.
+    """
+    # seen[(label, period)] = (priority, key)
+    seen: dict[tuple, tuple[int, str]] = {}
+    merged: dict = {}
+
+    for source_key, entries in entries_by_source:
+        priority = _SOURCE_PRIORITY.get(source_key, 99)
+        for key, val in entries.items():
+            if not isinstance(val, dict):
+                merged[key] = val
+                continue
+            sig = (val.get("label", key), val.get("period", ""))
+            existing_priority, existing_key = seen.get(sig, (999, ""))
+            if priority < existing_priority:
+                # Remove lower-priority duplicate
+                if existing_key and existing_key in merged:
+                    del merged[existing_key]
+                merged[key] = val
+                seen[sig] = (priority, key)
+            elif priority == existing_priority and key not in merged:
+                merged[key] = val
+                seen[sig] = (priority, key)
+            # else: existing has higher priority, skip
+    return merged
+
+
 def _parse_prefetched(company: str, stock_code: str, period: str, raw: dict[str, str]) -> dict:
-    """Ask LLM to parse each pre-fetched data source individually; merge results."""
+    """Ask LLM to parse each pre-fetched data source; merge with deduplication."""
     llm = get_llm()
-    collected: dict = {}
+    entries_by_source: list[tuple[str, dict]] = []
     for source_key, source_data in raw.items():
         if source_data.startswith("ERROR:"):
             continue
         print(f"[data_collection] 阶段一：解析 {source_key}...")
         entries = _parse_one_source(llm, company, stock_code, period, source_key, source_data)
-        collected.update(entries)
-    return collected
+        entries_by_source.append((source_key, entries))
+    return _dedup_collected(entries_by_source)
 
 
 def _save_collected_data(company: str, period: str, collected: dict) -> None:
