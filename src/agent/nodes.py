@@ -113,7 +113,9 @@ def generate_and_validate_section(
         return retry_content
 
     print(f"[report_generation] {title} 重试仍失败，标记人工验证")
-    return retry_content + "\n\n⚠️ 需要人工验证：" + "; ".join(retry_issues)
+    top_issues = "; ".join(i[:120] for i in retry_issues[:3])
+    suffix = f"（共 {len(retry_issues)} 项）" if len(retry_issues) > 3 else ""
+    return retry_content + f"\n\n> ⚠️ 需要人工验证{suffix}：{top_issues}"
 
 
 def assemble_report(company: str, period: str, sections: dict) -> str:

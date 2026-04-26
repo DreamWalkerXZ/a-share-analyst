@@ -129,7 +129,7 @@ SECTION_PROMPTS: dict[str, dict] = {
 }
 
 VALIDATION_PROMPT = """\
-你是一位严格的研报质检员。请检查以下研报章节的数据准确性。
+你是一位研报数据审核员，只负责核实章节中引用的核心财务数值。
 
 章节内容：
 {content}
@@ -137,13 +137,20 @@ VALIDATION_PROMPT = """\
 可查阅的 collected_data（事实来源）：
 {data_subset}
 
-检查要点：
-1. 章节中引用的每个具体数值是否可在 collected_data 中找到对应条目
-2. 引用数值是否与 collected_data 中的 value 字段一致（允许正常单位换算）
-3. 同比/环比增速计算是否正确
+判定规则：
+- passed=true：章节引用的核心数值（营收、净利润、毛利率、ROE、EPS 等）均可在 collected_data \
+中找到，且差异在 ±5% 以内（含合理单位换算）。
+- passed=false：仅当某核心数值在 collected_data 中存在对应条目，但引用值与 value 字段 \
+相差 >5%，或引用值与 collected_data 中的数字明显矛盾（非推导、非四舍五入误差）。
 
-输出格式：
+不触发 passed=false 的情况（不要因此判为失败）：
+- 由多个数值计算/推导出的占比、增速、比率
+- collected_data 中没有但属于常识或行业数据的内容
+- 时间标签模糊（如"全年累计"与"2025Q4"的语义差异）
+- 分析判断、预测、定性描述
+
+输出格式（只列出导致 passed=false 的具体矛盾，最多 3 条）：
 ```json
-{{"passed": true/false, "issues": ["具体问题（passed 为 true 时为空列表）"]}}
+{{"passed": true/false, "issues": ["原文引用 X 亿元，collected_data 显示 Y 亿元"]}}
 ```
 """

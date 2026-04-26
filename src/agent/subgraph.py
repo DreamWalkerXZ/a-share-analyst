@@ -177,6 +177,41 @@ def _extract_collected_data_from_message(content: str) -> dict:
     return result
 
 
+def _consolidate_phase2_results(
+    company: str, stock_code: str, period: str, messages: list
+) -> dict:
+    """Parse ToolMessage contents from Phase 2 into collected_data entries via a single LLM call."""
+    tool_results = []
+    for msg in messages:
+        if isinstance(msg, ToolMessage):
+            content = str(msg.content or "")
+            if content and not content.startswith("ERROR:") and len(content) > 20:
+                tool_results.append(content[:3000])  # cap each result to keep prompt manageable
+
+    if not tool_results:
+        return {}
+
+    combined = "\n---\n".join(f"[工具结果 {i + 1}]\n{r}" for i, r in enumerate(tool_results))
+    prompt = PHASE1_PARSE_PROMPT.format(
+        company=company,
+        stock_code=stock_code,
+        period=period,
+        raw_data=combined[:15_000],
+    )
+    llm = get_llm()
+    try:
+        response = llm.invoke([HumanMessage(content=prompt)])
+        content_str: str = response.content
+        if "```json" in content_str:
+            content_str = content_str.split("```json")[1].split("```")[0].strip()
+        elif not content_str.strip().startswith("{"):
+            return {}
+        return json.loads(content_str.strip())
+    except Exception as exc:
+        print(f"[data_collection] 阶段二：合并结果失败：{exc}")
+        return {}
+
+
 def react_reason(state: DataCollectionState) -> DataCollectionState:
     """Phase 2: LLM decides next tool call or signals DONE; also parses prior tool results."""
     llm = get_llm().bind_tools(TOOLS)
@@ -287,6 +322,17 @@ def run_data_collection(company: str, stock_code: str, period: str) -> dict:
     subgraph = build_data_collection_subgraph()
     final_state = subgraph.invoke(initial_state)
 
-    final_collected = final_state["collected_data"]
-    print(f"[data_collection] 数据收集完成，共 {len(final_collected)} 条数据项")
+    # Merge in-stream extracted data (works when LLM outputs JSON text alongside tool calls)
+    final_collected = dict(final_state["collected_data"])
+
+    # Consolidation pass: parse all Phase-2 ToolMessage contents into collected_data.
+    # This is needed because function-calling models set content="" when making tool calls,
+    # so _extract_collected_data_from_message never fires during the ReAct loop.
+    print("[data_collection] 阶段二：合并工具调用结果...")
+    phase2_extra = _consolidate_phase2_results(company, stock_code, period, final_state["messages"])
+    before = len(final_collected)
+    final_collected.update(phase2_extra)
+    print(f"[data_collection] 阶段二合并 +{len(final_collected) - before} 条，共 {len(final_collected)} 条数据项")
+
+    _save_collected_data(company, period, final_collected)
     return final_collected
