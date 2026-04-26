@@ -1,4 +1,5 @@
 import json
+import re
 from datetime import datetime
 from pathlib import Path
 
@@ -41,41 +42,58 @@ def _filter_data(collected_data: dict, categories: list[str]) -> dict:
     return {k: collected_data[k] for k in relevant} if relevant else collected_data
 
 
-def _parse_section_response(content: str) -> tuple[str, list[str]]:
-    """Extract Markdown text from LLM response.
+_DATA_REFS_RE = re.compile(r"<!--\s*DATA_REFS:\s*(.*?)\s*-->", re.IGNORECASE | re.DOTALL)
 
-    Prompts now ask for plain Markdown, but some models still wrap in JSON.
-    Try JSON extraction first; fall back to returning the raw content.
+
+def _parse_section_response(content: str) -> tuple[str, list[str]]:
+    """Extract Markdown text and data refs from LLM response.
+
+    Prompts ask for plain Markdown with a trailing <!-- DATA_REFS: ... --> comment.
+    Also handles legacy JSON-wrapped responses for backward compatibility.
+    Returns (markdown_content_with_refs_footnote, data_refs_list).
     """
-    # Attempt JSON extraction for backward compatibility
+    data_refs: list[str] = []
+
+    # --- Legacy JSON fallback (some models still wrap output in JSON) ---
     if "```json" in content:
         json_str = content.split("```json")[1].split("```")[0].strip()
         try:
             parsed = json.loads(json_str)
             if isinstance(parsed, dict) and "content" in parsed:
-                return parsed["content"], parsed.get("data_refs", [])
+                content = parsed["content"]
+                data_refs = parsed.get("data_refs", [])
         except json.JSONDecodeError:
             # Malformed JSON (likely unescaped newlines in content value).
-            # Try to extract "content" value using string boundaries.
             start = json_str.find('"content"')
             if start >= 0:
                 quote = json_str.find('"', start + len('"content"') + 1)
                 end = json_str.rfind('", "data_refs"')
                 if 0 < quote < end:
                     raw = json_str[quote + 1:end]
-                    raw = raw.replace("\\n", "\n").replace('\\"', '"').replace("\\\\", "\\")
-                    return raw.strip(), []
+                    content = raw.replace("\\n", "\n").replace('\\"', '"').replace("\\\\", "\\").strip()
 
     elif content.strip().startswith("{"):
         try:
             parsed = json.loads(content.strip())
             if isinstance(parsed, dict) and "content" in parsed:
-                return parsed["content"], parsed.get("data_refs", [])
+                content = parsed["content"]
+                data_refs = parsed.get("data_refs", [])
         except json.JSONDecodeError:
             pass
 
-    # Prompts now request plain Markdown directly; return as-is.
-    return content, []
+    # --- Extract <!-- DATA_REFS: ... --> comment from plain-Markdown responses ---
+    if not data_refs:
+        m = _DATA_REFS_RE.search(content)
+        if m:
+            refs_str = m.group(1).strip()
+            data_refs = [r.strip() for r in refs_str.split(",") if r.strip()]
+            content = _DATA_REFS_RE.sub("", content).rstrip()
+
+    # Append a visible footnote so reviewers can trace every data point.
+    if data_refs:
+        content += "\n\n> *数据引用：* " + " · ".join(data_refs)
+
+    return content, data_refs
 
 
 def _parse_validation_response(content: str) -> tuple[bool, list[str]]:
@@ -116,7 +134,11 @@ def generate_and_validate_section(
         return _parse_section_response(resp.content)
 
     def _validate(content: str) -> tuple[bool, list[str]]:
-        prompt = VALIDATION_PROMPT.format(content=content, data_subset=data_json)
+        # Strip the data-refs footnote line before validation to avoid noise.
+        content_for_validation = re.sub(
+            r"\n\n> \*数据引用：\*.*$", "", content, flags=re.DOTALL
+        ).rstrip()
+        prompt = VALIDATION_PROMPT.format(content=content_for_validation, data_subset=data_json)
         resp = llm.invoke([HumanMessage(content=prompt)])
         return _parse_validation_response(resp.content)
 
