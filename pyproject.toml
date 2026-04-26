@@ -12,6 +12,7 @@ dependencies = [
     "langgraph>=1.1.9",
     "python-dotenv>=1.2.2",
     "requests>=2.33.1",
+    "simpleeval>=1.0.7",
 ]
 
 [dependency-groups]

@@ -25,7 +25,7 @@ def _make_llm(side_effects: list) -> MagicMock:
 def test_generate_section_pass_on_first_attempt(mocker):
     gen_json = json.dumps({"content": "## 业绩\n\n2025Q4营收423.58亿元", "data_refs": []})
     val_json = json.dumps({"passed": True, "issues": []})
-    mocker.patch("src.agent.nodes._get_llm", return_value=_make_llm([gen_json, val_json]))
+    mocker.patch("src.agent.nodes.get_llm", return_value=_make_llm([gen_json, val_json]))
 
     result = generate_and_validate_section(
         section_key="section_1",
@@ -42,7 +42,7 @@ def test_generate_section_marks_warning_after_two_failures(mocker):
     gen_json = json.dumps({"content": "## 业绩\n\n数据有误", "data_refs": []})
     val_fail = json.dumps({"passed": False, "issues": ["数值与来源不符"]})
     mocker.patch(
-        "src.agent.nodes._get_llm",
+        "src.agent.nodes.get_llm",
         return_value=_make_llm([gen_json, val_fail, gen_json, val_fail]),
     )
 

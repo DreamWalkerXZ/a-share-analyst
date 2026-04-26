@@ -1,13 +1,12 @@
 import json
-import os
 from typing import Literal
 
 from langchain_core.messages import AIMessage, HumanMessage, SystemMessage, ToolMessage
-from langchain_openai import ChatOpenAI
 from langgraph.graph import END, StateGraph
 
 from src.agent.state import DataCollectionState
 from src.prompts.data_collection import PHASE1_PARSE_PROMPT, PHASE2_SYSTEM_PROMPT
+from src.utils.llm import get_llm
 from src.tools.calculator import FinancialCalculatorTool
 from src.tools.search import RealTimeSearchTool
 from src.tools.structured_data import StructuredDataTool
@@ -29,14 +28,6 @@ PREFETCH_ACTIONS = [
 ]
 
 MAX_TOOL_CALLS = 30
-
-
-def _get_llm() -> ChatOpenAI:
-    return ChatOpenAI(
-        model=os.environ.get("OPENAI_MODEL", "gpt-4o"),
-        base_url=os.environ.get("OPENAI_BASE_URL"),
-        api_key=os.environ.get("OPENAI_API_KEY"),
-    )
 
 
 def _exchange_prefix(stock_code: str) -> str:
@@ -75,7 +66,7 @@ def prefetch_core_data(stock_code: str) -> dict[str, str]:
 
 def _parse_prefetched(company: str, stock_code: str, period: str, raw: dict[str, str]) -> dict:
     """Ask LLM to parse all pre-fetched raw data into collected_data entries in one call."""
-    llm = _get_llm()
+    llm = get_llm()
     prompt = PHASE1_PARSE_PROMPT.format(
         company=company,
         stock_code=stock_code,
@@ -114,7 +105,7 @@ def _extract_collected_data_from_message(content: str) -> dict:
 
 def react_reason(state: DataCollectionState) -> DataCollectionState:
     """Phase 2: LLM decides next tool call or signals DONE; also parses prior tool results."""
-    llm = _get_llm().bind_tools(TOOLS)
+    llm = get_llm().bind_tools(TOOLS)
     response = llm.invoke(state["messages"])
 
     # Merge any collected_data entries the LLM included in its text

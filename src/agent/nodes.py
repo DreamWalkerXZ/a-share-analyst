@@ -1,22 +1,13 @@
 import json
-import os
 from datetime import datetime
 from pathlib import Path
 
-from langchain_core.messages import HumanMessage
-from langchain_openai import ChatOpenAI
+from langchain_core.messages import HumanMessage, SystemMessage
 
 from src.agent.state import ReportState
 from src.agent.subgraph import run_data_collection
 from src.prompts.report_sections import SECTION_PROMPTS, SECTION_SYSTEM_PROMPT, VALIDATION_PROMPT
-
-
-def _get_llm() -> ChatOpenAI:
-    return ChatOpenAI(
-        model=os.environ.get("OPENAI_MODEL", "gpt-4o"),
-        base_url=os.environ.get("OPENAI_BASE_URL"),
-        api_key=os.environ.get("OPENAI_API_KEY"),
-    )
+from src.utils.llm import get_llm
 
 
 def _filter_data(collected_data: dict, categories: list[str]) -> dict:
@@ -84,7 +75,7 @@ def generate_and_validate_section(
     prior_sections: dict,
 ) -> str:
     """Generate one report section with validation and a single retry on failure."""
-    llm = _get_llm()
+    llm = get_llm()
     spec = SECTION_PROMPTS[section_key]
     data_subset = _filter_data(collected_data, spec["data_categories"])
     data_json = json.dumps(data_subset, ensure_ascii=False, indent=2)
@@ -97,7 +88,7 @@ def generate_and_validate_section(
         user = spec["prompt"].format(data_subset=data_json, prior_sections=prior_text)
         if extra:
             user += f"\n\n修正要求：{extra}"
-        resp = llm.invoke([HumanMessage(content=system), HumanMessage(content=user)])
+        resp = llm.invoke([SystemMessage(content=system), HumanMessage(content=user)])
         return _parse_section_response(resp.content)
 
     def _validate(content: str) -> tuple[bool, list[str]]:

@@ -94,82 +94,102 @@ class ReportState(TypedDict):
 
 **核心财务数据**
 
-| action | akshare 函数 | 关键入参 | 来源文件 |
-|--------|-------------|---------|---------|
-| `get_balance_sheet_report` | `stock_balance_sheet_by_report_em` | `symbol="SH600519"` | balance_sheet_report_period.json |
-| `get_income_statement_report` | `stock_profit_sheet_by_report_em` | `symbol="SH600519"` | income_statement_report_period.json |
-| `get_income_statement_quarterly` | `stock_profit_sheet_by_quarterly_em` | `symbol="SH600519"` | income_statement_quarterly.json |
-| `get_cashflow_report` | `stock_cash_flow_sheet_by_report_em` | `symbol="SH600519"` | cashflow_report_period.json |
-| `get_cashflow_quarterly` | `stock_cash_flow_sheet_by_quarterly_em` | `symbol="SH600519"` | cashflow_quarterly.json |
-| `get_balance_sheet_sina` | `stock_financial_report_sina` | `stock="sh600519", symbol="资产负债表"` | financial_statement_sina_balance_sheet.json |
+
+| action                           | akshare 函数                              | 关键入参                               | 来源文件                                        |
+| -------------------------------- | --------------------------------------- | ---------------------------------- | ------------------------------------------- |
+| `get_balance_sheet_report`       | `stock_balance_sheet_by_report_em`      | `symbol="SH600519"`                | balance_sheet_report_period.json            |
+| `get_income_statement_report`    | `stock_profit_sheet_by_report_em`       | `symbol="SH600519"`                | income_statement_report_period.json         |
+| `get_income_statement_quarterly` | `stock_profit_sheet_by_quarterly_em`    | `symbol="SH600519"`                | income_statement_quarterly.json             |
+| `get_cashflow_report`            | `stock_cash_flow_sheet_by_report_em`    | `symbol="SH600519"`                | cashflow_report_period.json                 |
+| `get_cashflow_quarterly`         | `stock_cash_flow_sheet_by_quarterly_em` | `symbol="SH600519"`                | cashflow_quarterly.json                     |
+| `get_balance_sheet_sina`         | `stock_financial_report_sina`           | `stock="sh600519", symbol="资产负债表"` | financial_statement_sina_balance_sheet.json |
+
 
 **财务指标**
 
-| action | akshare 函数 | 关键入参 | 来源文件 |
-|--------|-------------|---------|---------|
-| `get_financial_indicators_em` | `stock_financial_analysis_indicator_em` | `symbol="600519.SH", indicator="按报告期"\|"按单季度"` | financial_indicators_em.json |
-| `get_financial_indicators_sina` | `stock_financial_analysis_indicator` | `symbol="600519", start_year="2020"` | financial_indicators_sina.json |
+
+| action                          | akshare 函数                              | 关键入参                                  | 来源文件                           |
+| ------------------------------- | --------------------------------------- | ------------------------------------- | ------------------------------ |
+| `get_financial_indicators_em`   | `stock_financial_analysis_indicator_em` | `symbol="600519.SH", indicator="按报告期" | "按单季度"`                        |
+| `get_financial_indicators_sina` | `stock_financial_analysis_indicator`    | `symbol="600519", start_year="2020"`  | financial_indicators_sina.json |
+
 
 **业务结构**
 
-| action | akshare 函数 | 关键入参 | 来源文件 |
-|--------|-------------|---------|---------|
-| `get_main_business_breakdown` | `stock_zygc_em` | `symbol="SH600519"` | main_business_breakdown.json |
-| `get_main_business_profile` | `stock_zyjs_ths` | `symbol="600519"` | main_business_profile_ths.json |
+
+| action                        | akshare 函数       | 关键入参                | 来源文件                           |
+| ----------------------------- | ---------------- | ------------------- | ------------------------------ |
+| `get_main_business_breakdown` | `stock_zygc_em`  | `symbol="SH600519"` | main_business_breakdown.json   |
+| `get_main_business_profile`   | `stock_zyjs_ths` | `symbol="600519"`   | main_business_profile_ths.json |
+
 
 **同行对比**
 
-| action | akshare 函数 | 关键入参 | 来源文件 |
-|--------|-------------|---------|---------|
+
+| action               | akshare 函数                         | 关键入参                | 来源文件                              |
+| -------------------- | ---------------------------------- | ------------------- | --------------------------------- |
 | `get_peer_valuation` | `stock_zh_valuation_comparison_em` | `symbol="SH600519"` | peer_valuation_comparison_em.json |
-| `get_peer_dupont` | `stock_zh_dupont_comparison_em` | `symbol="SH600519"` | peer_dupont_comparison_em.json |
-| `get_peer_scale` | `stock_zh_scale_comparison_em` | `symbol="SH600519"` | peer_scale_comparison_em.json |
+| `get_peer_dupont`    | `stock_zh_dupont_comparison_em`    | `symbol="SH600519"` | peer_dupont_comparison_em.json    |
+| `get_peer_scale`     | `stock_zh_scale_comparison_em`     | `symbol="SH600519"` | peer_scale_comparison_em.json     |
+
 
 **估值与分红**
 
-| action | akshare 函数 | 关键入参 | 来源文件 |
-|--------|-------------|---------|---------|
-| `get_spot_valuation` | `stock_individual_spot_xq` | `symbol="SH600519"` | spot_valuation_snapshot_xq.json |
-| `get_dividend_history_cninfo` | `stock_dividend_cninfo` | `symbol="600519"` | dividend_history_cninfo.json |
-| `get_dividend_history_sina` | `stock_history_dividend_detail` | `symbol="600519", indicator="分红"` | dividend_history_sina.json |
+
+| action                        | akshare 函数                      | 关键入参                              | 来源文件                            |
+| ----------------------------- | ------------------------------- | --------------------------------- | ------------------------------- |
+| `get_spot_valuation`          | `stock_individual_spot_xq`      | `symbol="SH600519"`               | spot_valuation_snapshot_xq.json |
+| `get_dividend_history_cninfo` | `stock_dividend_cninfo`         | `symbol="600519"`                 | dividend_history_cninfo.json    |
+| `get_dividend_history_sina`   | `stock_history_dividend_detail` | `symbol="600519", indicator="分红"` | dividend_history_sina.json      |
+
 
 **盈利预测**
 
-| action | akshare 函数 | indicator 值 | 来源文件 |
-|--------|-------------|-------------|---------|
-| `get_profit_forecast_eps` | `stock_profit_forecast_ths` | `"预测年报每股收益"` | profit_forecast_eps_ths.json |
-| `get_profit_forecast_net_profit` | `stock_profit_forecast_ths` | `"预测年报净利润"` | profit_forecast_net_profit_ths.json |
-| `get_profit_forecast_institutions` | `stock_profit_forecast_ths` | `"业绩预测详表-机构"` | profit_forecast_institutions_ths.json |
-| `get_profit_forecast_detailed` | `stock_profit_forecast_ths` | `"业绩预测详表-详细指标预测"` | profit_forecast_detailed_metrics_ths.json |
+
+| action                             | akshare 函数                  | indicator 值       | 来源文件                                      |
+| ---------------------------------- | --------------------------- | ----------------- | ----------------------------------------- |
+| `get_profit_forecast_eps`          | `stock_profit_forecast_ths` | `"预测年报每股收益"`      | profit_forecast_eps_ths.json              |
+| `get_profit_forecast_net_profit`   | `stock_profit_forecast_ths` | `"预测年报净利润"`       | profit_forecast_net_profit_ths.json       |
+| `get_profit_forecast_institutions` | `stock_profit_forecast_ths` | `"业绩预测详表-机构"`     | profit_forecast_institutions_ths.json     |
+| `get_profit_forecast_detailed`     | `stock_profit_forecast_ths` | `"业绩预测详表-详细指标预测"` | profit_forecast_detailed_metrics_ths.json |
+
 
 **公告与研报**
 
-| action | akshare 函数 | 关键入参 | 来源文件 |
-|--------|-------------|---------|---------|
+
+| action                   | akshare 函数                       | 关键入参                                                                           | 来源文件                                 |
+| ------------------------ | -------------------------------- | ------------------------------------------------------------------------------ | ------------------------------------ |
 | `get_notices_individual` | `stock_individual_notice_report` | `security="600519", symbol="财务报告", begin_date="YYYYMMDD", end_date="YYYYMMDD"` | notices_stock_financial_reports.json |
-| `get_research_reports` | `stock_research_report_em` | `symbol="600519"` | research_reports_em.json |
+| `get_research_reports`   | `stock_research_report_em`       | `symbol="600519"`                                                              | research_reports_em.json             |
+
 
 **行业与风险（可选）**
 
-| action | akshare 函数 | 关键入参 | 来源文件 |
-|--------|-------------|---------|---------|
-| `get_industry_pe` | `stock_industry_pe_ratio_cninfo` | `symbol="国证行业分类", date="YYYYMMDD"` | industry_pe_ratio_cninfo.json |
-| `get_industry_goodwill` | `stock_sy_hy_em` | `date="YYYYMMDD"` | industry_goodwill_em.json |
-| `get_pledge_ratio` | `stock_gpzy_pledge_ratio_em` | `date="YYYYMMDD"` | pledge_ratio_by_company_em.json |
+
+| action                  | akshare 函数                       | 关键入参                               | 来源文件                            |
+| ----------------------- | -------------------------------- | ---------------------------------- | ------------------------------- |
+| `get_industry_pe`       | `stock_industry_pe_ratio_cninfo` | `symbol="国证行业分类", date="YYYYMMDD"` | industry_pe_ratio_cninfo.json   |
+| `get_industry_goodwill` | `stock_sy_hy_em`                 | `date="YYYYMMDD"`                  | industry_goodwill_em.json       |
+| `get_pledge_ratio`      | `stock_gpzy_pledge_ratio_em`     | `date="YYYYMMDD"`                  | pledge_ratio_by_company_em.json |
+
 
 **情绪指标（可选）**
 
-| action | akshare 函数 | 关键入参 | 来源文件 |
-|--------|-------------|---------|---------|
-| `get_market_comment_overview` | `stock_comment_em` | 无 | market_comment_overview_em.json |
-| `get_comment_rating` | `stock_comment_detail_zhpj_lspf_em` | `symbol="600519"` | stock_comment_comprehensive_rating_em.json |
-| `get_comment_institution` | `stock_comment_detail_zlkp_jgcyd_em` | `symbol="600519"` | stock_comment_institution_participation_em.json |
+
+| action                        | akshare 函数                           | 关键入参              | 来源文件                                            |
+| ----------------------------- | ------------------------------------ | ----------------- | ----------------------------------------------- |
+| `get_market_comment_overview` | `stock_comment_em`                   | 无                 | market_comment_overview_em.json                 |
+| `get_comment_rating`          | `stock_comment_detail_zhpj_lspf_em`  | `symbol="600519"` | stock_comment_comprehensive_rating_em.json      |
+| `get_comment_institution`     | `stock_comment_detail_zlkp_jgcyd_em` | `symbol="600519"` | stock_comment_institution_participation_em.json |
+
 
 **网页/链接转 Markdown**
 
-| action | 说明 | 关键入参 |
-|--------|------|---------|
+
+| action                  | 说明                                              | 关键入参       |
+| ----------------------- | ----------------------------------------------- | ---------- |
 | `fetch_url_as_markdown` | 在原始 URL 前拼接 `https://r.jina.ai/` 获取 Markdown 内容 | `url: str` |
+
 
 **返回格式**：StructuredDataTool 返回**原始数据**，不做语义包装：akshare 接口返回 DataFrame 转换后的 JSON（保留原始列名和行数据）；`fetch_url_as_markdown` 返回 Markdown 字符串。由 LLM 负责将工具返回结果解析、提炼为 `collected_data` 条目格式（见第 6 节）。
 
@@ -220,6 +240,7 @@ class ReportState(TypedDict):
 ```
 
 字段说明：
+
 - `label`：中文语义名称
 - `value`：数值、字符串或列表
 - `unit`：单位（亿元、%、元/股 等）
@@ -331,13 +352,15 @@ validate_section
 
 ### 章节规范
 
-| 章节 | 标题 | 核心内容 | 依赖数据类别 |
-|------|------|----------|-------------|
-| 0 | 开篇总览 | 核心业绩速览 + 投资结论 + 评级 | 全部章节内容 |
-| 1 | 业绩与经营情况 | 收入/成本/利润/现金流拆解 | 财务三表、财务指标、主营构成 |
-| 2 | 发展展望与投资逻辑 | 行业趋势、竞争力、增长看点 | 行业对比、研究报告、搜索补充 |
-| 3 | 盈利预测与估值 | EPS/净利润预测、PE/PB 估值、目标价 | 盈利预测、估值快照、同行估值 |
-| 4 | 风险提示 | 针对性风险（非套话） | 全部数据 |
+
+| 章节  | 标题        | 核心内容                   | 依赖数据类别         |
+| --- | --------- | ---------------------- | -------------- |
+| 0   | 开篇总览      | 核心业绩速览 + 投资结论 + 评级     | 全部章节内容         |
+| 1   | 业绩与经营情况   | 收入/成本/利润/现金流拆解         | 财务三表、财务指标、主营构成 |
+| 2   | 发展展望与投资逻辑 | 行业趋势、竞争力、增长看点          | 行业对比、研究报告、搜索补充 |
+| 3   | 盈利预测与估值   | EPS/净利润预测、PE/PB 估值、目标价 | 盈利预测、估值快照、同行估值 |
+| 4   | 风险提示      | 针对性风险（非套话）             | 全部数据           |
+
 
 ### 研报标题格式
 
@@ -386,12 +409,14 @@ a-share-analyst/
 
 ## 11. 环境变量
 
-| 变量名 | 说明 |
-|--------|------|
-| `OPENAI_API_KEY` | OpenAI Compatible API Key |
+
+| 变量名               | 说明                             |
+| ----------------- | ------------------------------ |
+| `OPENAI_API_KEY`  | OpenAI Compatible API Key      |
 | `OPENAI_BASE_URL` | OpenAI Compatible API Base URL |
-| `OPENAI_MODEL` | 模型名称，默认 `gpt-4o` |
-| `SERPER_API_KEY` | Serper 搜索 API Key |
+| `OPENAI_MODEL`    | 模型名称，默认 `gpt-4o`               |
+| `SERPER_API_KEY`  | Serper 搜索 API Key              |
+
 
 ---
 
@@ -406,3 +431,4 @@ langgraph
 langchain-community
 requests
 ```
+
