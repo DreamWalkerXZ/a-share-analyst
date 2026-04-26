@@ -11,36 +11,6 @@ from src.prompts.report_sections import SECTION_PROMPTS, SECTION_SYSTEM_PROMPT, 
 from src.utils.llm import get_llm
 
 
-def _filter_data(collected_data: dict, categories: list[str]) -> dict:
-    if "all" in categories:
-        return collected_data
-
-    keyword_map = {
-        "income_statement": ["营收", "收入", "利润", "净利", "毛利", "成本"],
-        "balance_sheet":    ["资产", "负债", "权益", "现金", "存货"],
-        "cashflow":         ["现金流", "经营", "投资", "筹资"],
-        "financial_indicators": ["ROE", "ROA", "EPS", "增速", "率"],
-        "main_business":    ["主营", "业务", "产品", "地区"],
-        "peer_comparison":  ["同行", "对比", "可比", "同业"],
-        "research_reports": ["研报", "分析师", "评级"],
-        "search_results":   ["搜索"],
-        "industry":         ["行业", "PE", "景气"],
-        "profit_forecast":  ["预测", "预期", "EPS预"],
-        "spot_valuation":   ["估值", "市值", "PE", "PB"],
-        "peer_valuation":   ["同行估值"],
-        "dividend":         ["分红", "股息"],
-    }
-
-    relevant: set[str] = set()
-    for cat in categories:
-        kws = keyword_map.get(cat, [cat])
-        for key, entry in collected_data.items():
-            label = entry.get("label", "") if isinstance(entry, dict) else ""
-            if any(kw in key or kw in label for kw in kws):
-                relevant.add(key)
-
-    return {k: collected_data[k] for k in relevant} if relevant else collected_data
-
 
 _DATA_REFS_RE = re.compile(r"<!--\s*DATA_REFS:\s*(.*?)\s*-->", re.IGNORECASE | re.DOTALL)
 
@@ -119,8 +89,7 @@ def generate_and_validate_section(
     """Generate one report section with validation and a single retry on failure."""
     llm = get_llm()
     spec = SECTION_PROMPTS[section_key]
-    data_subset = _filter_data(collected_data, spec["data_categories"])
-    data_json = json.dumps(data_subset, ensure_ascii=False, indent=2)
+    data_json = json.dumps(collected_data, ensure_ascii=False, indent=2)
     prior_text = "\n\n".join(
         f"### {SECTION_PROMPTS[k]['title']}\n{v}" for k, v in prior_sections.items()
     )

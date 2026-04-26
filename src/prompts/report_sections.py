@@ -16,12 +16,10 @@ SECTION_SYSTEM_PROMPT = """\
 SECTION_PROMPTS: dict[str, dict] = {
     "section_1": {
         "title": "业绩与经营情况",
-        "data_categories": ["income_statement", "balance_sheet", "cashflow",
-                            "financial_indicators", "main_business"],
         "prompt": """\
 请撰写研报第一章：业绩与经营情况。
 
-参考数据（collected_data 子集）：
+全部已收集数据（collected_data）：
 {data_subset}
 
 要求：
@@ -36,14 +34,13 @@ SECTION_PROMPTS: dict[str, dict] = {
     },
     "section_2": {
         "title": "发展展望与投资逻辑",
-        "data_categories": ["peer_comparison", "research_reports", "search_results", "industry"],
         "prompt": """\
 请撰写研报第二章：发展展望与投资逻辑。
 
 前序章节内容：
 {prior_sections}
 
-参考数据（collected_data 子集）：
+全部已收集数据（collected_data）：
 {data_subset}
 
 要求：
@@ -57,14 +54,13 @@ SECTION_PROMPTS: dict[str, dict] = {
     },
     "section_3": {
         "title": "盈利预测与估值",
-        "data_categories": ["profit_forecast", "spot_valuation", "peer_valuation", "dividend"],
         "prompt": """\
 请撰写研报第三章：盈利预测与估值。
 
 前序章节内容：
 {prior_sections}
 
-参考数据（collected_data 子集）：
+全部已收集数据（collected_data）：
 {data_subset}
 
 要求：
@@ -78,14 +74,13 @@ SECTION_PROMPTS: dict[str, dict] = {
     },
     "section_4": {
         "title": "风险提示",
-        "data_categories": ["all"],
         "prompt": """\
 请撰写研报第四章：风险提示。
 
 前序章节内容：
 {prior_sections}
 
-全部数据：
+全部已收集数据（collected_data）：
 {data_subset}
 
 要求：
@@ -98,7 +93,6 @@ SECTION_PROMPTS: dict[str, dict] = {
     },
     "section_0": {
         "title": "开篇总览",
-        "data_categories": ["all"],
         "prompt": """\
 请撰写研报开篇总览（执行摘要）。
 
