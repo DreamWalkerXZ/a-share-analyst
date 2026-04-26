@@ -1,0 +1,98 @@
+{
+  "akshare_function": "ak.stock_comment_detail_scrd_desire_em",
+  "inputs": [
+    {
+      "name": "symbol",
+      "type": "str",
+      "meaning": "stock code, e.g. \"600519\"",
+      "example": "600519"
+    }
+  ],
+  "sample_call": "ak.stock_comment_detail_scrd_desire_em(symbol=\"600519\")",
+  "output_preview": [
+    {
+      "交易日期": "2026-04-17",
+      "股票代码": "600519",
+      "参与意愿": 38.53,
+      "5日平均参与意愿": 45.93,
+      "参与意愿变化": -4.44,
+      "5日平均变化": 1.0
+    },
+    {
+      "交易日期": "2026-04-20",
+      "股票代码": "600519",
+      "参与意愿": 45.22,
+      "5日平均参与意愿": 45.74,
+      "参与意愿变化": 6.68,
+      "5日平均变化": 1.0
+    },
+    {
+      "交易日期": "2026-04-21",
+      "股票代码": "600519",
+      "参与意愿": 43.65,
+      "5日平均参与意愿": 45.13,
+      "参与意愿变化": -1.57,
+      "5日平均变化": 1.0
+    },
+    {
+      "交易日期": "2026-04-22",
+      "股票代码": "600519",
+      "参与意愿": 37.23,
+      "5日平均参与意愿": 41.52,
+      "参与意愿变化": -6.42,
+      "5日平均变化": -3.61
+    },
+    {
+      "交易日期": "2026-04-23",
+      "股票代码": "600519",
+      "参与意愿": 51.52,
+      "5日平均参与意愿": 43.23,
+      "参与意愿变化": 14.29,
+      "5日平均变化": 1.71
+    }
+  ],
+  "output_fields": [
+    {
+      "name": "交易日期",
+      "type": "object",
+      "meaning": "-",
+      "source": "inferred"
+    },
+    {
+      "name": "股票代码",
+      "type": "str",
+      "meaning": "-",
+      "source": "inferred"
+    },
+    {
+      "name": "参与意愿",
+      "type": "float64",
+      "meaning": "-",
+      "source": "inferred"
+    },
+    {
+      "name": "5日平均参与意愿",
+      "type": "float64",
+      "meaning": "-",
+      "source": "inferred"
+    },
+    {
+      "name": "参与意愿变化",
+      "type": "float64",
+      "meaning": "-",
+      "source": "inferred"
+    },
+    {
+      "name": "5日平均变化",
+      "type": "float64",
+      "meaning": "-",
+      "source": "inferred"
+    }
+  ],
+  "notes": "Eastmoney stock comment detail (desire); optional.",
+  "metadata": {
+    "generated_at": "2026-04-24T17:08:42",
+    "rows": 5,
+    "cols": 6
+  }
+}

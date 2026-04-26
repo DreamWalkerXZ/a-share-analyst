@@ -1,0 +1,198 @@
+{
+  "generated_at": "2026-04-24T17:08:42",
+  "ok": [
+    {
+      "json_filename": "balance_sheet_report_period.json",
+      "akshare_function": "ak.stock_balance_sheet_by_report_em",
+      "ok": true,
+      "error": null
+    },
+    {
+      "json_filename": "income_statement_report_period.json",
+      "akshare_function": "ak.stock_profit_sheet_by_report_em",
+      "ok": true,
+      "error": null
+    },
+    {
+      "json_filename": "income_statement_quarterly.json",
+      "akshare_function": "ak.stock_profit_sheet_by_quarterly_em",
+      "ok": true,
+      "error": null
+    },
+    {
+      "json_filename": "cashflow_report_period.json",
+      "akshare_function": "ak.stock_cash_flow_sheet_by_report_em",
+      "ok": true,
+      "error": null
+    },
+    {
+      "json_filename": "cashflow_quarterly.json",
+      "akshare_function": "ak.stock_cash_flow_sheet_by_quarterly_em",
+      "ok": true,
+      "error": null
+    },
+    {
+      "json_filename": "financial_statement_sina_balance_sheet.json",
+      "akshare_function": "ak.stock_financial_report_sina",
+      "ok": true,
+      "error": null
+    },
+    {
+      "json_filename": "financial_indicators_em.json",
+      "akshare_function": "ak.stock_financial_analysis_indicator_em",
+      "ok": true,
+      "error": null
+    },
+    {
+      "json_filename": "financial_indicators_sina.json",
+      "akshare_function": "ak.stock_financial_analysis_indicator",
+      "ok": true,
+      "error": null
+    },
+    {
+      "json_filename": "main_business_breakdown.json",
+      "akshare_function": "ak.stock_zygc_em",
+      "ok": true,
+      "error": null
+    },
+    {
+      "json_filename": "main_business_profile_ths.json",
+      "akshare_function": "ak.stock_zyjs_ths",
+      "ok": true,
+      "error": null
+    },
+    {
+      "json_filename": "spot_valuation_snapshot_xq.json",
+      "akshare_function": "ak.stock_individual_spot_xq",
+      "ok": true,
+      "error": null
+    },
+    {
+      "json_filename": "dividend_history_sina.json",
+      "akshare_function": "ak.stock_history_dividend_detail",
+      "ok": true,
+      "error": null
+    },
+    {
+      "json_filename": "dividend_history_cninfo.json",
+      "akshare_function": "ak.stock_dividend_cninfo",
+      "ok": true,
+      "error": null
+    },
+    {
+      "json_filename": "profit_forecast_eps_ths.json",
+      "akshare_function": "ak.stock_profit_forecast_ths",
+      "ok": true,
+      "error": null
+    },
+    {
+      "json_filename": "profit_forecast_net_profit_ths.json",
+      "akshare_function": "ak.stock_profit_forecast_ths",
+      "ok": true,
+      "error": null
+    },
+    {
+      "json_filename": "profit_forecast_institutions_ths.json",
+      "akshare_function": "ak.stock_profit_forecast_ths",
+      "ok": true,
+      "error": null
+    },
+    {
+      "json_filename": "profit_forecast_detailed_metrics_ths.json",
+      "akshare_function": "ak.stock_profit_forecast_ths",
+      "ok": true,
+      "error": null
+    },
+    {
+      "json_filename": "notices_daily_financial_reports.json",
+      "akshare_function": "ak.stock_notice_report",
+      "ok": true,
+      "error": null
+    },
+    {
+      "json_filename": "notices_stock_financial_reports.json",
+      "akshare_function": "ak.stock_individual_notice_report",
+      "ok": true,
+      "error": null
+    },
+    {
+      "json_filename": "industry_pe_ratio_cninfo.json",
+      "akshare_function": "ak.stock_industry_pe_ratio_cninfo",
+      "ok": true,
+      "error": null
+    },
+    {
+      "json_filename": "peer_valuation_comparison_em.json",
+      "akshare_function": "ak.stock_zh_valuation_comparison_em",
+      "ok": true,
+      "error": null
+    },
+    {
+      "json_filename": "peer_dupont_comparison_em.json",
+      "akshare_function": "ak.stock_zh_dupont_comparison_em",
+      "ok": true,
+      "error": null
+    },
+    {
+      "json_filename": "peer_scale_comparison_em.json",
+      "akshare_function": "ak.stock_zh_scale_comparison_em",
+      "ok": true,
+      "error": null
+    },
+    {
+      "json_filename": "industry_goodwill_em.json",
+      "akshare_function": "ak.stock_sy_hy_em",
+      "ok": true,
+      "error": null
+    },
+    {
+      "json_filename": "pledge_market_profile_em.json",
+      "akshare_function": "ak.stock_gpzy_profile_em",
+      "ok": true,
+      "error": null
+    },
+    {
+      "json_filename": "pledge_ratio_by_company_em.json",
+      "akshare_function": "ak.stock_gpzy_pledge_ratio_em",
+      "ok": true,
+      "error": null
+    },
+    {
+      "json_filename": "research_reports_em.json",
+      "akshare_function": "ak.stock_research_report_em",
+      "ok": true,
+      "error": null
+    },
+    {
+      "json_filename": "market_comment_overview_em.json",
+      "akshare_function": "ak.stock_comment_em",
+      "ok": true,
+      "error": null
+    },
+    {
+      "json_filename": "stock_comment_institution_participation_em.json",
+      "akshare_function": "ak.stock_comment_detail_zlkp_jgcyd_em",
+      "ok": true,
+      "error": null
+    },
+    {
+      "json_filename": "stock_comment_comprehensive_rating_em.json",
+      "akshare_function": "ak.stock_comment_detail_zhpj_lspf_em",
+      "ok": true,
+      "error": null
+    },
+    {
+      "json_filename": "stock_comment_focus_em.json",
+      "akshare_function": "ak.stock_comment_detail_scrd_focus_em",
+      "ok": true,
+      "error": null
+    },
+    {
+      "json_filename": "stock_comment_desire_em.json",
+      "akshare_function": "ak.stock_comment_detail_scrd_desire_em",
+      "ok": true,
+      "error": null
+    }
+  ],
+  "failed": []
+}

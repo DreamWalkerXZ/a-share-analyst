@@ -1,0 +1,132 @@
+{
+  "akshare_function": "ak.stock_history_dividend_detail",
+  "inputs": [
+    {
+      "name": "symbol",
+      "type": "str",
+      "meaning": "stock code, e.g. \"600519\"",
+      "example": "600519"
+    },
+    {
+      "name": "indicator",
+      "type": "str",
+      "meaning": "one of {\"分红\",\"配股\"}",
+      "example": "分红"
+    },
+    {
+      "name": "date",
+      "type": "str",
+      "meaning": "detail date, e.g. \"1994-12-24\" (optional for detail view)",
+      "example": "1994-12-24"
+    }
+  ],
+  "sample_call": "ak.stock_history_dividend_detail(symbol=\"600519\", indicator=\"分红\")",
+  "output_preview": [
+    {
+      "公告日期": "2026-04-17",
+      "送股": 0,
+      "转增": 0,
+      "派息": 279.93,
+      "进度": "预案",
+      "除权除息日": null,
+      "股权登记日": null,
+      "红股上市日": null
+    },
+    {
+      "公告日期": "2025-12-11",
+      "送股": 0,
+      "转增": 0,
+      "派息": 239.57,
+      "进度": "实施",
+      "除权除息日": "2025-12-19",
+      "股权登记日": "2025-12-18",
+      "红股上市日": null
+    },
+    {
+      "公告日期": "2025-06-20",
+      "送股": 0,
+      "转增": 0,
+      "派息": 276.73,
+      "进度": "实施",
+      "除权除息日": "2025-06-26",
+      "股权登记日": "2025-06-25",
+      "红股上市日": null
+    },
+    {
+      "公告日期": "2024-12-14",
+      "送股": 0,
+      "转增": 0,
+      "派息": 238.82,
+      "进度": "实施",
+      "除权除息日": "2024-12-20",
+      "股权登记日": "2024-12-19",
+      "红股上市日": null
+    },
+    {
+      "公告日期": "2024-06-12",
+      "送股": 0,
+      "转增": 0,
+      "派息": 308.76,
+      "进度": "实施",
+      "除权除息日": "2024-06-19",
+      "股权登记日": "2024-06-18",
+      "红股上市日": null
+    }
+  ],
+  "output_fields": [
+    {
+      "name": "公告日期",
+      "type": "object",
+      "meaning": "-",
+      "source": "doc"
+    },
+    {
+      "name": "送股",
+      "type": "int64",
+      "meaning": "bonus shares (shares)",
+      "source": "doc"
+    },
+    {
+      "name": "转增",
+      "type": "int64",
+      "meaning": "capitalization (shares)",
+      "source": "doc"
+    },
+    {
+      "name": "派息",
+      "type": "float64",
+      "meaning": "cash dividend per 10 shares, pre-tax (CNY)",
+      "source": "doc"
+    },
+    {
+      "name": "进度",
+      "type": "object",
+      "meaning": "-",
+      "source": "doc"
+    },
+    {
+      "name": "除权除息日",
+      "type": "object",
+      "meaning": "-",
+      "source": "doc"
+    },
+    {
+      "name": "股权登记日",
+      "type": "object",
+      "meaning": "-",
+      "source": "doc"
+    },
+    {
+      "name": "红股上市日",
+      "type": "object",
+      "meaning": "-",
+      "source": "doc"
+    }
+  ],
+  "notes": "Sina dividend history; for dividend policy section.",
+  "metadata": {
+    "generated_at": "2026-04-24T17:08:32",
+    "rows": 31,
+    "cols": 8
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "akshare_function": "ak.stock_individual_notice_report",
+  "inputs": [
+    {
+      "name": "security",
+      "type": "str",
+      "meaning": "stock code without market, e.g. \"600519\"",
+      "example": "600519"
+    },
+    {
+      "name": "symbol",
+      "type": "str",
+      "meaning": "category, one of {\"全部\",\"重大事项\",\"财务报告\",\"融资公告\",\"风险提示\",\"资产重组\",\"信息变更\",\"持股变动\"}",
+      "example": "财务报告"
+    },
+    {
+      "name": "begin_date",
+      "type": "str",
+      "meaning": "begin date, \"YYYYMMDD\" (optional)",
+      "example": "20240101"
+    },
+    {
+      "name": "end_date",
+      "type": "str",
+      "meaning": "end date, \"YYYYMMDD\" (optional)",
+      "example": "20260101"
+    }
+  ],
+  "sample_call": "ak.stock_individual_notice_report(security=\"600519\", symbol=\"财务报告\", begin_date=\"20240101\", end_date=\"20260101\")",
+  "output_preview": [
+    {
+      "代码": "600519",
+      "名称": "贵州茅台",
+      "公告标题": "贵州茅台:贵州茅台2025年中期权益分派实施公告",
+      "公告类型": "分配方案实施",
+      "公告日期": "2025-12-11",
+      "网址": "https://data.eastmoney.com/notices/detail/600519/AN202512101797727984.html"
+    },
+    {
+      "代码": "600519",
+      "名称": "贵州茅台",
+      "公告标题": "贵州茅台:贵州茅台2025年第一次临时股东大会决议公告",
+      "公告类型": "分配方案决议公告",
+      "公告日期": "2025-11-29",
+      "网址": "https://data.eastmoney.com/notices/detail/600519/AN202511281790064136.html"
+    },
+    {
+      "代码": "600519",
+      "名称": "贵州茅台",
+      "公告标题": "贵州茅台:贵州茅台关于2025年中期利润分配方案暨贯彻落实“提质增效重回报”专项行动方案的公告",
+      "公告类型": "分配预案",
+      "公告日期": "2025-11-06",
+      "网址": "https://data.eastmoney.com/notices/detail/600519/AN202511051775759374.html"
+    },
+    {
+      "代码": "600519",
+      "名称": "贵州茅台",
+      "公告标题": "贵州茅台:贵州茅台第四届董事会2025年度第十四次会议决议公告",
+      "公告类型": "分配预案",
+      "公告日期": "2025-11-06",
+      "网址": "https://data.eastmoney.com/notices/detail/600519/AN202511051775759369.html"
+    },
+    {
+      "代码": "600519",
+      "名称": "贵州茅台",
+      "公告标题": "贵州茅台:贵州茅台2025年第三季度报告",
+      "公告类型": "三季度报告全文",
+      "公告日期": "2025-10-30",
+      "网址": "https://data.eastmoney.com/notices/detail/600519/AN202510291771332923.html"
+    }
+  ],
+  "output_fields": [
+    {
+      "name": "代码",
+      "type": "object",
+      "meaning": "-",
+      "source": "doc"
+    },
+    {
+      "name": "名称",
+      "type": "object",
+      "meaning": "-",
+      "source": "doc"
+    },
+    {
+      "name": "公告标题",
+      "type": "object",
+      "meaning": "-",
+      "source": "doc"
+    },
+    {
+      "name": "公告类型",
+      "type": "object",
+      "meaning": "-",
+      "source": "doc"
+    },
+    {
+      "name": "公告日期",
+      "type": "object",
+      "meaning": "-",
+      "source": "doc"
+    },
+    {
+      "name": "网址",
+      "type": "object",
+      "meaning": "-",
+      "source": "doc"
+    }
+  ],
+  "notes": "Eastmoney stock notices list; contains URLs for original notices.",
+  "metadata": {
+    "generated_at": "2026-04-24T17:08:34",
+    "rows": 29,
+    "cols": 6
+  }
+}

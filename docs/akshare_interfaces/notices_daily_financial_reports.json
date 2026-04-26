@@ -1,0 +1,104 @@
+{
+  "akshare_function": "ak.stock_notice_report",
+  "inputs": [
+    {
+      "name": "symbol",
+      "type": "str",
+      "meaning": "category, one of {\"全部\",\"重大事项\",\"财务报告\",\"融资公告\",\"风险提示\",\"资产重组\",\"信息变更\",\"持股变动\"}",
+      "example": "财务报告"
+    },
+    {
+      "name": "date",
+      "type": "str",
+      "meaning": "specific date, \"YYYYMMDD\"",
+      "example": "20240613"
+    }
+  ],
+  "sample_call": "ak.stock_notice_report(symbol=\"财务报告\", date=\"20240613\")",
+  "output_preview": [
+    {
+      "代码": "300606",
+      "名称": "金太阳",
+      "公告标题": "金太阳:2023年度权益分派实施公告",
+      "公告类型": "分配方案实施",
+      "公告日期": "2024-06-13",
+      "网址": "https://data.eastmoney.com/notices/detail/300606/AN202406131636105010.html"
+    },
+    {
+      "代码": "300770",
+      "名称": "新媒股份",
+      "公告标题": "新媒股份:2023年度股东大会决议公告",
+      "公告类型": "分配方案决议公告",
+      "公告日期": "2024-06-13",
+      "网址": "https://data.eastmoney.com/notices/detail/300770/AN202406131636104121.html"
+    },
+    {
+      "代码": "300261",
+      "名称": "雅本化学",
+      "公告标题": "雅本化学:2023年年度股东大会决议公告",
+      "公告类型": "分配方案决议公告",
+      "公告日期": "2024-06-13",
+      "网址": "https://data.eastmoney.com/notices/detail/300261/AN202406131636103296.html"
+    },
+    {
+      "代码": "920374",
+      "名称": "云里物里",
+      "公告标题": "云里物里:2023年年度权益分派实施公告",
+      "公告类型": "分配方案实施",
+      "公告日期": "2024-06-13",
+      "网址": "https://data.eastmoney.com/notices/detail/920374/AN202406131636102144.html"
+    },
+    {
+      "代码": "301395",
+      "名称": "仁信新材",
+      "公告标题": "仁信新材:关于2023年度权益分派实施的公告",
+      "公告类型": "分配方案实施",
+      "公告日期": "2024-06-13",
+      "网址": "https://data.eastmoney.com/notices/detail/301395/AN202406131636100870.html"
+    }
+  ],
+  "output_fields": [
+    {
+      "name": "代码",
+      "type": "object",
+      "meaning": "-",
+      "source": "doc"
+    },
+    {
+      "name": "名称",
+      "type": "object",
+      "meaning": "-",
+      "source": "doc"
+    },
+    {
+      "name": "公告标题",
+      "type": "object",
+      "meaning": "-",
+      "source": "doc"
+    },
+    {
+      "name": "公告类型",
+      "type": "object",
+      "meaning": "-",
+      "source": "doc"
+    },
+    {
+      "name": "公告日期",
+      "type": "object",
+      "meaning": "-",
+      "source": "doc"
+    },
+    {
+      "name": "网址",
+      "type": "object",
+      "meaning": "-",
+      "source": "doc"
+    }
+  ],
+  "notes": "Eastmoney notices list by date; if unavailable for old date, adjust to a recent trading day.",
+  "metadata": {
+    "generated_at": "2026-04-24T17:08:34",
+    "rows": 141,
+    "cols": 6
+  }
+}

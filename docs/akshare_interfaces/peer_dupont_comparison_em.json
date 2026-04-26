@@ -1,0 +1,241 @@
+{
+  "akshare_function": "ak.stock_zh_dupont_comparison_em",
+  "inputs": [
+    {
+      "name": "symbol",
+      "type": "str",
+      "meaning": "stock code with market prefix, e.g. \"SZ000895\"",
+      "example": "SH600519"
+    }
+  ],
+  "sample_call": "ak.stock_zh_dupont_comparison_em(symbol=\"SH600519\")  # tries fallbacks",
+  "output_preview": [
+    {
+      "代码": "行业平均",
+      "简称": "行业平均",
+      "ROE-3年平均": 21.28,
+      "ROE-22A": 25.35,
+      "ROE-23A": 22.04,
+      "ROE-24A": 16.44,
+      "净利率-3年平均": 25.73,
+      "净利率-22A": 28.37,
+      "净利率-23A": 26.11,
+      "净利率-24A": 22.71,
+      "总资产周转率-3年平均": 56.36,
+      "总资产周转率-22A": 61.76,
+      "总资产周转率-23A": 58.38,
+      "总资产周转率-24A": 48.95,
+      "权益乘数-3年平均": 145.4,
+      "权益乘数-22A": 146.07,
+      "权益乘数-23A": 146.67,
+      "权益乘数-24A": 143.46,
+      "ROE-3年平均排名": NaN
+    },
+    {
+      "代码": "行业中值",
+      "简称": "行业中值",
+      "ROE-3年平均": 13.74,
+      "ROE-22A": 26.09,
+      "ROE-23A": 16.34,
+      "ROE-24A": 10.49,
+      "净利率-3年平均": 24.42,
+      "净利率-22A": 28.87,
+      "净利率-23A": 27.52,
+      "净利率-24A": 16.87,
+      "总资产周转率-3年平均": 54.69,
+      "总资产周转率-22A": 59.96,
+      "总资产周转率-23A": 58.12,
+      "总资产周转率-24A": 45.26,
+      "权益乘数-3年平均": 142.2,
+      "权益乘数-22A": 139.05,
+      "权益乘数-23A": 138.98,
+      "权益乘数-24A": 140.34,
+      "ROE-3年平均排名": NaN
+    },
+    {
+      "代码": "600809",
+      "简称": "山西汾酒",
+      "ROE-3年平均": 38.17,
+      "ROE-22A": 42.47,
+      "ROE-23A": 39.12,
+      "ROE-24A": 32.93,
+      "净利率-3年平均": 32.85,
+      "净利率-22A": 32.76,
+      "净利率-23A": 34.03,
+      "净利率-24A": 31.76,
+      "总资产周转率-3年平均": 74.45,
+      "总资产周转率-22A": 79.04,
+      "总资产周转率-23A": 73.8,
+      "总资产周转率-24A": 70.51,
+      "权益乘数-3年平均": 149.42,
+      "权益乘数-22A": 155.95,
+      "权益乘数-23A": 151.96,
+      "权益乘数-24A": 140.34,
+      "ROE-3年平均排名": 1.0
+    },
+    {
+      "代码": "600519",
+      "简称": "贵州茅台",
+      "ROE-3年平均": 36.36,
+      "ROE-22A": 36.18,
+      "ROE-23A": 38.43,
+      "ROE-24A": 34.46,
+      "净利率-3年平均": 51.76,
+      "净利率-22A": 52.49,
+      "净利率-23A": 52.27,
+      "净利率-24A": 50.53,
+      "总资产周转率-3年平均": 58.38,
+      "总资产周转率-22A": 57.12,
+      "总资产周转率-23A": 60.93,
+      "总资产周转率-24A": 57.09,
+      "权益乘数-3年平均": 121.7,
+      "权益乘数-22A": 121.93,
+      "权益乘数-23A": 123.53,
+      "权益乘数-24A": 119.64,
+      "ROE-3年平均排名": 2.0
+    },
+    {
+      "代码": "603198",
+      "简称": "迎驾贡酒",
+      "ROE-3年平均": 25.73,
+      "ROE-22A": 29.58,
+      "ROE-23A": 28.23,
+      "ROE-24A": 19.39,
+      "净利率-3年平均": 34.17,
+      "净利率-22A": 34.12,
+      "净利率-23A": 35.33,
+      "净利率-24A": 33.05,
+      "总资产周转率-3年平均": 54.69,
+      "总资产周转率-22A": 61.72,
+      "总资产周转率-23A": 58.12,
+      "总资产周转率-24A": 44.24,
+      "权益乘数-3年平均": 134.76,
+      "权益乘数-22A": 139.05,
+      "权益乘数-23A": 135.63,
+      "权益乘数-24A": 129.61,
+      "ROE-3年平均排名": 3.0
+    }
+  ],
+  "output_fields": [
+    {
+      "name": "代码",
+      "type": "str",
+      "meaning": "-",
+      "source": "inferred"
+    },
+    {
+      "name": "简称",
+      "type": "str",
+      "meaning": "-",
+      "source": "inferred"
+    },
+    {
+      "name": "ROE-3年平均",
+      "type": "float64",
+      "meaning": "-",
+      "source": "inferred"
+    },
+    {
+      "name": "ROE-22A",
+      "type": "float64",
+      "meaning": "-",
+      "source": "inferred"
+    },
+    {
+      "name": "ROE-23A",
+      "type": "float64",
+      "meaning": "-",
+      "source": "inferred"
+    },
+    {
+      "name": "ROE-24A",
+      "type": "float64",
+      "meaning": "-",
+      "source": "inferred"
+    },
+    {
+      "name": "净利率-3年平均",
+      "type": "float64",
+      "meaning": "-",
+      "source": "inferred"
+    },
+    {
+      "name": "净利率-22A",
+      "type": "float64",
+      "meaning": "-",
+      "source": "inferred"
+    },
+    {
+      "name": "净利率-23A",
+      "type": "float64",
+      "meaning": "-",
+      "source": "inferred"
+    },
+    {
+      "name": "净利率-24A",
+      "type": "float64",
+      "meaning": "-",
+      "source": "inferred"
+    },
+    {
+      "name": "总资产周转率-3年平均",
+      "type": "float64",
+      "meaning": "-",
+      "source": "inferred"
+    },
+    {
+      "name": "总资产周转率-22A",
+      "type": "float64",
+      "meaning": "-",
+      "source": "inferred"
+    },
+    {
+      "name": "总资产周转率-23A",
+      "type": "float64",
+      "meaning": "-",
+      "source": "inferred"
+    },
+    {
+      "name": "总资产周转率-24A",
+      "type": "float64",
+      "meaning": "-",
+      "source": "inferred"
+    },
+    {
+      "name": "权益乘数-3年平均",
+      "type": "float64",
+      "meaning": "-",
+      "source": "inferred"
+    },
+    {
+      "name": "权益乘数-22A",
+      "type": "float64",
+      "meaning": "-",
+      "source": "inferred"
+    },
+    {
+      "name": "权益乘数-23A",
+      "type": "float64",
+      "meaning": "-",
+      "source": "inferred"
+    },
+    {
+      "name": "权益乘数-24A",
+      "type": "float64",
+      "meaning": "-",
+      "source": "inferred"
+    },
+    {
+      "name": "ROE-3年平均排名",
+      "type": "float64",
+      "meaning": "-",
+      "source": "inferred"
+    }
+  ],
+  "notes": "Eastmoney peer DuPont comparison (ROE/net margin/turnover/leverage).",
+  "metadata": {
+    "generated_at": "2026-04-24T17:08:35",
+    "rows": 8,
+    "cols": 19
+  }
+}

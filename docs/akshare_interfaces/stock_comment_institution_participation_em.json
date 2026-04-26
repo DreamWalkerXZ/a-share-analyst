@@ -1,0 +1,54 @@
+{
+  "akshare_function": "ak.stock_comment_detail_zlkp_jgcyd_em",
+  "inputs": [
+    {
+      "name": "symbol",
+      "type": "str",
+      "meaning": "stock code, e.g. \"600519\"",
+      "example": "600519"
+    }
+  ],
+  "sample_call": "ak.stock_comment_detail_zlkp_jgcyd_em(symbol=\"600519\")",
+  "output_preview": [
+    {
+      "交易日": "2026-02-25",
+      "机构参与度": 53.07664
+    },
+    {
+      "交易日": "2026-02-26",
+      "机构参与度": 46.8904
+    },
+    {
+      "交易日": "2026-02-27",
+      "机构参与度": 50.26108
+    },
+    {
+      "交易日": "2026-03-02",
+      "机构参与度": 48.99096
+    },
+    {
+      "交易日": "2026-03-03",
+      "机构参与度": 51.53896
+    }
+  ],
+  "output_fields": [
+    {
+      "name": "交易日",
+      "type": "object",
+      "meaning": "-",
+      "source": "inferred"
+    },
+    {
+      "name": "机构参与度",
+      "type": "float64",
+      "meaning": "-",
+      "source": "inferred"
+    }
+  ],
+  "notes": "Eastmoney stock comment detail (institution participation); optional.",
+  "metadata": {
+    "generated_at": "2026-04-24T17:08:42",
+    "rows": 42,
+    "cols": 2
+  }
+}

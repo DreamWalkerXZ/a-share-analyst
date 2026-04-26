@@ -1,0 +1,54 @@
+{
+  "akshare_function": "ak.stock_comment_detail_zhpj_lspf_em",
+  "inputs": [
+    {
+      "name": "symbol",
+      "type": "str",
+      "meaning": "stock code, e.g. \"600519\"",
+      "example": "600519"
+    }
+  ],
+  "sample_call": "ak.stock_comment_detail_zhpj_lspf_em(symbol=\"600519\")",
+  "output_preview": [
+    {
+      "交易日": "2026-03-13",
+      "评分": 77.09331804
+    },
+    {
+      "交易日": "2026-03-16",
+      "评分": 80.57585807
+    },
+    {
+      "交易日": "2026-03-17",
+      "评分": 76.33929443
+    },
+    {
+      "交易日": "2026-03-18",
+      "评分": 74.64144624
+    },
+    {
+      "交易日": "2026-03-19",
+      "评分": 72.47637025
+    }
+  ],
+  "output_fields": [
+    {
+      "name": "交易日",
+      "type": "object",
+      "meaning": "-",
+      "source": "inferred"
+    },
+    {
+      "name": "评分",
+      "type": "float64",
+      "meaning": "-",
+      "source": "inferred"
+    }
+  ],
+  "notes": "Eastmoney stock comment detail (comprehensive rating); optional.",
+  "metadata": {
+    "generated_at": "2026-04-24T17:08:42",
+    "rows": 30,
+    "cols": 2
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "akshare_function": "ak.stock_comment_detail_scrd_focus_em",
+  "inputs": [
+    {
+      "name": "symbol",
+      "type": "str",
+      "meaning": "stock code, e.g. \"600519\"",
+      "example": "600519"
+    }
+  ],
+  "sample_call": "ak.stock_comment_detail_scrd_focus_em(symbol=\"600519\")",
+  "output_preview": [
+    {
+      "交易日": "2026-03-13",
+      "用户关注指数": 94.0
+    },
+    {
+      "交易日": "2026-03-16",
+      "用户关注指数": 94.4
+    },
+    {
+      "交易日": "2026-03-17",
+      "用户关注指数": 94.4
+    },
+    {
+      "交易日": "2026-03-18",
+      "用户关注指数": 94.4
+    },
+    {
+      "交易日": "2026-03-19",
+      "用户关注指数": 94.4
+    }
+  ],
+  "output_fields": [
+    {
+      "name": "交易日",
+      "type": "object",
+      "meaning": "-",
+      "source": "inferred"
+    },
+    {
+      "name": "用户关注指数",
+      "type": "float64",
+      "meaning": "-",
+      "source": "inferred"
+    }
+  ],
+  "notes": "Eastmoney stock comment detail (focus); optional.",
+  "metadata": {
+    "generated_at": "2026-04-24T17:08:42",
+    "rows": 30,
+    "cols": 2
+  }
+}

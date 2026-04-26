@@ -1,0 +1,66 @@
+{
+  "akshare_function": "ak.stock_individual_spot_xq",
+  "inputs": [
+    {
+      "name": "symbol",
+      "type": "str",
+      "meaning": "security code with exchange prefix, e.g. \"SH600519\"",
+      "example": "SH600519"
+    },
+    {
+      "name": "token",
+      "type": "float",
+      "meaning": "optional Xueqiu token",
+      "example": "None"
+    },
+    {
+      "name": "timeout",
+      "type": "float",
+      "meaning": "request timeout",
+      "example": "None"
+    }
+  ],
+  "sample_call": "ak.stock_individual_spot_xq(symbol=\"SH600519\")",
+  "output_preview": [
+    {
+      "item": "代码",
+      "value": "SH600519"
+    },
+    {
+      "item": "52周最高",
+      "value": 1586.3695
+    },
+    {
+      "item": "流通股",
+      "value": 1252270215
+    },
+    {
+      "item": "跌停",
+      "value": 1277.1
+    },
+    {
+      "item": "最高",
+      "value": 1458.88
+    }
+  ],
+  "output_fields": [
+    {
+      "name": "item",
+      "type": "object",
+      "meaning": "-",
+      "source": "doc"
+    },
+    {
+      "name": "value",
+      "type": "object",
+      "meaning": "-",
+      "source": "doc"
+    }
+  ],
+  "notes": "Xueqiu snapshot contains PE/PB/dividend yield TTM among many key-value pairs; may require token if rate-limited.",
+  "metadata": {
+    "generated_at": "2026-04-24T17:08:32",
+    "rows": 37,
+    "cols": 2
+  }
+}

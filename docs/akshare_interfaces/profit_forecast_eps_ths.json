@@ -1,0 +1,88 @@
+{
+  "akshare_function": "ak.stock_profit_forecast_ths",
+  "inputs": [
+    {
+      "name": "symbol",
+      "type": "str",
+      "meaning": "stock code, e.g. \"600519\"",
+      "example": "600519"
+    },
+    {
+      "name": "indicator",
+      "type": "str",
+      "meaning": "one of {\"预测年报每股收益\",\"预测年报净利润\",\"业绩预测详表-机构\",\"业绩预测详表-详细指标预测\"}",
+      "example": "预测年报每股收益"
+    }
+  ],
+  "sample_call": "ak.stock_profit_forecast_ths(symbol=\"600519\", indicator=\"预测年报每股收益\")",
+  "output_preview": [
+    {
+      "年度": "2026",
+      "预测机构数": 47,
+      "最小值": 66.79,
+      "均值": 71.23,
+      "最大值": 81.24,
+      "行业平均数": 9.74
+    },
+    {
+      "年度": "2027",
+      "预测机构数": 47,
+      "最小值": 68.73,
+      "均值": 75.37,
+      "最大值": 87.95,
+      "行业平均数": 10.57
+    },
+    {
+      "年度": "2028",
+      "预测机构数": 28,
+      "最小值": 73.67,
+      "均值": 77.06,
+      "最大值": 85.06,
+      "行业平均数": 12.94
+    }
+  ],
+  "output_fields": [
+    {
+      "name": "年度",
+      "type": "object",
+      "meaning": "-",
+      "source": "doc"
+    },
+    {
+      "name": "预测机构数",
+      "type": "int64",
+      "meaning": "-",
+      "source": "doc"
+    },
+    {
+      "name": "最小值",
+      "type": "float64",
+      "meaning": "-",
+      "source": "doc"
+    },
+    {
+      "name": "均值",
+      "type": "float64",
+      "meaning": "-",
+      "source": "doc"
+    },
+    {
+      "name": "最大值",
+      "type": "float64",
+      "meaning": "-",
+      "source": "doc"
+    },
+    {
+      "name": "行业平均数",
+      "type": "float64",
+      "meaning": "-",
+      "source": "doc"
+    }
+  ],
+  "notes": "THS profit forecast; consensus EPS.",
+  "metadata": {
+    "generated_at": "2026-04-24T17:08:33",
+    "rows": 3,
+    "cols": 6
+  }
+}
