@@ -126,26 +126,29 @@ def generate_and_validate_section(
         resp = llm.invoke([SystemMessage(content=system), HumanMessage(content=user)])
         return _parse_section_response(resp.content)
 
-    def _validate(content: str) -> tuple[bool, list[str]]:
-        # Strip the data-refs footnote line before validation to avoid noise.
+    def _validate(content: str, data_refs: list[str]) -> tuple[bool, list[str]]:
+        # Only pass the keys actually cited in this section to validation.
+        referenced = {k: collected_data[k] for k in data_refs if k in collected_data}
+        subset_json = json.dumps(referenced, ensure_ascii=False, indent=2) if referenced else data_json
+        # Strip the data-refs footnote line before sending content to validator.
         content_for_validation = re.sub(
             r"\n\n> \*数据引用：\*.*$", "", content, flags=re.DOTALL
         ).rstrip()
-        prompt = VALIDATION_PROMPT.format(content=content_for_validation, data_subset=data_json)
+        prompt = VALIDATION_PROMPT.format(content=content_for_validation, data_subset=subset_json)
         resp = llm.invoke([HumanMessage(content=prompt)])
         return _parse_validation_response(resp.content)
 
     title = spec["title"]
-    content, _ = _generate()
-    passed, issues = _validate(content)
+    content, data_refs = _generate()
+    passed, issues = _validate(content, data_refs)
 
     if passed:
         print(f"[report_generation] {title} 验证通过")
         return content
 
     print(f"[report_generation] {title} 验证失败，正在重试...")
-    retry_content, _ = _generate(extra="; ".join(issues))
-    retry_passed, retry_issues = _validate(retry_content)
+    retry_content, retry_refs = _generate(extra="; ".join(issues))
+    retry_passed, retry_issues = _validate(retry_content, retry_refs)
 
     if retry_passed:
         print(f"[report_generation] {title} 重试通过")
