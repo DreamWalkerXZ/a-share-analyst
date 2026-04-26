@@ -5,6 +5,8 @@ import akshare as ak
 from langchain_core.tools import BaseTool
 from pydantic import BaseModel, Field
 
+from src.utils.data_cache import get_cached, set_cached
+
 # Each entry: callable that accepts a params dict and returns a DataFrame.
 # "fetch_url_as_markdown" is handled separately.
 INTERFACE_MAP: dict[str, Any] = {
@@ -86,5 +88,12 @@ class StructuredDataTool(BaseTool):
                 f"未知 action: {action!r}。可用接口：{list(INTERFACE_MAP.keys())}"
             )
 
+        cached = get_cached(action, params)
+        if cached is not None:
+            print(f"[cache] 命中缓存：{action}({params})")
+            return cached
+
         df = INTERFACE_MAP[action](params)
-        return df.to_json(orient="records", force_ascii=False, date_format="iso")
+        result = df.to_json(orient="records", force_ascii=False, date_format="iso")
+        set_cached(action, params, result)
+        return result
