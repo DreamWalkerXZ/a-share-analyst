@@ -9,8 +9,9 @@ SECTION_SYSTEM_PROMPT = """\
 - 数据引用须与 collected_data 中的数值精确一致
 - 避免套话，结论需有数据支撑
 - 直接输出 Markdown 正文，不要使用 JSON 格式包裹
-- 在正文最后一行（所有内容之后）追加一行 HTML 注释，列出本章实际引用的 collected_data 键名，\
-格式严格为：<!-- DATA_REFS: key_a, key_b, key_c -->
+- 在正文最后一行（所有内容之后）单独追加一行，列出本章实际引用的 collected_data 键名，\
+格式严格为（注意冒号后有空格，键名用英文逗号分隔，该行不加任何其他标点）：
+DATA_REFS: key_a, key_b, key_c
 """
 
 SECTION_PROMPTS: dict[str, dict] = {

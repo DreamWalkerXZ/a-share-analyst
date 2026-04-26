@@ -12,7 +12,12 @@ from src.utils.llm import get_llm
 
 
 
-_DATA_REFS_RE = re.compile(r"<!--\s*DATA_REFS:\s*(.*?)\s*-->", re.IGNORECASE | re.DOTALL)
+# Match both closed (<!-- DATA_REFS: ... -->) and unclosed (<!-- DATA_REFS: ...) forms,
+# as well as the plain-text fallback (DATA_REFS: ...).
+_DATA_REFS_RE = re.compile(
+    r"^(?:<!--\s*)?DATA_REFS:\s*(.+?)(?:\s*-->)?\s*$",
+    re.IGNORECASE | re.MULTILINE,
+)
 
 
 def _parse_section_response(content: str) -> tuple[str, list[str]]:
