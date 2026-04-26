@@ -7,24 +7,34 @@ from langchain_core.messages import HumanMessage, SystemMessage
 
 from src.agent.state import ReportState
 from src.agent.subgraph import run_data_collection
-from src.prompts.report_sections import SECTION_PROMPTS, SECTION_SYSTEM_PROMPT, VALIDATION_PROMPT
+from src.prompts.report_sections import (
+    SECTION_0_SYSTEM_PROMPT,
+    SECTION_PROMPTS,
+    SECTION_SYSTEM_PROMPT,
+    VALIDATION_PROMPT,
+)
 from src.utils.llm import get_llm
 
 
 
-# Match both closed (<!-- DATA_REFS: ... -->) and unclosed (<!-- DATA_REFS: ...) forms,
-# as well as the plain-text fallback (DATA_REFS: ...).
+# Match DATA_REFS lines in all forms:
+#   DATA_REFS: key_a, key_b
+#   <!-- DATA_REFS: key_a, key_b -->   (closed HTML comment)
+#   <!-- DATA_REFS: key_a, key_b       (unclosed HTML comment)
 _DATA_REFS_RE = re.compile(
     r"^(?:<!--\s*)?DATA_REFS:\s*(.+?)(?:\s*-->)?\s*$",
     re.IGNORECASE | re.MULTILINE,
 )
 
+# Split ref strings on comma, Chinese bullet "·", or " · " separator
+_REFS_SPLIT_RE = re.compile(r"[,·]+")
+
 
 def _parse_section_response(content: str) -> tuple[str, list[str]]:
     """Extract Markdown text and data refs from LLM response.
 
-    Prompts ask for plain Markdown with a trailing <!-- DATA_REFS: ... --> comment.
-    Also handles legacy JSON-wrapped responses for backward compatibility.
+    - Collects ALL DATA_REFS lines (findall), merges unique keys.
+    - Handles legacy JSON-wrapped responses for backward compatibility.
     Returns (markdown_content_with_refs_footnote, data_refs_list).
     """
     data_refs: list[str] = []
@@ -38,7 +48,6 @@ def _parse_section_response(content: str) -> tuple[str, list[str]]:
                 content = parsed["content"]
                 data_refs = parsed.get("data_refs", [])
         except json.JSONDecodeError:
-            # Malformed JSON (likely unescaped newlines in content value).
             start = json_str.find('"content"')
             if start >= 0:
                 quote = json_str.find('"', start + len('"content"') + 1)
@@ -56,15 +65,21 @@ def _parse_section_response(content: str) -> tuple[str, list[str]]:
         except json.JSONDecodeError:
             pass
 
-    # --- Extract <!-- DATA_REFS: ... --> comment from plain-Markdown responses ---
+    # --- Collect ALL DATA_REFS lines from plain-Markdown responses ---
     if not data_refs:
-        m = _DATA_REFS_RE.search(content)
-        if m:
-            refs_str = m.group(1).strip()
-            data_refs = [r.strip() for r in refs_str.split(",") if r.strip()]
+        matches = _DATA_REFS_RE.findall(content)
+        if matches:
+            seen: set[str] = set()
+            for refs_str in matches:
+                for key in _REFS_SPLIT_RE.split(refs_str):
+                    key = key.strip()
+                    if key and key not in seen:
+                        data_refs.append(key)
+                        seen.add(key)
+            # Remove all DATA_REFS lines from the content
             content = _DATA_REFS_RE.sub("", content).rstrip()
 
-    # Append a visible footnote so reviewers can trace every data point.
+    # Append a single consolidated footnote for reviewers.
     if data_refs:
         content += "\n\n> *数据引用：* " + " · ".join(data_refs)
 
@@ -98,7 +113,11 @@ def generate_and_validate_section(
     prior_text = "\n\n".join(
         f"### {SECTION_PROMPTS[k]['title']}\n{v}" for k, v in prior_sections.items()
     )
-    system = SECTION_SYSTEM_PROMPT.format(company=company, period=period)
+    system = (
+        SECTION_0_SYSTEM_PROMPT.format(company=company, period=period)
+        if section_key == "section_0"
+        else SECTION_SYSTEM_PROMPT.format(company=company, period=period)
+    )
 
     def _generate(extra: str = "") -> tuple[str, list[str]]:
         user = spec["prompt"].format(data_subset=data_json, prior_sections=prior_text)
