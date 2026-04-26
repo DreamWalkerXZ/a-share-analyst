@@ -124,8 +124,16 @@ _EM_QUARTERLY_FIELDS: dict[str, tuple[str, Any, str]] = {
     "DPNP_YOY_RATIO":      ("扣非归母净利润同比增速",              _to_float, "%"),
 }
 
-# by_report uses the same em interface, same fields
-_EM_BY_REPORT_FIELDS = _EM_QUARTERLY_FIELDS
+# by_report uses cumulative annual data — rename YoY fields to avoid collision
+# with the quarterly single-period YoY values so both survive deduplication.
+_EM_BY_REPORT_FIELDS: dict[str, tuple[str, Any, str]] = {
+    **{k: v for k, v in _EM_QUARTERLY_FIELDS.items()
+       if k not in {"TOTALOPERATEREVETZ", "PARENTNETPROFITTZ", "DPNP_YOY_RATIO"}},
+    # Renamed: "全年累计" suffix distinguishes these from single-quarter YoY
+    "TOTALOPERATEREVETZ": ("营业总收入全年同比增速（累计）",         _to_float, "%"),
+    "PARENTNETPROFITTZ":  ("归母净利润全年同比增速（累计）",          _to_float, "%"),
+    "DPNP_YOY_RATIO":     ("扣非归母净利润全年同比增速（累计）",      _to_float, "%"),
+}
 
 _MAIN_BUSINESS_FIELDS: dict[str, tuple[str, Any, str]] = {
     "主营构成":   ("业务/产品名称",           str,    ""),
