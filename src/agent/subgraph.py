@@ -31,9 +31,9 @@ PREFETCH_ACTIONS = [
 ]
 
 MAX_TOOL_CALLS = 30
-PREFETCH_MAX_RECORDS = 8    # keep N most-recent records per interface (on or before cutoff)
+PREFETCH_MAX_RECORDS = 8     # keep N most-recent records per interface (on or before cutoff)
 PREFETCH_MAX_CHARS = 20_000  # hard cap per interface to protect LLM context
-TOOL_RESULT_MAX_CHARS = 6_000  # cap each Phase-2 ToolMessage to keep history within context
+TOOL_RESULT_PARSE_CHARS = 8_000  # chars of raw tool result fed to the inline parse LLM call
 
 _QUARTER_END = {"Q1": "03-31", "Q2": "06-30", "Q3": "09-30", "Q4": "12-31"}
 
@@ -163,61 +163,52 @@ def _save_collected_data(company: str, period: str, collected: dict) -> None:
     print(f"[data_collection] 已保存 collected_data → {path}")
 
 
-def _extract_collected_data_from_message(content: str) -> dict:
-    """Extract any JSON blocks from a message and return as dict (best-effort)."""
-    result = {}
-    for block in content.split("```json"):
-        if "```" in block:
-            json_str = block.split("```")[0].strip()
-            try:
-                parsed = json.loads(json_str)
-                if isinstance(parsed, dict):
-                    result.update(parsed)
-            except json.JSONDecodeError:
-                pass
-    return result
 
-
-def _consolidate_phase2_results(
-    company: str, stock_code: str, period: str, messages: list
-) -> dict:
-    """Parse ToolMessage contents from Phase 2 into collected_data entries via a single LLM call."""
-    tool_results = []
-    for msg in messages:
-        if isinstance(msg, ToolMessage):
-            content = str(msg.content or "")
-            if content and not content.startswith("ERROR:") and len(content) > 20:
-                tool_results.append(content[:3000])  # cap each result to keep prompt manageable
-
-    if not tool_results:
-        return {}
-
-    combined = "\n---\n".join(f"[工具结果 {i + 1}]\n{r}" for i, r in enumerate(tool_results))
-    prompt = PHASE1_PARSE_PROMPT.format(
+def _build_system_message(company: str, stock_code: str, period: str, collected_data: dict) -> SystemMessage:
+    """Build PHASE2_SYSTEM_PROMPT with the current collected_data keys."""
+    existing_keys = "\n".join(f"- {k}" for k in collected_data) or "（暂无）"
+    return SystemMessage(content=PHASE2_SYSTEM_PROMPT.format(
         company=company,
         stock_code=stock_code,
         period=period,
-        raw_data=combined[:15_000],
-    )
-    llm = get_llm()
-    try:
-        response = llm.invoke([HumanMessage(content=prompt)])
-        content_str: str = response.content
-        if "```json" in content_str:
-            content_str = content_str.split("```json")[1].split("```")[0].strip()
-        elif not content_str.strip().startswith("{"):
-            return {}
-        return json.loads(content_str.strip())
-    except Exception as exc:
-        print(f"[data_collection] 阶段二：合并结果失败：{exc}")
+        existing_keys=existing_keys,
+    ))
+
+
+def _parse_tool_result(
+    llm, company: str, stock_code: str, period: str, tool_name: str, raw: str
+) -> dict:
+    """Parse a single raw tool result into collected_data entries (best-effort)."""
+    if raw.startswith("ERROR:") or len(raw) < 20:
         return {}
+    return _parse_one_source(llm, company, stock_code, period, tool_name, raw[:TOOL_RESULT_PARSE_CHARS])
+
+
+def _format_parsed_summary(entries: dict) -> str:
+    """Return a compact human-readable summary of newly parsed collected_data entries."""
+    if not entries:
+        return "[解析完成] 未提取到有效数据条目"
+    lines = [f"[解析完成] 新增 {len(entries)} 条数据："]
+    for key, val in entries.items():
+        if isinstance(val, dict):
+            label = val.get("label", "")
+            value = val.get("value", "")
+            unit = val.get("unit", "")
+            lines.append(f"  · {key}: {label} = {value} {unit}".rstrip())
+    return "\n".join(lines)
 
 
 def react_reason(state: DataCollectionState) -> DataCollectionState:
-    """Phase 2: LLM decides next tool call or signals DONE; also parses prior tool results."""
+    """Phase 2: refresh system message with current keys, then let LLM decide next action."""
+    # Always rebuild the system message so the agent sees the latest collected_data keys.
+    updated_sys = _build_system_message(
+        state["company"], state["stock_code"], state["period"], state["collected_data"]
+    )
+    messages = [updated_sys] + list(state["messages"][1:])
+
     llm = get_llm().bind_tools(TOOLS)
     try:
-        response = llm.invoke(state["messages"])
+        response = llm.invoke(messages)
     except (BadRequestError, InternalServerError) as exc:
         # Covers two cases:
         # 1. BadRequestError: model does not support tool-calling (e.g. GLM-4.5-air).
@@ -227,29 +218,18 @@ def react_reason(state: DataCollectionState) -> DataCollectionState:
             f"[data_collection] 阶段二：LLM 请求失败（错误码 {code}：{exc}），"
             "提前结束 ReAct 阶段。"
         )
-        return {
-            **state,
-            "messages": state["messages"] + [AIMessage(content="DONE")],
-        }
+        return {**state, "messages": messages + [AIMessage(content="DONE")]}
 
-    # Merge any collected_data entries the LLM included in its text
-    new_collected = dict(state["collected_data"])
-    if isinstance(response.content, str):
-        extracted = _extract_collected_data_from_message(response.content)
-        new_collected.update(extracted)
-
-    return {
-        **state,
-        "messages": state["messages"] + [response],
-        "collected_data": new_collected,
-    }
+    return {**state, "messages": messages + [response]}
 
 
 def react_tool(state: DataCollectionState) -> DataCollectionState:
-    """Execute tool calls from the last AI message and append raw results to messages."""
+    """Execute tool calls, immediately parse results into collected_data, store compact summary."""
     last_msg = state["messages"][-1]
     new_messages = list(state["messages"])
+    new_collected = dict(state["collected_data"])
     tool_call_count = state["tool_call_count"]
+    llm = get_llm()
 
     for tool_call in last_msg.tool_calls:
         tool_name = tool_call["name"]
@@ -271,12 +251,23 @@ def react_tool(state: DataCollectionState) -> DataCollectionState:
         except Exception as exc:
             raw_result = f"ERROR: {exc}"
 
-        result_str = str(raw_result)
-        if len(result_str) > TOOL_RESULT_MAX_CHARS:
-            result_str = result_str[:TOOL_RESULT_MAX_CHARS] + "\n...[截断]"
-        new_messages.append(ToolMessage(content=result_str, tool_call_id=tool_call["id"]))
+        raw_str = str(raw_result)
 
-    return {**state, "messages": new_messages, "tool_call_count": tool_call_count}
+        # Immediately parse raw result → update collected_data → store compact summary.
+        entries = _parse_tool_result(
+            llm, state["company"], state["stock_code"], state["period"], tool_name, raw_str
+        )
+        new_collected.update(entries)
+        summary = _format_parsed_summary(entries)
+
+        new_messages.append(ToolMessage(content=summary, tool_call_id=tool_call["id"]))
+
+    return {
+        **state,
+        "messages": new_messages,
+        "collected_data": new_collected,
+        "tool_call_count": tool_call_count,
+    }
 
 
 def _should_continue(state: DataCollectionState) -> Literal["react_tool", "__end__"]:
@@ -310,32 +301,21 @@ def run_data_collection(company: str, stock_code: str, period: str) -> dict:
     print(f"[data_collection] 阶段一完成，初始化 {len(initial_collected)} 条数据项")
     _save_collected_data(company, period, initial_collected)
 
-    system_prompt = PHASE2_SYSTEM_PROMPT.format(
-        company=company,
-        stock_code=stock_code,
-        period=period,
-        existing_keys="\n".join(f"- {k}" for k in initial_collected),
-    )
     initial_state: DataCollectionState = {
-        "messages": [SystemMessage(content=system_prompt)],
+        "messages": [_build_system_message(company, stock_code, period, initial_collected)],
         "collected_data": initial_collected,
         "tool_call_count": 0,
+        "company": company,
+        "stock_code": stock_code,
+        "period": period,
     }
 
     subgraph = build_data_collection_subgraph()
     final_state = subgraph.invoke(initial_state)
 
-    # Merge in-stream extracted data (works when LLM outputs JSON text alongside tool calls)
+    # Tool results are parsed inline during react_tool; no consolidation pass needed.
     final_collected = dict(final_state["collected_data"])
-
-    # Consolidation pass: parse all Phase-2 ToolMessage contents into collected_data.
-    # This is needed because function-calling models set content="" when making tool calls,
-    # so _extract_collected_data_from_message never fires during the ReAct loop.
-    print("[data_collection] 阶段二：合并工具调用结果...")
-    phase2_extra = _consolidate_phase2_results(company, stock_code, period, final_state["messages"])
-    before = len(final_collected)
-    final_collected.update(phase2_extra)
-    print(f"[data_collection] 阶段二合并 +{len(final_collected) - before} 条，共 {len(final_collected)} 条数据项")
+    print(f"[data_collection] 阶段二完成，共 {len(final_collected)} 条数据项")
 
     _save_collected_data(company, period, final_collected)
     return final_collected

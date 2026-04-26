@@ -16,3 +16,6 @@ class DataCollectionState(TypedDict):
     messages: list[BaseMessage]
     collected_data: dict
     tool_call_count: int
+    company: str
+    stock_code: str
+    period: str
