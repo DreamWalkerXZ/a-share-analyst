@@ -5,7 +5,7 @@ from typing import Literal
 
 from langchain_core.messages import AIMessage, HumanMessage, SystemMessage, ToolMessage
 from langgraph.graph import END, StateGraph
-from openai import BadRequestError
+from openai import BadRequestError, InternalServerError
 
 from src.agent.state import DataCollectionState
 from src.prompts.data_collection import PHASE1_PARSE_PROMPT, PHASE2_SYSTEM_PROMPT
@@ -33,6 +33,7 @@ PREFETCH_ACTIONS = [
 MAX_TOOL_CALLS = 30
 PREFETCH_MAX_RECORDS = 8    # keep N most-recent records per interface (on or before cutoff)
 PREFETCH_MAX_CHARS = 20_000  # hard cap per interface to protect LLM context
+TOOL_RESULT_MAX_CHARS = 6_000  # cap each Phase-2 ToolMessage to keep history within context
 
 _QUARTER_END = {"Q1": "03-31", "Q2": "06-30", "Q3": "09-30", "Q4": "12-31"}
 
@@ -217,13 +218,14 @@ def react_reason(state: DataCollectionState) -> DataCollectionState:
     llm = get_llm().bind_tools(TOOLS)
     try:
         response = llm.invoke(state["messages"])
-    except BadRequestError as exc:
-        # Some models (e.g. GLM-4.5-air) do not support tool-calling.
-        # Gracefully skip Phase 2 rather than crashing the pipeline.
+    except (BadRequestError, InternalServerError) as exc:
+        # Covers two cases:
+        # 1. BadRequestError: model does not support tool-calling (e.g. GLM-4.5-air).
+        # 2. InternalServerError: some providers wrap context-length exceeded as HTTP 500.
+        code = getattr(exc, "code", None) or getattr(exc, "status_code", None)
         print(
-            f"[data_collection] 阶段二：模型不支持 tool calling（错误码 {exc.code}），"
-            "跳过 ReAct 阶段。如需补充数据请换用支持 function calling 的模型"
-            "（如 glm-4-flash / glm-4-plus / gpt-4o）。"
+            f"[data_collection] 阶段二：LLM 请求失败（错误码 {code}：{exc}），"
+            "提前结束 ReAct 阶段。"
         )
         return {
             **state,
@@ -269,9 +271,10 @@ def react_tool(state: DataCollectionState) -> DataCollectionState:
         except Exception as exc:
             raw_result = f"ERROR: {exc}"
 
-        new_messages.append(
-            ToolMessage(content=str(raw_result), tool_call_id=tool_call["id"])
-        )
+        result_str = str(raw_result)
+        if len(result_str) > TOOL_RESULT_MAX_CHARS:
+            result_str = result_str[:TOOL_RESULT_MAX_CHARS] + "\n...[截断]"
+        new_messages.append(ToolMessage(content=result_str, tool_call_id=tool_call["id"]))
 
     return {**state, "messages": new_messages, "tool_call_count": tool_call_count}
 
