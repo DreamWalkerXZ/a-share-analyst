@@ -171,7 +171,7 @@ class ReportState(TypedDict):
 |--------|------|---------|
 | `fetch_url_as_markdown` | 在原始 URL 前拼接 `https://r.jina.ai/` 获取 Markdown 内容 | `url: str` |
 
-**返回格式**：所有 action 均通过 StructuredDataTool 包装为 `collected_data` 条目格式（见第 6 节）。其中 akshare 接口将 DataFrame 转 dict 后包装；`fetch_url_as_markdown` 将 Markdown 字符串作为 `value` 字段包装，`unit` 为空，`raw_field` 为原始 URL。
+**返回格式**：StructuredDataTool 返回**原始数据**，不做语义包装：akshare 接口返回 DataFrame 转换后的 JSON（保留原始列名和行数据）；`fetch_url_as_markdown` 返回 Markdown 字符串。由 LLM 负责将工具返回结果解析、提炼为 `collected_data` 条目格式（见第 6 节）。
 
 ---
 
@@ -197,13 +197,13 @@ class ReportState(TypedDict):
 
 **返回**：`{ result: float, steps: str, description: str }`
 
-计算结果同样包装为 `collected_data` 条目写入状态，`notes` 字段记录变量代入过程。
+同样返回原始结果，由 LLM 解析为 `collected_data` 条目，`notes` 字段记录变量代入过程。
 
 ---
 
 ## 6. collected_data 数据结构
 
-每条数据为自解释结构，LLM 无需额外上下文即可理解：
+`collected_data` 由 LLM 负责填写：工具返回原始数据，LLM 从中提炼关键字段、赋予语义标签后写入。每条数据为自解释结构，后续章节生成的 LLM 无需额外上下文即可理解：
 
 ```python
 {
@@ -232,31 +232,58 @@ class ReportState(TypedDict):
 
 ## 7. 数据收集节点（data_collection）
 
-### 子图结构
+### 两阶段流程
 
 ```
-DataCollectionState
-  ├─ messages: list[BaseMessage]   # ReAct 对话历史
-  ├─ collected_data: dict          # 累积收集的数据
-  └─ tool_call_count: int          # 已调用轮次
+阶段一：预取核心数据（固定、无 LLM 参与）
+  │
+  ├─ 直接调用必选接口列表（见下方），获取原始 DataFrame
+  │   get_income_statement_quarterly
+  │   get_income_statement_report
+  │   get_balance_sheet_report
+  │   get_cashflow_quarterly
+  │   get_financial_indicators_em（按报告期 + 按单季度）
+  │   get_main_business_breakdown
+  │
+  └─ 将全部原始结果拼接后交给 LLM 一次性解析
+       → LLM 输出初始 collected_data 条目（填入 DataCollectionState）
 
-react_reason →（有工具调用）→ react_tool → react_reason
-             →（输出 DONE 或 tool_call_count ≥ 30）→ END
+阶段二：ReAct 自由补充（LLM 驱动）
+  │
+  react_reason →（有工具调用）→ react_tool → react_reason
+               →（输出 DONE 或 tool_call_count ≥ 30）→ END
 ```
 
-- `react_reason`：调用 LLM，持有三个工具的 schema，输出推理 + 工具调用指令或 DONE 信号
-- `react_tool`：执行工具调用，结果追加到 `messages` 和 `collected_data`，打印进度日志
+### 子图状态
+
+```python
+class DataCollectionState(TypedDict):
+    messages: list[BaseMessage]   # ReAct 对话历史（含阶段一解析结果）
+    collected_data: dict          # 累积收集的数据（阶段一后已有初始条目）
+    tool_call_count: int          # 阶段二已调用轮次
+```
+
+### 阶段二节点说明
+
+- `react_reason`：调用 LLM，持有三个工具的 schema，输出：
+  1. 新的工具调用指令（如需补充数据）
+  2. 对上一轮工具返回结果的解析 → 追加到 `collected_data`
+  3. 或 DONE 信号（数据已足够）
+- `react_tool`：执行工具调用，将原始结果追加到 `messages`，打印进度日志
 
 ### System Prompt 策略
 
-给 LLM 一份"数据采购清单"，列出六大类数据（核心财务、业务经营、现金流与资产负债、行业对比、盈利预测与估值、风险）对应的推荐接口，LLM 按清单逐项调用，缺失的走 RealTimeSearchTool 补充。
+- **阶段一解析 prompt**：给 LLM 全部原始数据 + 指令"提炼为 collected_data 条目格式，每条须有 label/value/unit/period/source/raw_field"
+- **阶段二 system prompt**：给 LLM 一份补充采购清单，列出六大类数据中尚未覆盖的推荐接口（行业对比、盈利预测与估值、同行比较、公告与研报等），LLM 按需调用，缺失的走 RealTimeSearchTool 补充
 
 ### 进度日志示例
 
 ```
-[data_collection] 调用 get_income_statement_quarterly（轮次 3/30）
-[data_collection] 调用 get_financial_indicators_em（轮次 4/30）
-[data_collection] 数据收集完成，共 42 条数据项
+[data_collection] 阶段一：预取 6 个核心接口...
+[data_collection] 阶段一：LLM 解析完成，初始化 28 条数据项
+[data_collection] 阶段二：调用 get_peer_valuation（轮次 1/30）
+[data_collection] 阶段二：调用 get_profit_forecast_eps（轮次 2/30）
+[data_collection] 数据收集完成，共 47 条数据项
 ```
 
 ---
