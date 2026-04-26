@@ -199,16 +199,15 @@ def _format_parsed_summary(entries: dict) -> str:
 
 
 def react_reason(state: DataCollectionState) -> DataCollectionState:
-    """Phase 2: refresh system message with current keys, then let LLM decide next action."""
-    # Always rebuild the system message so the agent sees the latest collected_data keys.
-    updated_sys = _build_system_message(
-        state["company"], state["stock_code"], state["period"], state["collected_data"]
-    )
-    messages = [updated_sys] + list(state["messages"][1:])
+    """Phase 2: LLM decides the next tool call or signals DONE.
 
+    The system message is kept unchanged across iterations to maximise prompt
+    cache hit rate. The agent learns what has already been collected via the
+    compact '[解析完成]' ToolMessage summaries in the conversation history.
+    """
     llm = get_llm().bind_tools(TOOLS)
     try:
-        response = llm.invoke(messages)
+        response = llm.invoke(state["messages"])
     except (BadRequestError, InternalServerError) as exc:
         # Covers two cases:
         # 1. BadRequestError: model does not support tool-calling (e.g. GLM-4.5-air).
@@ -218,9 +217,9 @@ def react_reason(state: DataCollectionState) -> DataCollectionState:
             f"[data_collection] 阶段二：LLM 请求失败（错误码 {code}：{exc}），"
             "提前结束 ReAct 阶段。"
         )
-        return {**state, "messages": messages + [AIMessage(content="DONE")]}
+        return {**state, "messages": state["messages"] + [AIMessage(content="DONE")]}
 
-    return {**state, "messages": messages + [response]}
+    return {**state, "messages": state["messages"] + [response]}
 
 
 def react_tool(state: DataCollectionState) -> DataCollectionState:
