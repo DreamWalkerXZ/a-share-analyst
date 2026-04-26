@@ -42,16 +42,40 @@ def _filter_data(collected_data: dict, categories: list[str]) -> dict:
 
 
 def _parse_section_response(content: str) -> tuple[str, list[str]]:
-    json_str = content
+    """Extract Markdown text from LLM response.
+
+    Prompts now ask for plain Markdown, but some models still wrap in JSON.
+    Try JSON extraction first; fall back to returning the raw content.
+    """
+    # Attempt JSON extraction for backward compatibility
     if "```json" in content:
         json_str = content.split("```json")[1].split("```")[0].strip()
-    elif not content.strip().startswith("{"):
-        return content, []
-    try:
-        parsed = json.loads(json_str)
-        return parsed.get("content", content), parsed.get("data_refs", [])
-    except json.JSONDecodeError:
-        return content, []
+        try:
+            parsed = json.loads(json_str)
+            if isinstance(parsed, dict) and "content" in parsed:
+                return parsed["content"], parsed.get("data_refs", [])
+        except json.JSONDecodeError:
+            # Malformed JSON (likely unescaped newlines in content value).
+            # Try to extract "content" value using string boundaries.
+            start = json_str.find('"content"')
+            if start >= 0:
+                quote = json_str.find('"', start + len('"content"') + 1)
+                end = json_str.rfind('", "data_refs"')
+                if 0 < quote < end:
+                    raw = json_str[quote + 1:end]
+                    raw = raw.replace("\\n", "\n").replace('\\"', '"').replace("\\\\", "\\")
+                    return raw.strip(), []
+
+    elif content.strip().startswith("{"):
+        try:
+            parsed = json.loads(content.strip())
+            if isinstance(parsed, dict) and "content" in parsed:
+                return parsed["content"], parsed.get("data_refs", [])
+        except json.JSONDecodeError:
+            pass
+
+    # Prompts now request plain Markdown directly; return as-is.
+    return content, []
 
 
 def _parse_validation_response(content: str) -> tuple[bool, list[str]]:

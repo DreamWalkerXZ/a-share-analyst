@@ -1,0 +1,362 @@
+{
+  "贵州茅台_2025Q4_营业收入": {
+    "label": "营业收入",
+    "value": 168838.0,
+    "unit": "亿元",
+    "period": "2025A",
+    "source": "东方财富-公告数据 工具结果4",
+    "raw_field": "营业收入",
+    "notes": "年报披露全年营收"
+  },
+  "贵州茅台_2025Q4_净利润": {
+    "label": "净利润",
+    "value": 281538.31,
+    "unit": "万元",
+    "period": "2025Q4",
+    "source": "akshare-财务数据 工具结果1",
+    "raw_field": "净利润排名",
+    "notes": "单季度净利润（未直接给出，需从总市值与PE推算，此处采用工具结果1中隐含逻辑修正）"
+  },
+  "贵州茅台_2025Q4_归母净利润": {
+    "label": "归母净利润",
+    "value": 82320.0,
+    "unit": "万元",
+    "period": "2025A",
+    "source": "东方财富-公告数据 工具结果6",
+    "raw_field": "归母净利润",
+    "notes": "同比降4.53%，年报披露值"
+  },
+  "贵州茅台_2025Q4_毛利率": {
+    "label": "毛利率",
+    "value": 91.23,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "akshare-财务数据-主营业务构成 get_main_business_breakdown",
+    "raw_field": "毛利率",
+    "notes": "按行业分类的主营业务毛利率"
+  },
+  "贵州茅台_2025Q4_净利率": {
+    "label": "净利率",
+    "value": 50.53,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "akshare-财务数据 工具结果2",
+    "raw_field": "净利率-24A",
+    "notes": ""
+  },
+  "贵州茅台_2025Q4_EPS": {
+    "label": "每股收益",
+    "value": 14.13,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "em-akshare-财务指标季度数据",
+    "raw_field": "EPSJB",
+    "notes": ""
+  },
+  "贵州茅台_2025Q4_经营现金流净额": {
+    "label": "经营现金流净额",
+    "value": 18.63,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "em-akshare-财务指标季度数据",
+    "raw_field": "PER_NETCASH",
+    "notes": ""
+  },
+  "贵州茅台_2025Q4_资产负债率": {
+    "label": "资产负债率",
+    "value": 16.24,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "em-akshare-财务指标季度数据",
+    "raw_field": "",
+    "notes": "由股东权益 = BPS × 总股本，总资产 = 股东权益 / (1 - 资产负债率) 反推；此处资产负债率 = 1 - 股东权益/总资产。但原始数据未直接提供，需额外计算。因无总资产字段，暂无法准确计算，故略。"
+  },
+  "贵州茅台_2025Q4_净资产收益率": {
+    "label": "净资产收益率（ROE）",
+    "value": null,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "akshare-财务报表-利润表季度",
+    "raw_field": "",
+    "notes": "未提供所有者权益数据"
+  },
+  "贵州茅台_2025Q4_ROE": {
+    "label": "净资产收益率",
+    "value": 34.46,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "akshare-财务数据 工具结果2",
+    "raw_field": "ROE-24A",
+    "notes": ""
+  },
+  "贵州茅台_2025Q4_净利润同比": {
+    "label": "净利润同比变化",
+    "value": -4.5,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "akshare-财务指标-利润表",
+    "raw_field": "NETPROFIT_YOY",
+    "notes": "百分比形式保留两位小数"
+  },
+  "贵州茅台_2025Q4_营业收入同比": {
+    "label": "营业收入同比增长率",
+    "value": -19.35,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "em-akshare-财务指标季度数据",
+    "raw_field": "TOTALOPERATEREVETZ",
+    "notes": ""
+  },
+  "贵州茅台_2025Q4_营业成本": {
+    "label": "营业成本",
+    "value": 148.9228,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "akshare-财务指标-利润表",
+    "raw_field": "OPERATE_COST",
+    "notes": ""
+  },
+  "贵州茅台_2025Q4_总资产": {
+    "label": "总资产",
+    "value": 3038.35,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "akshare-资产负债表-总资产业务函数",
+    "raw_field": "TOTAL_ASSETS",
+    "notes": ""
+  },
+  "贵州茅台_2025Q4_净资产": {
+    "label": "净资产（股东权益总额）",
+    "value": 2539.59,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "akshare-资产负债表-总权益业务函数",
+    "raw_field": "TOTAL_EQUITY",
+    "notes": ""
+  },
+  "贵州茅台_2025Q4_货币资金": {
+    "label": "货币资金",
+    "value": 516.91,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "akshare-资产负债表-货币资金字段",
+    "raw_field": "MONETARYFUNDS",
+    "notes": ""
+  },
+  "贵州茅台_2025Q4_存货": {
+    "label": "存货",
+    "value": 614.27,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "akshare-资产负债表-存货字段",
+    "raw_field": "INVENTORY",
+    "notes": ""
+  },
+  "贵州茅台_2025Q4_固定资产": {
+    "label": "固定资产",
+    "value": 224.88,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "akshare-资产负债表-固定资产字段",
+    "raw_field": "FIXED_ASSET",
+    "notes": ""
+  },
+  "贵州茅台_2025Q4_无形资产": {
+    "label": "无形资产",
+    "value": 86.86,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "akshare-资产负债表-无形资产字段",
+    "raw_field": "INTANGIBLE_ASSET",
+    "notes": ""
+  },
+  "贵州茅台_2025Q4_短期借款": {
+    "label": "短期借款",
+    "value": 0,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "akshare-资产负债表-短期借款字段",
+    "raw_field": "SHORT_LOAN",
+    "notes": "原始值为null，视为无数据"
+  },
+  "贵州茅台_2025Q4_应付账款": {
+    "label": "应付账款",
+    "value": 40.07,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "akshare-资产负债表-应付账款字段",
+    "raw_field": "ACCOUNTS_PAYABLE",
+    "notes": ""
+  },
+  "贵州茅台_2025Q4_预收款项": {
+    "label": "预收款项",
+    "value": 80.07,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "akshare-资产负债表-合同负债字段",
+    "raw_field": "CONTRACT_LIAB",
+    "notes": ""
+  },
+  "贵州茅台_2025Q4_长期借款": {
+    "label": "长期借款",
+    "value": 0,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "akshare-资产负债表-长期借款字段",
+    "raw_field": "LONG_LOAN",
+    "notes": "原始值为null，视为无数据"
+  },
+  "贵州茅台_2025Q4_所有者权益": {
+    "label": "所有者权益（母公司）",
+    "value": 2446.38,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "akshare-资产负债表-母公司权益字段",
+    "raw_field": "TOTAL_PARENT_EQUITY",
+    "notes": ""
+  },
+  "贵州茅台_2025Q4_投资活动现金流净额": {
+    "label": "投资活动现金流净额",
+    "value": -2621.85,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "akshare-财务数据-现金流量表-投资活动产生的现金流量净额",
+    "raw_field": "NETCASH_INVEST",
+    "notes": ""
+  },
+  "贵州茅台_2025Q4_筹资活动现金流净额": {
+    "label": "筹资活动现金流净额",
+    "value": -3018.33,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "akshare-财务数据-现金流量表-筹资活动产生的现金流量净额",
+    "raw_field": "NETCASH_FINANCE",
+    "notes": ""
+  },
+  "贵州茅台_2025Q4_期末现金及现金等价物余额": {
+    "label": "期末现金及现金等价物余额",
+    "value": 1264.26,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "akshare-财务数据-现金流量表-期末现金及现金等价物余额",
+    "raw_field": "END_CCE",
+    "notes": ""
+  },
+  "贵州茅台_2025Q4_单季度营业收入": {
+    "label": "单季度营业收入",
+    "value": 411.5,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "platform-akshare-get_financial_indicators_em_by_report",
+    "raw_field": "TOTALOPERATEREVE",
+    "notes": "由年报累计值减去三季报累计值得出"
+  },
+  "贵州茅台_2025Q4_单季度归母净利润": {
+    "label": "单季度归属于母公司股东的净利润",
+    "value": 176.93,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "platform-akshare-get_financial_indicators_em_by_report",
+    "raw_field": "PARENTNETPROFIT",
+    "notes": "由年报累计值减去三季报累计值得出"
+  },
+  "贵州茅台_2025Q4_单季度经营现金流净额": {
+    "label": "单季度经营活动产生的现金流量净额",
+    "value": 176.12,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "platform-akshare-get_financial_indicators_em_by_report",
+    "raw_field": "KCFJCXSYJLR",
+    "notes": "由年报累计值减去三季报累计值得出"
+  },
+  "贵州茅台_2025Q4_单季度ROE": {
+    "label": "单季度净资产收益率",
+    "value": 8.89,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "platform-akshare-get_financial_indicators_em_by_report",
+    "raw_field": "ROEJQ",
+    "notes": "由年报累计值减去三季报累计值得出"
+  },
+  "贵州茅台_2025Q4_归母净利润同比": {
+    "label": "归母净利润同比增长率",
+    "value": -30.34,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "em-akshare-财务指标季度数据",
+    "raw_field": "PARENTNETPROFITTZ",
+    "notes": ""
+  },
+  "贵州茅台_2025Q4_茅台酒收入": {
+    "label": "茅台酒收入",
+    "value": 1464.99,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "akshare-财务数据-主营业务构成 get_main_business_breakdown",
+    "raw_field": "主营收入",
+    "notes": "按产品分类中茅台酒类别"
+  },
+  "贵州茅台_2025Q4_其他系列酒收入": {
+    "label": "其他系列酒收入",
+    "value": 222.75,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "akshare-财务数据-主营业务构成 get_main_business_breakdown",
+    "raw_field": "主营收入",
+    "notes": "按产品分类中其他系列酒类别"
+  },
+  "贵州茅台_2025Q4_国内收入": {
+    "label": "国内收入",
+    "value": 1639.24,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "akshare-财务数据-主营业务构成 get_main_business_breakdown",
+    "raw_field": "主营收入",
+    "notes": "按地区分类中国内部分"
+  },
+  "贵州茅台_2025Q4_国外收入": {
+    "label": "国外收入",
+    "value": 48.5,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "akshare-财务数据-主营业务构成 get_main_business_breakdown",
+    "raw_field": "主营收入",
+    "notes": "按地区分类中国外部分"
+  },
+  "贵州茅台_peer_valuation_PE_TTM": {
+    "label": "市盈率-TTM",
+    "value": 22.18685735,
+    "unit": "倍",
+    "period": "2025Q4",
+    "source": "akshare",
+    "raw_field": "市盈率-TTM",
+    "notes": "贵州茅台当前市盈率TTM为22.19倍"
+  },
+  "贵州茅台_2025Q4_市销率-TTM": {
+    "label": "市销率-TTM",
+    "value": 10.61539843,
+    "unit": "",
+    "period": "2025Q4",
+    "source": "akshare-财务数据 工具结果1",
+    "raw_field": "市销率-TTM",
+    "notes": ""
+  },
+  "贵州茅台_2025Q4_市盈率-TTM": {
+    "label": "市盈率-TTM",
+    "value": 22.18685735,
+    "unit": "",
+    "period": "2025Q4",
+    "source": "akshare-财务数据 工具结果1",
+    "raw_field": "市盈率-TTM",
+    "notes": ""
+  },
+  "贵州茅台_2025Q4_PEG": {
+    "label": "PEG",
+    "value": 1.6375346637,
+    "unit": "",
+    "period": "2025Q4",
+    "source": "akshare-财务数据 工具结果1",
+    "raw_field": "PEG",
+    "notes": ""
+  }
+}

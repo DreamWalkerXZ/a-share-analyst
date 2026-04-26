@@ -8,6 +8,7 @@ SECTION_SYSTEM_PROMPT = """\
 - 使用专业的证券研究语言
 - 数据引用须与 collected_data 中的数值精确一致
 - 避免套话，结论需有数据支撑
+- 直接输出 Markdown 正文，不要使用 JSON 格式包裹
 """
 
 SECTION_PROMPTS: dict[str, dict] = {
@@ -28,10 +29,7 @@ SECTION_PROMPTS: dict[str, dict] = {
 4. 经营现金流质量
 5. ROE、ROA、资产负债率关键变化
 
-输出格式：
-```json
-{{"content": "章节正文 Markdown 内容", "data_refs": ["引用的 collected_data 键名"]}}
-```
+直接输出章节 Markdown 正文，不要使用 JSON 格式。
 """,
     },
     "section_2": {
@@ -52,10 +50,7 @@ SECTION_PROMPTS: dict[str, dict] = {
 3. 未来增长驱动因素
 4. 与可比公司的差异化优势
 
-输出格式：
-```json
-{{"content": "章节正文 Markdown 内容", "data_refs": ["引用的 collected_data 键名"]}}
-```
+直接输出章节 Markdown 正文，不要使用 JSON 格式。
 """,
     },
     "section_3": {
@@ -76,10 +71,7 @@ SECTION_PROMPTS: dict[str, dict] = {
 3. 目标价测算（给出具体目标价区间和方法论）
 4. 投资评级及理由
 
-输出格式：
-```json
-{{"content": "章节正文 Markdown 内容", "data_refs": ["引用的 collected_data 键名"]}}
-```
+直接输出章节 Markdown 正文，不要使用 JSON 格式。
 """,
     },
     "section_4": {
@@ -99,10 +91,7 @@ SECTION_PROMPTS: dict[str, dict] = {
 2. 每个风险说明触发条件和潜在影响程度
 3. 避免"市场风险"、"政策风险"等无具体内容的套话
 
-输出格式：
-```json
-{{"content": "章节正文 Markdown 内容", "data_refs": ["引用的 collected_data 键名"]}}
-```
+直接输出章节 Markdown 正文，不要使用 JSON 格式。
 """,
     },
     "section_0": {
@@ -120,10 +109,7 @@ SECTION_PROMPTS: dict[str, dict] = {
 3. 评级与目标价
 4. 各章节一句话提要
 
-输出格式：
-```json
-{{"content": "章节正文 Markdown 内容", "data_refs": ["引用的 collected_data 键名"]}}
-```
+直接输出开篇总览 Markdown 正文，不要使用 JSON 格式。
 """,
     },
 }
@@ -149,8 +135,13 @@ VALIDATION_PROMPT = """\
 - 时间标签模糊（如"全年累计"与"2025Q4"的语义差异）
 - 分析判断、预测、定性描述
 
-输出格式（只列出导致 passed=false 的具体矛盾，最多 3 条）：
+issues 列表只列出导致 passed=false 的真实矛盾（最多 3 条），格式为：
+"原文引用 [数值A]，但 collected_data 中对应字段 [key] 的值为 [数值B]"
+
+如果没有实质矛盾，直接输出 passed=true，issues 为空列表。
+
+输出：
 ```json
-{{"passed": true/false, "issues": ["原文引用 X 亿元，collected_data 显示 Y 亿元"]}}
+{{"passed": true/false, "issues": []}}
 ```
 """
