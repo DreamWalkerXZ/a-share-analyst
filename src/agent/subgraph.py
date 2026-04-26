@@ -34,6 +34,20 @@ def _exchange_prefix(stock_code: str) -> str:
     return "SH" if stock_code.startswith("6") else "SZ"
 
 
+PREFETCH_MAX_RECORDS = 8  # keep only the most recent N rows per interface
+
+
+def _truncate_json_records(json_str: str, n: int = PREFETCH_MAX_RECORDS) -> str:
+    """Parse a JSON array string and return only the first n records (most recent come first)."""
+    try:
+        records = json.loads(json_str)
+        if isinstance(records, list) and len(records) > n:
+            return json.dumps(records[:n], ensure_ascii=False)
+    except (json.JSONDecodeError, TypeError):
+        pass
+    return json_str
+
+
 def prefetch_core_data(stock_code: str) -> dict[str, str]:
     """Phase 1: Call mandatory interfaces directly; return raw JSON strings keyed by action."""
     prefix = _exchange_prefix(stock_code)
@@ -45,17 +59,23 @@ def prefetch_core_data(stock_code: str) -> dict[str, str]:
         try:
             if action == "get_financial_indicators_em":
                 # Called twice: by-report and quarterly
-                results["get_financial_indicators_em_by_report"] = structured_data_tool._run(
-                    action=action,
-                    params={"symbol": f"{stock_code}.{prefix}", "indicator": "按报告期"},
+                results["get_financial_indicators_em_by_report"] = _truncate_json_records(
+                    structured_data_tool._run(
+                        action=action,
+                        params={"symbol": f"{stock_code}.{prefix}", "indicator": "按报告期"},
+                    )
                 )
-                results["get_financial_indicators_em_quarterly"] = structured_data_tool._run(
-                    action=action,
-                    params={"symbol": f"{stock_code}.{prefix}", "indicator": "按单季度"},
+                results["get_financial_indicators_em_quarterly"] = _truncate_json_records(
+                    structured_data_tool._run(
+                        action=action,
+                        params={"symbol": f"{stock_code}.{prefix}", "indicator": "按单季度"},
+                    )
                 )
             else:
-                results[action] = structured_data_tool._run(
-                    action=action, params={"symbol": symbol_em}
+                results[action] = _truncate_json_records(
+                    structured_data_tool._run(
+                        action=action, params={"symbol": symbol_em}
+                    )
                 )
         except Exception as exc:
             print(f"[data_collection] 阶段一：{action} 失败：{exc}")
