@@ -87,28 +87,40 @@ def prefetch_core_data(stock_code: str) -> dict[str, str]:
     return results
 
 
-def _parse_prefetched(company: str, stock_code: str, period: str, raw: dict[str, str]) -> dict:
-    """Ask LLM to parse all pre-fetched raw data into collected_data entries in one call."""
-    llm = get_llm()
+def _parse_one_source(
+    llm, company: str, stock_code: str, period: str, source_key: str, source_data: str
+) -> dict:
+    """Parse a single data source into collected_data entries."""
     prompt = PHASE1_PARSE_PROMPT.format(
         company=company,
         stock_code=stock_code,
         period=period,
-        raw_data=json.dumps(raw, ensure_ascii=False, indent=2),
+        raw_data=json.dumps({source_key: source_data}, ensure_ascii=False),
     )
-    response = llm.invoke([HumanMessage(content=prompt)])
-    content: str = response.content
-
-    if "```json" in content:
-        content = content.split("```json")[1].split("```")[0].strip()
-    elif content.strip().startswith("{"):
-        content = content.strip()
-
     try:
-        return json.loads(content)
-    except json.JSONDecodeError:
-        print("[data_collection] 阶段一：LLM 解析 JSON 失败，返回空 collected_data")
+        response = llm.invoke([HumanMessage(content=prompt)])
+        content: str = response.content
+        if "```json" in content:
+            content = content.split("```json")[1].split("```")[0].strip()
+        elif not content.strip().startswith("{"):
+            return {}
+        return json.loads(content.strip())
+    except Exception as exc:
+        print(f"[data_collection] 阶段一：解析 {source_key} 失败：{exc}")
         return {}
+
+
+def _parse_prefetched(company: str, stock_code: str, period: str, raw: dict[str, str]) -> dict:
+    """Ask LLM to parse each pre-fetched data source individually; merge results."""
+    llm = get_llm()
+    collected: dict = {}
+    for source_key, source_data in raw.items():
+        if source_data.startswith("ERROR:"):
+            continue
+        print(f"[data_collection] 阶段一：解析 {source_key}...")
+        entries = _parse_one_source(llm, company, stock_code, period, source_key, source_data)
+        collected.update(entries)
+    return collected
 
 
 def _extract_collected_data_from_message(content: str) -> dict:
