@@ -8,7 +8,7 @@ from langgraph.graph import END, StateGraph
 from openai import BadRequestError, InternalServerError
 
 from src.agent.state import DataCollectionState
-from src.prompts.data_collection import PHASE1_PARSE_PROMPT, PHASE2_SYSTEM_PROMPT
+from src.prompts.data_collection import PHASE1_PARSE_PROMPT, PHASE2_PARSE_PROMPT, PHASE2_SYSTEM_PROMPT
 from src.utils.llm import get_llm
 from src.tools.calculator import FinancialCalculatorTool
 from src.tools.search import RealTimeSearchTool
@@ -175,13 +175,62 @@ def _build_system_message(company: str, stock_code: str, period: str, collected_
     ))
 
 
+def _existing_data_summary(collected_data: dict, max_chars: int = 3000) -> str:
+    """Compact summary of already-collected data to help the parse LLM avoid duplicates."""
+    lines = []
+    for key, val in collected_data.items():
+        if isinstance(val, dict):
+            label = val.get("label", "")
+            value = val.get("value", "")
+            unit = val.get("unit", "")
+            lines.append(f"  {key}: {label} = {value} {unit}".rstrip())
+        else:
+            lines.append(f"  {key}: {val}")
+    summary = "\n".join(lines)
+    if len(summary) > max_chars:
+        summary = summary[:max_chars] + "\n  ...[省略更多]"
+    return summary or "（暂无）"
+
+
 def _parse_tool_result(
-    llm, company: str, stock_code: str, period: str, tool_name: str, raw: str
+    llm,
+    company: str,
+    stock_code: str,
+    period: str,
+    tool_name: str,
+    tool_args: dict,
+    raw: str,
+    collected_data: dict,
 ) -> dict:
-    """Parse a single raw tool result into collected_data entries (best-effort)."""
+    """Parse a Phase-2 tool result using context-aware PHASE2_PARSE_PROMPT."""
     if raw.startswith("ERROR:") or len(raw) < 20:
         return {}
-    return _parse_one_source(llm, company, stock_code, period, tool_name, raw[:TOOL_RESULT_PARSE_CHARS])
+
+    tool_args_str = json.dumps(tool_args, ensure_ascii=False)
+    # Brief version for use inside the KEY / source field
+    tool_args_brief = tool_args_str[:120] + ("..." if len(tool_args_str) > 120 else "")
+
+    prompt = PHASE2_PARSE_PROMPT.format(
+        company=company,
+        stock_code=stock_code,
+        period=period,
+        tool_name=tool_name,
+        tool_args=tool_args_str,
+        tool_args_brief=tool_args_brief,
+        raw_data=raw[:TOOL_RESULT_PARSE_CHARS],
+        existing_summary=_existing_data_summary(collected_data),
+    )
+    try:
+        response = llm.invoke([HumanMessage(content=prompt)])
+        content: str = response.content
+        if "```json" in content:
+            content = content.split("```json")[1].split("```")[0].strip()
+        elif not content.strip().startswith("{"):
+            return {}
+        return json.loads(content.strip())
+    except Exception as exc:
+        print(f"[data_collection] 阶段二：解析 {tool_name} 结果失败：{exc}")
+        return {}
 
 
 def _format_parsed_summary(entries: dict) -> str:
@@ -254,7 +303,14 @@ def react_tool(state: DataCollectionState) -> DataCollectionState:
 
         # Immediately parse raw result → update collected_data → store compact summary.
         entries = _parse_tool_result(
-            llm, state["company"], state["stock_code"], state["period"], tool_name, raw_str
+            llm,
+            state["company"],
+            state["stock_code"],
+            state["period"],
+            tool_name,
+            tool_args,
+            raw_str,
+            new_collected,  # pass snapshot so LLM can deduplicate
         )
         new_collected.update(entries)
         summary = _format_parsed_summary(entries)

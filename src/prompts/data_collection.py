@@ -1,3 +1,42 @@
+PHASE2_PARSE_PROMPT = """\
+你是一位专业的 A 股研究员，正在为 {company}（{stock_code}）{period} 补充研报数据。
+
+本次工具调用信息：
+- 工具名称：{tool_name}
+- 调用参数：{tool_args}
+
+工具返回的原始结果：
+{raw_data}
+
+当前已收集的数据（请勿重复收录）：
+{existing_summary}
+
+请将原始结果中的有价值数据提炼为 collected_data 条目。
+
+筛选规则：
+1. 跳过与已收集数据重复或高度相似的指标（同报告期同指标，即使数值略有差异）
+2. 仅采纳可信度高的数据：
+   - structured_data / financial_calculator 结果：直接采纳
+   - realtime_search 结果：只采纳有明确来源（机构名、报告日期）的数据；\
+纯预测或无来源的数据加注 notes 说明，不确定则跳过
+3. 优先收录补充性数据：同行对比、盈利预测、分红历史、行业 PE/景气度、估值快照
+
+每条条目格式：
+{{"KEY": {{"label": "中文语义名称", "value": 数值或字符串, "unit": "单位（亿元/%/倍/元等）",
+  "period": "数据所属报告期", "source": "{tool_name}-{tool_args_brief}",
+  "raw_field": "原始字段名（无则留空）", "notes": "可选说明"}}}}
+
+KEY 格式："{company}_{period}_{{指标名}}"
+
+如无可提炼的新数据，返回空 JSON 对象 {{}}。
+仅输出 JSON，不加任何解释。
+
+输出：
+```json
+{{...}}
+```
+"""
+
 PHASE1_PARSE_PROMPT = """\
 你是一位专业的金融数据分析师。以下是从 akshare 获取的原始财务数据（JSON 格式）。
 
