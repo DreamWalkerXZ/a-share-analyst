@@ -34,17 +34,20 @@ def _exchange_prefix(stock_code: str) -> str:
     return "SH" if stock_code.startswith("6") else "SZ"
 
 
-PREFETCH_MAX_RECORDS = 8  # keep only the most recent N rows per interface
+PREFETCH_MAX_RECORDS = 4   # keep only the most recent N rows per interface
+PREFETCH_MAX_CHARS = 20000  # hard cap per interface to protect LLM context
 
 
 def _truncate_json_records(json_str: str, n: int = PREFETCH_MAX_RECORDS) -> str:
-    """Parse a JSON array string and return only the first n records (most recent come first)."""
+    """Limit JSON array to first n records (most recent) and cap total character length."""
     try:
         records = json.loads(json_str)
         if isinstance(records, list) and len(records) > n:
-            return json.dumps(records[:n], ensure_ascii=False)
+            json_str = json.dumps(records[:n], ensure_ascii=False)
     except (json.JSONDecodeError, TypeError):
         pass
+    if len(json_str) > PREFETCH_MAX_CHARS:
+        json_str = json_str[:PREFETCH_MAX_CHARS] + "... [truncated]"
     return json_str
 
 
