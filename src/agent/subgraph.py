@@ -9,6 +9,7 @@ from openai import BadRequestError, InternalServerError
 
 from src.agent.state import DataCollectionState
 from src.prompts.data_collection import PHASE1_PARSE_PROMPT, PHASE2_PARSE_PROMPT, PHASE2_SYSTEM_PROMPT
+from src.utils.compact import compact_collected
 from src.utils.llm import get_llm
 from src.utils.prefetch_formatter import format_prefetch_for_llm
 from src.tools.calculator import FinancialCalculatorTool
@@ -222,31 +223,14 @@ def _save_collected_data(company: str, period: str, collected: dict) -> None:
 
 
 def _build_system_message(company: str, stock_code: str, period: str, collected_data: dict) -> SystemMessage:
-    """Build PHASE2_SYSTEM_PROMPT with the current collected_data keys."""
-    existing_keys = "\n".join(f"- {k}" for k in collected_data) or "（暂无）"
+    """Build PHASE2_SYSTEM_PROMPT with the full compact view of already-collected data."""
+    existing_keys = compact_collected(collected_data) or "（暂无）"
     return SystemMessage(content=PHASE2_SYSTEM_PROMPT.format(
         company=company,
         stock_code=stock_code,
         period=period,
         existing_keys=existing_keys,
     ))
-
-
-def _existing_data_summary(collected_data: dict, max_chars: int = 3000) -> str:
-    """Compact summary of already-collected data to help the parse LLM avoid duplicates."""
-    lines = []
-    for key, val in collected_data.items():
-        if isinstance(val, dict):
-            label = val.get("label", "")
-            value = val.get("value", "")
-            unit = val.get("unit", "")
-            lines.append(f"  {key}: {label} = {value} {unit}".rstrip())
-        else:
-            lines.append(f"  {key}: {val}")
-    summary = "\n".join(lines)
-    if len(summary) > max_chars:
-        summary = summary[:max_chars] + "\n  ...[省略更多]"
-    return summary or "（暂无）"
 
 
 def _parse_tool_result(
@@ -275,7 +259,8 @@ def _parse_tool_result(
         tool_args=tool_args_str,
         tool_args_brief=tool_args_brief,
         raw_data=raw[:TOOL_RESULT_PARSE_CHARS],
-        existing_summary=_existing_data_summary(collected_data),
+        existing_count=len(collected_data),
+        existing_summary=compact_collected(collected_data) or "（暂无）",
     )
     try:
         response = llm.invoke([HumanMessage(content=prompt)])

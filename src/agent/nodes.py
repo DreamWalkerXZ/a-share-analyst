@@ -13,31 +13,8 @@ from src.prompts.report_sections import (
     SECTION_SYSTEM_PROMPT,
     VALIDATION_PROMPT,
 )
+from src.utils.compact import compact_collected
 from src.utils.llm import get_llm
-
-
-def _compact_collected(collected_data: dict) -> str:
-    """Build a compact one-line-per-entry view of collected_data.
-
-    Format per line:
-        key | label: value unit (period)            [no notes]
-        key | label: value unit (period) [notes]    [has notes]
-
-    The key is the exact identifier to use in DATA_REFS; label provides
-    human-readable context so the LLM understands each metric.
-    """
-    lines = []
-    for k, v in collected_data.items():
-        if not isinstance(v, dict):
-            continue
-        label = v.get("label", "")
-        val = v.get("value", "")
-        unit = v.get("unit", "")
-        period = v.get("period", "")
-        notes = v.get("notes", "")
-        head = f"{k} | {label}: {val} {unit} ({period})" if label else f"{k}: {val} {unit} ({period})"
-        lines.append(f"{head} [{notes}]" if notes else head)
-    return "\n".join(lines)
 
 
 
@@ -166,7 +143,7 @@ def generate_and_validate_section(
     """Generate one report section with validation and a single retry on failure."""
     llm = get_llm()
     spec = SECTION_PROMPTS[section_key]
-    data_compact = _compact_collected(collected_data)
+    data_compact = compact_collected(collected_data)
     prior_text = _prior_text_for_section(section_key, prior_sections)
     system = (
         SECTION_0_SYSTEM_PROMPT.format(company=company, period=period)
@@ -185,7 +162,7 @@ def generate_and_validate_section(
         # Pass detailed JSON for keys that exactly match, plus compact all-data for fallback.
         referenced = {k: collected_data[k] for k in data_refs if k in collected_data}
         subset_json = json.dumps(referenced, ensure_ascii=False, indent=2) if referenced else "{}"
-        all_compact = _compact_collected(collected_data)
+        all_compact = compact_collected(collected_data)
         # Strip the data-refs footnote line before sending content to validator.
         content_for_validation = re.sub(
             r"\n\n> \*数据引用：\*.*$", "", content, flags=re.DOTALL
