@@ -29,13 +29,35 @@ _DATA_REFS_RE = re.compile(
 # Split ref strings on comma, Chinese bullet "·", or " · " separator
 _REFS_SPLIT_RE = re.compile(r"[,·]+")
 
-# Matches our own footnote lines that the LLM echoes back from prior_sections context
+# Matches our own footnote and warning lines that should be stripped from prior context
 _FOOTNOTE_RE = re.compile(r"^> \*数据引用：\*.*$", re.MULTILINE)
+_WARNING_RE = re.compile(r"^> ⚠️.*$", re.MULTILINE)
+
+# Max characters per prior section when building section_0 context (summary only)
+_PRIOR_SECTION_MAX_CHARS = 1200
 
 
 def _strip_prior_footnotes(text: str) -> str:
-    """Remove > *数据引用：* footnote lines injected by prior section context."""
-    return _FOOTNOTE_RE.sub("", text).rstrip()
+    """Remove data-ref footnotes and ⚠️ warning lines from a section body."""
+    text = _FOOTNOTE_RE.sub("", text)
+    text = _WARNING_RE.sub("", text)
+    return text.rstrip()
+
+
+def _prior_text_for_section(section_key: str, prior_sections: dict) -> str:
+    """Build the prior-sections context string for a given section.
+
+    For section_0 (overview, generated last) each prior section is truncated
+    to _PRIOR_SECTION_MAX_CHARS characters so the prompt stays manageable.
+    For other sections the full (footnote-stripped) text is used.
+    """
+    parts = []
+    for k, v in prior_sections.items():
+        body = _strip_prior_footnotes(v)
+        if section_key == "section_0" and len(body) > _PRIOR_SECTION_MAX_CHARS:
+            body = body[:_PRIOR_SECTION_MAX_CHARS] + "\n… [节选，后续内容已省略]"
+        parts.append(f"### {SECTION_PROMPTS[k]['title']}\n{body}")
+    return "\n\n".join(parts)
 
 
 def _parse_section_response(content: str) -> tuple[str, list[str]]:
@@ -121,10 +143,7 @@ def generate_and_validate_section(
     llm = get_llm()
     spec = SECTION_PROMPTS[section_key]
     data_json = json.dumps(collected_data, ensure_ascii=False, indent=2)
-    prior_text = "\n\n".join(
-        f"### {SECTION_PROMPTS[k]['title']}\n{_strip_prior_footnotes(v)}"
-        for k, v in prior_sections.items()
-    )
+    prior_text = _prior_text_for_section(section_key, prior_sections)
     system = (
         SECTION_0_SYSTEM_PROMPT.format(company=company, period=period)
         if section_key == "section_0"
