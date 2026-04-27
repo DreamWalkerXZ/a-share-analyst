@@ -16,6 +16,18 @@ from src.prompts.report_sections import (
 from src.utils.llm import get_llm
 
 
+def _compact_collected(collected_data: dict) -> str:
+    """Build a compact one-line-per-entry view of collected_data for the validator."""
+    lines = []
+    for k, v in collected_data.items():
+        if isinstance(v, dict):
+            val = v.get("value", "")
+            unit = v.get("unit", "")
+            period = v.get("period", "")
+            lines.append(f"{k}: {val} {unit} ({period})")
+    return "\n".join(lines)
+
+
 
 # Match DATA_REFS lines in all forms:
 #   DATA_REFS: key_a, key_b
@@ -158,14 +170,19 @@ def generate_and_validate_section(
         return _parse_section_response(resp.content)
 
     def _validate(content: str, data_refs: list[str]) -> tuple[bool, list[str]]:
-        # Only pass the keys actually cited in this section to validation.
+        # Pass detailed JSON for keys that exactly match, plus compact all-data for fallback.
         referenced = {k: collected_data[k] for k in data_refs if k in collected_data}
-        subset_json = json.dumps(referenced, ensure_ascii=False, indent=2) if referenced else data_json
+        subset_json = json.dumps(referenced, ensure_ascii=False, indent=2) if referenced else "{}"
+        all_compact = _compact_collected(collected_data)
         # Strip the data-refs footnote line before sending content to validator.
         content_for_validation = re.sub(
             r"\n\n> \*数据引用：\*.*$", "", content, flags=re.DOTALL
         ).rstrip()
-        prompt = VALIDATION_PROMPT.format(content=content_for_validation, data_subset=subset_json)
+        prompt = VALIDATION_PROMPT.format(
+            content=content_for_validation,
+            data_subset=subset_json,
+            all_data=all_compact,
+        )
         resp = llm.invoke([HumanMessage(content=prompt)])
         return _parse_validation_response(resp.content)
 
