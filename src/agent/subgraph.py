@@ -277,7 +277,12 @@ def _parse_tool_result(
             content = content.split("```json")[1].split("```")[0].strip()
         elif not content.strip().startswith("{"):
             return {}
-        return json.loads(content.strip())
+        parsed = json.loads(content.strip())
+        # Filter out entries where value is None (LLM couldn't extract a concrete value)
+        return {
+            k: v for k, v in parsed.items()
+            if isinstance(v, dict) and v.get("value") is not None
+        }
     except Exception as exc:
         print(f"[data_collection] 阶段二：解析 {tool_name} 结果失败：{exc}")
         return {}
@@ -351,19 +356,23 @@ def react_tool(state: DataCollectionState) -> DataCollectionState:
 
         raw_str = str(raw_result)
 
-        # Immediately parse raw result → update collected_data → store compact summary.
-        entries = _parse_tool_result(
-            llm,
-            state["company"],
-            state["stock_code"],
-            state["period"],
-            tool_name,
-            tool_args,
-            raw_str,
-            new_collected,  # pass snapshot so LLM can deduplicate
-        )
-        new_collected.update(entries)
-        summary = _format_parsed_summary(entries)
+        if raw_str.startswith("ERROR:"):
+            # Propagate errors directly so the agent can fix its call (e.g. add missing params).
+            summary = f"[工具调用失败] {raw_str[:400]}"
+        else:
+            # Immediately parse raw result → update collected_data → store compact summary.
+            entries = _parse_tool_result(
+                llm,
+                state["company"],
+                state["stock_code"],
+                state["period"],
+                tool_name,
+                tool_args,
+                raw_str,
+                new_collected,  # pass snapshot so LLM can deduplicate
+            )
+            new_collected.update(entries)
+            summary = _format_parsed_summary(entries)
 
         new_messages.append(ToolMessage(content=summary, tool_call_id=tool_call["id"]))
 

@@ -60,9 +60,19 @@ INTERFACE_MAP: dict[str, Any] = {
 }
 
 
+# Interfaces that genuinely require no params (call akshare with no arguments).
+_NO_PARAMS_REQUIRED = {"get_market_comment_overview"}
+
+
 class StructuredDataInput(BaseModel):
     action: str = Field(description="接口名称，如 get_income_statement_quarterly")
-    params: dict = Field(default_factory=dict, description="接口参数，如 {'symbol': 'SH600519'}")
+    params: dict = Field(
+        default_factory=dict,
+        description=(
+            "接口参数，如 {'symbol': 'SH600519'}。"
+            "除 get_market_comment_overview 外，其他接口必须传入非空 params（含 symbol 等）。"
+        ),
+    )
 
 
 class StructuredDataTool(BaseTool):
@@ -70,7 +80,7 @@ class StructuredDataTool(BaseTool):
     description: str = (
         "从 akshare 获取结构化金融数据（返回原始 JSON），"
         "或通过 fetch_url_as_markdown 将网页/PDF 转为 Markdown。"
-        "action 为接口名称，params 为接口参数。"
+        "action 为接口名称，params 为接口参数（必须传入，不得为空 {}）。"
     )
     args_schema: type[BaseModel] = StructuredDataInput
 
@@ -86,6 +96,13 @@ class StructuredDataTool(BaseTool):
         if action not in INTERFACE_MAP:
             raise ValueError(
                 f"未知 action: {action!r}。可用接口：{list(INTERFACE_MAP.keys())}"
+            )
+
+        if not params and action not in _NO_PARAMS_REQUIRED:
+            raise ValueError(
+                f"接口 {action!r} 缺少必要参数（params 不能为空 {{}}）。"
+                "请参照 system prompt 中的调用示例，传入正确的 symbol 等参数。"
+                "例如：params={{\"symbol\": \"SH600519\"}}"
             )
 
         cached = get_cached(action, params)
