@@ -29,6 +29,14 @@ _DATA_REFS_RE = re.compile(
 # Split ref strings on comma, Chinese bullet "·", or " · " separator
 _REFS_SPLIT_RE = re.compile(r"[,·]+")
 
+# Matches our own footnote lines that the LLM echoes back from prior_sections context
+_FOOTNOTE_RE = re.compile(r"^> \*数据引用：\*.*$", re.MULTILINE)
+
+
+def _strip_prior_footnotes(text: str) -> str:
+    """Remove > *数据引用：* footnote lines injected by prior section context."""
+    return _FOOTNOTE_RE.sub("", text).rstrip()
+
 
 def _parse_section_response(content: str) -> tuple[str, list[str]]:
     """Extract Markdown text and data refs from LLM response.
@@ -79,6 +87,9 @@ def _parse_section_response(content: str) -> tuple[str, list[str]]:
             # Remove all DATA_REFS lines from the content
             content = _DATA_REFS_RE.sub("", content).rstrip()
 
+    # Also strip any footnote lines the LLM echoed from prior_sections context.
+    content = _strip_prior_footnotes(content).rstrip()
+
     # Append a single consolidated footnote for reviewers.
     if data_refs:
         content += "\n\n> *数据引用：* " + " · ".join(data_refs)
@@ -111,7 +122,8 @@ def generate_and_validate_section(
     spec = SECTION_PROMPTS[section_key]
     data_json = json.dumps(collected_data, ensure_ascii=False, indent=2)
     prior_text = "\n\n".join(
-        f"### {SECTION_PROMPTS[k]['title']}\n{v}" for k, v in prior_sections.items()
+        f"### {SECTION_PROMPTS[k]['title']}\n{_strip_prior_footnotes(v)}"
+        for k, v in prior_sections.items()
     )
     system = (
         SECTION_0_SYSTEM_PROMPT.format(company=company, period=period)
