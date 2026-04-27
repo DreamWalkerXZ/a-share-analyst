@@ -45,6 +45,7 @@ _ANNUAL_ACTIONS = {
     "get_financial_indicators_em_by_report",
 }
 TOOL_RESULT_PARSE_CHARS = 8_000  # chars of raw tool result fed to the inline parse LLM call
+MAX_ENTRIES_PER_CALL = 12       # hard cap on new entries extracted per tool call
 
 _QUARTER_END = {"Q1": "03-31", "Q2": "06-30", "Q3": "09-30", "Q4": "12-31"}
 
@@ -279,10 +280,15 @@ def _parse_tool_result(
             return {}
         parsed = json.loads(content.strip())
         # Filter out entries where value is None (LLM couldn't extract a concrete value)
-        return {
+        filtered = {
             k: v for k, v in parsed.items()
             if isinstance(v, dict) and v.get("value") is not None
         }
+        # Hard cap: LLM is asked to rank by relevance; keep the first MAX_ENTRIES_PER_CALL
+        if len(filtered) > MAX_ENTRIES_PER_CALL:
+            filtered = dict(list(filtered.items())[:MAX_ENTRIES_PER_CALL])
+            print(f"[data_collection] 阶段二：解析结果截断至 {MAX_ENTRIES_PER_CALL} 条")
+        return filtered
     except Exception as exc:
         print(f"[data_collection] 阶段二：解析 {tool_name} 结果失败：{exc}")
         return {}
