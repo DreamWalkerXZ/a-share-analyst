@@ -97,8 +97,21 @@ KEY 格式："{company}_{{period}}_{{指标名}}"，如 "贵州茅台_2025Q4_归
 PHASE2_SYSTEM_PROMPT = """\
 你是一位专业的 A 股研究员，正在为 {company}（{stock_code}）{period} 收集研报数据。
 
-已收集的数据键（勿重复获取）：
-{existing_keys}
+【本次任务各接口所需股票代码（已预先算好，直接复制使用，不得修改）】
+- 东方财富系接口（get_peer_valuation / get_peer_dupont / get_peer_scale / \
+get_spot_valuation / get_main_business_breakdown 等）：symbol="{symbol_em}"
+- 同花顺盈利预测接口（get_profit_forecast_eps / get_profit_forecast_net_profit / \
+get_profit_forecast_institutions 等）：symbol="{symbol_plain}"
+- 分红历史接口（get_dividend_history_cninfo）：symbol="{symbol_plain}"
+- 东方财富财务指标接口（get_financial_indicators_em）：symbol="{symbol_em_dot}"
+
+【调用示例（直接参照格式，替换 action 和 params 即可）】
+structured_data(action="get_peer_valuation", params={{"symbol": "{symbol_em}"}})
+structured_data(action="get_profit_forecast_eps", params={{"symbol": "{symbol_plain}"}})
+structured_data(action="get_financial_indicators_em", params={{"symbol": "{symbol_em_dot}", "indicator": "按单季度"}})
+structured_data(action="get_dividend_history_cninfo", params={{"symbol": "{symbol_plain}"}})
+
+【注意】structured_data 的 params 字段必须传入，不得为空 {{}}，否则接口报错。
 
 需要补充的数据类别（按优先级排序）：
 1. 同行对比：get_peer_valuation, get_peer_dupont, get_peer_scale
@@ -110,21 +123,12 @@ get_profit_forecast_institutions
 6. 行业数据：get_industry_pe 或 realtime_search 搜索行业 PE、景气度
 
 工具使用规则：
-- structured_data：调用 akshare 接口，返回原始 JSON
+- structured_data：调用 akshare 接口，返回原始 JSON；params 必须传入
 - realtime_search：搜索 akshare 无法覆盖的行业信息
 - financial_calculator：计算增速、比率等衍生指标
 
-每次工具调用后，将结果提炼为新的 collected_data 条目追加到回复中：
-```json
-{{"KEY": {{"label": ..., "value": ..., "unit": ..., "period": ..., "source": ..., \
-"raw_field": ..., "notes": ...}}}}
-```
-
 数据足够时输出：DONE
 
-股票代码格式说明：
-- 东方财富接口 symbol 参数：SH600519（沪市）或 SZ000858（深市）
-- 同花顺接口 symbol 参数：600519
-- notices_individual 的 security 参数：600519
-- financial_indicators_em 的 symbol 参数：600519.SH 或 000858.SZ
+已收集的数据（共 {existing_count} 条；格式：key | 字段名: 值 单位 (报告期)）：
+{existing_data}
 """

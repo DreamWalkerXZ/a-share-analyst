@@ -223,13 +223,21 @@ def _save_collected_data(company: str, period: str, collected: dict) -> None:
 
 
 def _build_system_message(company: str, stock_code: str, period: str, collected_data: dict) -> SystemMessage:
-    """Build PHASE2_SYSTEM_PROMPT with the full compact view of already-collected data."""
-    existing_keys = compact_collected(collected_data) or "（暂无）"
+    """Build PHASE2_SYSTEM_PROMPT with pre-computed symbol formats and compact collected data."""
+    prefix = _exchange_prefix(stock_code)
+    symbol_em = f"{prefix}{stock_code}"          # e.g. SH600519
+    symbol_em_dot = f"{stock_code}.{prefix}"     # e.g. 600519.SH
+    symbol_plain = stock_code                    # e.g. 600519
+    existing_data = compact_collected(collected_data) or "（暂无）"
     return SystemMessage(content=PHASE2_SYSTEM_PROMPT.format(
         company=company,
         stock_code=stock_code,
         period=period,
-        existing_keys=existing_keys,
+        symbol_em=symbol_em,
+        symbol_em_dot=symbol_em_dot,
+        symbol_plain=symbol_plain,
+        existing_count=len(collected_data),
+        existing_data=existing_data,
     ))
 
 
