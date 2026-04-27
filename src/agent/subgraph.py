@@ -402,6 +402,20 @@ def build_data_collection_subgraph():
     return graph.compile()
 
 
+def _round_collected(collected: dict) -> dict:
+    """Round numeric values in collected_data to 2 decimal places."""
+    result = {}
+    for key, entry in collected.items():
+        if not isinstance(entry, dict):
+            result[key] = entry
+            continue
+        value = entry.get("value")
+        if isinstance(value, float):
+            entry = {**entry, "value": round(value, 2)}
+        result[key] = entry
+    return result
+
+
 def run_data_collection(company: str, stock_code: str, period: str) -> dict:
     """Orchestrate Phase 1 (pre-fetch + LLM parse) then Phase 2 (ReAct loop)."""
     cutoff = _period_to_cutoff(period)
@@ -426,7 +440,7 @@ def run_data_collection(company: str, stock_code: str, period: str) -> dict:
     final_state = subgraph.invoke(initial_state)
 
     # Tool results are parsed inline during react_tool; no consolidation pass needed.
-    final_collected = dict(final_state["collected_data"])
+    final_collected = _round_collected(dict(final_state["collected_data"]))
     print(f"[data_collection] 阶段二完成，共 {len(final_collected)} 条数据项")
 
     _save_collected_data(company, period, final_collected)
