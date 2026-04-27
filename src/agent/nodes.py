@@ -158,10 +158,7 @@ def generate_and_validate_section(
         resp = llm.invoke([SystemMessage(content=system), HumanMessage(content=user)])
         return _parse_section_response(resp.content)
 
-    def _validate(content: str, data_refs: list[str]) -> tuple[bool, list[str]]:
-        # Pass detailed JSON for keys that exactly match, plus compact all-data for fallback.
-        referenced = {k: collected_data[k] for k in data_refs if k in collected_data}
-        subset_json = json.dumps(referenced, ensure_ascii=False, indent=2) if referenced else "{}"
+    def _validate(content: str, data_refs: list[str]) -> tuple[bool, list[str]]:  # noqa: ARG001
         all_compact = compact_collected(collected_data)
         # Strip the data-refs footnote line before sending content to validator.
         content_for_validation = re.sub(
@@ -169,7 +166,6 @@ def generate_and_validate_section(
         ).rstrip()
         prompt = VALIDATION_PROMPT.format(
             content=content_for_validation,
-            data_subset=subset_json,
             all_data=all_compact,
         )
         resp = llm.invoke([HumanMessage(content=prompt)])
