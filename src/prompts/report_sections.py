@@ -41,7 +41,7 @@ SECTION_PROMPTS: dict[str, dict] = {
         "prompt": """\
 请撰写研报第一章：业绩与经营情况。
 
-全部已收集数据（collected_data）：
+全部已收集数据（格式：key | 字段名: 值 单位 (报告期)；DATA_REFS 中必须使用左侧的 key 原名）：
 {data_subset}
 
 要求：
@@ -62,7 +62,7 @@ SECTION_PROMPTS: dict[str, dict] = {
 前序章节内容：
 {prior_sections}
 
-全部已收集数据（collected_data）：
+全部已收集数据（格式：key | 字段名: 值 单位 (报告期)；DATA_REFS 中必须使用左侧的 key 原名）：
 {data_subset}
 
 要求：
@@ -82,7 +82,7 @@ SECTION_PROMPTS: dict[str, dict] = {
 前序章节内容：
 {prior_sections}
 
-全部已收集数据（collected_data）：
+全部已收集数据（格式：key | 字段名: 值 单位 (报告期)；DATA_REFS 中必须使用左侧的 key 原名）：
 {data_subset}
 
 要求：
@@ -102,7 +102,7 @@ SECTION_PROMPTS: dict[str, dict] = {
 前序章节内容：
 {prior_sections}
 
-全部已收集数据（collected_data）：
+全部已收集数据（格式：key | 字段名: 值 单位 (报告期)；DATA_REFS 中必须使用左侧的 key 原名）：
 {data_subset}
 
 要求：

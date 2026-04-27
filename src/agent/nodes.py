@@ -17,14 +17,26 @@ from src.utils.llm import get_llm
 
 
 def _compact_collected(collected_data: dict) -> str:
-    """Build a compact one-line-per-entry view of collected_data for the validator."""
+    """Build a compact one-line-per-entry view of collected_data.
+
+    Format per line:
+        key | label: value unit (period)            [no notes]
+        key | label: value unit (period) [notes]    [has notes]
+
+    The key is the exact identifier to use in DATA_REFS; label provides
+    human-readable context so the LLM understands each metric.
+    """
     lines = []
     for k, v in collected_data.items():
-        if isinstance(v, dict):
-            val = v.get("value", "")
-            unit = v.get("unit", "")
-            period = v.get("period", "")
-            lines.append(f"{k}: {val} {unit} ({period})")
+        if not isinstance(v, dict):
+            continue
+        label = v.get("label", "")
+        val = v.get("value", "")
+        unit = v.get("unit", "")
+        period = v.get("period", "")
+        notes = v.get("notes", "")
+        head = f"{k} | {label}: {val} {unit} ({period})" if label else f"{k}: {val} {unit} ({period})"
+        lines.append(f"{head} [{notes}]" if notes else head)
     return "\n".join(lines)
 
 
@@ -154,7 +166,7 @@ def generate_and_validate_section(
     """Generate one report section with validation and a single retry on failure."""
     llm = get_llm()
     spec = SECTION_PROMPTS[section_key]
-    data_json = json.dumps(collected_data, ensure_ascii=False, indent=2)
+    data_compact = _compact_collected(collected_data)
     prior_text = _prior_text_for_section(section_key, prior_sections)
     system = (
         SECTION_0_SYSTEM_PROMPT.format(company=company, period=period)
@@ -163,7 +175,7 @@ def generate_and_validate_section(
     )
 
     def _generate(extra: str = "") -> tuple[str, list[str]]:
-        user = spec["prompt"].format(data_subset=data_json, prior_sections=prior_text)
+        user = spec["prompt"].format(data_subset=data_compact, prior_sections=prior_text)
         if extra:
             user += f"\n\n修正要求：{extra}"
         resp = llm.invoke([SystemMessage(content=system), HumanMessage(content=user)])
