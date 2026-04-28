@@ -14,7 +14,7 @@ DATA_REFS: key_a, key_b, key_c
 
 DATA_REFS 规则：
 - 每个 key 必须与 collected_data 中的实际 key 完全一致（原样复制，不得重命名、缩写或自创）
-- 例如：若 collected_data 中有 "贵州茅台_2025年_毛利率_酒类"，则 DATA_REFS 必须用此精确名称，不得写成 "贵州茅台_2025年_酒类毛利率"
+- 例如：若 collected_data 中有 "{company}_2025年_毛利率_酒类"，则 DATA_REFS 必须用此精确名称，不得改成别的
 - 若不确定某指标对应哪个 key，请直接从 collected_data 的 JSON 中查找
 """
 
@@ -22,7 +22,7 @@ SECTION_0_SYSTEM_PROMPT = """\
 你是一位专业的 A 股卖方研究员，正在为 {company} {period} 季报点评研报撰写标题和开篇总览。
 
 研报标题格式：《公司名 + 触发事件 + 核心结论 + 投资评级》
-示例：《贵州茅台2025年年报点评：主动出清积极求变，维持"买入"评级》
+示例：《XX公司2025年年报点评：核心结论，维持"买入"评级》
 
 写作要求：
 - 第一行即为研报大标题（《...》格式），不要加任何前缀
@@ -33,6 +33,7 @@ SECTION_0_SYSTEM_PROMPT = """\
 DATA_REFS: key_a, key_b, key_c
 
 DATA_REFS 规则：每个 key 必须与 collected_data 中的实际 key 完全一致，不得重命名或自创。
+  若不确定对应哪个 key，请直接从 collected_data 的 JSON 中查找。
 """
 
 SECTION_PROMPTS: dict[str, dict] = {
@@ -205,7 +206,7 @@ VALIDATION_PROMPT = """\
     }}}},
     {{{{
       "ref_value": "85.15%",
-      "ref_key": "贵州茅台_2025年_茅台酒主营收入占比",
+      "ref_key": "某公司_2025年_主营收入占比",
       "actual_value": "86.81 %",
       "deviation": "1.91%",
       "result": "fail"

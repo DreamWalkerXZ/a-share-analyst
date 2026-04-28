@@ -22,9 +22,8 @@ PHASE2_PARSE_PROMPT = """\
 4. 优先级规则（高→低）：
    - 【必收】目标公司核心指标（营收/利润/毛利率/ROE/EPS/分红/目标价/评级）
    - 【优先】行业整体/中位数/均值（如 PE 中值、ROE 中值）
-   - 【选收】核心竞争对手个股数据（白酒行业：五粮液、泸州老窖、山西汾酒；\
-每家公司只取 PE(TTM)、PE(预测)、PB、ROE 等核心指标，不超过 3 条/家）
-   - 【跳过】无关行业公司（非白酒/非目标行业公司的数据一律跳过）
+   - 【选收】核心竞争对手个股数据（每家公司只取 PE(TTM)、PE(预测)、PB、ROE 等核心指标，不超过 3 条/家）
+   - 【跳过】无关行业公司（非目标行业公司的数据一律跳过）
    - 【跳过】低价值指标：市销率(PS)、市现率(PCF)、市值历年变化等
 
 每条条目格式：
@@ -38,7 +37,7 @@ KEY 和单位规则：
   - 年度历史数据 → period 用 2025年，如 "{company}_2025年_EPS"
   - 分析师预测   → period 用预测年份，如 "{company}_2026_EPS预测均值"
   - 估值快照     → period 用日期，如 "{company}_20260424_PE_TTM"
-  - 行业/对比数据 → 含公司/行业名称，如 "白酒行业_2025Q4_PE中值"
+  - 行业/对比数据 → 含公司/行业名称，如 "白酒行业_2025Q4_PE中值"（用实际行业名）
 - 货币金额单位：亿元（若原始为元，须÷1e8）
 - 每股指标单位：元/股（禁止÷1e8，直接抄写）
 - 增速/比率单位：%（小数形式需×100）
@@ -68,7 +67,16 @@ PHASE1_PARSE_PROMPT = """\
 整理好的数据：
 {raw_data}
 
-请仅提取与【目标报告期 {period}】匹配的报告期的字段，生成如下格式的 collected_data：
+请提取有价值的字段，生成如下格式的 collected_data：
+
+数据类型与 period 填写规则：
+- 季度财务数据（利润表、资产负债表、现金流量表）→ 仅提取目标报告期 {period} 匹配的字段
+- 年度累计数据（来源含"累计年度"）→ period 填"{company}_2025年"格式（用数据本身的年份）
+- 主营业务构成数据 → period 填年份，如"2025年"
+- 同行对比数据（peer_valuation/dupont/scale）→ period 留空或填目标期
+- 分析师预测数据 → period 填预测年份，如"2026"、"2027"
+- 分红历史数据 → period 填分红年度，如"2025年"
+- 估值快照数据 → period 填目标期
 {{
   "KEY": {{
     "label": "中文语义名称",
@@ -120,13 +128,13 @@ structured_data(action="get_dividend_history_cninfo", params={{"symbol": "{symbo
 【注意】structured_data 的 params 字段必须传入，不得为空 {{}}，否则接口报错。
 
 需要补充的数据类别（按优先级排序）：
-1. 同行对比：get_peer_valuation, get_peer_dupont, get_peer_scale
-2. 盈利预测：get_profit_forecast_eps, get_profit_forecast_net_profit, \
-get_profit_forecast_institutions
-3. 分红历史：get_dividend_history_cninfo
-4. 估值快照：get_spot_valuation
-5. 公告与研报：get_notices_individual（财务报告类）, get_research_reports
-6. 行业数据：get_industry_pe 或 realtime_search 搜索行业 PE、景气度
+【已预取，通常无需重复调用】同行对比、盈利预测、分红历史
+1. 估值快照：get_spot_valuation
+2. 公告与研报：get_notices_individual（财务报告类）, get_research_reports
+3. 行业数据：get_industry_pe 或 realtime_search 搜索行业 PE、景气度、库存等
+4. 补充财务指标：get_financial_indicators_em（按报告期/按单季度）
+5. 补充业务构成：get_main_business_breakdown
+6. 毛利率拆分：get_financial_indicators_sina（可获取分产品/分业务毛利率详情）
 
 工具使用规则：
 - structured_data：调用 akshare 接口，返回原始 JSON；params 必须传入

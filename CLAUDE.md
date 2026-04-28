@@ -37,7 +37,7 @@ Copy `.env.example` to `.env`. Required: `OPENAI_API_KEY`, `SERPER_API_KEY`. The
 Three sequential nodes: `data_collection` → `report_generation` → `output`.
 
 **Data collection** (`src/agent/subgraph.py`) has two phases:
-1. **Phase 1 — Pre-fetch**: Calls 6 mandatory AKShare interfaces, filters to target period, parses each via LLM into structured `{key: {label, value, unit, period, source, ...}}` entries, deduplicates by `(label, period)` with source priority.
+1. **Phase 1 — Pre-fetch**: Calls 13 mandatory AKShare interfaces (6 core financials + 7 high-probability Phase 2 calls: peer valuation/dupont/scale, profit forecasts, dividend history), filters to target period, parses each via LLM into structured `{key: {label, value, unit, period, source, ...}}` entries, deduplicates by `(label, period)` with source priority.
 2. **Phase 2 — ReAct loop**: An inner LangGraph subgraph (`react_reason` ↔ `react_tool`) where the LLM decides which of 3 tools to call next, bounded by `MAX_TOOL_CALLS = 30`. Tool results are parsed inline by LLM on every call and merged into `collected_data`.
 
 **Report generation** (`src/agent/nodes.py`): Generates 5 sections in order `[1,2,3,4,0]` — sections 1–4 first, then section 0 (overview/summary) last so it can reference all others. Each section is validated by a separate LLM call; on failure it retries once, then marks for human review.

@@ -30,6 +30,14 @@ PREFETCH_ACTIONS = [
     "get_cashflow_quarterly",
     "get_financial_indicators_em",
     "get_main_business_breakdown",
+    # High-probability Phase 2 calls — always needed for sections 2-3
+    "get_peer_valuation",
+    "get_peer_dupont",
+    "get_peer_scale",
+    "get_profit_forecast_eps",
+    "get_profit_forecast_net_profit",
+    "get_profit_forecast_institutions",
+    "get_dividend_history_cninfo",
 ]
 
 MAX_TOOL_CALLS = 30
@@ -43,6 +51,25 @@ PREFETCH_MAX_CHARS = 20_000  # hard cap per interface to protect LLM context
 _ANNUAL_ACTIONS = {
     "get_income_statement_report",
     "get_financial_indicators_em_by_report",
+}
+
+# Actions using plain stock code (no exchange prefix) — mostly 同花顺 interfaces.
+_PLAIN_CODE_ACTIONS = {
+    "get_profit_forecast_eps",
+    "get_profit_forecast_net_profit",
+    "get_profit_forecast_institutions",
+    "get_dividend_history_cninfo",
+}
+
+# Forecast/dividend data is forward-looking or historical; don't filter by period.
+_NO_PERIOD_FILTER = {
+    "get_peer_valuation",
+    "get_peer_dupont",
+    "get_peer_scale",
+    "get_profit_forecast_eps",
+    "get_profit_forecast_net_profit",
+    "get_profit_forecast_institutions",
+    "get_dividend_history_cninfo",
 }
 TOOL_RESULT_PARSE_CHARS = 8_000  # chars of raw tool result fed to the inline parse LLM call
 MAX_ENTRIES_PER_CALL = 12       # hard cap on new entries extracted per tool call
@@ -117,6 +144,11 @@ def prefetch_core_data(stock_code: str, period: str = "") -> dict[str, str]:
                     cutoff,
                     max_records=PREFETCH_MAX_RECORDS,
                 )
+            elif action in _PLAIN_CODE_ACTIONS:
+                raw = structured_data_tool._run(
+                    action=action, params={"symbol": stock_code}
+                )
+                results[action] = raw[:PREFETCH_MAX_CHARS] + ("... [truncated]" if len(raw) > PREFETCH_MAX_CHARS else "")
             else:
                 n = PREFETCH_MAX_RECORDS_ANNUAL if action in _ANNUAL_ACTIONS else PREFETCH_MAX_RECORDS
                 results[action] = _filter_by_period(
