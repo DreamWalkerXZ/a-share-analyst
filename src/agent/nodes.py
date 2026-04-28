@@ -61,7 +61,30 @@ def _prior_text_for_section(section_key: str, prior_sections: dict) -> str:
     return "\n\n".join(parts)
 
 
-def _parse_section_response(content: str) -> tuple[str, list[str]]:
+def _format_data_footnote(data_refs: list[str], collected_data: dict | None) -> str:
+    """Format data refs into a markdown footnote string, or empty string if no refs.
+
+    Keys not found in collected_data are silently skipped.
+    """
+    if not data_refs:
+        return ""
+    parts = []
+    for key in data_refs:
+        if not (collected_data and key in collected_data):
+            continue
+        entry = collected_data[key]
+        if isinstance(entry, dict):
+            val = entry.get("value", "")
+            unit = entry.get("unit", "")
+            parts.append(f"({key}: {val} {unit})".rstrip())
+        else:
+            parts.append(f"({key})")
+    if not parts:
+        return ""
+    return "\n\n> *数据引用：* " + " · ".join(parts)
+
+
+def _parse_section_response(content: str, collected_data: dict | None = None) -> tuple[str, list[str]]:
     """Extract Markdown text and data refs from LLM response.
 
     - Collects ALL DATA_REFS lines (findall), merges unique keys.
@@ -113,24 +136,37 @@ def _parse_section_response(content: str) -> tuple[str, list[str]]:
     # Also strip any footnote lines the LLM echoed from prior_sections context.
     content = _strip_prior_footnotes(content).rstrip()
 
-    # Append a single consolidated footnote for reviewers.
-    if data_refs:
-        content += "\n\n> *数据引用：* " + " · ".join(data_refs)
+    # Append a single consolidated footnote with inline values.
+    content += _format_data_footnote(data_refs, collected_data)
 
     return content, data_refs
 
 
-def _parse_validation_response(content: str) -> tuple[bool, list[str]]:
+def _parse_validation_response(content: str) -> tuple[bool, list[str], list[str]]:
+    """Parse validation JSON response.
+
+    Returns (passed, issues, matched_keys).
+    matched_keys are collected_data keys referenced in the content (from refs array).
+    """
     json_str = content
     if "```json" in content:
         json_str = content.split("```json")[1].split("```")[0].strip()
     elif not content.strip().startswith("{"):
-        return True, []
+        return True, [], []
     try:
         parsed = json.loads(json_str)
-        return parsed.get("passed", True), parsed.get("issues", [])
+        passed = parsed.get("passed", True)
+        issues = parsed.get("issues", [])
+        matched_keys: list[str] = []
+        seen: set[str] = set()
+        for ref in parsed.get("refs", []):
+            key = ref.get("ref_key")
+            if key and key not in seen:
+                matched_keys.append(key)
+                seen.add(key)
+        return passed, issues, matched_keys
     except json.JSONDecodeError:
-        return True, []
+        return True, [], []
 
 
 def generate_and_validate_section(
@@ -156,9 +192,9 @@ def generate_and_validate_section(
         if extra:
             user += f"\n\n修正要求：{extra}"
         resp = llm.invoke([SystemMessage(content=system), HumanMessage(content=user)])
-        return _parse_section_response(resp.content)
+        return _parse_section_response(resp.content, collected_data)
 
-    def _validate(content: str, data_refs: list[str]) -> tuple[bool, list[str]]:  # noqa: ARG001
+    def _validate(content: str, data_refs: list[str]) -> tuple[bool, list[str], list[str]]:  # noqa: ARG001
         all_compact = compact_collected(collected_data)
         # Strip the data-refs footnote line before sending content to validator.
         content_for_validation = re.sub(
@@ -171,22 +207,31 @@ def generate_and_validate_section(
         resp = llm.invoke([HumanMessage(content=prompt)])
         return _parse_validation_response(resp.content)
 
+    def _ensure_footnote(content: str, data_refs: list[str], validated_keys: list[str]) -> str:
+        """If content has no data footnote, use validated keys as fallback."""
+        if "> *数据引用：*" in content or not validated_keys:
+            return content
+        return content + _format_data_footnote(validated_keys, collected_data)
+
     title = spec["title"]
     content, data_refs = _generate()
-    passed, issues = _validate(content, data_refs)
+    passed, issues, validated_keys = _validate(content, data_refs)
 
     if passed:
+        content = _ensure_footnote(content, data_refs, validated_keys)
         print(f"[report_generation] {title} 验证通过")
         return content
 
     print(f"[report_generation] {title} 验证失败，正在重试...")
     retry_content, retry_refs = _generate(extra="; ".join(issues))
-    retry_passed, retry_issues = _validate(retry_content, retry_refs)
+    retry_passed, retry_issues, retry_keys = _validate(retry_content, retry_refs)
 
     if retry_passed:
+        retry_content = _ensure_footnote(retry_content, retry_refs, retry_keys)
         print(f"[report_generation] {title} 重试通过")
         return retry_content
 
+    retry_content = _ensure_footnote(retry_content, retry_refs, retry_keys)
     print(f"[report_generation] {title} 重试仍失败，标记人工验证")
     top_issues = "; ".join(i[:120] for i in retry_issues[:3])
     suffix = f"（共 {len(retry_issues)} 项）" if len(retry_issues) > 3 else ""
