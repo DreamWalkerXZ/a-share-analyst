@@ -28,6 +28,7 @@ PREFETCH_ACTIONS = [
     "get_income_statement_report",
     "get_balance_sheet_report",
     "get_cashflow_quarterly",
+    "get_cashflow_report",
     "get_financial_indicators_em",
     "get_main_business_breakdown",
     # High-probability Phase 2 calls — always needed for sections 2-3
@@ -50,6 +51,7 @@ PREFETCH_MAX_CHARS = 20_000  # hard cap per interface to protect LLM context
 # Annual interfaces return cumulative year-to-date data; only the target year is meaningful.
 _ANNUAL_ACTIONS = {
     "get_income_statement_report",
+    "get_cashflow_report",
     "get_financial_indicators_em_by_report",
 }
 
@@ -442,6 +444,116 @@ def build_data_collection_subgraph():
     return graph.compile()
 
 
+def _prior_period(period: str) -> str | None:
+    """Return the prior-year period string, or None if unparseable.
+    Examples: '2025Q4' -> '2024Q4', '2025年' -> '2024年'
+    """
+    import re
+    m = re.match(r"^(\d{4})(Q\d|年)$", period)
+    if not m:
+        return None
+    return f"{int(m.group(1)) - 1}{m.group(2)}"
+
+
+def _find_value(collected: dict, company: str, period: str, label: str) -> float | None:
+    """Find a numeric value in collected_data by company, period, and label."""
+    for key, entry in collected.items():
+        if not isinstance(entry, dict):
+            continue
+        if entry.get("period") == period and entry.get("label") == label:
+            v = entry.get("value")
+            if isinstance(v, (int, float)):
+                return float(v)
+    return None
+
+
+def auto_derive_metrics(company: str, collected: dict) -> dict:
+    """Compute derived metrics from collected_data using pure Python arithmetic."""
+    derived: dict = {}
+    periods = sorted({e["period"] for e in collected.values() if isinstance(e, dict) and e.get("period")})
+
+    # --- 2a. Expense ratios ---
+    expense_items = [
+        ("营业税金及附加", "税金及附加率"),
+        ("销售费用", "销售费用率"),
+        ("管理费用", "管理费用率"),
+    ]
+    for period in periods:
+        revenue = _find_value(collected, company, period, "营业总收入")
+        if revenue is None or revenue == 0:
+            continue
+        for expense_label, ratio_label in expense_items:
+            expense = _find_value(collected, company, period, expense_label)
+            if expense is None:
+                continue
+            ratio = round(expense / revenue * 100, 2)
+            derived[f"{company}_{period}_{ratio_label}"] = {
+                "label": ratio_label,
+                "value": ratio,
+                "unit": "%",
+                "period": period,
+                "source": "auto_derived",
+                "raw_field": "",
+                "notes": f"{expense_label} / 营业总收入",
+            }
+
+    # --- 2b. Dividend payout ratio ---
+    annual_periods = [p for p in periods if p.endswith("年")]
+    for period in annual_periods:
+        annual_div = _find_value(collected, company, period, "派息比例")
+        # Interim dividend may be in Q2 period (mid-year) — try matching
+        interim_div = None
+        for p in periods:
+            if p != period and "Q" in p:
+                v = _find_value(collected, company, p, "派息比例")
+                if v is not None:
+                    interim_div = v
+                    break
+        eps = _find_value(collected, company, period, "基本每股收益（EPS）")
+        if eps is None:
+            eps = _find_value(collected, company, period, "基本每股收益")
+        if annual_div is not None and interim_div is not None and eps and eps > 0:
+            payout = round((annual_div + interim_div) / eps * 100, 2)
+            derived[f"{company}_{period}_分红率"] = {
+                "label": "分红率",
+                "value": payout,
+                "unit": "%",
+                "period": period,
+                "source": "auto_derived",
+                "raw_field": "",
+                "notes": "（年度+中期派息）/ 基本每股收益",
+            }
+
+    # --- 2c. Margin pct-point changes ---
+    margin_labels = [
+        "销售毛利率", "销售净利率", "酒类毛利率",
+    ]
+    # Also include any auto-derived expense ratios for pct-point change
+    margin_labels += [r for _, r in expense_items]
+    for period in periods:
+        prior = _prior_period(period)
+        if prior is None:
+            continue
+        for label in margin_labels:
+            current = _find_value(collected, company, period, label)
+            prior_val = _find_value(collected, company, prior, label)
+            if current is None or prior_val is None:
+                continue
+            change = round(current - prior_val, 2)
+            derived[f"{company}_{period}_{label}_变动"] = {
+                "label": f"{label}变动",
+                "value": change,
+                "unit": "pct",
+                "period": period,
+                "source": "auto_derived",
+                "raw_field": "",
+                "notes": f"{period} vs {prior}",
+            }
+
+    print(f"[data_collection] 自动计算完成，新增 {len(derived)} 条衍生指标")
+    return derived
+
+
 def _round_collected(collected: dict) -> dict:
     """Round numeric values in collected_data to 2 decimal places."""
     result = {}
@@ -465,6 +577,11 @@ def run_data_collection(company: str, stock_code: str, period: str) -> dict:
     print("[data_collection] 阶段一：LLM 解析原始数据...")
     initial_collected = _parse_prefetched(company, stock_code, period, raw)
     print(f"[data_collection] 阶段一完成，初始化 {len(initial_collected)} 条数据项")
+
+    print("[data_collection] 阶段一：自动计算衍生指标...")
+    derived = auto_derive_metrics(company, initial_collected)
+    initial_collected.update(derived)
+
     _save_collected_data(company, period, initial_collected)
 
     initial_state: DataCollectionState = {

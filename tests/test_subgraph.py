@@ -6,13 +6,14 @@ from src.agent.subgraph import PREFETCH_ACTIONS, build_data_collection_subgraph,
 
 
 def test_prefetch_actions_has_six_entries():
-    assert len(PREFETCH_ACTIONS) == 13
+    assert len(PREFETCH_ACTIONS) == 14
     assert "get_income_statement_quarterly" in PREFETCH_ACTIONS
     assert "get_balance_sheet_report" in PREFETCH_ACTIONS
     assert "get_financial_indicators_em" in PREFETCH_ACTIONS
     assert "get_peer_valuation" in PREFETCH_ACTIONS
     assert "get_profit_forecast_eps" in PREFETCH_ACTIONS
     assert "get_dividend_history_cninfo" in PREFETCH_ACTIONS
+    assert "get_cashflow_report" in PREFETCH_ACTIONS
 
 
 def test_prefetch_core_data_calls_all_actions(mocker):

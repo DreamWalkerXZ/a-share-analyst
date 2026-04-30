@@ -101,6 +101,10 @@ _CASHFLOW_FIELDS: dict[str, tuple[str, Any, str]] = {
     "CCE_ADD":               ("现金及现金等价物净增加额",          _to_yi,    "亿元"),
     "BEGIN_CCE":             ("期初现金及等价物余额（含货币基金，广义口径）", _to_yi, "亿元"),
     "END_CCE":               ("期末现金及等价物余额（含货币基金，广义口径）", _to_yi, "亿元"),
+    "SALES_SERVICES_YOY":    ("销售商品收到现金同比增速",         _to_float, "%"),
+    "NETCASH_OPERATE_YOY":   ("经营活动现金流同比增速",           _to_float, "%"),
+    "NETCASH_INVEST_YOY":    ("投资活动现金流同比增速",           _to_float, "%"),
+    "NETCASH_FINANCE_YOY":   ("筹资活动现金流同比增速",           _to_float, "%"),
 }
 
 _EM_QUARTERLY_FIELDS: dict[str, tuple[str, Any, str]] = {
