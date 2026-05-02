@@ -24,7 +24,7 @@ INTERFACE_MAP: dict[str, Any] = {
     "get_main_business_breakdown": lambda p: ak.stock_zygc_em(**p),
     "get_main_business_profile": lambda p: ak.stock_zyjs_ths(**p),
     # Peer comparison
-    "get_peer_valuation": lambda p: ak.stock_zh_valuation_comparison_em(**p),
+    "get_peer_valuation": lambda p: _safe_peer_valuation(p),
     "get_peer_dupont": lambda p: ak.stock_zh_dupont_comparison_em(**p),
     "get_peer_scale": lambda p: ak.stock_zh_scale_comparison_em(**p),
     # Valuation & dividends
@@ -62,6 +62,45 @@ INTERFACE_MAP: dict[str, Any] = {
 
 # Interfaces that genuinely require no params (call akshare with no arguments).
 _NO_PARAMS_REQUIRED = {"get_market_comment_overview"}
+
+_PEER_VAL_FIELD_MAP = {
+    "CORRE_SECURITY_CODE": "代码",
+    "CORRE_SECURITY_NAME": "简称",
+    "PEG": "PEG",
+    "PE_TTM": "市盈率-TTM",
+    "PE_1Y": "市盈率-25E",
+    "PE_2Y": "市盈率-26E",
+    "PE_3Y": "市盈率-27E",
+    "PB_MRQ": "市净率-MRQ",
+    "REPORT_DATE": "报告日期",
+}
+
+_PEER_VAL_WANTED = list(_PEER_VAL_FIELD_MAP.keys()) + ["PAIMING"]
+
+
+def _safe_peer_valuation(params: dict):
+    """Call stock_zh_valuation_comparison_em, falling back to direct API when
+    AKShare crashes due to missing EV/EBITDA column (financial sector peers)."""
+    import pandas as pd
+
+    try:
+        return ak.stock_zh_valuation_comparison_em(**params)
+    except KeyError:
+        symbol = params["symbol"]
+        url = "https://datacenter.eastmoney.com/securities/api/data/v1/get"
+        resp = requests.get(url, params={
+            "reportName": "RPT_PCF10_INDUSTRY_CVALUE",
+            "columns": "ALL",
+            "filter": f'(SECUCODE="{symbol[2:]}.{symbol[:2]}")',
+            "pageNumber": "", "pageSize": "",
+            "sortTypes": "1", "sortColumns": "PAIMING",
+            "source": "HSF10", "client": "PC",
+        })
+        data = resp.json()["result"]["data"]
+        df = pd.DataFrame(data)
+        available = [c for c in _PEER_VAL_WANTED if c in df.columns]
+        df = df[available].rename(columns=_PEER_VAL_FIELD_MAP)
+        return df
 
 
 class StructuredDataInput(BaseModel):

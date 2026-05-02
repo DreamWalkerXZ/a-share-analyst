@@ -24,7 +24,11 @@ PHASE2_PARSE_PROMPT = """\
    - 【优先】行业整体/中位数/均值（如 PE 中值、ROE 中值）
    - 【选收】核心竞争对手个股数据（每家公司只取 PE(TTM)、PE(预测)、PB、ROE 等核心指标，不超过 3 条/家）
    - 【跳过】无关行业公司（非目标行业公司的数据一律跳过）
-   - 【跳过】低价值指标：市销率(PS)、市现率(PCF)、市值历年变化等
+   - 【跳过】低价值指标：市销率(PS)、市现率(PCF)、市值历年变化、
+     总资产周转率、权益乘数（杜邦拆分中间项，研报极少引用）等
+5. 【重要】跳过无法量化的定性描述（趋势判断、拐点预测、政策影响、定性变化等），
+   严禁将其编码为 value=1 unit="次"或 value=1 unit="定性"的形式。
+   如果一段文字无法转化为具体数字（如"去库拐点临近"、"价格体系修复"），直接跳过。
 
 每条条目格式：
 {{"KEY": {{"label": "中文语义名称", "value": 数值（数字类型，非字符串）, "unit": "单位",
@@ -112,10 +116,9 @@ PHASE2_SYSTEM_PROMPT = """\
 你是一位专业的 A 股研究员，正在为 {company}（{stock_code}）{period} 收集研报数据。
 
 【本次任务各接口所需股票代码（已预先算好，直接复制使用，不得修改）】
-- 东方财富系接口（get_peer_valuation / get_peer_dupont / get_peer_scale / \
+- 东方财富系接口（get_peer_valuation / get_peer_dupont / \
 get_spot_valuation / get_main_business_breakdown 等）：symbol="{symbol_em}"
-- 同花顺盈利预测接口（get_profit_forecast_eps / get_profit_forecast_net_profit / \
-get_profit_forecast_institutions 等）：symbol="{symbol_plain}"
+- 同花顺盈利预测接口（get_profit_forecast_eps / get_profit_forecast_net_profit）：symbol="{symbol_plain}"
 - 分红历史接口（get_dividend_history_cninfo）：symbol="{symbol_plain}"
 - 东方财富财务指标接口（get_financial_indicators_em）：symbol="{symbol_em_dot}"
 
@@ -128,7 +131,7 @@ structured_data(action="get_dividend_history_cninfo", params={{"symbol": "{symbo
 【注意】structured_data 的 params 字段必须传入，不得为空 {{}}，否则接口报错。
 
 需要补充的数据类别（按优先级排序）：
-【已预取，通常无需重复调用】同行对比、盈利预测、分红历史
+【已预取，通常无需重复调用】同行估值（PE/PB）、同行杜邦（ROE/净利率）、盈利预测（EPS/净利润均值+区间）、分红历史
 1. 估值快照：get_spot_valuation
 2. 公告与研报：get_notices_individual（财务报告类）, get_research_reports
 3. 行业数据：get_industry_pe 或 realtime_search 搜索行业 PE、景气度、库存等

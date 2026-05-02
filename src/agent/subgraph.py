@@ -34,10 +34,8 @@ PREFETCH_ACTIONS = [
     # High-probability Phase 2 calls — always needed for sections 2-3
     "get_peer_valuation",
     "get_peer_dupont",
-    "get_peer_scale",
     "get_profit_forecast_eps",
     "get_profit_forecast_net_profit",
-    "get_profit_forecast_institutions",
     "get_dividend_history_cninfo",
 ]
 
@@ -59,7 +57,6 @@ _ANNUAL_ACTIONS = {
 _PLAIN_CODE_ACTIONS = {
     "get_profit_forecast_eps",
     "get_profit_forecast_net_profit",
-    "get_profit_forecast_institutions",
     "get_dividend_history_cninfo",
 }
 
@@ -67,10 +64,8 @@ _PLAIN_CODE_ACTIONS = {
 _NO_PERIOD_FILTER = {
     "get_peer_valuation",
     "get_peer_dupont",
-    "get_peer_scale",
     "get_profit_forecast_eps",
     "get_profit_forecast_net_profit",
-    "get_profit_forecast_institutions",
     "get_dividend_history_cninfo",
 }
 TOOL_RESULT_PARSE_CHARS = 8_000  # chars of raw tool result fed to the inline parse LLM call
@@ -96,7 +91,7 @@ def _filter_by_period(json_str: str, cutoff: str, max_records: int = PREFETCH_MA
     try:
         records = json.loads(json_str)
         if not isinstance(records, list) or not records:
-            return json_str[:PREFETCH_MAX_CHARS] if len(json_str) > PREFETCH_MAX_CHARS else json_str
+            return json_str
 
         # Auto-detect first YYYY-MM-DD field as the date key
         date_key = None
@@ -112,11 +107,9 @@ def _filter_by_period(json_str: str, cutoff: str, max_records: int = PREFETCH_MA
         else:
             filtered = records
 
-        result = json.dumps(filtered[:max_records], ensure_ascii=False)
+        return json.dumps(filtered[:max_records], ensure_ascii=False)
     except Exception:
-        result = json_str
-
-    return result[:PREFETCH_MAX_CHARS] + ("... [truncated]" if len(result) > PREFETCH_MAX_CHARS else "")
+        return json_str
 
 
 def prefetch_core_data(stock_code: str, period: str = "") -> dict[str, str]:
@@ -246,12 +239,16 @@ def _parse_prefetched(company: str, stock_code: str, period: str, raw: dict[str,
     return _dedup_collected(entries_by_source)
 
 
-def _save_collected_data(company: str, period: str, collected: dict) -> None:
-    """Persist collected_data to output/ as JSON for debugging."""
-    out_dir = Path("output")
-    out_dir.mkdir(exist_ok=True)
-    ts = datetime.now().strftime("%Y%m%d_%H%M%S")
-    path = out_dir / f"{company}_{period}_{ts}_collected_data.json"
+def _save_collected_data(company: str, period: str, collected: dict, phase: str = "", output_dir: str = "", prefix: str = "") -> None:
+    """Persist collected_data as JSON. phase='1' or '2' for eval naming."""
+    out_dir = Path(output_dir) if output_dir else Path("output")
+    out_dir.mkdir(parents=True, exist_ok=True)
+    if prefix:
+        suffix = f"-Phase{phase}.json" if phase else "_collected_data.json"
+        path = out_dir / f"{prefix}{suffix}"
+    else:
+        ts = datetime.now().strftime("%Y%m%d_%H%M%S")
+        path = out_dir / f"{company}_{period}_{ts}_collected_data.json"
     path.write_text(json.dumps(collected, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"[data_collection] 已保存 collected_data → {path}")
 
@@ -318,6 +315,9 @@ def _parse_tool_result(
             k: v for k, v in parsed.items()
             if isinstance(v, dict) and v.get("value") is not None
         }
+        # Reject qualitative/fake-number entries
+        _REJECT_UNITS = {"次", "定性"}
+        filtered = {k: v for k, v in filtered.items() if v.get("unit") not in _REJECT_UNITS}
         # Hard cap: LLM is asked to rank by relevance; keep the first MAX_ENTRIES_PER_CALL
         if len(filtered) > MAX_ENTRIES_PER_CALL:
             filtered = dict(list(filtered.items())[:MAX_ENTRIES_PER_CALL])
@@ -498,22 +498,32 @@ def auto_derive_metrics(company: str, collected: dict) -> dict:
             }
 
     # --- 2b. Dividend payout ratio ---
+    # Dividend data from cninfo has value = per-10-shares amount (e.g. 276.73 = "10派276.73元").
+    # Formula: payout_ratio = sum(div_per_10 / 10) / EPS * 100
     annual_periods = [p for p in periods if p.endswith("年")]
     for period in annual_periods:
-        annual_div = _find_value(collected, company, period, "派息比例")
-        # Interim dividend may be in Q2 period (mid-year) — try matching
-        interim_div = None
-        for p in periods:
-            if p != period and "Q" in p:
-                v = _find_value(collected, company, p, "派息比例")
-                if v is not None:
-                    interim_div = v
-                    break
         eps = _find_value(collected, company, period, "基本每股收益（EPS）")
         if eps is None:
             eps = _find_value(collected, company, period, "基本每股收益")
-        if annual_div is not None and interim_div is not None and eps and eps > 0:
-            payout = round((annual_div + interim_div) / eps * 100, 2)
+        if eps is None or eps <= 0:
+            continue
+        dividend_per_share_total = 0.0
+        for key, entry in collected.items():
+            if not isinstance(entry, dict):
+                continue
+            if entry.get("unit") != "元/股":
+                continue
+            label = entry.get("label", "")
+            if "分红" not in label:
+                continue
+            # Skip cash-flow entries (分红偿债支付的现金 is in 亿元, not 元/股 — already filtered above)
+            entry_period = entry.get("period", "")
+            if entry_period == period or entry_period.startswith(period[:4]):
+                div_val = entry.get("value")
+                if isinstance(div_val, (int, float)):
+                    dividend_per_share_total += float(div_val) / 10.0
+        if dividend_per_share_total > 0:
+            payout = round(dividend_per_share_total / eps * 100, 2)
             derived[f"{company}_{period}_分红率"] = {
                 "label": "分红率",
                 "value": payout,
@@ -521,10 +531,13 @@ def auto_derive_metrics(company: str, collected: dict) -> dict:
                 "period": period,
                 "source": "auto_derived",
                 "raw_field": "",
-                "notes": "（年度+中期派息）/ 基本每股收益",
+                "notes": "年度+中期派息合计（每10股）/ 基本每股收益",
             }
 
     # --- 2c. Margin pct-point changes ---
+    # Note: requires prior-year data. With PREFETCH_MAX_RECORDS_ANNUAL=1, only
+    # the target year's data is available, so this typically produces no results
+    # for annual periods. Quarterly periods benefit from PREFETCH_MAX_RECORDS=2.
     margin_labels = [
         "销售毛利率", "销售净利率", "酒类毛利率",
     ]
@@ -554,21 +567,29 @@ def auto_derive_metrics(company: str, collected: dict) -> dict:
     return derived
 
 
+_RATIO_LABELS = {"占比", "比例", "份额", "比重", "渗透率"}
+
+
 def _round_collected(collected: dict) -> dict:
-    """Round numeric values in collected_data to 2 decimal places."""
+    """Round numeric values and normalize percentage-like ratios to %."""
     result = {}
     for key, entry in collected.items():
         if not isinstance(entry, dict):
             result[key] = entry
             continue
         value = entry.get("value")
+        label = entry.get("label", "")
+        unit = entry.get("unit", "")
+        if isinstance(value, (int, float)) and 0 < value < 1 and not unit:
+            if any(kw in label for kw in _RATIO_LABELS):
+                entry = {**entry, "value": round(value * 100, 2), "unit": "%"}
         if isinstance(value, float):
-            entry = {**entry, "value": round(value, 2)}
+            entry = {**entry, "value": round(entry["value"], 2)}
         result[key] = entry
     return result
 
 
-def run_data_collection(company: str, stock_code: str, period: str) -> dict:
+def run_data_collection(company: str, stock_code: str, period: str, output_dir: str = "", prefix: str = "") -> dict:
     """Orchestrate Phase 1 (pre-fetch + LLM parse) then Phase 2 (ReAct loop)."""
     cutoff = _period_to_cutoff(period)
     print(f"[data_collection] 阶段一：预取 {len(PREFETCH_ACTIONS)} 个核心接口（截止 {cutoff}）...")
@@ -582,7 +603,7 @@ def run_data_collection(company: str, stock_code: str, period: str) -> dict:
     derived = auto_derive_metrics(company, initial_collected)
     initial_collected.update(derived)
 
-    _save_collected_data(company, period, initial_collected)
+    _save_collected_data(company, period, initial_collected, phase="1", output_dir=output_dir, prefix=prefix)
 
     initial_state: DataCollectionState = {
         "messages": [_build_system_message(company, stock_code, period, initial_collected)],
@@ -600,5 +621,5 @@ def run_data_collection(company: str, stock_code: str, period: str) -> dict:
     final_collected = _round_collected(dict(final_state["collected_data"]))
     print(f"[data_collection] 阶段二完成，共 {len(final_collected)} 条数据项")
 
-    _save_collected_data(company, period, final_collected)
+    _save_collected_data(company, period, final_collected, phase="2", output_dir=output_dir, prefix=prefix)
     return final_collected

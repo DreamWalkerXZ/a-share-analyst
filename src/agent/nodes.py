@@ -93,6 +93,9 @@ def _parse_section_response(content: str, collected_data: dict | None = None) ->
     """
     data_refs: list[str] = []
 
+    def _clean_refs(refs) -> list[str]:
+        return [r for r in refs if isinstance(r, str)]
+
     # --- Legacy JSON fallback (some models still wrap output in JSON) ---
     if "```json" in content:
         json_str = content.split("```json")[1].split("```")[0].strip()
@@ -100,7 +103,7 @@ def _parse_section_response(content: str, collected_data: dict | None = None) ->
             parsed = json.loads(json_str)
             if isinstance(parsed, dict) and "content" in parsed:
                 content = parsed["content"]
-                data_refs = parsed.get("data_refs", [])
+                data_refs = _clean_refs(parsed.get("data_refs", []))
         except json.JSONDecodeError:
             start = json_str.find('"content"')
             if start >= 0:
@@ -115,7 +118,7 @@ def _parse_section_response(content: str, collected_data: dict | None = None) ->
             parsed = json.loads(content.strip())
             if isinstance(parsed, dict) and "content" in parsed:
                 content = parsed["content"]
-                data_refs = parsed.get("data_refs", [])
+                data_refs = _clean_refs(parsed.get("data_refs", []))
         except json.JSONDecodeError:
             pass
 
@@ -160,8 +163,8 @@ def _parse_validation_response(content: str) -> tuple[bool, list[str], list[str]
         matched_keys: list[str] = []
         seen: set[str] = set()
         for ref in parsed.get("refs", []):
-            key = ref.get("ref_key")
-            if key and key not in seen:
+            key = ref.get("ref_key") if isinstance(ref, dict) else None
+            if isinstance(key, str) and key and key not in seen:
                 matched_keys.append(key)
                 seen.add(key)
         return passed, issues, matched_keys
@@ -254,6 +257,8 @@ def data_collection_node(state: ReportState) -> ReportState:
         company=state["company"],
         stock_code=state["stock_code"],
         period=state["period"],
+        output_dir=state.get("eval_output_dir", ""),
+        prefix=state.get("eval_prefix", ""),
     )
     return {**state, "collected_data": collected_data}
 
@@ -280,10 +285,17 @@ def report_generation_node(state: ReportState) -> ReportState:
 
 def output_node(state: ReportState) -> ReportState:
     report_md = assemble_report(state["company"], state["period"], state["sections"])
-    ts = datetime.now().strftime("%Y%m%d_%H%M%S")
-    out_dir = Path("output")
-    out_dir.mkdir(exist_ok=True)
-    path = out_dir / f"{state['company']}_{state['period']}_{ts}.md"
+    eval_dir = state.get("eval_output_dir", "")
+    eval_prefix = state.get("eval_prefix", "")
+    if eval_dir and eval_prefix:
+        out_dir = Path(eval_dir)
+        out_dir.mkdir(parents=True, exist_ok=True)
+        path = out_dir / f"{eval_prefix}.md"
+    else:
+        ts = datetime.now().strftime("%Y%m%d_%H%M%S")
+        out_dir = Path("output")
+        out_dir.mkdir(exist_ok=True)
+        path = out_dir / f"{state['company']}_{state['period']}_{ts}.md"
     path.write_text(report_md, encoding="utf-8")
     print(f"[output] 研报已保存至：{path}")
     return {**state, "output_path": str(path)}

@@ -148,6 +148,22 @@ _MAIN_BUSINESS_FIELDS: dict[str, tuple[str, Any, str]] = {
     "毛利率":     ("毛利率",                  _to_pct, "%"),
 }
 
+_PEER_VALUATION_FIELDS: dict[str, tuple[str, Any, str]] = {
+    "PEG":        ("PEG",         _to_float, ""),
+    "市盈率-TTM": ("市盈率-TTM",   _to_float, "倍"),
+    "市盈率-25E": ("市盈率-25E",   _to_float, "倍"),
+    "市盈率-26E": ("市盈率-26E",   _to_float, "倍"),
+    "市盈率-27E": ("市盈率-27E",   _to_float, "倍"),
+    "市净率-MRQ": ("市净率-MRQ",   _to_float, "倍"),
+}
+
+_PEER_DUPONT_FIELDS: dict[str, tuple[str, Any, str]] = {
+    "ROE-3年平均":   ("ROE-3年平均",   _to_float, "%"),
+    "ROE-24A":       ("ROE-24A",       _to_float, "%"),
+    "净利率-3年平均": ("净利率-3年平均", _to_float, "%"),
+    "净利率-24A":     ("净利率-24A",     _to_float, "%"),
+}
+
 
 # ── Core formatter ────────────────────────────────────────────────────────────
 
@@ -249,5 +265,23 @@ def format_prefetch_for_llm(source_key: str, raw_json: str) -> str:
                 lines.append(f"  {display_name}: {converted}{suffix}")
         return "\n".join(lines)
 
-    # Unknown interface — return as-is
-    return raw_json
+    if "peer_valuation" in key:
+        body = _format_records(data, _PEER_VALUATION_FIELDS, date_field="代码")
+        return f"来源：{source_key} — 同行估值对比\n{body}"
+
+    if "peer_dupont" in key:
+        body = _format_records(data, _PEER_DUPONT_FIELDS, date_field="代码")
+        return f"来源：{source_key} — 同行杜邦分析\n{body}"
+
+    if "dividend_history_cninfo" in key:
+        lines = [f"来源：{source_key} — 分红历史"]
+        for rec in data:
+            div = rec.get("派息比例")
+            div_type = rec.get("分红类型", "")
+            date = str(rec.get("实施方案公告日期", ""))[:10]
+            if div and str(div) not in ("nan", "None", "0"):
+                lines.append(f"  {date} {div_type}: 每10股派{div}元")
+        return "\n".join(lines)
+
+    # Generic fallback: prepend source header so Phase 1 can extract it
+    return f"来源：{source_key}\n{raw_json}"
