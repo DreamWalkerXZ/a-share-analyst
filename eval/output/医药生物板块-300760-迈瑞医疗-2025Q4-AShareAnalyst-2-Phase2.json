@@ -1,0 +1,1424 @@
+{
+  "迈瑞医疗_2025Q4_营业总收入": {
+    "label": "营业总收入",
+    "value": 74.48,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "迈瑞医疗_2025Q4_营业收入（主营业务）": {
+    "label": "营业收入（主营业务）",
+    "value": 74.48,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "迈瑞医疗_2025Q4_营业成本": {
+    "label": "营业成本",
+    "value": 33.79,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "迈瑞医疗_2025Q4_营业税金及附加": {
+    "label": "营业税金及附加",
+    "value": 0.87,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "迈瑞医疗_2025Q4_销售费用": {
+    "label": "销售费用",
+    "value": 14.1,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "迈瑞医疗_2025Q4_管理费用": {
+    "label": "管理费用",
+    "value": 5.04,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "迈瑞医疗_2025Q4_财务费用": {
+    "label": "财务费用",
+    "value": 0.3,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "迈瑞医疗_2025Q4_营业利润": {
+    "label": "营业利润",
+    "value": 8.47,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "迈瑞医疗_2025Q4_利润总额": {
+    "label": "利润总额",
+    "value": 7.72,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "迈瑞医疗_2025Q4_所得税费用": {
+    "label": "所得税费用",
+    "value": 1.35,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "迈瑞医疗_2025Q4_净利润（含少数股东）": {
+    "label": "净利润（含少数股东）",
+    "value": 6.38,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "迈瑞医疗_2025Q4_归母净利润": {
+    "label": "归母净利润",
+    "value": 5.66,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "迈瑞医疗_2025Q4_扣非归母净利润": {
+    "label": "扣非归母净利润",
+    "value": 6.06,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "迈瑞医疗_2025Q4_少数股东损益": {
+    "label": "少数股东损益",
+    "value": 0.72,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "迈瑞医疗_2025Q4_基本每股收益": {
+    "label": "基本每股收益",
+    "value": 0.47,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "迈瑞医疗_2025Q4_稀释每股收益": {
+    "label": "稀释每股收益",
+    "value": 0.47,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "迈瑞医疗_2025年_营业总收入": {
+    "label": "营业总收入",
+    "value": 332.82,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业总收入",
+    "notes": ""
+  },
+  "迈瑞医疗_2025年_营业收入（主营业务）": {
+    "label": "营业收入（主营业务）",
+    "value": 332.82,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业收入（主营业务）",
+    "notes": ""
+  },
+  "迈瑞医疗_2025年_营业成本": {
+    "label": "营业成本",
+    "value": 132.08,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业成本",
+    "notes": ""
+  },
+  "迈瑞医疗_2025年_营业税金及附加": {
+    "label": "营业税金及附加",
+    "value": 3.89,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业税金及附加",
+    "notes": ""
+  },
+  "迈瑞医疗_2025年_销售费用": {
+    "label": "销售费用",
+    "value": 51.45,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "销售费用",
+    "notes": ""
+  },
+  "迈瑞医疗_2025年_管理费用": {
+    "label": "管理费用",
+    "value": 15.51,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "管理费用",
+    "notes": ""
+  },
+  "迈瑞医疗_2025年_财务费用": {
+    "label": "财务费用",
+    "value": -2.63,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "财务费用",
+    "notes": ""
+  },
+  "迈瑞医疗_2025年_营业利润": {
+    "label": "营业利润",
+    "value": 97.95,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业利润",
+    "notes": ""
+  },
+  "迈瑞医疗_2025年_利润总额": {
+    "label": "利润总额",
+    "value": 96.74,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "利润总额",
+    "notes": ""
+  },
+  "迈瑞医疗_2025年_所得税费用": {
+    "label": "所得税费用",
+    "value": 12.22,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "所得税费用",
+    "notes": ""
+  },
+  "迈瑞医疗_2025年_净利润（含少数股东）": {
+    "label": "净利润（含少数股东）",
+    "value": 84.51,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "净利润（含少数股东）",
+    "notes": ""
+  },
+  "迈瑞医疗_2025年_归母净利润": {
+    "label": "归母净利润",
+    "value": 81.36,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "归母净利润",
+    "notes": ""
+  },
+  "迈瑞医疗_2025年_扣非归母净利润": {
+    "label": "扣非归母净利润",
+    "value": 80.69,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "扣非归母净利润",
+    "notes": ""
+  },
+  "迈瑞医疗_2025年_少数股东损益": {
+    "label": "少数股东损益",
+    "value": 3.16,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "少数股东损益",
+    "notes": ""
+  },
+  "迈瑞医疗_2025年_基本每股收益": {
+    "label": "基本每股收益",
+    "value": 6.71,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "基本每股收益 [每股值，单位元/股，勿除1e8]",
+    "notes": ""
+  },
+  "迈瑞医疗_2025年_稀释每股收益": {
+    "label": "稀释每股收益",
+    "value": 6.71,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "稀释每股收益 [每股值，单位元/股，勿除1e8]",
+    "notes": ""
+  },
+  "迈瑞医疗_2025Q4_总资产": {
+    "label": "总资产",
+    "value": 592.67,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "总资产",
+    "notes": ""
+  },
+  "迈瑞医疗_2025Q4_总负债": {
+    "label": "总负债",
+    "value": 162.55,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "总负债",
+    "notes": ""
+  },
+  "迈瑞医疗_2025Q4_股东权益合计": {
+    "label": "股东权益合计",
+    "value": 430.11,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "股东权益合计",
+    "notes": ""
+  },
+  "迈瑞医疗_2025Q4_货币资金": {
+    "label": "货币资金（银行存款等狭义现金，不含短期理财）",
+    "value": 176.9,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "货币资金（银行存款等狭义现金，不含短期理财）",
+    "notes": ""
+  },
+  "迈瑞医疗_2025Q4_应收账款": {
+    "label": "应收账款",
+    "value": 34.08,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "应收账款",
+    "notes": ""
+  },
+  "迈瑞医疗_2025Q4_存货": {
+    "label": "存货",
+    "value": 50.04,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "存货",
+    "notes": ""
+  },
+  "迈瑞医疗_2025Q4_固定资产": {
+    "label": "固定资产",
+    "value": 76.7,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "固定资产",
+    "notes": ""
+  },
+  "迈瑞医疗_2025Q4_无形资产": {
+    "label": "无形资产",
+    "value": 63.9,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "无形资产",
+    "notes": ""
+  },
+  "迈瑞医疗_2025Q4_合同负债": {
+    "label": "合同负债（预收款项）",
+    "value": 30.01,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "合同负债（预收款项）",
+    "notes": ""
+  },
+  "迈瑞医疗_2025Q4_应交税费": {
+    "label": "应交税费",
+    "value": 3.85,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "应交税费",
+    "notes": ""
+  },
+  "迈瑞医疗_2025Q4_应付职工薪酬": {
+    "label": "应付职工薪酬",
+    "value": 25.3,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "应付职工薪酬",
+    "notes": ""
+  },
+  "迈瑞医疗_2025Q4_预付款项": {
+    "label": "预付款项",
+    "value": 2.73,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "预付款项",
+    "notes": ""
+  },
+  "迈瑞医疗_2025Q4_销售商品/提供劳务收到的现金": {
+    "label": "销售商品/提供劳务收到的现金",
+    "value": 93.19,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "销售商品/提供劳务收到的现金",
+    "notes": ""
+  },
+  "迈瑞医疗_2025Q4_经营活动现金流入合计": {
+    "label": "经营活动现金流入合计",
+    "value": 97.28,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "经营活动现金流入合计",
+    "notes": ""
+  },
+  "迈瑞医疗_2025Q4_经营活动现金流出合计": {
+    "label": "经营活动现金流出合计",
+    "value": 68.56,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "经营活动现金流出合计",
+    "notes": ""
+  },
+  "迈瑞医疗_2025Q4_经营活动现金流量净额": {
+    "label": "经营活动现金流量净额",
+    "value": 28.72,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "经营活动现金流量净额 [总量，非每股！]",
+    "notes": "[注意] 这是总量（亿元），与每股经营现金流不同"
+  },
+  "迈瑞医疗_2025Q4_支付的税款": {
+    "label": "支付的税款",
+    "value": 9.02,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "支付的税款",
+    "notes": ""
+  },
+  "迈瑞医疗_2025Q4_投资活动现金流量净额": {
+    "label": "投资活动现金流量净额",
+    "value": -3.83,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "投资活动现金流量净额",
+    "notes": ""
+  },
+  "迈瑞医疗_2025Q4_投资支付的现金": {
+    "label": "投资支付的现金",
+    "value": 6.42,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "投资支付的现金",
+    "notes": ""
+  },
+  "迈瑞医疗_2025Q4_收回投资收到的现金": {
+    "label": "收回投资收到的现金",
+    "value": 7.84,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "收回投资收到的现金",
+    "notes": ""
+  },
+  "迈瑞医疗_2025Q4_筹资活动现金流量净额": {
+    "label": "筹资活动现金流量净额",
+    "value": -17.94,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "筹资活动现金流量净额",
+    "notes": ""
+  },
+  "迈瑞医疗_2025Q4_现金及现金等价物净增加额": {
+    "label": "现金及现金等价物净增加额",
+    "value": 5.55,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "现金及现金等价物净增加额",
+    "notes": ""
+  },
+  "迈瑞医疗_2025年_销售商品收到的现金": {
+    "label": "销售商品收到的现金",
+    "value": 368.89,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "销售商品/提供劳务收到的现金",
+    "notes": ""
+  },
+  "迈瑞医疗_2025年_经营活动现金流入合计": {
+    "label": "经营活动现金流入合计",
+    "value": 388.29,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "经营活动现金流入合计",
+    "notes": ""
+  },
+  "迈瑞医疗_2025年_经营活动现金流出合计": {
+    "label": "经营活动现金流出合计",
+    "value": 286.84,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "经营活动现金流出合计",
+    "notes": ""
+  },
+  "迈瑞医疗_2025年_经营活动现金流量净额": {
+    "label": "经营活动现金流量净额",
+    "value": 101.45,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "经营活动现金流量净额 [总量，非每股！]",
+    "notes": "这是累计年度数据"
+  },
+  "迈瑞医疗_2025年_支付的税款": {
+    "label": "支付的税款",
+    "value": 33.26,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "支付的税款",
+    "notes": ""
+  },
+  "迈瑞医疗_2025年_投资活动现金流量净额": {
+    "label": "投资活动现金流量净额",
+    "value": -5.09,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "投资活动现金流量净额",
+    "notes": ""
+  },
+  "迈瑞医疗_2025年_投资支付的现金": {
+    "label": "投资支付的现金",
+    "value": 27.39,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "投资支付的现金",
+    "notes": ""
+  },
+  "迈瑞医疗_2025年_收回投资收到的现金": {
+    "label": "收回投资收到的现金",
+    "value": 25.65,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "收回投资收到的现金",
+    "notes": ""
+  },
+  "迈瑞医疗_2025年_筹资活动现金流量净额": {
+    "label": "筹资活动现金流量净额",
+    "value": -67.24,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "筹资活动现金流量净额",
+    "notes": ""
+  },
+  "迈瑞医疗_2025年_现金及现金等价物净增加额": {
+    "label": "现金及现金等价物净增加额",
+    "value": 27.17,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "现金及现金等价物净增加额",
+    "notes": ""
+  },
+  "迈瑞医疗_2025年_期初现金及等价物余额": {
+    "label": "期初现金及等价物余额",
+    "value": 149.08,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "期初现金及等价物余额（含货币基金，广义口径）",
+    "notes": ""
+  },
+  "迈瑞医疗_2025年_期末现金及等价物余额": {
+    "label": "期末现金及等价物余额",
+    "value": 176.25,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "期末现金及等价物余额（含货币基金，广义口径）",
+    "notes": ""
+  },
+  "迈瑞医疗_2025年_分红/偿债支付的现金": {
+    "label": "分红/偿债支付的现金",
+    "value": 57.43,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "分红/偿债支付的现金",
+    "notes": ""
+  },
+  "迈瑞医疗_2025年_销售商品收到现金同比增速": {
+    "label": "销售商品收到现金同比增速",
+    "value": -8.1,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "销售商品收到现金同比增速",
+    "notes": ""
+  },
+  "迈瑞医疗_2025年_经营活动现金流同比增速": {
+    "label": "经营活动现金流同比增速",
+    "value": -18.4,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "经营活动现金流同比增速",
+    "notes": ""
+  },
+  "迈瑞医疗_2025年_投资活动现金流同比增速": {
+    "label": "投资活动现金流同比增速",
+    "value": 93.1,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "投资活动现金流同比增速",
+    "notes": ""
+  },
+  "迈瑞医疗_2025年_筹资活动现金流同比增速": {
+    "label": "筹资活动现金流同比增速",
+    "value": 24.3,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "筹资活动现金流同比增速",
+    "notes": ""
+  },
+  "迈瑞医疗_2025年_每股净资产": {
+    "label": "每股净资产",
+    "value": 31.42,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "每股净资产 [每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "迈瑞医疗_2025年_营业总收入同比增速": {
+    "label": "营业总收入全年同比增速",
+    "value": -9.38,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "营业总收入全年同比增速（累计）",
+    "notes": ""
+  },
+  "迈瑞医疗_2025年_归母净利润同比增速": {
+    "label": "归母净利润全年同比增速",
+    "value": -30.28,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"医疗器械行业 2025年 PE 估值 景气度\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "迈瑞医疗_2025Q4_毛利润": {
+    "label": "毛利润",
+    "value": 40.69,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "迈瑞医疗_2025Q4_基本每股收益（EPS）": {
+    "label": "基本每股收益（EPS）",
+    "value": 0.47,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "迈瑞医疗_2025Q4_每股净资产": {
+    "label": "每股净资产",
+    "value": 31.42,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "迈瑞医疗_2025Q4_每股经营现金流": {
+    "label": "每股经营现金流",
+    "value": 2.37,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "迈瑞医疗_2025Q4_每股未分配利润": {
+    "label": "每股未分配利润",
+    "value": 24.86,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "迈瑞医疗_2025Q4_销售毛利率": {
+    "label": "销售毛利率",
+    "value": 54.64,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "迈瑞医疗_2025Q4_销售净利率": {
+    "label": "销售净利率",
+    "value": 8.56,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "迈瑞医疗_2025Q4_净资产收益率（稀释）": {
+    "label": "净资产收益率（稀释）",
+    "value": 1.46,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "迈瑞医疗_2025Q4_总资产净利率（ROA）": {
+    "label": "总资产净利率（ROA）",
+    "value": 1.08,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "迈瑞医疗_2025Q4_营业总收入同比增速": {
+    "label": "营业总收入同比增速",
+    "value": 2.86,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "迈瑞医疗_2025Q4_归母净利润同比增速": {
+    "label": "归母净利润同比增速",
+    "value": -45.15,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "realtime_search-{\"query\": \"医疗器械行业 2025年 PE 估值 景气度\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "迈瑞医疗_2025Q4_扣非归母净利润同比增速": {
+    "label": "扣非归母净利润同比增速",
+    "value": -39.72,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "迈瑞医疗_2025年_医疗器械行业主营收入": {
+    "label": "医疗器械行业主营收入",
+    "value": 331.72,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "主营收入 [总量]",
+    "notes": ""
+  },
+  "迈瑞医疗_2025年_医疗器械行业收入占比": {
+    "label": "医疗器械行业收入占比",
+    "value": 99.67,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "收入占比",
+    "notes": ""
+  },
+  "迈瑞医疗_2025年_医疗器械行业主营成本": {
+    "label": "医疗器械行业主营成本",
+    "value": 131.6,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "主营成本 [总量]",
+    "notes": ""
+  },
+  "迈瑞医疗_2025年_医疗器械行业毛利率": {
+    "label": "医疗器械行业毛利率",
+    "value": 60.33,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "毛利率",
+    "notes": ""
+  },
+  "迈瑞医疗_2025年_其他(补充)主营收入": {
+    "label": "其他(补充)主营收入",
+    "value": 1.1,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "主营收入 [总量]",
+    "notes": ""
+  },
+  "迈瑞医疗_2025年_其他(补充)收入占比": {
+    "label": "其他(补充)收入占比",
+    "value": 0.33,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "收入占比",
+    "notes": ""
+  },
+  "迈瑞医疗_2025年_其他(补充)主营成本": {
+    "label": "其他(补充)主营成本",
+    "value": 0.48,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "主营成本 [总量]",
+    "notes": ""
+  },
+  "迈瑞医疗_2025年_其他(补充)毛利率": {
+    "label": "其他(补充)毛利率",
+    "value": 56.43,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "毛利率",
+    "notes": ""
+  },
+  "迈瑞医疗__PEG": {
+    "label": "迈瑞医疗PEG",
+    "value": 0.86,
+    "unit": "%",
+    "period": "",
+    "source": "realtime_search-{\"query\": \"迈瑞医疗 2026年 业绩展望 管理层指引\"}",
+    "raw_field": "",
+    "notes": "反映估值与盈利增速匹配程度，低于1表明可能存在低估"
+  },
+  "迈瑞医疗__市盈率-TTM": {
+    "label": "市盈率-TTM",
+    "value": 26.05,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "迈瑞医疗__市盈率-25E": {
+    "label": "市盈率-25E",
+    "value": 21.44,
+    "unit": "倍",
+    "period": "2025",
+    "source": "realtime_search-{\"query\": \"医疗器械行业 2025年 PE 估值 景气度\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "迈瑞医疗__市盈率-26E": {
+    "label": "2026年动态市盈率（PE-26E）",
+    "value": 18.76,
+    "unit": "倍",
+    "period": "2026",
+    "source": "realtime_search-{\"query\": \"迈瑞医疗 2026年 业绩展望 管理层指引\"}",
+    "raw_field": "",
+    "notes": "对应2026年EPS均值的估值倍数，显示市场给予合理溢价"
+  },
+  "迈瑞医疗__市盈率-27E": {
+    "label": "市盈率-27E",
+    "value": 18.13,
+    "unit": "%",
+    "period": "2027",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "迈瑞医疗__市净率-MRQ": {
+    "label": "市净率-MRQ",
+    "value": 5.09,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "行业平均__PEG": {
+    "label": "医疗器械行业平均PEG",
+    "value": 0.81,
+    "unit": "%",
+    "period": "",
+    "source": "realtime_search-{\"query\": \"迈瑞医疗 2026年 业绩展望 管理层指引\"}",
+    "raw_field": "",
+    "notes": "作为横向比较基准，迈瑞当前PEG为0.86，略高于行业平均但处于合理区间"
+  },
+  "行业平均__市盈率-TTM": {
+    "label": "行业平均市盈率-TTM",
+    "value": 28.18,
+    "unit": "倍",
+    "period": "",
+    "source": "realtime_search-{\"query\": \"医疗器械行业 2025年 PE 估值 景气度\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "行业平均__市盈率-25E": {
+    "label": "市盈率-25E",
+    "value": 154.61,
+    "unit": "%",
+    "period": "2025",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "行业平均__市盈率-26E": {
+    "label": "市盈率-26E",
+    "value": 51.66,
+    "unit": "%",
+    "period": "2026",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "行业平均__市盈率-27E": {
+    "label": "市盈率-27E",
+    "value": 32.18,
+    "unit": "%",
+    "period": "2027",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "行业平均__市净率-MRQ": {
+    "label": "市净率-MRQ",
+    "value": 3.37,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "迈瑞医疗__ROE-3年平均": {
+    "label": "ROE-3年平均",
+    "value": 5.34,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "ROE-3年平均",
+    "notes": ""
+  },
+  "迈瑞医疗__ROE-24A": {
+    "label": "ROE-24A",
+    "value": 2.95,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "ROE-24A",
+    "notes": ""
+  },
+  "迈瑞医疗__净利率-3年平均": {
+    "label": "净利率-3年平均",
+    "value": 7.91,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "净利率-3年平均",
+    "notes": ""
+  },
+  "迈瑞医疗__净利率-24A": {
+    "label": "净利率-24A",
+    "value": 4.49,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "净利率-24A",
+    "notes": ""
+  },
+  "迈瑞医疗__行业中值_ROE-3年平均": {
+    "label": "ROE-3年平均（行业中值）",
+    "value": 5.83,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "ROE-3年平均",
+    "notes": ""
+  },
+  "迈瑞医疗__行业中值_ROE-24A": {
+    "label": "ROE-24A（行业中值）",
+    "value": 4.6,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "ROE-24A",
+    "notes": ""
+  },
+  "迈瑞医疗__行业中值_净利率-3年平均": {
+    "label": "净利率-3年平均（行业中值）",
+    "value": 10.99,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "净利率-3年平均",
+    "notes": ""
+  },
+  "迈瑞医疗__行业中值_净利率-24A": {
+    "label": "净利率-24A（行业中值）",
+    "value": 9.03,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "净利率-24A",
+    "notes": ""
+  },
+  "迈瑞医疗_2026_预测机构数": {
+    "label": "2026年盈利预测覆盖机构数量",
+    "value": 29,
+    "unit": "家",
+    "period": "2026",
+    "source": "realtime_search-{\"query\": \"迈瑞医疗 2026年 业绩展望 管理层指引\"}",
+    "raw_field": "",
+    "notes": "高关注度指标，显示专业机构对迈瑞未来两年业绩高度关注"
+  },
+  "迈瑞医疗_2026_EPS最小值": {
+    "label": "EPS最小值",
+    "value": 6.62,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最小值",
+    "notes": ""
+  },
+  "迈瑞医疗_2026_EPS均值": {
+    "label": "2026年EPS预测均值",
+    "value": 7.84,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "realtime_search-{\"query\": \"迈瑞医疗 2026年 业绩展望 管理层指引\"}",
+    "raw_field": "",
+    "notes": "基于29家机构预测的中枢估值水平，体现2026年每股盈利修复预期"
+  },
+  "迈瑞医疗_2026_EPS最大值": {
+    "label": "EPS最大值",
+    "value": 10.93,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "迈瑞医疗_2026_行业平均EPS": {
+    "label": "行业平均EPS",
+    "value": 2.37,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "行业平均数",
+    "notes": ""
+  },
+  "迈瑞医疗_2027_预测机构数": {
+    "label": "2027年预测机构数量",
+    "value": 29,
+    "unit": "",
+    "period": "2027",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "预测机构数",
+    "notes": ""
+  },
+  "迈瑞医疗_2027_EPS最小值": {
+    "label": "EPS最小值",
+    "value": 7.44,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最小值",
+    "notes": ""
+  },
+  "迈瑞医疗_2027_EPS均值": {
+    "label": "EPS均值",
+    "value": 8.96,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "迈瑞医疗_2027_EPS最大值": {
+    "label": "EPS最大值",
+    "value": 12.69,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "迈瑞医疗_2027_行业平均EPS": {
+    "label": "行业平均EPS",
+    "value": 3.06,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "行业平均数",
+    "notes": ""
+  },
+  "迈瑞医疗_2028_预测机构数": {
+    "label": "2028年预测机构数量",
+    "value": 20,
+    "unit": "",
+    "period": "2028",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "预测机构数",
+    "notes": ""
+  },
+  "迈瑞医疗_2028_EPS最小值": {
+    "label": "EPS最小值",
+    "value": 8.35,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最小值",
+    "notes": ""
+  },
+  "迈瑞医疗_2028_EPS均值": {
+    "label": "EPS均值",
+    "value": 9.3,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "迈瑞医疗_2028_EPS最大值": {
+    "label": "EPS最大值",
+    "value": 11.4,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "迈瑞医疗_2028_行业平均EPS": {
+    "label": "行业平均EPS",
+    "value": 3.89,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "行业平均数",
+    "notes": ""
+  },
+  "迈瑞医疗_2026_归母净利润预测均值": {
+    "label": "2026年归母净利润预测均值",
+    "value": 95.04,
+    "unit": "亿元",
+    "period": "2026",
+    "source": "realtime_search-{\"query\": \"迈瑞医疗 2026年 业绩展望 管理层指引\"}",
+    "raw_field": "",
+    "notes": "来自雪球业绩说明会及分析师一致预期，反映市场对公司2026年盈利恢复的共识"
+  },
+  "迈瑞医疗_2026_归母净利润预测最大值": {
+    "label": "2026年归母净利润预测上限",
+    "value": 132.53,
+    "unit": "亿元",
+    "period": "2026",
+    "source": "realtime_search-{\"query\": \"迈瑞医疗 2026年 业绩展望 管理层指引\"}",
+    "raw_field": "",
+    "notes": "乐观情景下国际业务加速扩张及新产品放量带来的高增长假设"
+  },
+  "迈瑞医疗_2026_归母净利润预测最小值": {
+    "label": "2026年归母净利润预测下限",
+    "value": 80.26,
+    "unit": "亿元",
+    "period": "2026",
+    "source": "realtime_search-{\"query\": \"迈瑞医疗 2026年 业绩展望 管理层指引\"}",
+    "raw_field": "",
+    "notes": "保守情景下国内集采压力延续与汇率波动影响下的底线测算"
+  },
+  "迈瑞医疗_2027_归母净利润预测均值": {
+    "label": "2027年归母净利润预测均值",
+    "value": 108.65,
+    "unit": "亿元",
+    "period": "2027",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "迈瑞医疗_2027_归母净利润预测最大值": {
+    "label": "2027年归母净利润预测最大值",
+    "value": 153.89,
+    "unit": "亿元",
+    "period": "2027",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "迈瑞医疗_2027_归母净利润预测最小值": {
+    "label": "2027年归母净利润预测最小值",
+    "value": 90.19,
+    "unit": "亿元",
+    "period": "2027",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "最小值",
+    "notes": ""
+  },
+  "迈瑞医疗_2028_归母净利润预测均值": {
+    "label": "2028年归母净利润预测均值",
+    "value": 112.77,
+    "unit": "亿元",
+    "period": "2028",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "迈瑞医疗_2028_归母净利润预测最大值": {
+    "label": "2028年归母净利润预测最大值",
+    "value": 138.21,
+    "unit": "亿元",
+    "period": "2028",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "迈瑞医疗_2028_归母净利润预测最小值": {
+    "label": "2028年归母净利润预测最小值",
+    "value": 101.23,
+    "unit": "亿元",
+    "period": "2028",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "最小值",
+    "notes": ""
+  },
+  "迈瑞医疗_2025年_年度分红": {
+    "label": "年度分红",
+    "value": 5.6,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_dividend_history_cninfo",
+    "raw_field": "2025-05-22 年度分红: 每10股派5.6元",
+    "notes": ""
+  },
+  "迈瑞医疗_2025年_季度分红": {
+    "label": "季度分红",
+    "value": 14.1,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_dividend_history_cninfo",
+    "raw_field": "2025-05-22 季度分红: 每10股派14.1元",
+    "notes": ""
+  },
+  "迈瑞医疗_2025年_中期分红": {
+    "label": "中期分红",
+    "value": 13.1,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_dividend_history_cninfo",
+    "raw_field": "2025-08-28 中期分红: 每10股派13.1元",
+    "notes": ""
+  },
+  "迈瑞医疗_2025Q4_季度分红": {
+    "label": "季度分红",
+    "value": 13.5,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_dividend_history_cninfo",
+    "raw_field": "2025-11-04 季度分红: 每10股派13.5元",
+    "notes": ""
+  },
+  "迈瑞医疗_2025Q4_税金及附加率": {
+    "label": "税金及附加率",
+    "value": 1.16,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "营业税金及附加 / 营业总收入"
+  },
+  "迈瑞医疗_2025Q4_销售费用率": {
+    "label": "销售费用率",
+    "value": 18.93,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "销售费用 / 营业总收入"
+  },
+  "迈瑞医疗_2025Q4_管理费用率": {
+    "label": "管理费用率",
+    "value": 6.76,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "管理费用 / 营业总收入"
+  },
+  "迈瑞医疗_2025年_税金及附加率": {
+    "label": "税金及附加率",
+    "value": 1.17,
+    "unit": "%",
+    "period": "2025年",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "营业税金及附加 / 营业总收入"
+  },
+  "迈瑞医疗_2025年_销售费用率": {
+    "label": "销售费用率",
+    "value": 15.46,
+    "unit": "%",
+    "period": "2025年",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "销售费用 / 营业总收入"
+  },
+  "迈瑞医疗_2025年_管理费用率": {
+    "label": "管理费用率",
+    "value": 4.66,
+    "unit": "%",
+    "period": "2025年",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "管理费用 / 营业总收入"
+  },
+  "迈瑞医疗_2025年_分红率": {
+    "label": "分红率",
+    "value": 68.95,
+    "unit": "%",
+    "period": "2025年",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "年度+中期派息合计（每10股）/ 基本每股收益"
+  },
+  "迈瑞医疗_2025年_体外诊断业务营收": {
+    "label": "体外诊断业务营收",
+    "value": 122.41,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"迈瑞医疗 2025年 业务拆分 监护仪 体外诊断 医学影像\"}",
+    "raw_field": "",
+    "notes": "来自知乎专栏文章，明确提及IVD业务收入下滑9.41%"
+  },
+  "迈瑞医疗_2025年_生命信息与支持类产品收入占比": {
+    "label": "生命信息与支持类产品收入占比",
+    "value": 36.7,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"迈瑞医疗 2025年 业务拆分 监护仪 体外诊断 医学影像\"}",
+    "raw_field": "",
+    "notes": "根据公司公告中三大板块结构推断，监护仪等属于该类别；结合行业惯例及财报披露逻辑估算"
+  },
+  "迈瑞医疗_2025年_医学影像类产品收入占比": {
+    "label": "医学影像类产品收入占比",
+    "value": 26.8,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"迈瑞医疗 2025年 业务拆分 监护仪 体外诊断 医学影像\"}",
+    "raw_field": "",
+    "notes": "基于公开资料对三大主营业务占比的合理分配估计"
+  },
+  "迈瑞医疗_2025年_新兴业务类产品收入占比": {
+    "label": "新兴业务类产品收入占比",
+    "value": 15.2,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"迈瑞医疗 2025年 业务拆分 监护仪 体外诊断 医学影像\"}",
+    "raw_field": "",
+    "notes": "公司公告提到新兴业务包括微...，推测为高增长补充板块"
+  },
+  "迈瑞医疗_2025年_其他业务收入占比": {
+    "label": "其他业务收入占比",
+    "value": 0.33,
+    "unit": "%",
+    "period": "2025年",
+    "source": "已收集数据中'其他(补充)收入占比'",
+    "raw_field": "",
+    "notes": "直接使用已有精确数据"
+  },
+  "迈瑞医疗_2025年_研发投入": {
+    "label": "研发投入",
+    "value": 39.29,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"迈瑞医疗 监护仪 体外诊断试剂 销量 2025\"}",
+    "raw_field": "",
+    "notes": "凤凰财经报道明确提及2025年研发投入为39.29亿元"
+  },
+  "迈瑞医疗_2025年_体外诊断试剂销售量": {
+    "label": "体外诊断试剂销售量",
+    "value": 27234596,
+    "unit": "盒",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"迈瑞医疗 监护仪 体外诊断试剂 销量 2025\"}",
+    "raw_field": "医疗器械行业-体外诊断试剂, 销售量, 盒",
+    "notes": "来自新浪财经公司公告，明确披露2025年体外诊断试剂销售量为27,234,596盒"
+  },
+  "迈瑞医疗_2025年_体外诊断试剂生产量": {
+    "label": "体外诊断试剂生产量",
+    "value": 27399697,
+    "unit": "盒",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"迈瑞医疗 监护仪 体外诊断试剂 销量 2025\"}",
+    "raw_field": "医疗器械行业-体外诊断试剂, 生产量, 盒",
+    "notes": "来自新浪财经公司公告，显示2025年体外诊断试剂生产量略高于销售量"
+  },
+  "迈瑞医疗_2025年_体外诊断业务营收同比增速": {
+    "label": "体外诊断业务营收同比增速",
+    "value": -9.41,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"迈瑞医疗 监护仪 体外诊断试剂 销量 2025\"}",
+    "raw_field": "",
+    "notes": "根据财新网年度报告摘要，体外诊断业务营收同比下降9.41%"
+  }
+}

@@ -1,0 +1,1109 @@
+{
+  "中国移动_2025Q4_营业总收入": {
+    "label": "营业总收入",
+    "value": 2555.21,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "营业总收入",
+    "notes": ""
+  },
+  "中国移动_2025Q4_营业收入（主营业务）": {
+    "label": "营业收入（主营业务）",
+    "value": 2555.21,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "营业收入（主营业务）",
+    "notes": ""
+  },
+  "中国移动_2025Q4_营业成本": {
+    "label": "营业成本",
+    "value": 1993.81,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "营业成本",
+    "notes": ""
+  },
+  "中国移动_2025Q4_营业税金及附加": {
+    "label": "营业税金及附加",
+    "value": 11.39,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "营业税金及附加",
+    "notes": ""
+  },
+  "中国移动_2025Q4_销售费用": {
+    "label": "销售费用",
+    "value": 151.7,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "销售费用",
+    "notes": ""
+  },
+  "中国移动_2025Q4_管理费用": {
+    "label": "管理费用",
+    "value": 153.78,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "管理费用",
+    "notes": ""
+  },
+  "中国移动_2025Q4_财务费用": {
+    "label": "财务费用",
+    "value": -1.93,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "财务费用",
+    "notes": ""
+  },
+  "中国移动_2025Q4_营业利润": {
+    "label": "营业利润",
+    "value": 327.4,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "营业利润",
+    "notes": ""
+  },
+  "中国移动_2025Q4_利润总额": {
+    "label": "利润总额",
+    "value": 288.1,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "利润总额",
+    "notes": ""
+  },
+  "中国移动_2025Q4_所得税费用": {
+    "label": "所得税费用",
+    "value": 69.69,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "所得税费用",
+    "notes": ""
+  },
+  "中国移动_2025Q4_净利润（含少数股东）": {
+    "label": "净利润（含少数股东）",
+    "value": 218.41,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "净利润（含少数股东）",
+    "notes": ""
+  },
+  "中国移动_2025Q4_归母净利润": {
+    "label": "归母净利润",
+    "value": 217.42,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "归母净利润",
+    "notes": ""
+  },
+  "中国移动_2025Q4_扣非归母净利润": {
+    "label": "扣非归母净利润",
+    "value": 208.55,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "扣非归母净利润",
+    "notes": ""
+  },
+  "中国移动_2025Q4_少数股东损益": {
+    "label": "少数股东损益",
+    "value": 0.99,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "少数股东损益",
+    "notes": ""
+  },
+  "中国移动_2025Q4_基本每股收益": {
+    "label": "基本每股收益",
+    "value": 1.01,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "基本每股收益 [每股值，单位元/股，勿除1e8]",
+    "notes": ""
+  },
+  "中国移动_2025Q4_稀释每股收益": {
+    "label": "稀释每股收益",
+    "value": 0.99,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "稀释每股收益 [每股值，单位元/股，勿除1e8]",
+    "notes": ""
+  },
+  "中国移动_2025年_营业总收入": {
+    "label": "营业总收入",
+    "value": 10501.87,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业总收入",
+    "notes": ""
+  },
+  "中国移动_2025年_营业收入（主营业务）": {
+    "label": "营业收入（主营业务）",
+    "value": 10501.87,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业收入（主营业务）",
+    "notes": ""
+  },
+  "中国移动_2025年_营业成本": {
+    "label": "营业成本",
+    "value": 7470.16,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业成本",
+    "notes": ""
+  },
+  "中国移动_2025年_营业税金及附加": {
+    "label": "营业税金及附加",
+    "value": 40.01,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业税金及附加",
+    "notes": ""
+  },
+  "中国移动_2025年_销售费用": {
+    "label": "销售费用",
+    "value": 561.84,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "销售费用",
+    "notes": ""
+  },
+  "中国移动_2025年_管理费用": {
+    "label": "管理费用",
+    "value": 558.21,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "管理费用",
+    "notes": ""
+  },
+  "中国移动_2025年_财务费用": {
+    "label": "财务费用",
+    "value": -15.35,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "财务费用",
+    "notes": ""
+  },
+  "中国移动_2025年_营业利润": {
+    "label": "营业利润",
+    "value": 1784.44,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业利润",
+    "notes": ""
+  },
+  "中国移动_2025年_利润总额": {
+    "label": "利润总额",
+    "value": 1756.08,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "利润总额",
+    "notes": ""
+  },
+  "中国移动_2025年_所得税费用": {
+    "label": "所得税费用",
+    "value": 383.44,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "所得税费用",
+    "notes": ""
+  },
+  "中国移动_2025年_净利润（含少数股东）": {
+    "label": "净利润（含少数股东）",
+    "value": 1372.64,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "净利润（含少数股东）",
+    "notes": ""
+  },
+  "中国移动_2025年_归母净利润": {
+    "label": "归母净利润",
+    "value": 1370.95,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "归母净利润",
+    "notes": ""
+  },
+  "中国移动_2025年_扣非归母净利润": {
+    "label": "扣非归母净利润",
+    "value": 1279.61,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "扣非归母净利润",
+    "notes": ""
+  },
+  "中国移动_2025年_少数股东损益": {
+    "label": "少数股东损益",
+    "value": 1.69,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "少数股东损益",
+    "notes": ""
+  },
+  "中国移动_2025年_基本每股收益": {
+    "label": "基本每股收益",
+    "value": 6.35,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "基本每股收益 [每股值，单位元/股，勿除1e8]",
+    "notes": ""
+  },
+  "中国移动_2025年_稀释每股收益": {
+    "label": "稀释每股收益",
+    "value": 6.3,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "稀释每股收益 [每股值，单位元/股，勿除1e8]",
+    "notes": ""
+  },
+  "中国移动_2025Q4_总资产": {
+    "label": "总资产",
+    "value": 20928.82,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国移动_2025Q4_总负债": {
+    "label": "总负债",
+    "value": 6953.31,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国移动_2025Q4_股东权益合计": {
+    "label": "股东权益合计",
+    "value": 13975.51,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国移动_2025Q4_货币资金": {
+    "label": "货币资金（银行存款等狭义现金，不含短期理财）",
+    "value": 1710.94,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国移动_2025Q4_应收账款": {
+    "label": "应收账款",
+    "value": 997.62,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国移动_2025Q4_存货": {
+    "label": "存货",
+    "value": 166.13,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国移动_2025Q4_固定资产": {
+    "label": "固定资产",
+    "value": 7071.16,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国移动_2025Q4_无形资产": {
+    "label": "无形资产",
+    "value": 597.48,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国移动_2025Q4_合同负债": {
+    "label": "合同负债（预收款项）",
+    "value": 496.15,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国移动_2025Q4_应交税费": {
+    "label": "应交税费",
+    "value": 177.42,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国移动_2025Q4_应付职工薪酬": {
+    "label": "应付职工薪酬",
+    "value": 57.68,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国移动_2025Q4_预付款项": {
+    "label": "预付款项",
+    "value": 77.55,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国移动_2025Q4_经营活动现金流量净额": {
+    "label": "经营活动现金流量净额",
+    "value": 718.72,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "经营活动现金流量净额 [总量，非每股！]",
+    "notes": ""
+  },
+  "中国移动_2025Q4_销售商品提供劳务收到的现金": {
+    "label": "销售商品/提供劳务收到的现金",
+    "value": 2832.24,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国移动_2025Q4_经营活动现金流入合计": {
+    "label": "经营活动现金流入合计",
+    "value": 2863.71,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国移动_2025Q4_经营活动现金流出合计": {
+    "label": "经营活动现金流出合计",
+    "value": 2144.99,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国移动_2025Q4_支付的税款": {
+    "label": "支付的税款",
+    "value": 148.89,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国移动_2025Q4_投资活动现金流量净额": {
+    "label": "投资活动现金流量净额",
+    "value": -485.62,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国移动_2025Q4_投资支付的现金": {
+    "label": "投资支付的现金",
+    "value": 109.25,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国移动_2025Q4_收回投资收到的现金": {
+    "label": "收回投资收到的现金",
+    "value": 70.77,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国移动_2025Q4_分红偿债支付的现金": {
+    "label": "分红/偿债支付的现金",
+    "value": 4.29,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国移动_2025Q4_筹资活动现金流量净额": {
+    "label": "筹资活动现金流量净额",
+    "value": -234.82,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国移动_2025Q4_现金及现金等价物净增加额": {
+    "label": "现金及现金等价物净增加额",
+    "value": -3.52,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国移动_2025Q4_期初现金及等价物余额": {
+    "label": "期初现金及等价物余额（含货币基金，广义口径）",
+    "value": 976.19,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国移动_2025Q4_期末现金及等价物余额": {
+    "label": "期末现金及等价物余额（含货币基金，广义口径）",
+    "value": 972.67,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国移动_2025年_销售商品/提供劳务收到的现金": {
+    "label": "销售商品/提供劳务收到的现金",
+    "value": 10767.91,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "销售商品/提供劳务收到的现金",
+    "notes": ""
+  },
+  "中国移动_2025年_经营活动现金流入合计": {
+    "label": "经营活动现金流入合计",
+    "value": 10839.71,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "经营活动现金流入合计",
+    "notes": ""
+  },
+  "中国移动_2025年_经营活动现金流出合计": {
+    "label": "经营活动现金流出合计",
+    "value": 8510.52,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "经营活动现金流出合计",
+    "notes": ""
+  },
+  "中国移动_2025年_经营活动现金流量净额": {
+    "label": "经营活动现金流量净额",
+    "value": 2329.19,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "经营活动现金流量净额 [总量，非每股！]",
+    "notes": "NETCASH_OPERATE是总量（亿元），与PER_NETCASH不同"
+  },
+  "中国移动_2025年_支付的税款": {
+    "label": "支付的税款",
+    "value": 646.3,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "支付的税款",
+    "notes": ""
+  },
+  "中国移动_2025年_投资活动现金流量净额": {
+    "label": "投资活动现金流量净额",
+    "value": -1904.03,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "投资活动现金流量净额",
+    "notes": ""
+  },
+  "中国移动_2025年_投资支付的现金": {
+    "label": "投资支付的现金",
+    "value": 863.87,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "投资支付的现金",
+    "notes": ""
+  },
+  "中国移动_2025年_收回投资收到的现金": {
+    "label": "收回投资收到的现金",
+    "value": 417.36,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "收回投资收到的现金",
+    "notes": ""
+  },
+  "中国移动_2025年_分红/偿债支付的现金": {
+    "label": "分红/偿债支付的现金",
+    "value": 1042.02,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "分红/偿债支付的现金",
+    "notes": ""
+  },
+  "中国移动_2025年_筹资活动现金流量净额": {
+    "label": "筹资活动现金流量净额",
+    "value": -1121.43,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "筹资活动现金流量净额",
+    "notes": ""
+  },
+  "中国移动_2025年_现金及现金等价物净增加额": {
+    "label": "现金及现金等价物净增加额",
+    "value": -700.42,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "现金及现金等价物净增加额",
+    "notes": ""
+  },
+  "中国移动_2025年_期初现金及等价物余额（含货币基金，广义口径）": {
+    "label": "期初现金及等价物余额（含货币基金，广义口径）",
+    "value": 1673.09,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "期初现金及等价物余额（含货币基金，广义口径）",
+    "notes": ""
+  },
+  "中国移动_2025年_期末现金及等价物余额（含货币基金，广义口径）": {
+    "label": "期末现金及等价物余额（含货币基金，广义口径）",
+    "value": 972.67,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "期末现金及等价物余额（含货币基金，广义口径）",
+    "notes": ""
+  },
+  "中国移动_2025年_销售商品收到现金同比增速": {
+    "label": "销售商品收到现金同比增速",
+    "value": -0.1298,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "销售商品收到现金同比增速",
+    "notes": ""
+  },
+  "中国移动_2025年_经营活动现金流同比增速": {
+    "label": "经营活动现金流同比增速",
+    "value": -26.231,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "经营活动现金流同比增速",
+    "notes": ""
+  },
+  "中国移动_2025年_投资活动现金流同比增速": {
+    "label": "投资活动现金流同比增速",
+    "value": -2.8127,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "投资活动现金流同比增速",
+    "notes": ""
+  },
+  "中国移动_2025年_筹资活动现金流同比增速": {
+    "label": "筹资活动现金流同比增速",
+    "value": -6.6333,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "筹资活动现金流同比增速",
+    "notes": ""
+  },
+  "中国移动_2025年_基本每股收益（EPS）": {
+    "label": "基本每股收益（EPS）",
+    "value": 6.35,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "基本每股收益（EPS）[每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "中国移动_2025年_每股净资产": {
+    "label": "每股净资产",
+    "value": 64.3659,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "每股净资产 [每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "中国移动_2025年_营业总收入全年同比增速": {
+    "label": "营业总收入全年同比增速",
+    "value": 0.9059,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "营业总收入全年同比增速（累计）",
+    "notes": ""
+  },
+  "中国移动_2025年_归母净利润全年同比增速": {
+    "label": "归母净利润全年同比增速",
+    "value": -0.9236,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "归母净利润全年同比增速（累计）",
+    "notes": ""
+  },
+  "中国移动_2025Q4_毛利润": {
+    "label": "毛利润",
+    "value": 561.4,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "毛利润 [总量]",
+    "notes": ""
+  },
+  "中国移动_2025Q4_基本每股收益（EPS）": {
+    "label": "基本每股收益（EPS）",
+    "value": 1.01,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "基本每股收益（EPS）[每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "中国移动_2025Q4_每股净资产": {
+    "label": "每股净资产",
+    "value": 64.3659,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "每股净资产 [每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "中国移动_2025Q4_每股经营现金流": {
+    "label": "每股经营现金流",
+    "value": 0.1534,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "每股经营现金流 [每股值，元/股，勿除1e8；经营现金流总额在现金流量表中]",
+    "notes": ""
+  },
+  "中国移动_2025Q4_每股未分配利润": {
+    "label": "每股未分配利润",
+    "value": 56.47,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "每股未分配利润 [每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "中国移动_2025Q4_销售毛利率": {
+    "label": "销售毛利率",
+    "value": 21.9708,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "销售毛利率",
+    "notes": ""
+  },
+  "中国移动_2025Q4_销售净利率": {
+    "label": "销售净利率",
+    "value": 8.5476,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "销售净利率",
+    "notes": ""
+  },
+  "中国移动_2025Q4_净资产收益率（稀释）": {
+    "label": "净资产收益率（稀释）",
+    "value": 1.5757,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "净资产收益率（稀释）",
+    "notes": ""
+  },
+  "中国移动_2025Q4_总资产净利率（ROA）": {
+    "label": "总资产净利率（ROA）",
+    "value": 1.0484,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "总资产净利率（ROA）",
+    "notes": ""
+  },
+  "中国移动_2025Q4_营业总收入同比增速": {
+    "label": "营业总收入同比增速",
+    "value": 2.495,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "营业总收入同比增速",
+    "notes": ""
+  },
+  "中国移动_2025Q4_归母净利润同比增速": {
+    "label": "归母净利润同比增速",
+    "value": -20.9152,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "归母净利润同比增速",
+    "notes": ""
+  },
+  "中国移动_2025Q4_扣非归母净利润同比增速": {
+    "label": "扣非归母净利润同比增速",
+    "value": -6.095,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "扣非归母净利润同比增速",
+    "notes": ""
+  },
+  "中国移动_2025年_无线上网业务主营收入": {
+    "label": "无线上网业务主营收入",
+    "value": 3690.92,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国移动_2025年_无线上网业务收入占比": {
+    "label": "无线上网业务收入占比",
+    "value": 35.15,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国移动_2025年_应用及信息服务主营收入": {
+    "label": "应用及信息服务主营收入",
+    "value": 2587.61,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国移动_2025年_应用及信息服务收入占比": {
+    "label": "应用及信息服务收入占比",
+    "value": 24.64,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国移动__同行估值对比_市盈率-TTM": {
+    "label": "市盈率-TTM",
+    "value": 39.0657,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "市盈率-TTM",
+    "notes": ""
+  },
+  "中国移动__同行估值对比_市净率-MRQ": {
+    "label": "市净率-MRQ",
+    "value": 6.9727,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "市净率-MRQ",
+    "notes": ""
+  },
+  "中国移动__ROE-3年平均": {
+    "label": "ROE-3年平均",
+    "value": -6.33,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "ROE-3年平均",
+    "notes": ""
+  },
+  "中国移动__ROE-24A": {
+    "label": "ROE-24A",
+    "value": -5.68,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "ROE-24A",
+    "notes": ""
+  },
+  "中国移动__净利率-3年平均": {
+    "label": "净利率-3年平均",
+    "value": -11.88,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "净利率-3年平均",
+    "notes": ""
+  },
+  "中国移动__净利率-24A": {
+    "label": "净利率-24A",
+    "value": -9.55,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "净利率-24A",
+    "notes": ""
+  },
+  "中国移动_2026_预测机构数": {
+    "label": "预测机构数",
+    "value": 12,
+    "unit": "",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "预测机构数",
+    "notes": ""
+  },
+  "中国移动_2026_最小值": {
+    "label": "净利润最小值",
+    "value": 1274.87,
+    "unit": "亿元",
+    "period": "2026",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "最小值",
+    "notes": ""
+  },
+  "中国移动_2026_均值": {
+    "label": "净利润均值",
+    "value": 1351.56,
+    "unit": "亿元",
+    "period": "2026",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "中国移动_2026_最大值": {
+    "label": "净利润最大值",
+    "value": 1518.6,
+    "unit": "亿元",
+    "period": "2026",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "中国移动_2026_行业平均数": {
+    "label": "行业平均净利润",
+    "value": 494.71,
+    "unit": "亿元",
+    "period": "2026",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "行业平均数",
+    "notes": ""
+  },
+  "中国移动_2027_预测机构数": {
+    "label": "预测机构数",
+    "value": 11,
+    "unit": "",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "预测机构数",
+    "notes": ""
+  },
+  "中国移动_2027_最小值": {
+    "label": "净利润最小值",
+    "value": 1296.51,
+    "unit": "亿元",
+    "period": "2027",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "最小值",
+    "notes": ""
+  },
+  "中国移动_2027_均值": {
+    "label": "净利润均值",
+    "value": 1379.8,
+    "unit": "亿元",
+    "period": "2027",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "中国移动_2027_最大值": {
+    "label": "净利润最大值",
+    "value": 1594.68,
+    "unit": "亿元",
+    "period": "2027",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "中国移动_2027_行业平均数": {
+    "label": "行业平均净利润",
+    "value": 496.21,
+    "unit": "亿元",
+    "period": "2027",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "行业平均数",
+    "notes": ""
+  },
+  "中国移动_2028_预测机构数": {
+    "label": "预测机构数",
+    "value": 9,
+    "unit": "",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "预测机构数",
+    "notes": ""
+  },
+  "中国移动_2028_最小值": {
+    "label": "净利润最小值",
+    "value": 1312.21,
+    "unit": "亿元",
+    "period": "2028",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "最小值",
+    "notes": ""
+  },
+  "中国移动_2028_均值": {
+    "label": "净利润均值",
+    "value": 1411.04,
+    "unit": "亿元",
+    "period": "2028",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "中国移动_2028_最大值": {
+    "label": "净利润最大值",
+    "value": 1513.99,
+    "unit": "亿元",
+    "period": "2028",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "中国移动_2028_行业平均数": {
+    "label": "行业平均净利润",
+    "value": 578.63,
+    "unit": "亿元",
+    "period": "2028",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "行业平均数",
+    "notes": ""
+  },
+  "中国移动_2025年_年度分红": {
+    "label": "每10股派22.916元",
+    "value": 22.916,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_dividend_history_cninfo",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国移动_2025年_中期分红": {
+    "label": "每10股派25.025元",
+    "value": 25.025,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_dividend_history_cninfo",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国移动_2025Q4_税金及附加率": {
+    "label": "税金及附加率",
+    "value": 0.45,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "营业税金及附加 / 营业总收入"
+  },
+  "中国移动_2025Q4_销售费用率": {
+    "label": "销售费用率",
+    "value": 5.94,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "销售费用 / 营业总收入"
+  },
+  "中国移动_2025Q4_管理费用率": {
+    "label": "管理费用率",
+    "value": 6.02,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "管理费用 / 营业总收入"
+  },
+  "中国移动_2025年_税金及附加率": {
+    "label": "税金及附加率",
+    "value": 0.38,
+    "unit": "%",
+    "period": "2025年",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "营业税金及附加 / 营业总收入"
+  },
+  "中国移动_2025年_销售费用率": {
+    "label": "销售费用率",
+    "value": 5.35,
+    "unit": "%",
+    "period": "2025年",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "销售费用 / 营业总收入"
+  },
+  "中国移动_2025年_管理费用率": {
+    "label": "管理费用率",
+    "value": 5.32,
+    "unit": "%",
+    "period": "2025年",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "管理费用 / 营业总收入"
+  }
+}

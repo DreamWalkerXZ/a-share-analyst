@@ -1,0 +1,1352 @@
+{
+  "中国西电_2025Q4_营业总收入": {
+    "label": "营业总收入",
+    "value": 68.09,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国西电_2025Q4_营业收入（主营业务）": {
+    "label": "营业收入（主营业务）",
+    "value": 67.97,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国西电_2025Q4_营业成本": {
+    "label": "营业成本",
+    "value": 51.47,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国西电_2025Q4_营业税金及附加": {
+    "label": "营业税金及附加",
+    "value": 0.5,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国西电_2025Q4_销售费用": {
+    "label": "销售费用",
+    "value": 3.26,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国西电_2025Q4_管理费用": {
+    "label": "管理费用",
+    "value": 4.69,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国西电_2025Q4_财务费用": {
+    "label": "财务费用",
+    "value": 0.09,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国西电_2025Q4_营业利润": {
+    "label": "营业利润",
+    "value": 3.5,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国西电_2025Q4_利润总额": {
+    "label": "利润总额",
+    "value": 3.64,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国西电_2025Q4_所得税费用": {
+    "label": "所得税费用",
+    "value": 0.32,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国西电_2025Q4_净利润（含少数股东）": {
+    "label": "净利润（含少数股东）",
+    "value": 3.33,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国西电_2025Q4_归母净利润": {
+    "label": "归母净利润",
+    "value": 3.31,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国西电_2025Q4_扣非归母净利润": {
+    "label": "扣非归母净利润",
+    "value": 2.71,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国西电_2025Q4_少数股东损益": {
+    "label": "少数股东损益",
+    "value": 0.01,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国西电_2025Q4_基本每股收益": {
+    "label": "基本每股收益",
+    "value": 0.07,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国西电_2025Q4_稀释每股收益": {
+    "label": "稀释每股收益",
+    "value": 0.07,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国西电_2025年_营业总收入": {
+    "label": "营业总收入",
+    "value": 238.13,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业总收入",
+    "notes": ""
+  },
+  "中国西电_2025年_营业收入（主营业务）": {
+    "label": "营业收入（主营业务）",
+    "value": 237.56,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业收入（主营业务）",
+    "notes": ""
+  },
+  "中国西电_2025年_营业成本": {
+    "label": "营业成本",
+    "value": 183.52,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业成本",
+    "notes": ""
+  },
+  "中国西电_2025年_营业税金及附加": {
+    "label": "营业税金及附加",
+    "value": 1.64,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业税金及附加",
+    "notes": ""
+  },
+  "中国西电_2025年_销售费用": {
+    "label": "销售费用",
+    "value": 8.22,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "销售费用",
+    "notes": ""
+  },
+  "中国西电_2025年_管理费用": {
+    "label": "管理费用",
+    "value": 15.49,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "管理费用",
+    "notes": ""
+  },
+  "中国西电_2025年_财务费用": {
+    "label": "财务费用",
+    "value": -0.33,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "财务费用",
+    "notes": ""
+  },
+  "中国西电_2025年_营业利润": {
+    "label": "营业利润",
+    "value": 16.54,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业利润",
+    "notes": ""
+  },
+  "中国西电_2025年_利润总额": {
+    "label": "利润总额",
+    "value": 16.78,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "利润总额",
+    "notes": ""
+  },
+  "中国西电_2025年_所得税费用": {
+    "label": "所得税费用",
+    "value": 1.67,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "所得税费用",
+    "notes": ""
+  },
+  "中国西电_2025年_净利润（含少数股东）": {
+    "label": "净利润（含少数股东）",
+    "value": 15.11,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "净利润（含少数股东）",
+    "notes": ""
+  },
+  "中国西电_2025年_归母净利润": {
+    "label": "归母净利润",
+    "value": 12.7,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "归母净利润",
+    "notes": ""
+  },
+  "中国西电_2025年_扣非归母净利润": {
+    "label": "扣非归母净利润",
+    "value": 11.95,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "扣非归母净利润",
+    "notes": ""
+  },
+  "中国西电_2025年_少数股东损益": {
+    "label": "少数股东损益",
+    "value": 2.41,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "少数股东损益",
+    "notes": ""
+  },
+  "中国西电_2025年_基本每股收益": {
+    "label": "基本每股收益",
+    "value": 0.25,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "基本每股收益 [每股值，单位元/股，勿除1e8]",
+    "notes": "[每股值，元/股]"
+  },
+  "中国西电_2025年_稀释每股收益": {
+    "label": "稀释每股收益",
+    "value": 0.25,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "稀释每股收益 [每股值，单位元/股，勿除1e8]",
+    "notes": "[每股值，元/股]"
+  },
+  "中国西电_2025Q4_总资产": {
+    "label": "总资产",
+    "value": 489.76,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "总资产",
+    "notes": ""
+  },
+  "中国西电_2025Q4_总负债": {
+    "label": "总负债",
+    "value": 230.03,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "总负债",
+    "notes": ""
+  },
+  "中国西电_2025Q4_股东权益合计": {
+    "label": "股东权益合计",
+    "value": 259.73,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "股东权益合计",
+    "notes": ""
+  },
+  "中国西电_2025Q4_货币资金（银行存款等狭义现金，不含短期理财）": {
+    "label": "货币资金",
+    "value": 105.38,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "货币资金（银行存款等狭义现金，不含短期理财）",
+    "notes": ""
+  },
+  "中国西电_2025Q4_应收账款": {
+    "label": "应收账款",
+    "value": 96.54,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "应收账款",
+    "notes": ""
+  },
+  "中国西电_2025Q4_存货": {
+    "label": "存货",
+    "value": 52.8,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "存货",
+    "notes": ""
+  },
+  "中国西电_2025Q4_固定资产": {
+    "label": "固定资产",
+    "value": 57.9,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "固定资产",
+    "notes": ""
+  },
+  "中国西电_2025Q4_无形资产": {
+    "label": "无形资产",
+    "value": 18.01,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "无形资产",
+    "notes": ""
+  },
+  "中国西电_2025Q4_合同负债（预收款项）": {
+    "label": "合同负债",
+    "value": 57.78,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "合同负债（预收款项）",
+    "notes": ""
+  },
+  "中国西电_2025Q4_应交税费": {
+    "label": "应交税费",
+    "value": 3.7,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "应交税费",
+    "notes": ""
+  },
+  "中国西电_2025Q4_应付职工薪酬": {
+    "label": "应付职工薪酬",
+    "value": 1.05,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "应付职工薪酬",
+    "notes": ""
+  },
+  "中国西电_2025Q4_预付款项": {
+    "label": "预付款项",
+    "value": 13.12,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "预付款项",
+    "notes": ""
+  },
+  "中国西电_2025Q4_销售商品提供劳务收到的现金": {
+    "label": "销售商品/提供劳务收到的现金",
+    "value": 105.13,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "销售商品/提供劳务收到的现金",
+    "notes": ""
+  },
+  "中国西电_2025Q4_经营活动现金流入合计": {
+    "label": "经营活动现金流入合计",
+    "value": 110.72,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "经营活动现金流入合计",
+    "notes": ""
+  },
+  "中国西电_2025Q4_经营活动现金流出合计": {
+    "label": "经营活动现金流出合计",
+    "value": 88.87,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "经营活动现金流出合计",
+    "notes": ""
+  },
+  "中国西电_2025Q4_经营活动现金流量净额": {
+    "label": "经营活动现金流量净额",
+    "value": 21.85,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "经营活动现金流量净额 [总量，非每股！]",
+    "notes": "NETCASH_OPERATE是总量（亿元），与PER_NETCASH不同"
+  },
+  "中国西电_2025Q4_支付的税款": {
+    "label": "支付的税款",
+    "value": 3.06,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "支付的税款",
+    "notes": ""
+  },
+  "中国西电_2025Q4_投资活动现金流量净额": {
+    "label": "投资活动现金流量净额",
+    "value": -40.08,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "投资活动现金流量净额",
+    "notes": ""
+  },
+  "中国西电_2025Q4_投资支付的现金": {
+    "label": "投资支付的现金",
+    "value": 3.8,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "投资支付的现金",
+    "notes": ""
+  },
+  "中国西电_2025Q4_收回投资收到的现金": {
+    "label": "收回投资收到的现金",
+    "value": 13.53,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "收回投资收到的现金",
+    "notes": ""
+  },
+  "中国西电_2025Q4_分红偿债支付的现金": {
+    "label": "分红/偿债支付的现金",
+    "value": 0.48,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "分红/偿债支付的现金",
+    "notes": ""
+  },
+  "中国西电_2025Q4_筹资活动现金流量净额": {
+    "label": "筹资活动现金流量净额",
+    "value": 8.51,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "筹资活动现金流量净额",
+    "notes": ""
+  },
+  "中国西电_2025Q4_现金及现金等价物净增加额": {
+    "label": "现金及现金等价物净增加额",
+    "value": -9.91,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "现金及现金等价物净增加额",
+    "notes": ""
+  },
+  "中国西电_2025Q4_期初现金及等价物余额": {
+    "label": "期初现金及等价物余额（含货币基金，广义口径）",
+    "value": 85.6,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "期初现金及等价物余额（含货币基金，广义口径）",
+    "notes": ""
+  },
+  "中国西电_2025Q4_期末现金及等价物余额": {
+    "label": "期末现金及等价物余额（含货币基金，广义口径）",
+    "value": 75.68,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "期末现金及等价物余额（含货币基金，广义口径）",
+    "notes": ""
+  },
+  "中国西电_2025年_经营活动现金流量净额": {
+    "label": "经营活动现金流量净额",
+    "value": 27.4,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "经营活动现金流量净额 [总量，非每股！]",
+    "notes": ""
+  },
+  "中国西电_2025年_销售商品收到现金同比增速": {
+    "label": "销售商品收到现金同比增速",
+    "value": 16.89,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "销售商品收到现金同比增速",
+    "notes": ""
+  },
+  "中国西电_2025年_经营活动现金流同比增速": {
+    "label": "经营活动现金流同比增速",
+    "value": -21.68,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "经营活动现金流同比增速",
+    "notes": ""
+  },
+  "中国西电_2025年_投资活动现金流量净额": {
+    "label": "投资活动现金流量净额",
+    "value": -54.62,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "投资活动现金流量净额",
+    "notes": ""
+  },
+  "中国西电_2025年_投资活动现金流同比增速": {
+    "label": "投资活动现金流同比增速",
+    "value": -658.7,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "投资活动现金流同比增速",
+    "notes": ""
+  },
+  "中国西电_2025年_筹资活动现金流量净额": {
+    "label": "筹资活动现金流量净额",
+    "value": -0.21,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "筹资活动现金流量净额",
+    "notes": ""
+  },
+  "中国西电_2025年_筹资活动现金流同比增速": {
+    "label": "筹资活动现金流同比增速",
+    "value": 98.81,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "筹资活动现金流同比增速",
+    "notes": ""
+  },
+  "中国西电_2025年_现金及现金等价物净增加额": {
+    "label": "现金及现金等价物净增加额",
+    "value": -27.25,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "现金及现金等价物净增加额",
+    "notes": ""
+  },
+  "中国西电_2025年_期初现金及等价物余额": {
+    "label": "期初现金及等价物余额",
+    "value": 102.93,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "期初现金及等价物余额（含货币基金，广义口径）",
+    "notes": ""
+  },
+  "中国西电_2025年_期末现金及等价物余额": {
+    "label": "期末现金及等价物余额",
+    "value": 75.68,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "期末现金及等价物余额（含货币基金，广义口径）",
+    "notes": ""
+  },
+  "中国西电_2025年_基本每股收益（EPS）": {
+    "label": "基本每股收益",
+    "value": 0.25,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "基本每股收益（EPS）[每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "中国西电_2025年_每股净资产": {
+    "label": "每股净资产",
+    "value": 4.48,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "每股净资产 [每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "中国西电_2025年_营业总收入全年同比增速": {
+    "label": "营业总收入同比增长率",
+    "value": 6.88,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "营业总收入全年同比增速（累计）",
+    "notes": ""
+  },
+  "中国西电_2025年_归母净利润全年同比增速": {
+    "label": "归母净利润同比增长率",
+    "value": 20.45,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "归母净利润全年同比增速（累计）",
+    "notes": ""
+  },
+  "中国西电_2025Q4_毛利润": {
+    "label": "毛利润",
+    "value": 16.5,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "毛利润 [总量]",
+    "notes": ""
+  },
+  "中国西电_2025Q4_基本每股收益（EPS）": {
+    "label": "基本每股收益（EPS）",
+    "value": 0.07,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "基本每股收益（EPS）[每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "中国西电_2025Q4_每股净资产": {
+    "label": "每股净资产",
+    "value": 4.48,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "每股净资产 [每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "中国西电_2025Q4_每股经营现金流": {
+    "label": "每股经营现金流",
+    "value": 0.43,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "每股经营现金流 [每股值，元/股，勿除1e8；经营现金流总额在现金流量表中]",
+    "notes": ""
+  },
+  "中国西电_2025Q4_每股未分配利润": {
+    "label": "每股未分配利润",
+    "value": 1.0,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "每股未分配利润 [每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "中国西电_2025Q4_销售毛利率": {
+    "label": "销售毛利率",
+    "value": 24.28,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "realtime_search-{\"query\": \"中国西电 输变电设备 行业 PE 估值 2025\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国西电_2025Q4_销售净利率": {
+    "label": "销售净利率",
+    "value": 4.89,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "销售净利率",
+    "notes": ""
+  },
+  "中国西电_2025Q4_净资产收益率（稀释）": {
+    "label": "净资产收益率（稀释）",
+    "value": 1.45,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "净资产收益率（稀释）",
+    "notes": ""
+  },
+  "中国西电_2025Q4_总资产净利率（ROA）": {
+    "label": "总资产净利率（ROA）",
+    "value": 0.69,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "总资产净利率（ROA）",
+    "notes": ""
+  },
+  "中国西电_2025Q4_营业总收入同比增速": {
+    "label": "营业总收入同比增速",
+    "value": -3.21,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "营业总收入同比增速",
+    "notes": ""
+  },
+  "中国西电_2025Q4_归母净利润同比增速": {
+    "label": "归母净利润同比增长率",
+    "value": 23.85,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "realtime_search-{\"query\": \"中国西电 2025 管理层经营指引 业绩展望\"}",
+    "raw_field": "",
+    "notes": "单季度利润高增，印证全年高增长态势"
+  },
+  "中国西电_2025Q4_扣非归母净利润同比增速": {
+    "label": "扣非归母净利润同比增长率",
+    "value": 26.04,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "realtime_search-{\"query\": \"中国西电 2025 管理层经营指引 业绩展望\"}",
+    "raw_field": "",
+    "notes": "核心盈利能力强，剔除非经常性损益后增速更高"
+  },
+  "中国西电_2025年_输变电设备制造行业主营收入": {
+    "label": "输变电设备制造行业主营收入",
+    "value": 234.83,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SH601179\"}}",
+    "raw_field": "主营收入",
+    "notes": ""
+  },
+  "中国西电_2025年_输变电设备制造行业收入占比": {
+    "label": "输变电设备制造行业收入占比",
+    "value": 98.85,
+    "unit": "%",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SH601179\"}}",
+    "raw_field": "收入比例",
+    "notes": ""
+  },
+  "中国西电_2025年_输变电设备制造行业主营成本": {
+    "label": "输变电设备制造行业主营成本",
+    "value": 181.84,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SH601179\"}}",
+    "raw_field": "主营成本",
+    "notes": ""
+  },
+  "中国西电_2025年_输变电设备制造行业毛利率": {
+    "label": "输变电设备制造行业毛利率",
+    "value": 22.57,
+    "unit": "%",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SH601179\"}}",
+    "raw_field": "毛利率",
+    "notes": ""
+  },
+  "中国西电_2025年_其他业务主营收入": {
+    "label": "其他业务主营收入",
+    "value": 2.74,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SH601179\"}}",
+    "raw_field": "主营收入",
+    "notes": ""
+  },
+  "中国西电_2025年_其他业务收入占比": {
+    "label": "其他业务收入占比",
+    "value": 1.15,
+    "unit": "%",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SH601179\"}}",
+    "raw_field": "收入比例",
+    "notes": ""
+  },
+  "中国西电_2025年_其他业务主营成本": {
+    "label": "其他业务主营成本",
+    "value": 1.68,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SH601179\"}}",
+    "raw_field": "主营成本",
+    "notes": ""
+  },
+  "中国西电_2025年_其他业务毛利率": {
+    "label": "其他业务毛利率",
+    "value": 38.45,
+    "unit": "%",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SH601179\"}}",
+    "raw_field": "毛利率",
+    "notes": ""
+  },
+  "中国西电__PEG": {
+    "label": "PEG",
+    "value": 1.25,
+    "unit": "",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国西电__市盈率-TTM": {
+    "label": "市盈率-TTM",
+    "value": 65.64,
+    "unit": "倍",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国西电__市盈率-25E": {
+    "label": "市盈率-25E",
+    "value": 54.15,
+    "unit": "倍",
+    "period": "2025",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国西电__市盈率-26E": {
+    "label": "市盈率-26E",
+    "value": 44.17,
+    "unit": "倍",
+    "period": "2026",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国西电__市盈率-27E": {
+    "label": "市盈率-27E",
+    "value": 38.49,
+    "unit": "倍",
+    "period": "2027",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国西电__市净率-MRQ": {
+    "label": "市净率-MRQ",
+    "value": 3.71,
+    "unit": "倍",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国西电__ROE-3年平均": {
+    "label": "ROE-3年平均",
+    "value": 5.66,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国西电__ROE-24A": {
+    "label": "ROE-24A",
+    "value": 4.78,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国西电__净利率-3年平均": {
+    "label": "净利率-3年平均",
+    "value": 4.97,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国西电__净利率-24A": {
+    "label": "净利率-24A",
+    "value": 4.96,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国西电__行业中值_ROE-3年平均": {
+    "label": "ROE-3年平均",
+    "value": 7.07,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国西电__行业中值_ROE-24A": {
+    "label": "ROE-24A",
+    "value": 6.07,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国西电__行业中值_净利率-3年平均": {
+    "label": "净利率-3年平均",
+    "value": 5.2,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国西电__行业中值_净利率-24A": {
+    "label": "净利率-24A",
+    "value": 3.93,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国西电_2026_预测机构数": {
+    "label": "预测机构数",
+    "value": 9,
+    "unit": "",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "预测机构数",
+    "notes": ""
+  },
+  "中国西电_2026_每股收益最小值": {
+    "label": "每股收益最小值",
+    "value": 0.29,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最小值",
+    "notes": ""
+  },
+  "中国西电_2026_每股收益均值": {
+    "label": "每股收益均值",
+    "value": 0.31,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "中国西电_2026_每股收益最大值": {
+    "label": "每股收益最大值",
+    "value": 0.39,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "中国西电_2026_行业平均每股收益": {
+    "label": "行业平均每股收益",
+    "value": 2.78,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "行业平均数",
+    "notes": ""
+  },
+  "中国西电_2027_预测机构数": {
+    "label": "预测机构数",
+    "value": 8,
+    "unit": "",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "预测机构数",
+    "notes": ""
+  },
+  "中国西电_2027_每股收益最小值": {
+    "label": "每股收益最小值",
+    "value": 0.35,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最小值",
+    "notes": ""
+  },
+  "中国西电_2027_每股收益均值": {
+    "label": "每股收益均值",
+    "value": 0.38,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "中国西电_2027_每股收益最大值": {
+    "label": "每股收益最大值",
+    "value": 0.46,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "中国西电_2027_行业平均每股收益": {
+    "label": "行业平均每股收益",
+    "value": 3.48,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "行业平均数",
+    "notes": ""
+  },
+  "中国西电_2028_预测机构数": {
+    "label": "预测机构数",
+    "value": 6,
+    "unit": "",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "预测机构数",
+    "notes": ""
+  },
+  "中国西电_2028_每股收益最小值": {
+    "label": "每股收益最小值",
+    "value": 0.41,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最小值",
+    "notes": ""
+  },
+  "中国西电_2028_每股收益均值": {
+    "label": "每股收益均值",
+    "value": 0.44,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "中国西电_2028_每股收益最大值": {
+    "label": "每股收益最大值",
+    "value": 0.48,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "中国西电_2028_行业平均每股收益": {
+    "label": "行业平均每股收益",
+    "value": 4.61,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "行业平均数",
+    "notes": ""
+  },
+  "中国西电_2026_归母净利润预测均值": {
+    "label": "归母净利润预测均值",
+    "value": 16.01,
+    "unit": "亿元",
+    "period": "2026",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "中国西电_2027_归母净利润预测均值": {
+    "label": "归母净利润预测均值",
+    "value": 19.64,
+    "unit": "亿元",
+    "period": "2027",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "中国西电_2028_归母净利润预测均值": {
+    "label": "归母净利润预测均值",
+    "value": 22.54,
+    "unit": "亿元",
+    "period": "2028",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "中国西电_2026_归母净利润预测最小值": {
+    "label": "归母净利润预测最小值",
+    "value": 14.95,
+    "unit": "亿元",
+    "period": "2026",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "最小值",
+    "notes": ""
+  },
+  "中国西电_2027_归母净利润预测最小值": {
+    "label": "归母净利润预测最小值",
+    "value": 18.06,
+    "unit": "亿元",
+    "period": "2027",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "最小值",
+    "notes": ""
+  },
+  "中国西电_2028_归母净利润预测最小值": {
+    "label": "归母净利润预测最小值",
+    "value": 21.12,
+    "unit": "亿元",
+    "period": "2028",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "最小值",
+    "notes": ""
+  },
+  "中国西电_2026_归母净利润预测最大值": {
+    "label": "归母净利润预测最大值",
+    "value": 19.96,
+    "unit": "亿元",
+    "period": "2026",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "中国西电_2027_归母净利润预测最大值": {
+    "label": "归母净利润预测最大值",
+    "value": 23.59,
+    "unit": "亿元",
+    "period": "2027",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "中国西电_2028_归母净利润预测最大值": {
+    "label": "归母净利润预测最大值",
+    "value": 24.73,
+    "unit": "亿元",
+    "period": "2028",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "中国西电_2025年_年度分红": {
+    "label": "年度分红（每10股）",
+    "value": 0.22,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国西电 2025 管理层经营指引 业绩展望\"}",
+    "raw_field": "",
+    "notes": "来自年度报告摘要，明确利润分配预案"
+  },
+  "中国西电_2025Q4_季度分红": {
+    "label": "季度分红",
+    "value": 0.26,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_dividend_history_cninfo",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国西电_2025年_中期分红": {
+    "label": "中期分红",
+    "value": 0.47,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_dividend_history_cninfo",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国西电_2025Q4_税金及附加率": {
+    "label": "税金及附加率",
+    "value": 0.74,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "营业税金及附加 / 营业总收入"
+  },
+  "中国西电_2025Q4_销售费用率": {
+    "label": "销售费用率",
+    "value": 4.79,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "销售费用 / 营业总收入"
+  },
+  "中国西电_2025Q4_管理费用率": {
+    "label": "管理费用率",
+    "value": 6.89,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "管理费用 / 营业总收入"
+  },
+  "中国西电_2025年_税金及附加率": {
+    "label": "税金及附加率",
+    "value": 0.69,
+    "unit": "%",
+    "period": "2025年",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "营业税金及附加 / 营业总收入"
+  },
+  "中国西电_2025年_销售费用率": {
+    "label": "销售费用率",
+    "value": 3.45,
+    "unit": "%",
+    "period": "2025年",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "销售费用 / 营业总收入"
+  },
+  "中国西电_2025年_管理费用率": {
+    "label": "管理费用率",
+    "value": 6.51,
+    "unit": "%",
+    "period": "2025年",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "管理费用 / 营业总收入"
+  },
+  "中国西电_2025年_分红率": {
+    "label": "分红率",
+    "value": 38.0,
+    "unit": "%",
+    "period": "2025年",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "年度+中期派息合计（每10股）/ 基本每股收益"
+  },
+  "中国西电_2026_PE预测均值": {
+    "label": "市盈率-26E（预测）",
+    "value": 44.17,
+    "unit": "倍",
+    "period": "2026",
+    "source": "realtime_search-{\"query\": \"中国西电 输变电设备 行业 PE 估值 2025\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国西电_2027_PE预测均值": {
+    "label": "市盈率-27E（预测）",
+    "value": 38.49,
+    "unit": "倍",
+    "period": "2027",
+    "source": "realtime_search-{\"query\": \"中国西电 输变电设备 行业 PE 估值 2025\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国西电_2025年_归母净利润同比增长率": {
+    "label": "归母净利润同比增长率",
+    "value": 20.45,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国西电 2025 管理层经营指引 业绩展望\"}",
+    "raw_field": "",
+    "notes": "来源于东方财富网对2025年年报的解析，明确给出同比增速"
+  },
+  "中国西电_2025年_营业收入同比增长率": {
+    "label": "营业总收入同比增长率",
+    "value": 6.88,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国西电 2025 管理层经营指引 业绩展望\"}",
+    "raw_field": "",
+    "notes": "来源于雪球PDF年报及新浪财经公告，营收增长稳健"
+  },
+  "中国西电_2025年_研发投入": {
+    "label": "研发投入",
+    "value": 11.99,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国西电 研发投入 2025Q4\"}",
+    "raw_field": "",
+    "notes": "根据新浪财经2026-04-10报道，2025年研发费用增长48.39%至11.99亿元"
+  },
+  "中国西电_2025年_研发投入占营收比例": {
+    "label": "研发投入占营业收入比例",
+    "value": 5.05,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国西电 研发投入 2025Q4\"}",
+    "raw_field": "",
+    "notes": "计算得出：11.99 / 237.5642 * 100"
+  },
+  "中国西电_2025年_经营现金流同比增速": {
+    "label": "经营活动现金流同比增长率",
+    "value": -21.68,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国西电 研发投入 2025Q4\"}",
+    "raw_field": "",
+    "notes": "搜狐财经报道明确给出经营现金流下降21.68%"
+  },
+  "中国西电_2025Q4_研发费率同比增幅": {
+    "label": "研发费率同比增幅",
+    "value": 4.32,
+    "unit": "pct",
+    "period": "2025Q4",
+    "source": "realtime_search-{\"query\": \"中国西电 研发投入 2025Q4\"}",
+    "raw_field": "",
+    "notes": "新浪股票研报指出研发费率同比+4.32pct"
+  },
+  "中国西电_2025年_特高压市占率": {
+    "label": "特高压新建项目市占率",
+    "value": 100,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国西电 研发投入 2025Q4\"}",
+    "raw_field": "",
+    "notes": "东方财富网报道市占率稳居行业第一（默认100%）"
+  },
+  "中国西电_2025年_营收同比增速": {
+    "label": "营业总收入同比增长率",
+    "value": 7.13,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国西电 研发投入 2025Q4\"}",
+    "raw_field": "",
+    "notes": "搜狐财经报道营收同比增长7.13%"
+  },
+  "中国西电_2025年_商誉减值测试结果": {
+    "label": "商誉减值测试结果",
+    "value": 0,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国西电 2025Q4 商誉\"}",
+    "raw_field": "",
+    "notes": "因收购沈阳变压器研究院形成商誉，可收回金额高于含商誉资产组账面价值，未计提减值"
+  }
+}

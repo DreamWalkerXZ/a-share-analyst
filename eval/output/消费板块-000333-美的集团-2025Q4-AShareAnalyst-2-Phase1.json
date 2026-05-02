@@ -1,0 +1,1361 @@
+{
+  "美的集团_2025Q4_营业总收入": {
+    "label": "营业总收入",
+    "value": 937.8633,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团_2025Q4_营业收入（主营业务）": {
+    "label": "营业收入（主营业务）",
+    "value": 933.9498,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团_2025Q4_营业成本": {
+    "label": "营业成本",
+    "value": 668.7008,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团_2025Q4_营业税金及附加": {
+    "label": "营业税金及附加",
+    "value": 4.9431,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团_2025Q4_销售费用": {
+    "label": "销售费用",
+    "value": 100.5619,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团_2025Q4_管理费用": {
+    "label": "管理费用",
+    "value": 51.1605,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团_2025Q4_财务费用": {
+    "label": "财务费用",
+    "value": 8.4588,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团_2025Q4_营业利润": {
+    "label": "营业利润",
+    "value": 72.4207,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团_2025Q4_利润总额": {
+    "label": "利润总额",
+    "value": 72.2658,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团_2025Q4_所得税费用": {
+    "label": "所得税费用",
+    "value": 13.4421,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团_2025Q4_净利润（含少数股东）": {
+    "label": "净利润（含少数股东）",
+    "value": 58.8237,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团_2025Q4_归母净利润": {
+    "label": "归母净利润",
+    "value": 60.6203,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团_2025Q4_扣非归母净利润": {
+    "label": "扣非归母净利润",
+    "value": 41.2715,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团_2025Q4_少数股东损益": {
+    "label": "少数股东损益",
+    "value": -1.7966,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团_2025Q4_基本每股收益": {
+    "label": "基本每股收益",
+    "value": 0.82,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团_2025Q4_稀释每股收益": {
+    "label": "稀释每股收益",
+    "value": 0.79,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团_2025年_营业总收入": {
+    "label": "营业总收入",
+    "value": 4585.0241,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业总收入",
+    "notes": ""
+  },
+  "美的集团_2025年_营业收入（主营业务）": {
+    "label": "营业收入（主营业务）",
+    "value": 4564.5173,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业收入（主营业务）",
+    "notes": ""
+  },
+  "美的集团_2025年_营业成本": {
+    "label": "营业成本",
+    "value": 3359.8953,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业成本",
+    "notes": ""
+  },
+  "美的集团_2025年_营业税金及附加": {
+    "label": "营业税金及附加",
+    "value": 22.1729,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业税金及附加",
+    "notes": ""
+  },
+  "美的集团_2025年_销售费用": {
+    "label": "销售费用",
+    "value": 428.9149,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "销售费用",
+    "notes": ""
+  },
+  "美的集团_2025年_管理费用": {
+    "label": "管理费用",
+    "value": 160.9231,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "管理费用",
+    "notes": ""
+  },
+  "美的集团_2025年_财务费用": {
+    "label": "财务费用",
+    "value": -59.0355,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "财务费用",
+    "notes": ""
+  },
+  "美的集团_2025年_营业利润": {
+    "label": "营业利润",
+    "value": 529.7877,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业利润",
+    "notes": ""
+  },
+  "美的集团_2025年_利润总额": {
+    "label": "利润总额",
+    "value": 530.8534,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "利润总额",
+    "notes": ""
+  },
+  "美的集团_2025年_所得税费用": {
+    "label": "所得税费用",
+    "value": 85.6515,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "所得税费用",
+    "notes": ""
+  },
+  "美的集团_2025年_净利润（含少数股东）": {
+    "label": "净利润（含少数股东）",
+    "value": 445.202,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "净利润（含少数股东）",
+    "notes": ""
+  },
+  "美的集团_2025年_归母净利润": {
+    "label": "归母净利润",
+    "value": 439.4541,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "归母净利润",
+    "notes": ""
+  },
+  "美的集团_2025年_扣非归母净利润": {
+    "label": "扣非归母净利润",
+    "value": 412.6723,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "扣非归母净利润",
+    "notes": ""
+  },
+  "美的集团_2025年_少数股东损益": {
+    "label": "少数股东损益",
+    "value": 5.7478,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "少数股东损益",
+    "notes": ""
+  },
+  "美的集团_2025年_基本每股收益": {
+    "label": "基本每股收益",
+    "value": 5.8,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "基本每股收益 [每股值，单位元/股，勿除1e8]",
+    "notes": "每股指标标注[每股值，元/股]"
+  },
+  "美的集团_2025年_稀释每股收益": {
+    "label": "稀释每股收益",
+    "value": 5.76,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "稀释每股收益 [每股值，单位元/股，勿除1e8]",
+    "notes": "每股指标标注[每股值，元/股]"
+  },
+  "美的集团_2025Q4_总资产": {
+    "label": "总资产",
+    "value": 6087.9177,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团_2025Q4_总负债": {
+    "label": "总负债",
+    "value": 3723.6754,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团_2025Q4_股东权益合计": {
+    "label": "股东权益合计",
+    "value": 2364.2422,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团_2025Q4_货币资金": {
+    "label": "货币资金（银行存款等狭义现金，不含短期理财）",
+    "value": 852.4715,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团_2025Q4_应收账款": {
+    "label": "应收账款",
+    "value": 404.501,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团_2025Q4_存货": {
+    "label": "存货",
+    "value": 646.2883,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团_2025Q4_固定资产": {
+    "label": "固定资产",
+    "value": 449.8339,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团_2025Q4_无形资产": {
+    "label": "无形资产",
+    "value": 216.1886,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团_2025Q4_合同负债": {
+    "label": "合同负债（预收款项）",
+    "value": 469.9306,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团_2025Q4_应交税费": {
+    "label": "应交税费",
+    "value": 71.6409,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团_2025Q4_应付职工薪酬": {
+    "label": "应付职工薪酬",
+    "value": 96.4544,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团_2025Q4_预付款项": {
+    "label": "预付款项",
+    "value": 29.8729,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团_2025Q4_销售商品/提供劳务收到的现金": {
+    "label": "销售商品/提供劳务收到的现金",
+    "value": 962.9287,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团_2025Q4_经营活动现金流入合计": {
+    "label": "经营活动现金流入合计",
+    "value": 1011.1575,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团_2025Q4_经营活动现金流出合计": {
+    "label": "经营活动现金流出合计",
+    "value": 1048.359,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团_2025Q4_经营活动现金流量净额": {
+    "label": "经营活动现金流量净额",
+    "value": -37.2015,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": "[总量，非每股！]"
+  },
+  "美的集团_2025Q4_支付的税款": {
+    "label": "支付的税款",
+    "value": 43.0301,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团_2025Q4_投资活动现金流量净额": {
+    "label": "投资活动现金流量净额",
+    "value": 64.8892,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团_2025Q4_投资支付的现金": {
+    "label": "投资支付的现金",
+    "value": 559.9411,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团_2025Q4_收回投资收到的现金": {
+    "label": "收回投资收到的现金",
+    "value": 636.529,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团_2025Q4_分红/偿债支付的现金": {
+    "label": "分红/偿债支付的现金",
+    "value": 44.7379,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团_2025Q4_筹资活动现金流量净额": {
+    "label": "筹资活动现金流量净额",
+    "value": 38.8532,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团_2025Q4_现金及现金等价物净增加额": {
+    "label": "现金及现金等价物净增加额",
+    "value": 58.7151,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团_2025Q4_期初现金及等价物余额": {
+    "label": "期初现金及等价物余额（含货币基金，广义口径）",
+    "value": 626.3716,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团_2025Q4_期末现金及等价物余额": {
+    "label": "期末现金及等价物余额（含货币基金，广义口径）",
+    "value": 685.0867,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "KEY1": {
+    "label": "销售商品/提供劳务收到的现金",
+    "value": 4262.108,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "KEY2": {
+    "label": "经营活动现金流入合计",
+    "value": 4495.4246,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "KEY3": {
+    "label": "经营活动现金流出合计",
+    "value": 3961.9653,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "KEY4": {
+    "label": "经营活动现金流量净额",
+    "value": 533.4593,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": "总量，非每股"
+  },
+  "KEY5": {
+    "label": "支付的税款",
+    "value": 203.1692,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "KEY6": {
+    "label": "投资活动现金流量净额",
+    "value": 253.4027,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "KEY7": {
+    "label": "投资支付的现金",
+    "value": 1649.0491,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "KEY8": {
+    "label": "收回投资收到的现金",
+    "value": 1975.3196,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "KEY9": {
+    "label": "分红/偿债支付的现金",
+    "value": 330.8014,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "KEY10": {
+    "label": "筹资活动现金流量净额",
+    "value": -649.5778,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "KEY11": {
+    "label": "现金及现金等价物净增加额",
+    "value": 133.8994,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "KEY12": {
+    "label": "期初现金及等价物余额（含货币基金，广义口径）",
+    "value": 551.1873,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "KEY13": {
+    "label": "期末现金及等价物余额（含货币基金，广义口径）",
+    "value": 685.0867,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "KEY14": {
+    "label": "销售商品收到现金同比增速",
+    "value": 9.6612,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "KEY15": {
+    "label": "经营活动现金流同比增速",
+    "value": -11.8418,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "KEY16": {
+    "label": "投资活动现金流同比增速",
+    "value": 128.8279,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "KEY17": {
+    "label": "筹资活动现金流同比增速",
+    "value": -386.1834,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团_2025年_基本每股收益（EPS）": {
+    "label": "基本每股收益（EPS）",
+    "value": 5.8,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "基本每股收益（EPS）[每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "美的集团_2025年_每股净资产": {
+    "label": "每股净资产",
+    "value": 29.3823,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "每股净资产 [每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "美的集团_2025年_营业总收入同比增速": {
+    "label": "营业总收入全年同比增速（累计）",
+    "value": 12.0802,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "营业总收入全年同比增速（累计）",
+    "notes": ""
+  },
+  "美的集团_2025年_归母净利润同比增速": {
+    "label": "归母净利润全年同比增速（累计）",
+    "value": 14.0336,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "归母净利润全年同比增速（累计）",
+    "notes": ""
+  },
+  "美的集团_2025Q4_毛利润": {
+    "label": "毛利润",
+    "value": 265.249,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "毛利润 [总量]",
+    "notes": ""
+  },
+  "美的集团_2025Q4_基本每股收益（EPS）": {
+    "label": "基本每股收益（EPS）",
+    "value": 0.82,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "基本每股收益（EPS）[每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "美的集团_2025Q4_每股净资产": {
+    "label": "每股净资产",
+    "value": 29.3823,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "每股净资产 [每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "美的集团_2025Q4_每股经营现金流": {
+    "label": "每股经营现金流",
+    "value": -0.4897,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "每股经营现金流 [每股值，元/股，勿除1e8；经营现金流总额在现金流量表中]",
+    "notes": ""
+  },
+  "美的集团_2025Q4_每股未分配利润": {
+    "label": "每股未分配利润",
+    "value": 22.012,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "每股未分配利润 [每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "美的集团_2025Q4_销售毛利率": {
+    "label": "销售毛利率",
+    "value": 28.4008,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "销售毛利率",
+    "notes": ""
+  },
+  "美的集团_2025Q4_销售净利率": {
+    "label": "销售净利率",
+    "value": 6.2984,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "销售净利率",
+    "notes": ""
+  },
+  "美的集团_2025Q4_净资产收益率（稀释）": {
+    "label": "净资产收益率（稀释）",
+    "value": 2.732,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "净资产收益率（稀释）",
+    "notes": ""
+  },
+  "美的集团_2025Q4_总资产净利率（ROA）": {
+    "label": "总资产净利率（ROA）",
+    "value": 0.9787,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "总资产净利率（ROA）",
+    "notes": ""
+  },
+  "美的集团_2025Q4_营业总收入同比增速": {
+    "label": "营业总收入同比增速",
+    "value": 5.6932,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "营业总收入同比增速",
+    "notes": ""
+  },
+  "美的集团_2025Q4_归母净利润同比增速": {
+    "label": "归母净利润同比增速",
+    "value": -11.3495,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "归母净利润同比增速",
+    "notes": ""
+  },
+  "美的集团_2025Q4_扣非归母净利润同比增速": {
+    "label": "扣非归母净利润同比增速",
+    "value": -23.0681,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "扣非归母净利润同比增速",
+    "notes": ""
+  },
+  "美的集团_2025年_制造业主营收入": {
+    "label": "制造业主营收入",
+    "value": 4092.7242,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "主营收入 [总量]",
+    "notes": ""
+  },
+  "美的集团_2025年_制造业收入占比": {
+    "label": "制造业收入占比",
+    "value": 89.66,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "收入占比",
+    "notes": ""
+  },
+  "美的集团_2025年_制造业主营成本": {
+    "label": "制造业主营成本",
+    "value": 2949.5424,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "主营成本 [总量]",
+    "notes": ""
+  },
+  "美的集团_2025年_制造业毛利率": {
+    "label": "制造业毛利率",
+    "value": 27.93,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "毛利率",
+    "notes": ""
+  },
+  "美的集团_2025年_其他主营收入": {
+    "label": "其他主营收入",
+    "value": 471.7931,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "主营收入 [总量]",
+    "notes": ""
+  },
+  "美的集团_2025年_其他收入占比": {
+    "label": "其他收入占比",
+    "value": 10.34,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "收入占比",
+    "notes": ""
+  },
+  "美的集团_2025年_其他主营成本": {
+    "label": "其他主营成本",
+    "value": 410.3529,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "主营成本 [总量]",
+    "notes": ""
+  },
+  "美的集团_2025年_其他毛利率": {
+    "label": "其他毛利率",
+    "value": 13.02,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "毛利率",
+    "notes": ""
+  },
+  "美的集团__PEG": {
+    "label": "PEG",
+    "value": 0.8535,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "PEG",
+    "notes": ""
+  },
+  "美的集团__市盈率-TTM": {
+    "label": "市盈率-TTM",
+    "value": 13.9573,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "市盈率-TTM",
+    "notes": ""
+  },
+  "美的集团__市盈率-25E": {
+    "label": "市盈率-25E",
+    "value": 13.0851,
+    "unit": "%",
+    "period": "2025",
+    "source": "get_peer_valuation",
+    "raw_field": "市盈率-25E",
+    "notes": ""
+  },
+  "美的集团__市盈率-26E": {
+    "label": "市盈率-26E",
+    "value": 12.0475,
+    "unit": "%",
+    "period": "2026",
+    "source": "get_peer_valuation",
+    "raw_field": "市盈率-26E",
+    "notes": ""
+  },
+  "美的集团__市盈率-27E": {
+    "label": "市盈率-27E",
+    "value": 11.1998,
+    "unit": "%",
+    "period": "2027",
+    "source": "get_peer_valuation",
+    "raw_field": "市盈率-27E",
+    "notes": ""
+  },
+  "美的集团__市净率-MRQ": {
+    "label": "市净率-MRQ",
+    "value": 2.6555,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "市净率-MRQ",
+    "notes": ""
+  },
+  "行业平均_PEG": {
+    "label": "行业平均 PEG",
+    "value": 0.6913,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "PEG",
+    "notes": ""
+  },
+  "行业平均_市盈率-TTM": {
+    "label": "行业平均 市盈率-TTM",
+    "value": 7.9974,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "市盈率-TTM",
+    "notes": ""
+  },
+  "行业平均_市盈率-25E": {
+    "label": "行业平均 市盈率-25E",
+    "value": 10.421,
+    "unit": "%",
+    "period": "2025",
+    "source": "get_peer_valuation",
+    "raw_field": "市盈率-25E",
+    "notes": ""
+  },
+  "行业平均_市盈率-26E": {
+    "label": "行业平均 市盈率-26E",
+    "value": 9.3747,
+    "unit": "%",
+    "period": "2026",
+    "source": "get_peer_valuation",
+    "raw_field": "市盈率-26E",
+    "notes": ""
+  },
+  "行业平均_市盈率-27E": {
+    "label": "行业平均 市盈率-27E",
+    "value": 8.6793,
+    "unit": "%",
+    "period": "2027",
+    "source": "get_peer_valuation",
+    "raw_field": "市盈率-27E",
+    "notes": ""
+  },
+  "行业平均_市净率-MRQ": {
+    "label": "行业平均 市净率-MRQ",
+    "value": 1.4816,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "市净率-MRQ",
+    "notes": ""
+  },
+  "美的集团__ROE-3年平均": {
+    "label": "ROE-3年平均",
+    "value": 15.32,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团__ROE-24A": {
+    "label": "ROE-24A",
+    "value": 17.68,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团__净利率-3年平均": {
+    "label": "净利率-3年平均",
+    "value": 5.935,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团__净利率-24A": {
+    "label": "净利率-24A",
+    "value": 6.025,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团__行业平均_ROE-3年平均": {
+    "label": "行业平均 ROE-3年平均",
+    "value": 17.74,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团__行业平均_ROE-24A": {
+    "label": "行业平均 ROE-24A",
+    "value": 14.49,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团__行业平均_净利率-3年平均": {
+    "label": "行业平均 净利率-3年平均",
+    "value": 6.37,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团__行业平均_净利率-24A": {
+    "label": "行业平均 净利率-24A",
+    "value": 6.63,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团_2026_预测机构数": {
+    "label": "预测机构数",
+    "value": 31,
+    "unit": "",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "预测机构数",
+    "notes": ""
+  },
+  "美的集团_2026_每股收益最小值": {
+    "label": "每股收益最小值",
+    "value": 5.95,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最小值",
+    "notes": ""
+  },
+  "美的集团_2026_每股收益均值": {
+    "label": "每股收益均值",
+    "value": 6.2,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "美的集团_2026_每股收益最大值": {
+    "label": "每股收益最大值",
+    "value": 6.43,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "美的集团_2026_行业平均每股收益": {
+    "label": "行业平均每股收益",
+    "value": 2.78,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "行业平均数",
+    "notes": ""
+  },
+  "美的集团_2027_预测机构数": {
+    "label": "预测机构数",
+    "value": 31,
+    "unit": "",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "预测机构数",
+    "notes": ""
+  },
+  "美的集团_2027_每股收益最小值": {
+    "label": "每股收益最小值",
+    "value": 6.45,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最小值",
+    "notes": ""
+  },
+  "美的集团_2027_每股收益均值": {
+    "label": "每股收益均值",
+    "value": 6.73,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "美的集团_2027_每股收益最大值": {
+    "label": "每股收益最大值",
+    "value": 7.05,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "美的集团_2027_行业平均每股收益": {
+    "label": "行业平均每股收益",
+    "value": 3.48,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "行业平均数",
+    "notes": ""
+  },
+  "美的集团_2028_预测机构数": {
+    "label": "预测机构数",
+    "value": 28,
+    "unit": "",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "预测机构数",
+    "notes": ""
+  },
+  "美的集团_2028_每股收益最小值": {
+    "label": "每股收益最小值",
+    "value": 6.85,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最小值",
+    "notes": ""
+  },
+  "美的集团_2028_每股收益均值": {
+    "label": "每股收益均值",
+    "value": 7.25,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "美的集团_2028_每股收益最大值": {
+    "label": "每股收益最大值",
+    "value": 7.62,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "美的集团_2028_行业平均每股收益": {
+    "label": "行业平均每股收益",
+    "value": 4.61,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "行业平均数",
+    "notes": ""
+  },
+  "美的集团_2026_归母净利润预测均值": {
+    "label": "归母净利润预测均值",
+    "value": 471.61,
+    "unit": "亿元",
+    "period": "2026",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团_2026_归母净利润预测最小值": {
+    "label": "归母净利润预测最小值",
+    "value": 452.4,
+    "unit": "亿元",
+    "period": "2026",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团_2026_归母净利润预测最大值": {
+    "label": "归母净利润预测最大值",
+    "value": 494.19,
+    "unit": "亿元",
+    "period": "2026",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团_2027_归母净利润预测均值": {
+    "label": "归母净利润预测均值",
+    "value": 512.19,
+    "unit": "亿元",
+    "period": "2027",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团_2027_归母净利润预测最小值": {
+    "label": "归母净利润预测最小值",
+    "value": 490.71,
+    "unit": "亿元",
+    "period": "2027",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团_2027_归母净利润预测最大值": {
+    "label": "归母净利润预测最大值",
+    "value": 539.41,
+    "unit": "亿元",
+    "period": "2027",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团_2028_归母净利润预测均值": {
+    "label": "归母净利润预测均值",
+    "value": 551.33,
+    "unit": "亿元",
+    "period": "2028",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团_2028_归母净利润预测最小值": {
+    "label": "归母净利润预测最小值",
+    "value": 520.74,
+    "unit": "亿元",
+    "period": "2028",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团_2028_归母净利润预测最大值": {
+    "label": "归母净利润预测最大值",
+    "value": 579.85,
+    "unit": "亿元",
+    "period": "2028",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "美的集团_2025年_年度分红": {
+    "label": "年度分红",
+    "value": 3.5,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_dividend_history_cninfo",
+    "raw_field": "2025-06-06 年度分红: 每10股派35.0元",
+    "notes": ""
+  },
+  "美的集团_2025年中_中期分红": {
+    "label": "中期分红",
+    "value": 0.5,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_dividend_history_cninfo",
+    "raw_field": "2025-11-12 中期分红: 每10股派5.0元",
+    "notes": ""
+  },
+  "美的集团_2025Q4_税金及附加率": {
+    "label": "税金及附加率",
+    "value": 0.53,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "营业税金及附加 / 营业总收入"
+  },
+  "美的集团_2025Q4_销售费用率": {
+    "label": "销售费用率",
+    "value": 10.72,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "销售费用 / 营业总收入"
+  },
+  "美的集团_2025Q4_管理费用率": {
+    "label": "管理费用率",
+    "value": 5.46,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "管理费用 / 营业总收入"
+  },
+  "美的集团_2025年_税金及附加率": {
+    "label": "税金及附加率",
+    "value": 0.48,
+    "unit": "%",
+    "period": "2025年",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "营业税金及附加 / 营业总收入"
+  },
+  "美的集团_2025年_销售费用率": {
+    "label": "销售费用率",
+    "value": 9.35,
+    "unit": "%",
+    "period": "2025年",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "销售费用 / 营业总收入"
+  },
+  "美的集团_2025年_管理费用率": {
+    "label": "管理费用率",
+    "value": 3.51,
+    "unit": "%",
+    "period": "2025年",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "管理费用 / 营业总收入"
+  },
+  "美的集团_2025年_分红率": {
+    "label": "分红率",
+    "value": 6.9,
+    "unit": "%",
+    "period": "2025年",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "年度+中期派息合计（每10股）/ 基本每股收益"
+  }
+}

@@ -1,0 +1,1541 @@
+{
+  "浪潮信息_2025Q4_营业总收入": {
+    "label": "2025Q4营业总收入",
+    "value": 441.13,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "realtime_search-{\"query\": \"浪潮信息 合同负债 在手订单 2025Q4\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_营业收入（主营业务）": {
+    "label": "营业收入（主营业务）",
+    "value": 441.13,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "营业收入（主营业务）",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_营业成本": {
+    "label": "营业成本",
+    "value": 419.85,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "营业成本",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_营业税金及附加": {
+    "label": "营业税金及附加",
+    "value": 0.6,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "营业税金及附加",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_销售费用": {
+    "label": "销售费用",
+    "value": 3.34,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "销售费用",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_管理费用": {
+    "label": "管理费用",
+    "value": 3.25,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "管理费用",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_财务费用": {
+    "label": "财务费用",
+    "value": -0.55,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "财务费用",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_营业利润": {
+    "label": "营业利润",
+    "value": 9.42,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "营业利润",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_利润总额": {
+    "label": "利润总额",
+    "value": 9.46,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "利润总额",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_所得税费用": {
+    "label": "所得税费用",
+    "value": 0.26,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "所得税费用",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_净利润（含少数股东）": {
+    "label": "净利润（含少数股东）",
+    "value": 9.2,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "净利润（含少数股东）",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_归母净利润": {
+    "label": "2025Q4归母净利润",
+    "value": 9.31,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "realtime_search-{\"query\": \"浪潮信息 合同负债 在手订单 2025Q4\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_扣非归母净利润": {
+    "label": "扣非归母净利润",
+    "value": 7.47,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "扣非归母净利润",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_少数股东损益": {
+    "label": "少数股东损益",
+    "value": -0.11,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "少数股东损益",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_基本每股收益": {
+    "label": "基本每股收益",
+    "value": 0.63,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "基本每股收益 [每股值，单位元/股，勿除1e8]",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_稀释每股收益": {
+    "label": "稀释每股收益",
+    "value": 0.63,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "稀释每股收益 [每股值，单位元/股，勿除1e8]",
+    "notes": ""
+  },
+  "浪潮信息_2025年_营业总收入": {
+    "label": "营业总收入",
+    "value": 1647.82,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息_2025年_营业收入（主营业务）": {
+    "label": "2025年营业收入（主营业务）",
+    "value": 1647.82,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"浪潮信息 合同负债 在手订单 2025Q4\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息_2025年_营业成本": {
+    "label": "营业成本",
+    "value": 1567.35,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息_2025年_营业税金及附加": {
+    "label": "营业税金及附加",
+    "value": 2.27,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息_2025年_销售费用": {
+    "label": "销售费用",
+    "value": 12.72,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息_2025年_管理费用": {
+    "label": "管理费用",
+    "value": 9.17,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息_2025年_财务费用": {
+    "label": "财务费用",
+    "value": 0.03,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息_2025年_营业利润": {
+    "label": "营业利润",
+    "value": 24.61,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息_2025年_利润总额": {
+    "label": "利润总额",
+    "value": 24.68,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息_2025年_所得税费用": {
+    "label": "所得税费用",
+    "value": 0.59,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息_2025年_净利润（含少数股东）": {
+    "label": "净利润（含少数股东）",
+    "value": 24.09,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息_2025年_归母净利润": {
+    "label": "归母净利润",
+    "value": 24.13,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息_2025年_扣非归母净利润": {
+    "label": "扣非归母净利润",
+    "value": 20.81,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息_2025年_少数股东损益": {
+    "label": "少数股东损益",
+    "value": -0.04,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息_2025年_基本每股收益": {
+    "label": "基本每股收益",
+    "value": 1.64,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息_2025年_稀释每股收益": {
+    "label": "稀释每股收益",
+    "value": 1.64,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_总资产": {
+    "label": "总资产",
+    "value": 837.94,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "总资产",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_总负债": {
+    "label": "总负债",
+    "value": 617.02,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "总负债",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_股东权益合计": {
+    "label": "股东权益合计",
+    "value": 220.92,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "股东权益合计",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_货币资金": {
+    "label": "货币资金",
+    "value": 103.25,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "货币资金（银行存款等狭义现金，不含短期理财）",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_应收账款": {
+    "label": "应收账款",
+    "value": 130.51,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "应收账款",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_存货": {
+    "label": "2025Q4末存货余额",
+    "value": 465.08,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "structured_data-{\"action\": \"get_research_reports\", \"params\": {\"symbol\": \"000977\"}}",
+    "raw_field": "",
+    "notes": "高库存反映下游需求旺盛"
+  },
+  "浪潮信息_2025Q4_固定资产": {
+    "label": "固定资产",
+    "value": 25.85,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "固定资产",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_无形资产": {
+    "label": "无形资产",
+    "value": 3.2,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "无形资产",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_合同负债": {
+    "label": "2025Q4末合同负债余额",
+    "value": 195.06,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "realtime_search-{\"query\": \"浪潮信息 合同负债 在手订单 2025Q4\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_应交税费": {
+    "label": "应交税费",
+    "value": 4.03,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "应交税费",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_应付职工薪酬": {
+    "label": "应付职工薪酬",
+    "value": 17.15,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "应付职工薪酬",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_预付款项": {
+    "label": "预付款项",
+    "value": 30.18,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "预付款项",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_销售商品/提供劳务收到的现金": {
+    "label": "销售商品/提供劳务收到的现金",
+    "value": 607.79,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "销售商品/提供劳务收到的现金",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_经营活动现金流入合计": {
+    "label": "经营活动现金流入合计",
+    "value": 614.27,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "经营活动现金流入合计",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_经营活动现金流出合计": {
+    "label": "经营活动现金流出合计",
+    "value": 434.0,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "经营活动现金流出合计",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_经营活动现金流量净额": {
+    "label": "2025Q4经营活动现金流量净额",
+    "value": 180.27,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "realtime_search-{\"query\": \"浪潮信息 合同负债 在手订单 2025Q4\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_支付的税款": {
+    "label": "支付的税款",
+    "value": 3.87,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "支付的税款",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_投资活动现金流量净额": {
+    "label": "投资活动现金流量净额",
+    "value": 1.47,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "投资活动现金流量净额",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_投资支付的现金": {
+    "label": "投资支付的现金",
+    "value": -2.07,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "投资支付的现金",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_分红/偿债支付的现金": {
+    "label": "分红/偿债支付的现金",
+    "value": 0.92,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "分红/偿债支付的现金",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_筹资活动现金流量净额": {
+    "label": "筹资活动现金流量净额",
+    "value": -173.38,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "筹资活动现金流量净额",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_现金及现金等价物净增加额": {
+    "label": "现金及现金等价物净增加额",
+    "value": 6.75,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "现金及现金等价物净增加额",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_期初现金及等价物余额": {
+    "label": "期初现金及等价物余额",
+    "value": 96.39,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "期初现金及等价物余额（含货币基金，广义口径）",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_期末现金及等价物余额": {
+    "label": "期末现金及等价物余额",
+    "value": 103.14,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "期末现金及等价物余额（含货币基金，广义口径）",
+    "notes": ""
+  },
+  "浪潮信息_2025年_销售商品收到现金": {
+    "label": "销售商品/提供劳务收到的现金",
+    "value": 2314.77,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "销售商品/提供劳务收到的现金",
+    "notes": ""
+  },
+  "浪潮信息_2025年_经营活动现金流入合计": {
+    "label": "经营活动现金流入合计",
+    "value": 2362.37,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "经营活动现金流入合计",
+    "notes": ""
+  },
+  "浪潮信息_2025年_经营活动现金流出合计": {
+    "label": "经营活动现金流出合计",
+    "value": 2307.84,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "经营活动现金流出合计",
+    "notes": ""
+  },
+  "浪潮信息_2025年_经营活动现金流量净额": {
+    "label": "经营活动现金流量净额",
+    "value": 54.53,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "经营活动现金流量净额 [总量，非每股！]",
+    "notes": "[注意]这是累计年度数据"
+  },
+  "浪潮信息_2025年_支付的税款": {
+    "label": "支付的税款",
+    "value": 12.22,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "支付的税款",
+    "notes": ""
+  },
+  "浪潮信息_2025年_投资活动现金流量净额": {
+    "label": "投资活动现金流量净额",
+    "value": -2.05,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "投资活动现金流量净额",
+    "notes": ""
+  },
+  "浪潮信息_2025年_投资支付的现金": {
+    "label": "投资支付的现金",
+    "value": 0.0,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "投资支付的现金",
+    "notes": ""
+  },
+  "浪潮信息_2025年_收回投资收到的现金": {
+    "label": "收回投资收到的现金",
+    "value": 0.0,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "收回投资收到的现金",
+    "notes": ""
+  },
+  "浪潮信息_2025年_分红偿债支付的现金": {
+    "label": "分红/偿债支付的现金",
+    "value": 6.47,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "分红/偿债支付的现金",
+    "notes": ""
+  },
+  "浪潮信息_2025年_筹资活动现金流量净额": {
+    "label": "筹资活动现金流量净额",
+    "value": -13.8,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "筹资活动现金流量净额",
+    "notes": ""
+  },
+  "浪潮信息_2025年_现金及现金等价物净增加额": {
+    "label": "现金及现金等价物净增加额",
+    "value": 29.39,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "现金及现金等价物净增加额",
+    "notes": ""
+  },
+  "浪潮信息_2025年_期初现金及等价物余额": {
+    "label": "期初现金及等价物余额（含货币基金，广义口径）",
+    "value": 73.75,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "期初现金及等价物余额（含货币基金，广义口径）",
+    "notes": ""
+  },
+  "浪潮信息_2025年_期末现金及等价物余额": {
+    "label": "期末现金及等价物余额（含货币基金，广义口径）",
+    "value": 103.14,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "期末现金及等价物余额（含货币基金，广义口径）",
+    "notes": ""
+  },
+  "浪潮信息_2025年_销售商品收到现金同比增速": {
+    "label": "2025年销售商品收到现金同比增速",
+    "value": 85.38,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"浪潮信息 合同负债 在手订单 2025Q4\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息_2025年_经营活动现金流同比增速": {
+    "label": "经营活动现金流同比增速",
+    "value": 7183.71,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "经营活动现金流同比增速",
+    "notes": ""
+  },
+  "浪潮信息_2025年_投资活动现金流同比增速": {
+    "label": "投资活动现金流同比增速",
+    "value": 27.55,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "投资活动现金流同比增速",
+    "notes": ""
+  },
+  "浪潮信息_2025年_筹资活动现金流同比增速": {
+    "label": "筹资活动现金流同比增速",
+    "value": 64.82,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "筹资活动现金流同比增速",
+    "notes": ""
+  },
+  "浪潮信息_2025年_营业总收入全年同比增速（累计）": {
+    "label": "营业总收入全年同比增速（累计）",
+    "value": 43.25,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "营业总收入全年同比增速（累计）",
+    "notes": ""
+  },
+  "浪潮信息_2025年_归母净利润全年同比增速（累计）": {
+    "label": "归母净利润全年同比增速（累计）",
+    "value": 5.2,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "归母净利润全年同比增速（累计）",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_毛利润": {
+    "label": "毛利润",
+    "value": 21.28,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "毛利润 [总量]",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_基本每股收益（EPS）": {
+    "label": "基本每股收益（EPS）",
+    "value": 0.63,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "基本每股收益（EPS）[每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_每股净资产": {
+    "label": "每股净资产",
+    "value": 14.82,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "每股净资产 [每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_每股经营现金流": {
+    "label": "每股经营现金流",
+    "value": 12.28,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "每股经营现金流 [每股值，元/股，勿除1e8；经营现金流总额在现金流量表中]",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_每股未分配利润": {
+    "label": "每股未分配利润",
+    "value": 8.76,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "每股未分配利润 [每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_销售毛利率": {
+    "label": "2025Q4销售毛利率",
+    "value": 4.82,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "realtime_search-{\"query\": \"浪潮信息 合同负债 在手订单 2025Q4\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_销售净利率": {
+    "label": "销售净利率",
+    "value": 2.09,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "销售净利率",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_净资产收益率（稀释）": {
+    "label": "2025Q4净资产收益率（稀释）",
+    "value": 4.35,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "realtime_search-{\"query\": \"浪潮信息 合同负债 在手订单 2025Q4\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_总资产净利率（ROA）": {
+    "label": "总资产净利率（ROA）",
+    "value": 0.95,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "总资产净利率（ROA）",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_营业总收入同比增速": {
+    "label": "营业总收入同比增速",
+    "value": 39.07,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "营业总收入同比增速",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_归母净利润同比增速": {
+    "label": "归母净利润同比增速",
+    "value": -7.72,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "归母净利润同比增速",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_扣非归母净利润同比增速": {
+    "label": "扣非归母净利润同比增速",
+    "value": 2.71,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "扣非归母净利润同比增速",
+    "notes": ""
+  },
+  "浪潮信息_2025年_电子行业主营收入": {
+    "label": "电子行业主营收入",
+    "value": 1647.82,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "主营收入 [总量]",
+    "notes": ""
+  },
+  "浪潮信息_2025年_电子行业主营成本": {
+    "label": "电子行业主营成本",
+    "value": 1567.35,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "主营成本 [总量]",
+    "notes": ""
+  },
+  "浪潮信息_2025年_电子行业毛利率": {
+    "label": "电子行业毛利率",
+    "value": 4.88,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "毛利率",
+    "notes": ""
+  },
+  "浪潮信息_2025年_服务器产品主营收入": {
+    "label": "2025年服务器产品主营收入",
+    "value": 1546.05,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"浪潮信息 AI服务器 营收增长 2025年\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息_2025年_服务器产品主营成本": {
+    "label": "服务器产品主营成本",
+    "value": 1476.2,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SZ000977\"}}",
+    "raw_field": "主营成本",
+    "notes": ""
+  },
+  "浪潮信息_2025年_服务器产品毛利率": {
+    "label": "2025年服务器产品毛利率",
+    "value": 4.52,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"浪潮信息 AI服务器 营收增长 2025年\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息__PEG": {
+    "label": "PEG",
+    "value": 0.44,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息__市盈率-TTM": {
+    "label": "市盈率-TTM",
+    "value": 116.63,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息__市盈率-25E": {
+    "label": "市盈率-25E",
+    "value": 51.12,
+    "unit": "%",
+    "period": "2025",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息__市盈率-26E": {
+    "label": "市盈率-26E",
+    "value": 36.08,
+    "unit": "%",
+    "period": "2026",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息__市盈率-27E": {
+    "label": "市盈率-27E",
+    "value": 24.58,
+    "unit": "%",
+    "period": "2027",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息__市净率-MRQ": {
+    "label": "市净率-MRQ",
+    "value": 8.59,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息__行业中值_PEG": {
+    "label": "PEG（行业中值）",
+    "value": 0.59,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息__行业中值_市盈率-TTM": {
+    "label": "市盈率-TTM（行业中值）",
+    "value": 36.64,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息__行业中值_市盈率-25E": {
+    "label": "市盈率-25E（行业中值）",
+    "value": 35.89,
+    "unit": "%",
+    "period": "2025",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息__行业中值_市盈率-26E": {
+    "label": "市盈率-26E（行业中值）",
+    "value": 25.17,
+    "unit": "%",
+    "period": "2026",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息__行业中值_市盈率-27E": {
+    "label": "市盈率-27E（行业中值）",
+    "value": 21.49,
+    "unit": "%",
+    "period": "2027",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息__行业中值_市净率-MRQ": {
+    "label": "市净率-MRQ（行业中值）",
+    "value": 3.76,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息__ROE-3年平均": {
+    "label": "ROE-3年平均",
+    "value": -5.58,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息__ROE-24A": {
+    "label": "ROE-24A",
+    "value": -12.41,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息__净利率-3年平均": {
+    "label": "净利率-3年平均",
+    "value": -3.88,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息__净利率-24A": {
+    "label": "净利率-24A",
+    "value": -4.73,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息_2026_预测机构数": {
+    "label": "预测机构数",
+    "value": 16,
+    "unit": "",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "预测机构数",
+    "notes": ""
+  },
+  "浪潮信息_2026_每股收益最小值": {
+    "label": "每股收益最小值",
+    "value": 1.92,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最小值",
+    "notes": ""
+  },
+  "浪潮信息_2026_每股收益均值": {
+    "label": "每股收益均值",
+    "value": 2.43,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "浪潮信息_2026_每股收益最大值": {
+    "label": "每股收益最大值",
+    "value": 3.1,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "浪潮信息_2026_行业平均每股收益": {
+    "label": "行业平均每股收益",
+    "value": 2.86,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "行业平均数",
+    "notes": ""
+  },
+  "浪潮信息_2027_预测机构数": {
+    "label": "预测机构数",
+    "value": 16,
+    "unit": "",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "预测机构数",
+    "notes": ""
+  },
+  "浪潮信息_2027_每股收益最小值": {
+    "label": "每股收益最小值",
+    "value": 2.14,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最小值",
+    "notes": ""
+  },
+  "浪潮信息_2027_每股收益均值": {
+    "label": "每股收益均值",
+    "value": 3.2,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "浪潮信息_2027_每股收益最大值": {
+    "label": "每股收益最大值",
+    "value": 5.0,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "浪潮信息_2027_行业平均每股收益": {
+    "label": "行业平均每股收益",
+    "value": 4.01,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "行业平均数",
+    "notes": ""
+  },
+  "浪潮信息_2028_预测机构数": {
+    "label": "预测机构数",
+    "value": 12,
+    "unit": "",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "预测机构数",
+    "notes": ""
+  },
+  "浪潮信息_2028_每股收益最小值": {
+    "label": "每股收益最小值",
+    "value": 2.41,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最小值",
+    "notes": ""
+  },
+  "浪潮信息_2028_每股收益均值": {
+    "label": "每股收益均值",
+    "value": 4.0,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "浪潮信息_2028_每股收益最大值": {
+    "label": "每股收益最大值",
+    "value": 6.26,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "浪潮信息_2028_行业平均每股收益": {
+    "label": "行业平均每股收益",
+    "value": 6.34,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "行业平均数",
+    "notes": ""
+  },
+  "浪潮信息_2026_预测归母净利润最小值": {
+    "label": "预测归母净利润最小值",
+    "value": 28.25,
+    "unit": "亿元",
+    "period": "2026",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "最小值",
+    "notes": ""
+  },
+  "浪潮信息_2026_预测归母净利润均值": {
+    "label": "预测归母净利润均值",
+    "value": 35.65,
+    "unit": "亿元",
+    "period": "2026",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "浪潮信息_2026_预测归母净利润最大值": {
+    "label": "预测归母净利润最大值",
+    "value": 45.54,
+    "unit": "亿元",
+    "period": "2026",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "浪潮信息_2026_行业平均数": {
+    "label": "行业平均数",
+    "value": 31.22,
+    "unit": "亿元",
+    "period": "2026",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "行业平均数",
+    "notes": ""
+  },
+  "浪潮信息_2027_预测归母净利润最小值": {
+    "label": "预测归母净利润最小值",
+    "value": 31.48,
+    "unit": "亿元",
+    "period": "2027",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "最小值",
+    "notes": ""
+  },
+  "浪潮信息_2027_预测归母净利润均值": {
+    "label": "预测归母净利润均值",
+    "value": 47.05,
+    "unit": "亿元",
+    "period": "2027",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "浪潮信息_2027_预测归母净利润最大值": {
+    "label": "预测归母净利润最大值",
+    "value": 73.44,
+    "unit": "亿元",
+    "period": "2027",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "浪潮信息_2027_行业平均数": {
+    "label": "行业平均数",
+    "value": 42.61,
+    "unit": "亿元",
+    "period": "2027",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "行业平均数",
+    "notes": ""
+  },
+  "浪潮信息_2028_预测归母净利润最小值": {
+    "label": "预测归母净利润最小值",
+    "value": 35.32,
+    "unit": "亿元",
+    "period": "2028",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "最小值",
+    "notes": ""
+  },
+  "浪潮信息_2028_预测归母净利润均值": {
+    "label": "预测归母净利润均值",
+    "value": 58.74,
+    "unit": "亿元",
+    "period": "2028",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "浪潮信息_2028_预测归母净利润最大值": {
+    "label": "预测归母净利润最大值",
+    "value": 91.86,
+    "unit": "亿元",
+    "period": "2028",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "浪潮信息_2028_行业平均数": {
+    "label": "行业平均数",
+    "value": 65.1,
+    "unit": "亿元",
+    "period": "2028",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "行业平均数",
+    "notes": ""
+  },
+  "浪潮信息_2025年_年度分红每股派息": {
+    "label": "年度分红每股派息",
+    "value": 1.15,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_dividend_history_cninfo",
+    "raw_field": "每10股派1.15元",
+    "notes": ""
+  },
+  "浪潮信息_2024年_年度分红每股派息": {
+    "label": "年度分红每股派息",
+    "value": 1.3,
+    "unit": "元/股",
+    "period": "2024年",
+    "source": "get_dividend_history_cninfo",
+    "raw_field": "每10股派1.3元",
+    "notes": ""
+  },
+  "浪潮信息_2023年_年度分红每股派息": {
+    "label": "年度分红每股派息",
+    "value": 1.49,
+    "unit": "元/股",
+    "period": "2023年",
+    "source": "get_dividend_history_cninfo",
+    "raw_field": "每10股派1.491414元",
+    "notes": ""
+  },
+  "浪潮信息_2022年_年度分红每股派息": {
+    "label": "年度分红每股派息",
+    "value": 1.4,
+    "unit": "元/股",
+    "period": "2022年",
+    "source": "get_dividend_history_cninfo",
+    "raw_field": "每10股派1.4元",
+    "notes": ""
+  },
+  "浪潮信息_2021年_年度分红每股派息": {
+    "label": "年度分红每股派息",
+    "value": 1.1,
+    "unit": "元/股",
+    "period": "2021年",
+    "source": "get_dividend_history_cninfo",
+    "raw_field": "每10股派1.1元",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_税金及附加率": {
+    "label": "税金及附加率",
+    "value": 0.14,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "营业税金及附加 / 营业总收入"
+  },
+  "浪潮信息_2025Q4_销售费用率": {
+    "label": "销售费用率",
+    "value": 0.76,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "销售费用 / 营业总收入"
+  },
+  "浪潮信息_2025Q4_管理费用率": {
+    "label": "管理费用率",
+    "value": 0.74,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "管理费用 / 营业总收入"
+  },
+  "浪潮信息_2025年_税金及附加率": {
+    "label": "税金及附加率",
+    "value": 0.14,
+    "unit": "%",
+    "period": "2025年",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "营业税金及附加 / 营业总收入"
+  },
+  "浪潮信息_2025年_销售费用率": {
+    "label": "销售费用率",
+    "value": 0.77,
+    "unit": "%",
+    "period": "2025年",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "销售费用 / 营业总收入"
+  },
+  "浪潮信息_2025年_管理费用率": {
+    "label": "管理费用率",
+    "value": 0.56,
+    "unit": "%",
+    "period": "2025年",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "管理费用 / 营业总收入"
+  },
+  "浪潮信息_2025年_分红率": {
+    "label": "分红率",
+    "value": 7.02,
+    "unit": "%",
+    "period": "2025年",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "年度+中期派息合计（每10股）/ 基本每股收益"
+  },
+  "中国服务器行业_2025年_市场规模预测": {
+    "label": "2025年中国服务器市场规模预测",
+    "value": 2823.5,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"浪潮信息 2025Q4 业绩 分析师预期\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国服务器行业_2025年_市场规模同比增速": {
+    "label": "2025年中国服务器市场同比增长",
+    "value": 13.3,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"浪潮信息 2025Q4 业绩 分析师预期\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息_2025年_研发投入": {
+    "label": "2025年研发投入金额",
+    "value": 38.12,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"浪潮信息 合同负债 在手订单 2025Q4\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息_2025年_研发费用同比增速": {
+    "label": "2025年研发费用同比增长率",
+    "value": 7.38,
+    "unit": "%",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_research_reports\", \"params\": {\"symbol\": \"000977\"}}",
+    "raw_field": "",
+    "notes": "研发投入增长情况"
+  },
+  "浪潮信息_2025年_博士人数同比增速": {
+    "label": "博士人数同比增长",
+    "value": 9,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"浪潮信息 2025年 研发投入 AI服务器 技术创新\"}",
+    "raw_field": "",
+    "notes": "高学历人才储备增长情况"
+  },
+  "浪潮信息_2026_EPS预测均值": {
+    "label": "2026年每股收益预测均值",
+    "value": 2.43,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "realtime_search-{\"query\": \"浪潮信息 2025Q4 业绩 分析师预期\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息_2026_PE": {
+    "label": "2026年市盈率预测",
+    "value": 28.0,
+    "unit": "倍",
+    "period": "2026",
+    "source": "realtime_search-{\"query\": \"浪潮信息 2025Q4 业绩 分析师预期\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息_2027_EPS预测均值": {
+    "label": "2027年每股收益预测均值",
+    "value": 3.2,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "realtime_search-{\"query\": \"浪潮信息 2025Q4 业绩 分析师预期\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息_2027_PE": {
+    "label": "2027年市盈率预测",
+    "value": 22.1,
+    "unit": "倍",
+    "period": "2027",
+    "source": "realtime_search-{\"query\": \"浪潮信息 2025Q4 业绩 分析师预期\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息_2028_EPS预测均值": {
+    "label": "2028年每股收益预测均值",
+    "value": 4.0,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "realtime_search-{\"query\": \"浪潮信息 2025Q4 业绩 分析师预期\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息_2028_PE": {
+    "label": "2028年市盈率预测",
+    "value": 17.5,
+    "unit": "倍",
+    "period": "2028",
+    "source": "realtime_search-{\"query\": \"浪潮信息 2025Q4 业绩 分析师预期\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息_2025年_存货": {
+    "label": "2025年末存货余额",
+    "value": 465.08,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"浪潮信息 合同负债 在手订单 2025Q4\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息_2025年_营业总收入同比增速（累计）": {
+    "label": "2025年营业总收入全年同比增速（累计）",
+    "value": 43.25,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"浪潮信息 合同负债 在手订单 2025Q4\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息_2025年_存储类交换类产品主营收入": {
+    "label": "存储类、交换类等产品主营收入",
+    "value": 97.71,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SZ000977\"}}",
+    "raw_field": "主营收入",
+    "notes": ""
+  },
+  "浪潮信息_2025年_存储类交换类产品主营成本": {
+    "label": "存储类、交换类等产品主营成本",
+    "value": 89.17,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SZ000977\"}}",
+    "raw_field": "主营成本",
+    "notes": ""
+  },
+  "浪潮信息_2025年_存储类交换类产品毛利率": {
+    "label": "存储类、交换类等产品毛利率",
+    "value": 8.74,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"浪潮信息 2025年 存储业务 毛利率 增长\"}",
+    "raw_field": "",
+    "notes": "存储业务毛利率显著高于整体毛利率，反映高附加值产品占比提升"
+  },
+  "浪潮信息_2025年_其他补充主营收入": {
+    "label": "其他(补充)主营收入",
+    "value": 4.05,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SZ000977\"}}",
+    "raw_field": "主营收入",
+    "notes": ""
+  },
+  "浪潮信息_2025年_其他补充主营成本": {
+    "label": "其他(补充)主营成本",
+    "value": 1.98,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SZ000977\"}}",
+    "raw_field": "主营成本",
+    "notes": ""
+  },
+  "浪潮信息_2025年_其他补充毛利率": {
+    "label": "其他(补充)毛利率",
+    "value": 51.13,
+    "unit": "%",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SZ000977\"}}",
+    "raw_field": "毛利率",
+    "notes": ""
+  },
+  "浪潮信息_2025年_服务器业务收入占比": {
+    "label": "2025年服务器业务收入占比",
+    "value": 93.82,
+    "unit": "%",
+    "period": "2025年",
+    "source": "financial_calculator-{\"expression\": \"(1546.0525 / 1647.82) * 100\", \"variables\": {\"1546.0525\": 1546.0525, \"1647.82\": 1647.82}, \"description\": \"计算服务器业务收入占比\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_合同负债占营收比例": {
+    "label": "合同负债占营收比例",
+    "value": 44.22,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "financial_calculator-{\"expression\": \"(195.0623 / 441.1298) * 100\", \"variables\": {\"195.0623\": 195.0623, \"441.1298\": 441.1298}, \"description\": \"计算合同负债占营收比例\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息_2025Q4_存货占营收比例": {
+    "label": "存货占营收比例",
+    "value": 105.43,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "financial_calculator-{\"expression\": \"(465.0785 / 441.1298) * 100\", \"variables\": {\"465.0785\": 465.0785, \"441.1298\": 441.1298}, \"description\": \"计算存货占营收比例\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "浪潮信息_2025年_研发投入占营收比例": {
+    "label": "研发投入占营收比例",
+    "value": 2.31,
+    "unit": "%",
+    "period": "2025年",
+    "source": "financial_calculator-{\"expression\": \"(38.12 / 1647.82) * 100\", \"variables\": {\"38.12\": 38.12, \"1647.82\": 1647.82}, \"description\": \"计算研发投入占营收比例\"}",
+    "raw_field": "",
+    "notes": "研发强度维持低位，反映公司聚焦规模扩张而非技术投入"
+  }
+}

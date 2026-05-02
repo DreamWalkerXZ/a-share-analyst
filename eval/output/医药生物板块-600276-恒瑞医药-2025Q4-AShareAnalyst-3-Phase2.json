@@ -1,0 +1,1973 @@
+{
+  "恒瑞医药_2025Q4_营业总收入": {
+    "label": "营业总收入",
+    "value": 84.41,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "营业总收入",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_营业收入（主营业务）": {
+    "label": "营业收入（主营业务）",
+    "value": 84.41,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "营业收入（主营业务）",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_营业成本": {
+    "label": "营业成本",
+    "value": 11.67,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "营业成本",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_营业税金及附加": {
+    "label": "营业税金及附加",
+    "value": 0.63,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "营业税金及附加",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_销售费用": {
+    "label": "销售费用",
+    "value": 23.26,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "销售费用",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_管理费用": {
+    "label": "管理费用",
+    "value": 6.79,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "管理费用",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_财务费用": {
+    "label": "财务费用",
+    "value": -0.74,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "财务费用",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_营业利润": {
+    "label": "营业利润",
+    "value": 23.65,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "营业利润",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_利润总额": {
+    "label": "利润总额",
+    "value": 22.96,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "利润总额",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_所得税费用": {
+    "label": "所得税费用",
+    "value": 3.39,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "所得税费用",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_净利润（含少数股东）": {
+    "label": "净利润（含少数股东）",
+    "value": 19.57,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "净利润（含少数股东）",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_归母净利润": {
+    "label": "归母净利润",
+    "value": 19.6,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "归母净利润",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_扣非归母净利润": {
+    "label": "扣非归母净利润",
+    "value": 18.24,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "扣非归母净利润",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_少数股东损益": {
+    "label": "少数股东损益",
+    "value": -0.03,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "少数股东损益",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_基本每股收益": {
+    "label": "基本每股收益",
+    "value": 0.3,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "基本每股收益 [每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_稀释每股收益": {
+    "label": "稀释每股收益",
+    "value": 0.29,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "稀释每股收益 [每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_营业总收入": {
+    "label": "营业总收入",
+    "value": 316.29,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业总收入",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_营业收入（主营业务）": {
+    "label": "营业收入（主营业务）",
+    "value": 316.29,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业收入（主营业务）",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_营业成本": {
+    "label": "营业成本",
+    "value": 43.63,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业成本",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_营业税金及附加": {
+    "label": "营业税金及附加",
+    "value": 2.64,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业税金及附加",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_销售费用": {
+    "label": "销售费用",
+    "value": 91.06,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "销售费用",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_管理费用": {
+    "label": "管理费用",
+    "value": 28.06,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "管理费用",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_财务费用": {
+    "label": "财务费用",
+    "value": -4.07,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "财务费用",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_营业利润": {
+    "label": "营业利润",
+    "value": 89.9,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业利润",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_利润总额": {
+    "label": "利润总额",
+    "value": 87.08,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "利润总额",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_所得税费用": {
+    "label": "所得税费用",
+    "value": 9.91,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "所得税费用",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_净利润（含少数股东）": {
+    "label": "净利润（含少数股东）",
+    "value": 77.17,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "净利润（含少数股东）",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_归母净利润": {
+    "label": "归母净利润",
+    "value": 77.11,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "归母净利润",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_扣非归母净利润": {
+    "label": "扣非归母净利润",
+    "value": 74.13,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "扣非归母净利润",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_少数股东损益": {
+    "label": "少数股东损益",
+    "value": 0.06,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "少数股东损益",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_基本每股收益": {
+    "label": "基本每股收益",
+    "value": 1.19,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "基本每股收益 [每股值，单位元/股，勿除1e8]",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_稀释每股收益": {
+    "label": "稀释每股收益",
+    "value": 1.18,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "稀释每股收益 [每股值，单位元/股，勿除1e8]",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_总资产": {
+    "label": "总资产",
+    "value": 698.67,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_总负债": {
+    "label": "总负债",
+    "value": 80.7,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_股东权益合计": {
+    "label": "股东权益合计",
+    "value": 617.97,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_货币资金（银行存款等狭义现金，不含短期理财）": {
+    "label": "货币资金（狭义现金）",
+    "value": 409.55,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_应收账款": {
+    "label": "应收账款",
+    "value": 51.47,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_存货": {
+    "label": "存货",
+    "value": 28.78,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_固定资产": {
+    "label": "固定资产",
+    "value": 58.3,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_无形资产": {
+    "label": "无形资产",
+    "value": 19.56,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_合同负债（预收款项）": {
+    "label": "合同负债（预收款项）",
+    "value": 19.13,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_应交税费": {
+    "label": "应交税费",
+    "value": 8.06,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_应付职工薪酬": {
+    "label": "应付职工薪酬",
+    "value": 0.07,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_预付款项": {
+    "label": "预付款项",
+    "value": 10.57,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_销售商品提供劳务收到的现金": {
+    "label": "销售商品/提供劳务收到的现金",
+    "value": 74.33,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_经营活动现金流入合计": {
+    "label": "经营活动现金流入合计",
+    "value": 78.61,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_经营活动现金流出合计": {
+    "label": "经营活动现金流出合计",
+    "value": 57.36,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_经营活动现金流量净额": {
+    "label": "经营活动现金流量净额",
+    "value": 21.25,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": "[总量，非每股！]"
+  },
+  "恒瑞医药_2025Q4_支付的税款": {
+    "label": "支付的税款",
+    "value": 9.48,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_投资活动现金流量净额": {
+    "label": "投资活动现金流量净额",
+    "value": -12.14,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_收回投资收到的现金": {
+    "label": "收回投资收到的现金",
+    "value": 0.0,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_分红偿债支付的现金": {
+    "label": "分红/偿债支付的现金",
+    "value": 0.1,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_筹资活动现金流量净额": {
+    "label": "筹资活动现金流量净额",
+    "value": -3.09,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_现金及现金等价物净增加额": {
+    "label": "现金及现金等价物净增加额",
+    "value": 3.88,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_期初现金及等价物余额": {
+    "label": "期初现金及等价物余额（含货币基金，广义口径）",
+    "value": 397.68,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_期末现金及等价物余额": {
+    "label": "期末现金及等价物余额（含货币基金，广义口径）",
+    "value": 401.56,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_销售商品收到的现金": {
+    "label": "销售商品/提供劳务收到的现金",
+    "value": 336.06,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_经营活动现金流入合计": {
+    "label": "经营活动现金流入合计",
+    "value": 348.34,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_经营活动现金流出合计": {
+    "label": "经营活动现金流出合计",
+    "value": 235.99,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_经营活动现金流量净额": {
+    "label": "经营活动现金流量净额",
+    "value": 112.35,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": "[总量，非每股！]"
+  },
+  "恒瑞医药_2025年_支付的税款": {
+    "label": "支付的税款",
+    "value": 27.87,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_投资活动现金流量净额": {
+    "label": "投资活动现金流量净额",
+    "value": -27.41,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_收回投资收到的现金": {
+    "label": "收回投资收到的现金",
+    "value": 1.51,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_筹资活动现金流量净额": {
+    "label": "筹资活动现金流量净额",
+    "value": 77.82,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_现金及现金等价物净增加额": {
+    "label": "现金及现金等价物净增加额",
+    "value": 159.16,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_期初现金及等价物余额": {
+    "label": "期初现金及等价物余额（含货币基金，广义口径）",
+    "value": 242.39,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_期末现金及等价物余额": {
+    "label": "期末现金及等价物余额（含货币基金，广义口径）",
+    "value": 401.56,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_销售商品收到现金同比增速": {
+    "label": "销售商品收到现金同比增速",
+    "value": 23.79,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_经营活动现金流同比增速": {
+    "label": "经营活动现金流同比增速",
+    "value": 51.36,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_投资活动现金流同比增速": {
+    "label": "投资活动现金流同比增速",
+    "value": -43.33,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_筹资活动现金流同比增速": {
+    "label": "筹资活动现金流同比增速",
+    "value": 601.85,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_基本每股收益（EPS）": {
+    "label": "基本每股收益（EPS）",
+    "value": 1.19,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "基本每股收益（EPS）[每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_每股净资产": {
+    "label": "每股净资产",
+    "value": 9.23,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "每股净资产 [每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_营业总收入全年同比增速（累计）": {
+    "label": "营业总收入全年同比增速（累计）",
+    "value": 13.02,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "营业总收入全年同比增速（累计）",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_归母净利润全年同比增速（累计）": {
+    "label": "归母净利润全年同比增速（累计）",
+    "value": 21.69,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "归母净利润全年同比增速（累计）",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_毛利润": {
+    "label": "毛利润",
+    "value": 72.74,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_基本每股收益（EPS）": {
+    "label": "基本每股收益（EPS）",
+    "value": 0.3,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_每股净资产": {
+    "label": "每股净资产",
+    "value": 9.23,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_每股经营现金流": {
+    "label": "每股经营现金流",
+    "value": 0.32,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_每股未分配利润": {
+    "label": "每股未分配利润",
+    "value": 6.05,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_销售毛利率": {
+    "label": "销售毛利率",
+    "value": 86.17,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_销售净利率": {
+    "label": "销售净利率",
+    "value": 23.18,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_净资产收益率（稀释）": {
+    "label": "净资产收益率（稀释）",
+    "value": 3.25,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_总资产净利率（ROA）": {
+    "label": "总资产净利率（ROA）",
+    "value": 2.83,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_营业总收入同比增速": {
+    "label": "营业总收入同比增速",
+    "value": 8.29,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_归母净利润同比增速": {
+    "label": "归母净利润同比增速",
+    "value": 14.15,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_扣非归母净利润同比增速": {
+    "label": "扣非归母净利润同比增速",
+    "value": 16.8,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_医药制造业主营收入": {
+    "label": "医药制造业主营收入",
+    "value": 280.13,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_医药制造业收入占比": {
+    "label": "医药制造业收入占比",
+    "value": 88.57,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_医药制造业主营成本": {
+    "label": "医药制造业主营成本",
+    "value": 41.84,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_医药制造业毛利率": {
+    "label": "医药制造业毛利率",
+    "value": 85.06,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_其他主营收入": {
+    "label": "其他主营收入",
+    "value": 36.16,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_其他收入占比": {
+    "label": "其他收入占比",
+    "value": 11.43,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_其他主营成本": {
+    "label": "其他主营成本",
+    "value": 1.79,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_其他毛利率": {
+    "label": "其他毛利率",
+    "value": 95.06,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药__PEG": {
+    "label": "PEG",
+    "value": 0.94,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药__市盈率-TTM": {
+    "label": "市盈率-TTM",
+    "value": 44.04,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药__市盈率-25E": {
+    "label": "市盈率-25E",
+    "value": 37.84,
+    "unit": "%",
+    "period": "2025",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药__市盈率-26E": {
+    "label": "市盈率-26E",
+    "value": 32.04,
+    "unit": "%",
+    "period": "2026",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药__市盈率-27E": {
+    "label": "市盈率-27E",
+    "value": 26.66,
+    "unit": "%",
+    "period": "2027",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药__市净率-MRQ": {
+    "label": "市净率-MRQ",
+    "value": 5.62,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药__ROE-3年平均": {
+    "label": "ROE-3年平均",
+    "value": 4.61,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药__ROE-24A": {
+    "label": "ROE-24A",
+    "value": -2.18,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药__净利率-3年平均": {
+    "label": "净利率-3年平均",
+    "value": -38.94,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药__净利率-24A": {
+    "label": "净利率-24A",
+    "value": -22.76,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药__行业中值_ROE-3年平均": {
+    "label": "行业中值 ROE-3年平均",
+    "value": 4.22,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药__行业中值_ROE-24A": {
+    "label": "行业中值 ROE-24A",
+    "value": 4.38,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药__行业中值_净利率-3年平均": {
+    "label": "行业中值 净利率-3年平均",
+    "value": 6.11,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药__行业中值_净利率-24A": {
+    "label": "行业中值 净利率-24A",
+    "value": 5.78,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2026_预测机构数": {
+    "label": "预测机构数",
+    "value": 23,
+    "unit": "家",
+    "period": "2026",
+    "source": "structured_data-{\"action\": \"get_profit_forecast_net_profit\", \"params\": {\"symbol\": \"600276\"}}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2026_每股收益最小值": {
+    "label": "每股收益最小值",
+    "value": 1.35,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2026_每股收益均值": {
+    "label": "每股收益均值",
+    "value": 1.42,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2026_每股收益最大值": {
+    "label": "每股收益最大值",
+    "value": 1.61,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2026_行业平均每股收益": {
+    "label": "行业平均每股收益",
+    "value": 1.48,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2027_预测机构数": {
+    "label": "预测机构数",
+    "value": 23,
+    "unit": "家",
+    "period": "2027",
+    "source": "structured_data-{\"action\": \"get_profit_forecast_net_profit\", \"params\": {\"symbol\": \"600276\"}}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2027_每股收益最小值": {
+    "label": "每股收益最小值",
+    "value": 1.49,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2027_每股收益均值": {
+    "label": "每股收益均值",
+    "value": 1.68,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2027_每股收益最大值": {
+    "label": "每股收益最大值",
+    "value": 1.81,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2027_行业平均每股收益": {
+    "label": "行业平均每股收益",
+    "value": 1.73,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2028_预测机构数": {
+    "label": "预测机构数",
+    "value": 20,
+    "unit": "家",
+    "period": "2028",
+    "source": "structured_data-{\"action\": \"get_profit_forecast_net_profit\", \"params\": {\"symbol\": \"600276\"}}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2028_每股收益最小值": {
+    "label": "每股收益最小值",
+    "value": 1.82,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2028_每股收益均值": {
+    "label": "每股收益均值",
+    "value": 2.02,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2028_每股收益最大值": {
+    "label": "每股收益最大值",
+    "value": 2.27,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2028_行业平均每股收益": {
+    "label": "行业平均每股收益",
+    "value": 2.04,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2026_预测归母净利润最小值": {
+    "label": "预测归母净利润最小值",
+    "value": 89.68,
+    "unit": "亿元",
+    "period": "2026",
+    "source": "structured_data-{\"action\": \"get_profit_forecast_net_profit\", \"params\": {\"symbol\": \"600276\"}}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2026_预测归母净利润均值": {
+    "label": "预测归母净利润均值",
+    "value": 94.52,
+    "unit": "亿元",
+    "period": "2026",
+    "source": "structured_data-{\"action\": \"get_profit_forecast_net_profit\", \"params\": {\"symbol\": \"600276\"}}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2026_预测归母净利润最大值": {
+    "label": "预测归母净利润最大值",
+    "value": 106.98,
+    "unit": "亿元",
+    "period": "2026",
+    "source": "structured_data-{\"action\": \"get_profit_forecast_net_profit\", \"params\": {\"symbol\": \"600276\"}}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2027_预测归母净利润最小值": {
+    "label": "预测归母净利润最小值",
+    "value": 99.16,
+    "unit": "亿元",
+    "period": "2027",
+    "source": "structured_data-{\"action\": \"get_profit_forecast_net_profit\", \"params\": {\"symbol\": \"600276\"}}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2027_预测归母净利润均值": {
+    "label": "预测归母净利润均值",
+    "value": 111.62,
+    "unit": "亿元",
+    "period": "2027",
+    "source": "structured_data-{\"action\": \"get_profit_forecast_net_profit\", \"params\": {\"symbol\": \"600276\"}}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2027_预测归母净利润最大值": {
+    "label": "预测归母净利润最大值",
+    "value": 120.19,
+    "unit": "亿元",
+    "period": "2027",
+    "source": "structured_data-{\"action\": \"get_profit_forecast_net_profit\", \"params\": {\"symbol\": \"600276\"}}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2028_预测归母净利润最小值": {
+    "label": "预测归母净利润最小值",
+    "value": 120.71,
+    "unit": "亿元",
+    "period": "2028",
+    "source": "structured_data-{\"action\": \"get_profit_forecast_net_profit\", \"params\": {\"symbol\": \"600276\"}}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2028_预测归母净利润均值": {
+    "label": "预测归母净利润均值",
+    "value": 134.17,
+    "unit": "亿元",
+    "period": "2028",
+    "source": "structured_data-{\"action\": \"get_profit_forecast_net_profit\", \"params\": {\"symbol\": \"600276\"}}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2028_预测归母净利润最大值": {
+    "label": "预测归母净利润最大值",
+    "value": 150.88,
+    "unit": "亿元",
+    "period": "2028",
+    "source": "structured_data-{\"action\": \"get_profit_forecast_net_profit\", \"params\": {\"symbol\": \"600276\"}}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_年度分红": {
+    "label": "2025年度分红",
+    "value": 2.0,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_dividend_history_cninfo",
+    "raw_field": "每10股派2.0元",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_税金及附加率": {
+    "label": "税金及附加率",
+    "value": 0.75,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "营业税金及附加 / 营业总收入"
+  },
+  "恒瑞医药_2025Q4_销售费用率": {
+    "label": "销售费用率",
+    "value": 27.55,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "销售费用 / 营业总收入"
+  },
+  "恒瑞医药_2025Q4_管理费用率": {
+    "label": "管理费用率",
+    "value": 8.05,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "管理费用 / 营业总收入"
+  },
+  "恒瑞医药_2025年_税金及附加率": {
+    "label": "税金及附加率",
+    "value": 0.83,
+    "unit": "%",
+    "period": "2025年",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "营业税金及附加 / 营业总收入"
+  },
+  "恒瑞医药_2025年_销售费用率": {
+    "label": "销售费用率",
+    "value": 28.79,
+    "unit": "%",
+    "period": "2025年",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "销售费用 / 营业总收入"
+  },
+  "恒瑞医药_2025年_管理费用率": {
+    "label": "管理费用率",
+    "value": 8.87,
+    "unit": "%",
+    "period": "2025年",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "管理费用 / 营业总收入"
+  },
+  "恒瑞医药_2025年_分红率": {
+    "label": "分红率",
+    "value": 16.81,
+    "unit": "%",
+    "period": "2025年",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "年度+中期派息合计（每10股）/ 基本每股收益"
+  },
+  "恒瑞医药_2025Q4_EPSJB": {
+    "label": "基本每股收益",
+    "value": 0.34,
+    "unit": "元/股",
+    "period": "2026一季报",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"600276.SH\", \"indicator\": \"按报告期\"}}",
+    "raw_field": "EPSJB",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_BPS": {
+    "label": "每股净资产",
+    "value": 9.59,
+    "unit": "元/股",
+    "period": "2026一季报",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"600276.SH\", \"indicator\": \"按报告期\"}}",
+    "raw_field": "BPS",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_PARENTNETPROFIT": {
+    "label": "归母净利润",
+    "value": 228.23,
+    "unit": "亿元",
+    "period": "2026一季报",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"600276.SH\", \"indicator\": \"按报告期\"}}",
+    "raw_field": "PARENTNETPROFIT",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_TOTALOPERATEREVE": {
+    "label": "营业总收入",
+    "value": 81.41,
+    "unit": "亿元",
+    "period": "2026一季报",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"600276.SH\", \"indicator\": \"按报告期\"}}",
+    "raw_field": "TOTALOPERATEREVE",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_ROEJQ": {
+    "label": "净资产收益率（加权）",
+    "value": 4.15,
+    "unit": "%",
+    "period": "2026一季报",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"600276.SH\", \"indicator\": \"按报告期\"}}",
+    "raw_field": "ROEJQ",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_EPSJB": {
+    "label": "基本每股收益",
+    "value": 1.19,
+    "unit": "元/股",
+    "period": "2025年报",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"600276.SH\", \"indicator\": \"按报告期\"}}",
+    "raw_field": "EPSJB",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_BPS": {
+    "label": "每股净资产",
+    "value": 9.23,
+    "unit": "元/股",
+    "period": "2025年报",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"600276.SH\", \"indicator\": \"按报告期\"}}",
+    "raw_field": "BPS",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_PARENTNETPROFIT": {
+    "label": "归母净利润",
+    "value": 771.11,
+    "unit": "亿元",
+    "period": "2025年报",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"600276.SH\", \"indicator\": \"按报告期\"}}",
+    "raw_field": "PARENTNETPROFIT",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_TOTALOPERATEREVE": {
+    "label": "营业总收入",
+    "value": 316.29,
+    "unit": "亿元",
+    "period": "2025年报",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"600276.SH\", \"indicator\": \"按报告期\"}}",
+    "raw_field": "TOTALOPERATEREVE",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_ROEJQ": {
+    "label": "净资产收益率（加权）",
+    "value": 14.26,
+    "unit": "%",
+    "period": "2025年报",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"600276.SH\", \"indicator\": \"按报告期\"}}",
+    "raw_field": "ROEJQ",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q3_EPSJB": {
+    "label": "基本每股收益",
+    "value": 0.89,
+    "unit": "元/股",
+    "period": "2025三季报",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"600276.SH\", \"indicator\": \"按报告期\"}}",
+    "raw_field": "EPSJB",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q3_BPS": {
+    "label": "每股净资产",
+    "value": 8.97,
+    "unit": "元/股",
+    "period": "2025三季报",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"600276.SH\", \"indicator\": \"按报告期\"}}",
+    "raw_field": "BPS",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_肿瘤主营收入": {
+    "label": "肿瘤业务主营收入",
+    "value": 166.71,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SH600276\"}}",
+    "raw_field": "主营收入",
+    "notes": "按产品分类"
+  },
+  "恒瑞医药_2025Q4_肿瘤毛利率": {
+    "label": "肿瘤业务毛利率",
+    "value": 93.48,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SH600276\"}}",
+    "raw_field": "毛利率",
+    "notes": "按产品分类"
+  },
+  "恒瑞医药_2025Q4_神经科学主营收入": {
+    "label": "神经科学业务主营收入",
+    "value": 42.92,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SH600276\"}}",
+    "raw_field": "主营收入",
+    "notes": "按产品分类"
+  },
+  "恒瑞医药_2025Q4_神经科学毛利率": {
+    "label": "神经科学业务毛利率",
+    "value": 82.73,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SH600276\"}}",
+    "raw_field": "毛利率",
+    "notes": "按产品分类"
+  },
+  "恒瑞医药_2025Q4_造影剂主营收入": {
+    "label": "造影剂业务主营收入",
+    "value": 29.93,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SH600276\"}}",
+    "raw_field": "主营收入",
+    "notes": "按产品分类"
+  },
+  "恒瑞医药_2025Q4_造影剂毛利率": {
+    "label": "造影剂业务毛利率",
+    "value": 58.75,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SH600276\"}}",
+    "raw_field": "毛利率",
+    "notes": "按产品分类"
+  },
+  "恒瑞医药_2025Q4_代谢和心血管主营收入": {
+    "label": "代谢和心血管业务主营收入",
+    "value": 24.36,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SH600276\"}}",
+    "raw_field": "主营收入",
+    "notes": "按产品分类"
+  },
+  "恒瑞医药_2025Q4_代谢和心血管毛利率": {
+    "label": "代谢和心血管业务毛利率",
+    "value": 73.69,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SH600276\"}}",
+    "raw_field": "毛利率",
+    "notes": "按产品分类"
+  },
+  "恒瑞医药_2025Q4_免疫和呼吸系统主营收入": {
+    "label": "免疫和呼吸系统业务主营收入",
+    "value": 8.62,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SH600276\"}}",
+    "raw_field": "主营收入",
+    "notes": "按产品分类"
+  },
+  "恒瑞医药_2025Q4_免疫和呼吸系统毛利率": {
+    "label": "免疫和呼吸系统业务毛利率",
+    "value": 84.62,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SH600276\"}}",
+    "raw_field": "毛利率",
+    "notes": "按产品分类"
+  },
+  "恒瑞医药_2025Q4_其他主营收入": {
+    "label": "其他业务主营收入",
+    "value": 7.59,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SH600276\"}}",
+    "raw_field": "主营收入",
+    "notes": "按产品分类"
+  },
+  "恒瑞医药_2025Q4_其他毛利率": {
+    "label": "其他业务毛利率",
+    "value": 54.15,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SH600276\"}}",
+    "raw_field": "毛利率",
+    "notes": "按产品分类"
+  },
+  "恒瑞医药_2025年_PE_TTM": {
+    "label": "市盈率-TTM",
+    "value": 44.04,
+    "unit": "倍",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_peer_valuation\", \"params\": {\"symbol\": \"SH600276\"}}",
+    "raw_field": "市盈率-TTM",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_PE_25E": {
+    "label": "市盈率-2025年预测",
+    "value": 37.84,
+    "unit": "倍",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_peer_valuation\", \"params\": {\"symbol\": \"SH600276\"}}",
+    "raw_field": "市盈率-25E",
+    "notes": ""
+  },
+  "恒瑞医药_2026年_PE_26E": {
+    "label": "市盈率-2026年预测",
+    "value": 32.04,
+    "unit": "倍",
+    "period": "2026年",
+    "source": "structured_data-{\"action\": \"get_peer_valuation\", \"params\": {\"symbol\": \"SH600276\"}}",
+    "raw_field": "市盈率-26E",
+    "notes": ""
+  },
+  "恒瑞医药_2027年_PE_27E": {
+    "label": "市盈率-2027年预测",
+    "value": 26.66,
+    "unit": "倍",
+    "period": "2027年",
+    "source": "structured_data-{\"action\": \"get_peer_valuation\", \"params\": {\"symbol\": \"SH600276\"}}",
+    "raw_field": "市盈率-27E",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_PB_MRQ": {
+    "label": "市净率-MRQ",
+    "value": 5.62,
+    "unit": "倍",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_peer_valuation\", \"params\": {\"symbol\": \"SH600276\"}}",
+    "raw_field": "市净率-MRQ",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_PEG": {
+    "label": "PEG",
+    "value": 0.94,
+    "unit": "倍",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_peer_valuation\", \"params\": {\"symbol\": \"SH600276\"}}",
+    "raw_field": "PEG",
+    "notes": ""
+  },
+  "行业_PE_TTM_中值": {
+    "label": "医药行业市盈率-TTM中位数",
+    "value": 24.53,
+    "unit": "倍",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_peer_valuation\", \"params\": {\"symbol\": \"SH600276\"}}",
+    "raw_field": "市盈率-TTM",
+    "notes": "行业中值"
+  },
+  "行业_PE_25E_中值": {
+    "label": "医药行业2025年市盈率预测中位数",
+    "value": 20.35,
+    "unit": "倍",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_peer_valuation\", \"params\": {\"symbol\": \"SH600276\"}}",
+    "raw_field": "市盈率-25E",
+    "notes": "行业中值"
+  },
+  "行业_PE_26E_中值": {
+    "label": "医药行业2026年市盈率预测中位数",
+    "value": 17.52,
+    "unit": "倍",
+    "period": "2026年",
+    "source": "structured_data-{\"action\": \"get_peer_valuation\", \"params\": {\"symbol\": \"SH600276\"}}",
+    "raw_field": "市盈率-26E",
+    "notes": "行业中值"
+  },
+  "行业_PE_27E_中值": {
+    "label": "医药行业2027年市盈率预测中位数",
+    "value": 14.59,
+    "unit": "倍",
+    "period": "2027年",
+    "source": "structured_data-{\"action\": \"get_peer_valuation\", \"params\": {\"symbol\": \"SH600276\"}}",
+    "raw_field": "市盈率-27E",
+    "notes": "行业中值"
+  },
+  "行业_PB_MRQ_中值": {
+    "label": "医药行业市净率-MRQ中位数",
+    "value": 2.76,
+    "unit": "倍",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_peer_valuation\", \"params\": {\"symbol\": \"SH600276\"}}",
+    "raw_field": "市净率-MRQ",
+    "notes": "行业中值"
+  },
+  "恒瑞医药_2025Q4_ROE-3年平均": {
+    "label": "净资产收益率（三年平均）",
+    "value": 13.39,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "structured_data-{'action': 'get_peer_dupont', 'params': {'symbol': 'SH600276'}}",
+    "raw_field": "ROE-3年平均",
+    "notes": ""
+  },
+  "恒瑞医药_2024A_ROE": {
+    "label": "净资产收益率（2024年）",
+    "value": -2.18,
+    "unit": "%",
+    "period": "2024A",
+    "source": "structured_data-{'action': 'get_peer_dupont', 'params': {'symbol': 'SH600276'}}",
+    "raw_field": "ROE-24A",
+    "notes": ""
+  },
+  "恒瑞医药_2023A_ROE": {
+    "label": "净资产收益率（2023年）",
+    "value": 16.93,
+    "unit": "%",
+    "period": "2023A",
+    "source": "structured_data-{'action': 'get_peer_dupont', 'params': {'symbol': 'SH600276'}}",
+    "raw_field": "ROE-23A",
+    "notes": ""
+  },
+  "恒瑞医药_2022A_ROE": {
+    "label": "净资产收益率（2022年）",
+    "value": -0.92,
+    "unit": "%",
+    "period": "2022A",
+    "source": "structured_data-{'action': 'get_peer_dupont', 'params': {'symbol': 'SH600276'}}",
+    "raw_field": "ROE-22A",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_净利率-3年平均": {
+    "label": "销售净利率（三年平均）",
+    "value": 21.93,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "structured_data-{'action': 'get_peer_dupont', 'params': {'symbol': 'SH600276'}}",
+    "raw_field": "净利率-3年平均",
+    "notes": ""
+  },
+  "恒瑞医药_2024A_净利率": {
+    "label": "销售净利率（2024年）",
+    "value": -22.76,
+    "unit": "%",
+    "period": "2024A",
+    "source": "structured_data-{'action': 'get_peer_dupont', 'params': {'symbol': 'SH600276'}}",
+    "raw_field": "净利率-24A",
+    "notes": ""
+  },
+  "恒瑞医药_2023A_净利率": {
+    "label": "销售净利率（2023年）",
+    "value": -386.41,
+    "unit": "%",
+    "period": "2023A",
+    "source": "structured_data-{'action': 'get_peer_dupont', 'params': {'symbol': 'SH600276'}}",
+    "raw_field": "净利率-23A",
+    "notes": ""
+  },
+  "恒瑞医药_2022A_净利率": {
+    "label": "销售净利率（2022年）",
+    "value": -55.7,
+    "unit": "%",
+    "period": "2022A",
+    "source": "structured_data-{'action': 'get_peer_dupont', 'params': {'symbol': 'SH600276'}}",
+    "raw_field": "净利率-22A",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_总资产周转率-3年平均": {
+    "label": "总资产周转率（三年平均）",
+    "value": 55.09,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "structured_data-{'action': 'get_peer_dupont', 'params': {'symbol': 'SH600276'}}",
+    "raw_field": "总资产周转率-3年平均",
+    "notes": ""
+  },
+  "恒瑞医药_2025Q4_权益乘数-3年平均": {
+    "label": "权益乘数（三年平均）",
+    "value": 109.52,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "structured_data-{'action': 'get_peer_dupont', 'params': {'symbol': 'SH600276'}}",
+    "raw_field": "权益乘数-3年平均",
+    "notes": ""
+  },
+  "行业中值_ROE-3年平均": {
+    "label": "医药行业ROE三年平均中位数",
+    "value": 4.22,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "structured_data-{'action': 'get_peer_dupont', 'params': {'symbol': 'SH600276'}}",
+    "raw_field": "ROE-3年平均",
+    "notes": ""
+  },
+  "行业中值_净利率-3年平均": {
+    "label": "医药行业净利率三年平均中位数",
+    "value": 6.11,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "structured_data-{'action': 'get_peer_dupont', 'params': {'symbol': 'SH600276'}}",
+    "raw_field": "净利率-3年平均",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_研发管线进展": {
+    "label": "2025年研发管线总体进展",
+    "value": 100,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"恒瑞医药 2025Q4 研发管线 临床试验进展\"}",
+    "raw_field": "",
+    "notes": "根据公开报道，恒瑞医药在2025年临床试验数量领跑行业，肿瘤领域研究超1200项，化学药为主力"
+  },
+  "恒瑞医药_2025Q3_创新成果转化": {
+    "label": "2025年第三季度创新成果转化情况",
+    "value": 100,
+    "unit": "%",
+    "period": "2025Q3",
+    "source": "realtime_search-{\"query\": \"恒瑞医药 2025Q4 研发管线 临床试验进展\"}",
+    "raw_field": "",
+    "notes": "公司表示第三季度创新成果加速转化，研发管线进入高效推进阶段"
+  },
+  "恒瑞医药_2025年_在研产品数量": {
+    "label": "2025年在研自主创新产品数量",
+    "value": 100,
+    "unit": "项",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"恒瑞医药 2025Q4 研发管线 临床试验进展\"}",
+    "raw_field": "",
+    "notes": "公司在研管线储备充足，有100多个自主创新产品正在临床开发"
+  },
+  "恒瑞医药_2025年_临床试验总数": {
+    "label": "2025年临床试验总数",
+    "value": 400,
+    "unit": "项",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"恒瑞医药 2025Q4 研发管线 临床试验进展\"}",
+    "raw_field": "",
+    "notes": "公司正在进行400余项临床试验，国内覆盖广泛"
+  },
+  "恒瑞医药_2025年_III期临床项目数": {
+    "label": "2025年进入III期临床的项目数量",
+    "value": 10,
+    "unit": "项",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"恒瑞医药 2025Q4 研发管线 临床试验进展\"}",
+    "raw_field": "",
+    "notes": "2025年半年报显示共有10项临床推进至III期"
+  },
+  "恒瑞医药_2025年_II期临床项目数": {
+    "label": "2025年进入II期临床的项目数量",
+    "value": 22,
+    "unit": "项",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"恒瑞医药 2025Q4 研发管线 临床试验进展\"}",
+    "raw_field": "",
+    "notes": "2025年半年报显示共有22项临床推进至II期"
+  },
+  "恒瑞医药_2025年_海外业务拓展交易笔数": {
+    "label": "2025年海外业务拓展交易笔数",
+    "value": 5,
+    "unit": "笔",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"恒瑞医药 2025年 BD授权合作 新药引进\"}",
+    "raw_field": "",
+    "notes": "公司共达成5笔海外业务拓展交易"
+  },
+  "恒瑞医药_2025年_对外许可收入": {
+    "label": "对外许可收入",
+    "value": 33.92,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"恒瑞医药 2025年 核心产品销量 市场份额\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_与GSK合作项目数量": {
+    "label": "与GSK合作项目数量",
+    "value": 12,
+    "unit": "款",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"恒瑞医药 2025年 BD授权合作 新药引进\"}",
+    "raw_field": "",
+    "notes": "公司与GSK共同开发至多12款创新药物"
+  },
+  "恒瑞医药_2025年_与GSK合作首付款": {
+    "label": "与GSK合作首付款",
+    "value": 5,
+    "unit": "亿美元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"恒瑞医药 2025年 核心产品销量 市场份额\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_与GSK合作潜在总金额": {
+    "label": "与GSK合作潜在总金额",
+    "value": 120,
+    "unit": "亿美元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"恒瑞医药 2025年 核心产品销量 市场份额\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_与默沙东BD协议药物类型": {
+    "label": "与默沙东BD协议药物类型",
+    "value": 1,
+    "unit": "类",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"恒瑞医药 2025年 BD授权合作 新药引进\"}",
+    "raw_field": "",
+    "notes": "Lp(a)口服小分子药物"
+  },
+  "恒瑞医药_2025年_累计海外业务拓展交易笔数": {
+    "label": "自2023年起累计海外业务拓展交易笔数",
+    "value": 12,
+    "unit": "笔",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"恒瑞医药 2025年 核心产品销量 市场份额\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_创新药销售收入": {
+    "label": "创新药销售收入",
+    "value": 163.42,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"恒瑞医药 2025年 核心产品销量 市场份额\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2025年_创新药销售占比": {
+    "label": "创新药占药品收入比重",
+    "value": 58.34,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"恒瑞医药 2025年 核心产品销量 市场份额\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒瑞医药_2024年报_年度分红": {
+    "label": "2024年度分红",
+    "value": 2.0,
+    "unit": "元/股",
+    "period": "2024年报",
+    "source": "structured_data-{\"action\": \"get_dividend_history_cninfo\", \"params\": {\"symbol\": \"600276\"}}",
+    "raw_field": "实施方案分红说明",
+    "notes": "根据分红历史数据，2024年度实施10派2元（含税）"
+  },
+  "恒瑞医药_2023年报_年度分红": {
+    "label": "2023年度分红",
+    "value": 1.6,
+    "unit": "元/股",
+    "period": "2023年报",
+    "source": "structured_data-{\"action\": \"get_dividend_history_cninfo\", \"params\": {\"symbol\": \"600276\"}}",
+    "raw_field": "实施方案分红说明",
+    "notes": "根据分红历史数据，2023年度实施10派1.6元（含税）"
+  },
+  "恒瑞医药_2022年报_年度分红": {
+    "label": "2022年度分红",
+    "value": 1.6,
+    "unit": "元/股",
+    "period": "2022年报",
+    "source": "structured_data-{\"action\": \"get_dividend_history_cninfo\", \"params\": {\"symbol\": \"600276\"}}",
+    "raw_field": "实施方案分红说明",
+    "notes": "根据分红历史数据，2022年度实施10派1.6元（含税）"
+  },
+  "恒瑞医药_2021年报_年度分红": {
+    "label": "2021年度分红",
+    "value": 2.0,
+    "unit": "元/股",
+    "period": "2021年报",
+    "source": "structured_data-{\"action\": \"get_dividend_history_cninfo\", \"params\": {\"symbol\": \"600276\"}}",
+    "raw_field": "实施方案分红说明",
+    "notes": "根据分红历史数据，2021年度实施10送2股派2元（含税）"
+  },
+  "恒瑞医药_2020年报_年度分红": {
+    "label": "2020年度分红",
+    "value": 2.3,
+    "unit": "元/股",
+    "period": "2020年报",
+    "source": "structured_data-{\"action\": \"get_dividend_history_cninfo\", \"params\": {\"symbol\": \"600276\"}}",
+    "raw_field": "实施方案分红说明",
+    "notes": "根据分红历史数据，2020年度实施10送2股派2.3元（含税）"
+  },
+  "恒瑞医药_2019年报_年度分红": {
+    "label": "2019年度分红",
+    "value": 2.2,
+    "unit": "元/股",
+    "period": "2019年报",
+    "source": "structured_data-{\"action\": \"get_dividend_history_cninfo\", \"params\": {\"symbol\": \"600276\"}}",
+    "raw_field": "实施方案分红说明",
+    "notes": "根据分红历史数据，2019年度实施10送2股派2.2元（含税）"
+  },
+  "恒瑞医药_2018年报_年度分红": {
+    "label": "2018年度分红",
+    "value": 1.3,
+    "unit": "元/股",
+    "period": "2018年报",
+    "source": "structured_data-{\"action\": \"get_dividend_history_cninfo\", \"params\": {\"symbol\": \"600276\"}}",
+    "raw_field": "实施方案分红说明",
+    "notes": "根据分红历史数据，2018年度实施10送2转增1股派1.3元（含税）"
+  },
+  "恒瑞医药_2017年报_年度分红": {
+    "label": "2017年度分红",
+    "value": 1.35,
+    "unit": "元/股",
+    "period": "2017年报",
+    "source": "structured_data-{\"action\": \"get_dividend_history_cninfo\", \"params\": {\"symbol\": \"600276\"}}",
+    "raw_field": "实施方案分红说明",
+    "notes": "根据分红历史数据，2017年度实施10送2股派1.35元（含税）"
+  },
+  "恒瑞医药_2016年报_年度分红": {
+    "label": "2016年度分红",
+    "value": 1.0,
+    "unit": "元/股",
+    "period": "2016年报",
+    "source": "structured_data-{\"action\": \"get_dividend_history_cninfo\", \"params\": {\"symbol\": \"600276\"}}",
+    "raw_field": "实施方案分红说明",
+    "notes": "根据分红历史数据，2016年度实施10送2派1元（含税）"
+  },
+  "恒瑞医药_2015年报_年度分红": {
+    "label": "2015年度分红",
+    "value": 1.0,
+    "unit": "元/股",
+    "period": "2015年报",
+    "source": "structured_data-{\"action\": \"get_dividend_history_cninfo\", \"params\": {\"symbol\": \"600276\"}}",
+    "raw_field": "实施方案分红说明",
+    "notes": "根据分红历史数据，2015年度实施10送2转增1股派1元（含税）"
+  },
+  "恒瑞医药_2014年报_年度分红": {
+    "label": "2014年度分红",
+    "value": 0.9,
+    "unit": "元/股",
+    "period": "2014年报",
+    "source": "structured_data-{\"action\": \"get_dividend_history_cninfo\", \"params\": {\"symbol\": \"600276\"}}",
+    "raw_field": "实施方案分红说明",
+    "notes": "根据分红历史数据，2014年度实施10送1股派0.9元（含税）"
+  },
+  "行业_2025年_PE_TTM中值": {
+    "label": "医药行业市盈率-TTM中位数",
+    "value": 24.53,
+    "unit": "倍",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"医药行业 2025年 PE TTM 中位数\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "行业_2025年_PE_25E中值": {
+    "label": "医药行业2025年市盈率预测中位数",
+    "value": 20.35,
+    "unit": "倍",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"医药行业 2025年 PE TTM 中位数\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "行业_2026年_PE_26E中值": {
+    "label": "医药行业2026年市盈率预测中位数",
+    "value": 17.52,
+    "unit": "倍",
+    "period": "2026年",
+    "source": "realtime_search-{\"query\": \"医药行业 2025年 PE TTM 中位数\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "行业_2027年_PE_27E中值": {
+    "label": "医药行业2027年市盈率预测中位数",
+    "value": 14.59,
+    "unit": "倍",
+    "period": "2027年",
+    "source": "realtime_search-{\"query\": \"医药行业 2025年 PE TTM 中位数\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "行业_2025年_PB_MRQ中值": {
+    "label": "医药行业市净率-MRQ中位数",
+    "value": 2.76,
+    "unit": "倍",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"医药行业 2025年 PE TTM 中位数\"}",
+    "raw_field": "",
+    "notes": ""
+  }
+}

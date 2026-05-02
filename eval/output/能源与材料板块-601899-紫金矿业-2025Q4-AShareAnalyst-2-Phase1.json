@@ -1,0 +1,1370 @@
+{
+  "紫金矿业_2025Q4_营业总收入": {
+    "label": "营业总收入",
+    "value": 948.7954,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "营业总收入",
+    "notes": ""
+  },
+  "紫金矿业_2025Q4_营业收入（主营业务）": {
+    "label": "营业收入（主营业务）",
+    "value": 948.7954,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "营业收入（主营业务）",
+    "notes": ""
+  },
+  "紫金矿业_2025Q4_营业成本": {
+    "label": "营业成本",
+    "value": 614.7239,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "营业成本",
+    "notes": ""
+  },
+  "紫金矿业_2025Q4_营业税金及附加": {
+    "label": "营业税金及附加",
+    "value": 19.1407,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "营业税金及附加",
+    "notes": ""
+  },
+  "紫金矿业_2025Q4_销售费用": {
+    "label": "销售费用",
+    "value": 2.6293,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "销售费用",
+    "notes": ""
+  },
+  "紫金矿业_2025Q4_管理费用": {
+    "label": "管理费用",
+    "value": 42.5116,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "管理费用",
+    "notes": ""
+  },
+  "紫金矿业_2025Q4_财务费用": {
+    "label": "财务费用",
+    "value": 3.2135,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "财务费用",
+    "notes": ""
+  },
+  "紫金矿业_2025Q4_营业利润": {
+    "label": "营业利润",
+    "value": 256.4712,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "营业利润",
+    "notes": ""
+  },
+  "紫金矿业_2025Q4_利润总额": {
+    "label": "利润总额",
+    "value": 251.0694,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "利润总额",
+    "notes": ""
+  },
+  "紫金矿业_2025Q4_所得税费用": {
+    "label": "所得税费用",
+    "value": 69.8591,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "所得税费用",
+    "notes": ""
+  },
+  "紫金矿业_2025Q4_净利润（含少数股东）": {
+    "label": "净利润（含少数股东）",
+    "value": 181.2103,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "净利润（含少数股东）",
+    "notes": ""
+  },
+  "紫金矿业_2025Q4_归母净利润": {
+    "label": "归母净利润",
+    "value": 139.1371,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "归母净利润",
+    "notes": ""
+  },
+  "紫金矿业_2025Q4_扣非归母净利润": {
+    "label": "扣非归母净利润",
+    "value": 165.9687,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "扣非归母净利润",
+    "notes": ""
+  },
+  "紫金矿业_2025Q4_少数股东损益": {
+    "label": "少数股东损益",
+    "value": 42.0732,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "少数股东损益",
+    "notes": ""
+  },
+  "紫金矿业_2025Q4_基本每股收益": {
+    "label": "基本每股收益",
+    "value": 0.525,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "基本每股收益 [每股值，单位元/股，勿除1e8]",
+    "notes": ""
+  },
+  "紫金矿业_2025Q4_稀释每股收益": {
+    "label": "稀释每股收益",
+    "value": 0.514,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "稀释每股收益 [每股值，单位元/股，勿除1e8]",
+    "notes": ""
+  },
+  "紫金矿业_2025年_营业总收入": {
+    "label": "营业总收入",
+    "value": 3490.7908,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业总收入",
+    "notes": ""
+  },
+  "紫金矿业_2025年_营业收入（主营业务）": {
+    "label": "营业收入（主营业务）",
+    "value": 3490.7908,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业收入（主营业务）",
+    "notes": ""
+  },
+  "紫金矿业_2025年_营业成本": {
+    "label": "营业成本",
+    "value": 2522.8884,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业成本",
+    "notes": ""
+  },
+  "紫金矿业_2025年_营业税金及附加": {
+    "label": "营业税金及附加",
+    "value": 79.1482,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业税金及附加",
+    "notes": ""
+  },
+  "紫金矿业_2025年_销售费用": {
+    "label": "销售费用",
+    "value": 8.4994,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "销售费用",
+    "notes": ""
+  },
+  "紫金矿业_2025年_管理费用": {
+    "label": "管理费用",
+    "value": 111.5946,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "管理费用",
+    "notes": ""
+  },
+  "紫金矿业_2025年_财务费用": {
+    "label": "财务费用",
+    "value": 20.8303,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "财务费用",
+    "notes": ""
+  },
+  "紫金矿业_2025年_营业利润": {
+    "label": "营业利润",
+    "value": 821.1014,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业利润",
+    "notes": ""
+  },
+  "紫金矿业_2025年_利润总额": {
+    "label": "利润总额",
+    "value": 807.5252,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "利润总额",
+    "notes": ""
+  },
+  "紫金矿业_2025年_所得税费用": {
+    "label": "所得税费用",
+    "value": 169.3033,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "所得税费用",
+    "notes": ""
+  },
+  "紫金矿业_2025年_净利润（含少数股东）": {
+    "label": "净利润（含少数股东）",
+    "value": 638.2219,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "净利润（含少数股东）",
+    "notes": ""
+  },
+  "紫金矿业_2025年_归母净利润": {
+    "label": "归母净利润",
+    "value": 517.7733,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "归母净利润",
+    "notes": ""
+  },
+  "紫金矿业_2025年_扣非归母净利润": {
+    "label": "扣非归母净利润",
+    "value": 507.2351,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "扣非归母净利润",
+    "notes": ""
+  },
+  "紫金矿业_2025年_少数股东损益": {
+    "label": "少数股东损益",
+    "value": 120.4486,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "少数股东损益",
+    "notes": ""
+  },
+  "紫金矿业_2025年_基本每股收益": {
+    "label": "基本每股收益",
+    "value": 1.95,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "基本每股收益 [每股值，单位元/股，勿除1e8]",
+    "notes": ""
+  },
+  "紫金矿业_2025年_稀释每股收益": {
+    "label": "稀释每股收益",
+    "value": 1.91,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "稀释每股收益 [每股值，单位元/股，勿除1e8]",
+    "notes": ""
+  },
+  "紫金矿业_2025Q4_总资产": {
+    "label": "总资产",
+    "value": 5120.0514,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "紫金矿业_2025Q4_总负债": {
+    "label": "总负债",
+    "value": 2639.8262,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "紫金矿业_2025Q4_股东权益合计": {
+    "label": "股东权益合计",
+    "value": 2480.2252,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "紫金矿业_2025Q4_货币资金": {
+    "label": "货币资金（银行存款等狭义现金，不含短期理财）",
+    "value": 655.7674,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "紫金矿业_2025Q4_应收账款": {
+    "label": "应收账款",
+    "value": 93.084,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "紫金矿业_2025Q4_存货": {
+    "label": "存货",
+    "value": 396.1252,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "紫金矿业_2025Q4_固定资产": {
+    "label": "固定资产",
+    "value": 1170.4164,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "紫金矿业_2025Q4_无形资产": {
+    "label": "无形资产",
+    "value": 881.6705,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "紫金矿业_2025Q4_合同负债": {
+    "label": "合同负债（预收款项）",
+    "value": 67.6646,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "紫金矿业_2025Q4_应交税费": {
+    "label": "应交税费",
+    "value": 94.4644,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "紫金矿业_2025Q4_应付职工薪酬": {
+    "label": "应付职工薪酬",
+    "value": 56.3261,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "紫金矿业_2025Q4_预付款项": {
+    "label": "预付款项",
+    "value": 36.6923,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "紫金矿业_2025Q3_总资产": {
+    "label": "总资产",
+    "value": 4830.0757,
+    "unit": "亿元",
+    "period": "2025Q3",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "紫金矿业_2025Q3_总负债": {
+    "label": "总负债",
+    "value": 2560.4059,
+    "unit": "亿元",
+    "period": "2025Q3",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "紫金矿业_2025Q3_股东权益合计": {
+    "label": "股东权益合计",
+    "value": 2269.6698,
+    "unit": "亿元",
+    "period": "2025Q3",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "紫金矿业_2025Q3_货币资金": {
+    "label": "货币资金（银行存款等狭义现金，不含短期理财）",
+    "value": 680.9207,
+    "unit": "亿元",
+    "period": "2025Q3",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "紫金矿业_2025Q3_应收账款": {
+    "label": "应收账款",
+    "value": 75.0536,
+    "unit": "亿元",
+    "period": "2025Q3",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "紫金矿业_2025Q3_存货": {
+    "label": "存货",
+    "value": 332.412,
+    "unit": "亿元",
+    "period": "2025Q3",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "紫金矿业_2025Q3_固定资产": {
+    "label": "固定资产",
+    "value": 1076.7714,
+    "unit": "亿元",
+    "period": "2025Q3",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "紫金矿业_2025Q3_无形资产": {
+    "label": "无形资产",
+    "value": 816.3087,
+    "unit": "亿元",
+    "period": "2025Q3",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "紫金矿业_2025Q3_合同负债": {
+    "label": "合同负债（预收款项）",
+    "value": 75.5792,
+    "unit": "亿元",
+    "period": "2025Q3",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "紫金矿业_2025Q3_应交税费": {
+    "label": "应交税费",
+    "value": 72.8555,
+    "unit": "亿元",
+    "period": "2025Q3",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "紫金矿业_2025Q3_应付职工薪酬": {
+    "label": "应付职工薪酬",
+    "value": 33.8157,
+    "unit": "亿元",
+    "period": "2025Q3",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "紫金矿业_2025Q3_预付款项": {
+    "label": "预付款项",
+    "value": 36.8667,
+    "unit": "亿元",
+    "period": "2025Q3",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "紫金矿业_2025Q4_销售商品提供劳务收到的现金": {
+    "label": "销售商品/提供劳务收到的现金",
+    "value": 1048.88,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "销售商品/提供劳务收到的现金",
+    "notes": ""
+  },
+  "紫金矿业_2025Q4_经营活动现金流入合计": {
+    "label": "经营活动现金流入合计",
+    "value": 1043.7649,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "经营活动现金流入合计",
+    "notes": ""
+  },
+  "紫金矿业_2025Q4_经营活动现金流出合计": {
+    "label": "经营活动现金流出合计",
+    "value": 810.5436,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "经营活动现金流出合计",
+    "notes": ""
+  },
+  "紫金矿业_2025Q4_经营活动现金流量净额": {
+    "label": "经营活动现金流量净额",
+    "value": 233.2213,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "经营活动现金流量净额 [总量，非每股！]",
+    "notes": "NETCASH_OPERATE是总量（亿元），与PER_NETCASH不同"
+  },
+  "紫金矿业_2025Q4_支付的税款": {
+    "label": "支付的税款",
+    "value": 98.8696,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "支付的税款",
+    "notes": ""
+  },
+  "紫金矿业_2025Q4_投资活动现金流量净额": {
+    "label": "投资活动现金流量净额",
+    "value": -95.5138,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "投资活动现金流量净额",
+    "notes": ""
+  },
+  "紫金矿业_2025Q4_投资支付的现金": {
+    "label": "投资支付的现金",
+    "value": -27.4881,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "投资支付的现金",
+    "notes": ""
+  },
+  "紫金矿业_2025Q4_收回投资收到的现金": {
+    "label": "收回投资收到的现金",
+    "value": -37.2926,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "收回投资收到的现金",
+    "notes": ""
+  },
+  "紫金矿业_2025Q4_分红偿债支付的现金": {
+    "label": "分红/偿债支付的现金",
+    "value": 44.5982,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "分红/偿债支付的现金",
+    "notes": ""
+  },
+  "紫金矿业_2025Q4_筹资活动现金流量净额": {
+    "label": "筹资活动现金流量净额",
+    "value": -125.33,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "筹资活动现金流量净额",
+    "notes": ""
+  },
+  "紫金矿业_2025Q4_现金及现金等价物净增加额": {
+    "label": "现金及现金等价物净增加额",
+    "value": -2.8083,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "现金及现金等价物净增加额",
+    "notes": ""
+  },
+  "紫金矿业_2025Q4_期初现金及等价物余额": {
+    "label": "期初现金及等价物余额（含货币基金，广义口径）",
+    "value": 614.9696,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "期初现金及等价物余额（含货币基金，广义口径）",
+    "notes": ""
+  },
+  "紫金矿业_2025Q4_期末现金及等价物余额": {
+    "label": "期末现金及等价物余额（含货币基金，广义口径）",
+    "value": 612.1613,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "期末现金及等价物余额（含货币基金，广义口径）",
+    "notes": ""
+  },
+  "紫金矿业_2025年_销售商品收到现金": {
+    "label": "销售商品/提供劳务收到的现金",
+    "value": 3815.8499,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "销售商品/提供劳务收到的现金",
+    "notes": ""
+  },
+  "紫金矿业_2025年_经营活动现金流入合计": {
+    "label": "经营活动现金流入合计",
+    "value": 3847.1169,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "经营活动现金流入合计",
+    "notes": ""
+  },
+  "紫金矿业_2025年_经营活动现金流出合计": {
+    "label": "经营活动现金流出合计",
+    "value": 3092.8217,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "经营活动现金流出合计",
+    "notes": ""
+  },
+  "紫金矿业_2025年_经营活动现金流量净额": {
+    "label": "经营活动现金流量净额",
+    "value": 754.2952,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "经营活动现金流量净额 [总量，非每股！]",
+    "notes": "总量（亿元）"
+  },
+  "紫金矿业_2025年_支付税款": {
+    "label": "支付的税款",
+    "value": 284.991,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "支付的税款",
+    "notes": ""
+  },
+  "紫金矿业_2025年_投资活动现金流量净额": {
+    "label": "投资活动现金流量净额",
+    "value": -473.9255,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "投资活动现金流量净额",
+    "notes": ""
+  },
+  "紫金矿业_2025年_投资支付的现金": {
+    "label": "投资支付的现金",
+    "value": 144.7505,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "投资支付的现金",
+    "notes": ""
+  },
+  "紫金矿业_2025年_收回投资收到的现金": {
+    "label": "收回投资收到的现金",
+    "value": 112.8595,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "收回投资收到的现金",
+    "notes": ""
+  },
+  "紫金矿业_2025年_分红偿债支付的现金": {
+    "label": "分红/偿债支付的现金",
+    "value": 228.8893,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "分红/偿债支付的现金",
+    "notes": ""
+  },
+  "紫金矿业_2025年_筹资活动现金流量净额": {
+    "label": "筹资活动现金流量净额",
+    "value": 55.3234,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "筹资活动现金流量净额",
+    "notes": ""
+  },
+  "紫金矿业_2025年_现金及现金等价物净增加额": {
+    "label": "现金及现金等价物净增加额",
+    "value": 315.6798,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "现金及现金等价物净增加额",
+    "notes": ""
+  },
+  "紫金矿业_2025年_期初现金及等价物余额": {
+    "label": "期初现金及等价物余额",
+    "value": 296.4816,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "期初现金及等价物余额（含货币基金，广义口径）",
+    "notes": ""
+  },
+  "紫金矿业_2025年_期末现金及等价物余额": {
+    "label": "期末现金及等价物余额",
+    "value": 612.1613,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "期末现金及等价物余额（含货币基金，广义口径）",
+    "notes": ""
+  },
+  "紫金矿业_2025年_销售商品收到现金同比增速": {
+    "label": "销售商品收到现金同比增速",
+    "value": 15.8482,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "销售商品收到现金同比增速",
+    "notes": ""
+  },
+  "紫金矿业_2025年_经营活动现金流同比增速": {
+    "label": "经营活动现金流同比增速",
+    "value": 54.3778,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "经营活动现金流同比增速",
+    "notes": ""
+  },
+  "紫金矿业_2025年_投资活动现金流同比增速": {
+    "label": "投资活动现金流同比增速",
+    "value": -47.0063,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "投资活动现金流同比增速",
+    "notes": ""
+  },
+  "紫金矿业_2025年_筹资活动现金流同比增速": {
+    "label": "筹资活动现金流同比增速",
+    "value": 224.9154,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "筹资活动现金流同比增速",
+    "notes": ""
+  },
+  "紫金矿业_2025年_基本每股收益（EPS）": {
+    "label": "基本每股收益（EPS）",
+    "value": 1.95,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "基本每股收益（EPS）[每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "紫金矿业_2025年_每股净资产": {
+    "label": "每股净资产",
+    "value": 6.9176,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "每股净资产 [每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "紫金矿业_2025年_营业总收入全年同比增速（累计）": {
+    "label": "营业总收入全年同比增速（累计）",
+    "value": 14.9648,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "营业总收入全年同比增速（累计）",
+    "notes": ""
+  },
+  "紫金矿业_2025年_归母净利润全年同比增速（累计）": {
+    "label": "归母净利润全年同比增速（累计）",
+    "value": 61.5487,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "归母净利润全年同比增速（累计）",
+    "notes": ""
+  },
+  "紫金矿业_2025Q4_毛利润": {
+    "label": "毛利润",
+    "value": 334.0715,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "毛利润 [总量]",
+    "notes": ""
+  },
+  "紫金矿业_2025Q4_每股净资产": {
+    "label": "每股净资产",
+    "value": 6.9176,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "每股净资产 [每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "紫金矿业_2025Q4_每股经营现金流": {
+    "label": "每股经营现金流",
+    "value": 0.8771,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "每股经营现金流 [每股值，元/股，勿除1e8；经营现金流总额在现金流量表中]",
+    "notes": ""
+  },
+  "紫金矿业_2025Q4_每股未分配利润": {
+    "label": "每股未分配利润",
+    "value": 4.9476,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "每股未分配利润 [每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "紫金矿业_2025Q4_销售毛利率": {
+    "label": "销售毛利率",
+    "value": 35.2101,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "销售毛利率",
+    "notes": ""
+  },
+  "紫金矿业_2025Q4_销售净利率": {
+    "label": "销售净利率",
+    "value": 19.099,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "销售净利率",
+    "notes": ""
+  },
+  "紫金矿业_2025Q4_净资产收益率": {
+    "label": "净资产收益率（稀释）",
+    "value": 7.8419,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "净资产收益率（稀释）",
+    "notes": ""
+  },
+  "紫金矿业_2025Q4_总资产净利率": {
+    "label": "总资产净利率（ROA）",
+    "value": 3.6424,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "总资产净利率（ROA）",
+    "notes": ""
+  },
+  "紫金矿业_2025Q4_营业总收入同比增速": {
+    "label": "营业总收入同比增速",
+    "value": 29.5399,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "营业总收入同比增速",
+    "notes": ""
+  },
+  "紫金矿业_2025Q4_归母净利润同比增速": {
+    "label": "归母净利润同比增速",
+    "value": 80.8585,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "归母净利润同比增速",
+    "notes": ""
+  },
+  "紫金矿业_2025Q4_扣非归母净利润同比增速": {
+    "label": "扣非归母净利润同比增速",
+    "value": 108.8944,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "扣非归母净利润同比增速",
+    "notes": ""
+  },
+  "紫金矿业_2025年_其它主营收入": {
+    "label": "其它主营收入",
+    "value": 2685.7122,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "主营收入 [总量]",
+    "notes": ""
+  },
+  "紫金矿业_2025年_其它收入占比": {
+    "label": "其它收入占比",
+    "value": 76.94,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "收入占比",
+    "notes": ""
+  },
+  "紫金矿业_2025年_其它主营成本": {
+    "label": "其它主营成本",
+    "value": 2467.5242,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "主营成本 [总量]",
+    "notes": ""
+  },
+  "紫金矿业_2025年_其它毛利率": {
+    "label": "其它毛利率",
+    "value": 8.12,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "毛利率",
+    "notes": ""
+  },
+  "紫金矿业_2025年_冶炼加工及贸易金主营收入": {
+    "label": "冶炼加工及贸易金主营收入",
+    "value": 1258.2221,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "主营收入 [总量]",
+    "notes": ""
+  },
+  "紫金矿业_2025年_冶炼加工及贸易金收入占比": {
+    "label": "冶炼加工及贸易金收入占比",
+    "value": 36.04,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "收入占比",
+    "notes": ""
+  },
+  "紫金矿业_2025年_冶炼加工及贸易金主营成本": {
+    "label": "冶炼加工及贸易金主营成本",
+    "value": 1245.201,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "主营成本 [总量]",
+    "notes": ""
+  },
+  "紫金矿业_2025年_冶炼加工及贸易金毛利率": {
+    "label": "冶炼加工及贸易金毛利率",
+    "value": 1.03,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "毛利率",
+    "notes": ""
+  },
+  "紫金矿业__PEG": {
+    "label": "PEG",
+    "value": 0.159,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "PEG",
+    "notes": ""
+  },
+  "紫金矿业__市盈率-TTM": {
+    "label": "市盈率-TTM",
+    "value": 14.3536,
+    "unit": "倍",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "市盈率-TTM",
+    "notes": ""
+  },
+  "紫金矿业__市盈率-25E": {
+    "label": "市盈率-25E",
+    "value": 10.6198,
+    "unit": "倍",
+    "period": "2025",
+    "source": "get_peer_valuation",
+    "raw_field": "市盈率-25E",
+    "notes": ""
+  },
+  "紫金矿业__市盈率-26E": {
+    "label": "市盈率-26E",
+    "value": 8.9623,
+    "unit": "倍",
+    "period": "2026",
+    "source": "get_peer_valuation",
+    "raw_field": "市盈率-26E",
+    "notes": ""
+  },
+  "紫金矿业__市盈率-27E": {
+    "label": "市盈率-27E",
+    "value": 7.8095,
+    "unit": "倍",
+    "period": "2027",
+    "source": "get_peer_valuation",
+    "raw_field": "市盈率-27E",
+    "notes": ""
+  },
+  "紫金矿业__市净率-MRQ": {
+    "label": "市净率-MRQ",
+    "value": 4.4885,
+    "unit": "倍",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "市净率-MRQ",
+    "notes": ""
+  },
+  "紫金矿业__ROE-3年平均": {
+    "label": "ROE-3年平均",
+    "value": 7.91,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "ROE-3年平均",
+    "notes": ""
+  },
+  "紫金矿业__ROE-24A": {
+    "label": "ROE-24A",
+    "value": 8.39,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "ROE-24A",
+    "notes": ""
+  },
+  "紫金矿业__净利率-3年平均": {
+    "label": "净利率-3年平均",
+    "value": 3.13,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "净利率-3年平均",
+    "notes": ""
+  },
+  "紫金矿业__净利率-24A": {
+    "label": "净利率-24A",
+    "value": 4.79,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "净利率-24A",
+    "notes": ""
+  },
+  "紫金矿业__行业中值_ROE-3年平均": {
+    "label": "ROE-3年平均（行业中值）",
+    "value": 7.99,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "ROE-3年平均",
+    "notes": ""
+  },
+  "紫金矿业__行业中值_ROE-24A": {
+    "label": "ROE-24A（行业中值）",
+    "value": 7.72,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "ROE-24A",
+    "notes": ""
+  },
+  "紫金矿业__行业中值_净利率-3年平均": {
+    "label": "净利率-3年平均（行业中值）",
+    "value": 2.56,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "净利率-3年平均",
+    "notes": ""
+  },
+  "紫金矿业__行业中值_净利率-24A": {
+    "label": "净利率-24A（行业中值）",
+    "value": 2.83,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "净利率-24A",
+    "notes": ""
+  },
+  "紫金矿业_2026_归母净利润预测均值": {
+    "label": "归母净利润预测均值",
+    "value": 3.06,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "紫金矿业_2026_归母净利润预测最大值": {
+    "label": "归母净利润预测最大值",
+    "value": 3.48,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "紫金矿业_2027_归母净利润预测均值": {
+    "label": "归母净利润预测均值",
+    "value": 3.7,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "紫金矿业_2027_归母净利润预测最大值": {
+    "label": "归母净利润预测最大值",
+    "value": 4.58,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "紫金矿业_2028_归母净利润预测均值": {
+    "label": "归母净利润预测均值",
+    "value": 4.25,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "紫金矿业_2028_归母净利润预测最大值": {
+    "label": "归母净利润预测最大值",
+    "value": 5.19,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "紫金矿业_2026_预测机构数": {
+    "label": "预测机构数",
+    "value": 25,
+    "unit": "%",
+    "period": "2026",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "紫金矿业_2026_归母净利润最小值": {
+    "label": "归母净利润最小值",
+    "value": 632.55,
+    "unit": "亿元",
+    "period": "2026",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "紫金矿业_2026_归母净利润均值": {
+    "label": "归母净利润均值",
+    "value": 814.43,
+    "unit": "亿元",
+    "period": "2026",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "紫金矿业_2026_归母净利润最大值": {
+    "label": "归母净利润最大值",
+    "value": 926.12,
+    "unit": "亿元",
+    "period": "2026",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "紫金矿业_2026_行业平均数": {
+    "label": "行业平均数",
+    "value": 192.52,
+    "unit": "亿元",
+    "period": "2026",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "紫金矿业_2027_预测机构数": {
+    "label": "预测机构数",
+    "value": 23,
+    "unit": "%",
+    "period": "2027",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "紫金矿业_2027_归母净利润最小值": {
+    "label": "归母净利润最小值",
+    "value": 862.93,
+    "unit": "亿元",
+    "period": "2027",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "紫金矿业_2027_归母净利润均值": {
+    "label": "归母净利润均值",
+    "value": 983.37,
+    "unit": "亿元",
+    "period": "2027",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "紫金矿业_2027_归母净利润最大值": {
+    "label": "归母净利润最大值",
+    "value": 1217.28,
+    "unit": "亿元",
+    "period": "2027",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "紫金矿业_2027_行业平均数": {
+    "label": "行业平均数",
+    "value": 236.19,
+    "unit": "亿元",
+    "period": "2027",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "紫金矿业_2028_预测机构数": {
+    "label": "预测机构数",
+    "value": 20,
+    "unit": "%",
+    "period": "2028",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "紫金矿业_2028_归母净利润最小值": {
+    "label": "归母净利润最小值",
+    "value": 975.04,
+    "unit": "亿元",
+    "period": "2028",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "紫金矿业_2028_归母净利润均值": {
+    "label": "归母净利润均值",
+    "value": 1130.99,
+    "unit": "亿元",
+    "period": "2028",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "紫金矿业_2028_归母净利润最大值": {
+    "label": "归母净利润最大值",
+    "value": 1380.33,
+    "unit": "亿元",
+    "period": "2028",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "紫金矿业_2028_行业平均数": {
+    "label": "行业平均数",
+    "value": 297.15,
+    "unit": "亿元",
+    "period": "2028",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "紫金矿业_2025年_年度分红": {
+    "label": "年度分红",
+    "value": "每10股派2.8元",
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_dividend_history_cninfo",
+    "raw_field": "",
+    "notes": ""
+  },
+  "紫金矿业_2025年_中期分红": {
+    "label": "中期分红",
+    "value": "每10股派2.2元",
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_dividend_history_cninfo",
+    "raw_field": "",
+    "notes": ""
+  },
+  "紫金矿业_2025Q4_税金及附加率": {
+    "label": "税金及附加率",
+    "value": 2.02,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "营业税金及附加 / 营业总收入"
+  },
+  "紫金矿业_2025Q4_销售费用率": {
+    "label": "销售费用率",
+    "value": 0.28,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "销售费用 / 营业总收入"
+  },
+  "紫金矿业_2025Q4_管理费用率": {
+    "label": "管理费用率",
+    "value": 4.48,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "管理费用 / 营业总收入"
+  },
+  "紫金矿业_2025年_税金及附加率": {
+    "label": "税金及附加率",
+    "value": 2.27,
+    "unit": "%",
+    "period": "2025年",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "营业税金及附加 / 营业总收入"
+  },
+  "紫金矿业_2025年_销售费用率": {
+    "label": "销售费用率",
+    "value": 0.24,
+    "unit": "%",
+    "period": "2025年",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "销售费用 / 营业总收入"
+  },
+  "紫金矿业_2025年_管理费用率": {
+    "label": "管理费用率",
+    "value": 3.2,
+    "unit": "%",
+    "period": "2025年",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "管理费用 / 营业总收入"
+  }
+}

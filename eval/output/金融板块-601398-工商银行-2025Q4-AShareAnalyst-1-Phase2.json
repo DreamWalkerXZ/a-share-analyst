@@ -1,0 +1,1388 @@
+{
+  "工商银行_2025Q4_营业收入（主营业务）": {
+    "label": "营业收入（主营业务）",
+    "value": 1982.42,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2025Q4_营业税金及附加": {
+    "label": "营业税金及附加",
+    "value": 31.87,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2025Q4_营业利润": {
+    "label": "营业利润",
+    "value": 1056.01,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2025Q4_利润总额": {
+    "label": "利润总额",
+    "value": 1057.72,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2025Q4_所得税费用": {
+    "label": "所得税费用",
+    "value": 68.88,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2025Q4_净利润（含少数股东）": {
+    "label": "净利润（含少数股东）",
+    "value": 988.84,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2025Q4_归母净利润": {
+    "label": "归母净利润",
+    "value": 986.54,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2025Q4_扣非归母净利润": {
+    "label": "扣非归母净利润",
+    "value": 987.22,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2025Q4_少数股东损益": {
+    "label": "少数股东损益",
+    "value": 2.3,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2025Q4_基本每股收益": {
+    "label": "基本每股收益",
+    "value": 0.27,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"601398.SH\", \"indicator\": \"监管指标\"}}",
+    "raw_field": "EPSJB",
+    "notes": ""
+  },
+  "工商银行_2025Q4_稀释每股收益": {
+    "label": "稀释每股收益",
+    "value": 0.27,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2025年_营业收入": {
+    "label": "营业收入（主营业务）",
+    "value": 8382.7,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2025年_营业税金及附加": {
+    "label": "营业税金及附加",
+    "value": 106.58,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2025年_营业利润": {
+    "label": "营业利润",
+    "value": 4241.11,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2025年_利润总额": {
+    "label": "利润总额",
+    "value": 4244.35,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2025年_所得税费用": {
+    "label": "所得税费用",
+    "value": 536.69,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2025年_净利润（含少数股东）": {
+    "label": "净利润（含少数股东）",
+    "value": 3707.66,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2025年_归母净利润": {
+    "label": "归母净利润",
+    "value": 3685.62,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2025年_扣非归母净利润": {
+    "label": "扣非归母净利润",
+    "value": 3681.26,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2025年_少数股东损益": {
+    "label": "少数股东损益",
+    "value": 22.04,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2025年_基本每股收益": {
+    "label": "基本每股收益（EPS）",
+    "value": 1.0,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "基本每股收益（EPS）[每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "工商银行_2025年_稀释每股收益": {
+    "label": "稀释每股收益",
+    "value": 1.0,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2025Q4_总资产": {
+    "label": "总资产",
+    "value": 534777.73,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2025Q4_总负债": {
+    "label": "总负债",
+    "value": 492057.49,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2025Q4_股东权益合计": {
+    "label": "股东权益合计",
+    "value": 42720.24,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2025Q4_固定资产": {
+    "label": "固定资产",
+    "value": 2729.33,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2025Q4_应交税费": {
+    "label": "应交税费",
+    "value": 416.17,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2025Q4_应付职工薪酬": {
+    "label": "应付职工薪酬",
+    "value": 537.1,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2025Q4_经营活动现金流入合计": {
+    "label": "经营活动现金流入合计",
+    "value": 7843.13,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2025Q4_经营活动现金流出合计": {
+    "label": "经营活动现金流出合计",
+    "value": 4429.9,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2025Q4_经营活动现金流量净额": {
+    "label": "经营活动现金流量净额",
+    "value": 3413.23,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": "[总量，非每股！]"
+  },
+  "工商银行_2025Q4_支付的税款": {
+    "label": "支付的税款",
+    "value": 282.9,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2025Q4_投资活动现金流量净额": {
+    "label": "投资活动现金流量净额",
+    "value": -4392.75,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2025Q4_投资支付的现金": {
+    "label": "投资支付的现金",
+    "value": 17089.45,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2025Q4_收回投资收到的现金": {
+    "label": "收回投资收到的现金",
+    "value": 11830.23,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2025Q4_分红/偿债支付的现金": {
+    "label": "分红/偿债支付的现金",
+    "value": 391.1,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2025Q4_筹资活动现金流量净额": {
+    "label": "筹资活动现金流量净额",
+    "value": -1550.89,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2025Q4_现金及现金等价物净增加额": {
+    "label": "现金及现金等价物净增加额",
+    "value": -2753.0,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2025Q4_期末现金及等价物余额": {
+    "label": "期末现金及等价物余额",
+    "value": 17690.1,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2025年_NETCASH_OPERATE": {
+    "label": "经营活动现金流量净额",
+    "value": 18905.3,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "经营活动现金流量净额 [总量，非每股！]",
+    "notes": ""
+  },
+  "工商银行_2025年_经营活动现金流入合计": {
+    "label": "经营活动现金流入合计",
+    "value": 57800.22,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "经营活动现金流入合计",
+    "notes": ""
+  },
+  "工商银行_2025年_经营活动现金流出合计": {
+    "label": "经营活动现金流出合计",
+    "value": 38894.92,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "经营活动现金流出合计",
+    "notes": ""
+  },
+  "工商银行_2025年_支付的税款": {
+    "label": "支付的税款",
+    "value": 1394.23,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "支付的税款",
+    "notes": ""
+  },
+  "工商银行_2025年_投资活动现金流量净额": {
+    "label": "投资活动现金流量净额",
+    "value": -24175.82,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "投资活动现金流量净额",
+    "notes": ""
+  },
+  "工商银行_2025年_投资支付的现金": {
+    "label": "投资支付的现金",
+    "value": 80284.63,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "投资支付的现金",
+    "notes": ""
+  },
+  "工商银行_2025年_收回投资收到的现金": {
+    "label": "收回投资收到的现金",
+    "value": 52182.43,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "收回投资收到的现金",
+    "notes": ""
+  },
+  "工商银行_2025年_分红/偿债支付的现金": {
+    "label": "分红/偿债支付的现金",
+    "value": 1909.22,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "分红/偿债支付的现金",
+    "notes": ""
+  },
+  "工商银行_2025年_筹资活动现金流量净额": {
+    "label": "筹资活动现金流量净额",
+    "value": 350.05,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "筹资活动现金流量净额",
+    "notes": ""
+  },
+  "工商银行_2025年_现金及现金等价物净增加额": {
+    "label": "现金及现金等价物净增加额",
+    "value": -5213.94,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "现金及现金等价物净增加额",
+    "notes": ""
+  },
+  "工商银行_2025年_期初现金及等价物余额": {
+    "label": "期初现金及等价物余额（含货币基金，广义口径）",
+    "value": 22904.04,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "期初现金及等价物余额（含货币基金，广义口径）",
+    "notes": ""
+  },
+  "工商银行_2025年_期末现金及等价物余额": {
+    "label": "期末现金及等价物余额（含货币基金，广义口径）",
+    "value": 17690.1,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "期末现金及等价物余额（含货币基金，广义口径）",
+    "notes": ""
+  },
+  "工商银行_2025年_经营活动现金流同比增速": {
+    "label": "经营活动现金流同比增速",
+    "value": 226.41,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "经营活动现金流同比增速",
+    "notes": ""
+  },
+  "工商银行_2025年_投资活动现金流同比增速": {
+    "label": "投资活动现金流同比增速",
+    "value": -64.3,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "投资活动现金流同比增速",
+    "notes": ""
+  },
+  "工商银行_2025年_筹资活动现金流同比增速": {
+    "label": "筹资活动现金流同比增速",
+    "value": -91.58,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "筹资活动现金流同比增速",
+    "notes": ""
+  },
+  "工商银行_2025年_营业总收入": {
+    "label": "营业总收入",
+    "value": 8382.7,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "营业总收入 [总量]",
+    "notes": ""
+  },
+  "工商银行_2025年_每股净资产": {
+    "label": "每股净资产",
+    "value": 10.83,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "每股净资产 [每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "工商银行_2025年_营业总收入同比增速": {
+    "label": "营业总收入全年同比增速（累计）",
+    "value": 2.0,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "营业总收入全年同比增速（累计）",
+    "notes": ""
+  },
+  "工商银行_2025年_归母净利润同比增速": {
+    "label": "归母净利润全年同比增速（累计）",
+    "value": 0.74,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "归母净利润全年同比增速（累计）",
+    "notes": ""
+  },
+  "工商银行_2025Q4_营业总收入": {
+    "label": "营业总收入",
+    "value": 1982.42,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "营业总收入 [总量]",
+    "notes": ""
+  },
+  "工商银行_2025Q4_基本每股收益（EPS）": {
+    "label": "基本每股收益（EPS）",
+    "value": 0.27,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "基本每股收益（EPS）[每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "工商银行_2025Q4_每股净资产": {
+    "label": "每股净资产",
+    "value": 10.83,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"601398.SH\", \"indicator\": \"监管指标\"}}",
+    "raw_field": "BPS",
+    "notes": ""
+  },
+  "工商银行_2025Q4_每股经营现金流": {
+    "label": "每股经营现金流",
+    "value": 0.96,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"601398.SH\", \"indicator\": \"监管指标\"}}",
+    "raw_field": "PER_NETCASH",
+    "notes": ""
+  },
+  "工商银行_2025Q4_每股未分配利润": {
+    "label": "每股未分配利润",
+    "value": 6.12,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"601398.SH\", \"indicator\": \"监管指标\"}}",
+    "raw_field": "PER_UNASSIGN_PROFIT",
+    "notes": ""
+  },
+  "工商银行_2025Q4_销售净利率": {
+    "label": "销售净利率",
+    "value": 49.88,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"601398.SH\", \"indicator\": \"监管指标\"}}",
+    "raw_field": "NET_PROFIT_RATIO",
+    "notes": ""
+  },
+  "工商银行_2025Q4_净资产收益率（稀释）": {
+    "label": "净资产收益率（稀释）",
+    "value": 2.35,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"601398.SH\", \"indicator\": \"监管指标\"}}",
+    "raw_field": "ROE_DILUTED",
+    "notes": ""
+  },
+  "工商银行_2025Q4_总资产净利率（ROA）": {
+    "label": "总资产净利率（ROA）",
+    "value": 0.19,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"601398.SH\", \"indicator\": \"监管指标\"}}",
+    "raw_field": "JROA",
+    "notes": ""
+  },
+  "工商银行_2025Q4_营业总收入同比增速": {
+    "label": "营业总收入同比增速",
+    "value": 1.46,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"601398.SH\", \"indicator\": \"监管指标\"}}",
+    "raw_field": "TOTALOPERATEREVETZ",
+    "notes": ""
+  },
+  "工商银行_2025Q4_归母净利润同比增速": {
+    "label": "归母净利润同比增速",
+    "value": 1.88,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"601398.SH\", \"indicator\": \"监管指标\"}}",
+    "raw_field": "PARENTNETPROFITTZ",
+    "notes": ""
+  },
+  "工商银行_2025Q4_扣非归母净利润同比增速": {
+    "label": "扣非归母净利润同比增速",
+    "value": 2.13,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"601398.SH\", \"indicator\": \"监管指标\"}}",
+    "raw_field": "DPNP_YOY_RATIO",
+    "notes": ""
+  },
+  "工商银行_2025年_公司金融业务主营收入": {
+    "label": "公司金融业务主营收入",
+    "value": 4106.76,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SH601398\"}}",
+    "raw_field": "主营收入",
+    "notes": "按产品分类，公司金融业务"
+  },
+  "工商银行_2025年_公司金融业务收入占比": {
+    "label": "公司金融业务收入占比",
+    "value": 48.99,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "收入占比",
+    "notes": ""
+  },
+  "工商银行_2025年_公司金融业务主营成本": {
+    "label": "公司金融业务主营成本",
+    "value": 2040.74,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "主营成本 [总量]",
+    "notes": ""
+  },
+  "工商银行_2025年_公司金融业务毛利率": {
+    "label": "公司金融业务毛利率",
+    "value": 50.31,
+    "unit": "%",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SH601398\"}}",
+    "raw_field": "毛利率",
+    "notes": "按产品分类，公司金融业务"
+  },
+  "工商银行_2025年_个人金融业务主营收入": {
+    "label": "个人金融业务主营收入",
+    "value": 3277.39,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SH601398\"}}",
+    "raw_field": "主营收入",
+    "notes": "按产品分类，个人金融业务"
+  },
+  "工商银行_2025年_个人金融业务收入占比": {
+    "label": "个人金融业务收入占比",
+    "value": 39.1,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "收入占比",
+    "notes": ""
+  },
+  "工商银行_2025年_个人金融业务主营成本": {
+    "label": "个人金融业务主营成本",
+    "value": 1859.75,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "主营成本 [总量]",
+    "notes": ""
+  },
+  "工商银行_2025年_个人金融业务毛利率": {
+    "label": "个人金融业务毛利率",
+    "value": 43.26,
+    "unit": "%",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SH601398\"}}",
+    "raw_field": "毛利率",
+    "notes": "按产品分类，个人金融业务"
+  },
+  "工商银行__PEG": {
+    "label": "PEG",
+    "value": 0.65,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行__市盈率-TTM": {
+    "label": "市盈率-TTM",
+    "value": 6.26,
+    "unit": "倍",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行__市盈率-25E": {
+    "label": "市盈率-25E",
+    "value": 5.89,
+    "unit": "倍",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行__市盈率-26E": {
+    "label": "市盈率-26E",
+    "value": 5.34,
+    "unit": "倍",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行__市盈率-27E": {
+    "label": "市盈率-27E",
+    "value": 4.96,
+    "unit": "倍",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行__市净率-MRQ": {
+    "label": "市净率-MRQ",
+    "value": 0.57,
+    "unit": "倍",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行__ROE-3年平均": {
+    "label": "ROE-3年平均",
+    "value": 9.53,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行__ROE-24A": {
+    "label": "ROE-24A",
+    "value": 9.0,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行__净利率-3年平均": {
+    "label": "净利率-3年平均",
+    "value": 37.33,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行__净利率-24A": {
+    "label": "净利率-24A",
+    "value": 37.8,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行__行业中值_ROE-3年平均": {
+    "label": "行业中值 ROE-3年平均",
+    "value": 9.37,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行__行业中值_ROE-24A": {
+    "label": "行业中值 ROE-24A",
+    "value": 9.07,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行__行业中值_净利率-3年平均": {
+    "label": "行业中值 净利率-3年平均",
+    "value": 39.6,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行__行业中值_净利率-24A": {
+    "label": "行业中值 净利率-24A",
+    "value": 39.98,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2026_归母净利润预测均值": {
+    "label": "归母净利润预测均值",
+    "value": 3774.17,
+    "unit": "亿元",
+    "period": "2026",
+    "source": "realtime_search-{\"query\": \"工商银行 2025年 管理层指引 业绩展望 2026年\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2027_归母净利润预测均值": {
+    "label": "归母净利润预测均值",
+    "value": 3894.6,
+    "unit": "亿元",
+    "period": "2027",
+    "source": "realtime_search-{\"query\": \"工商银行 2025年 管理层指引 业绩展望 2026年\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2028_归母净利润预测均值": {
+    "label": "归母净利润预测均值",
+    "value": 4064.2,
+    "unit": "亿元",
+    "period": "2028",
+    "source": "realtime_search-{\"query\": \"工商银行 2025年 管理层指引 业绩展望 2026年\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2025年_年度分红": {
+    "label": "年度分红（每10股派息）",
+    "value": 1.65,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_dividend_history_cninfo",
+    "raw_field": "2025-07-08 年度分红: 每10股派1.646元",
+    "notes": ""
+  },
+  "工商银行_2025年中期_中期分红": {
+    "label": "中期分红（每10股派息）",
+    "value": 1.41,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_dividend_history_cninfo",
+    "raw_field": "2025-12-09 中期分红: 每10股派1.414元",
+    "notes": ""
+  },
+  "工商银行_2025Q4_税金及附加率": {
+    "label": "税金及附加率",
+    "value": 1.61,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "营业税金及附加 / 营业总收入"
+  },
+  "工商银行_2025年_税金及附加率": {
+    "label": "税金及附加率",
+    "value": 1.27,
+    "unit": "%",
+    "period": "2025年",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "营业税金及附加 / 营业总收入"
+  },
+  "工商银行_2025年_分红率": {
+    "label": "分红率",
+    "value": 30.6,
+    "unit": "%",
+    "period": "2025年",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "年度+中期派息合计（每10股）/ 基本每股收益"
+  },
+  "工商银行_2025年_绿色贷款余额": {
+    "label": "绿色贷款余额",
+    "value": 67000,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"工商银行 2025年 资产管理规模 AUM 财富管理\"}",
+    "raw_field": "",
+    "notes": "源自工行2025年报PDF，已收录但重复，跳过；此处为新检索确认"
+  },
+  "工商银行_2025年_绿色金融债发行额": {
+    "label": "境内银行间市场人民币绿色金融债发行额",
+    "value": 1250,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"工商银行 2025年 年报 经营分析 亮点\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2025Q4_不良贷款率": {
+    "label": "不良贷款率",
+    "value": 1.33,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "realtime_search-{\"query\": \"工商银行 2025年 存贷款余额 资产质量 风险管理\"}",
+    "raw_field": "",
+    "notes": "根据上下文补充"
+  },
+  "工商银行_2025Q4_拨备覆盖率": {
+    "label": "拨备覆盖率",
+    "value": 217.71,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "realtime_search-{\"query\": \"工商银行 2025年 存贷款余额 资产质量 风险管理\"}",
+    "raw_field": "",
+    "notes": "根据上下文补充"
+  },
+  "工商银行_2025年_净息差": {
+    "label": "净息差",
+    "value": 1.28,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"工商银行 2025年 净息差 经营情况 业务拆分\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2025年_净息差同比变化": {
+    "label": "净息差同比变化",
+    "value": -14,
+    "unit": "基点",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"工商银行 2025年 净息差 经营情况 业务拆分\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2025年_境内银行间市场人民币绿色金融债发行额": {
+    "label": "境内银行间市场人民币绿色金融债发行额",
+    "value": 1250,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"工商银行 2025年 净息差 经营情况 业务拆分\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2025年中期_零售+普惠贷款增量占比": {
+    "label": "零售+普惠贷款增量占比",
+    "value": 30.2,
+    "unit": "%",
+    "period": "2025年中期",
+    "source": "realtime_search-{\"query\": \"工商银行 2025年 净息差 经营情况 业务拆分\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2025年中期_零售+普惠贷款增量占比提升": {
+    "label": "零售+普惠贷款增量占比提升幅度",
+    "value": 5.3,
+    "unit": "个百分点",
+    "period": "2025年中期",
+    "source": "realtime_search-{\"query\": \"工商银行 2025年 净息差 经营情况 业务拆分\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2025年_资金业务主营收入": {
+    "label": "资金业务主营收入",
+    "value": 939.9,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SH601398\"}}",
+    "raw_field": "主营收入",
+    "notes": "按产品分类，资金业务"
+  },
+  "工商银行_2025年_其他主营收入": {
+    "label": "其他主营收入",
+    "value": 58.65,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SH601398\"}}",
+    "raw_field": "主营收入",
+    "notes": "按产品分类，其他"
+  },
+  "工商银行_2025年_资金业务毛利率": {
+    "label": "资金业务毛利率",
+    "value": 75.68,
+    "unit": "%",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SH601398\"}}",
+    "raw_field": "毛利率",
+    "notes": "按产品分类，资金业务"
+  },
+  "工商银行_2025年_其他毛利率": {
+    "label": "其他毛利率",
+    "value": 78.6,
+    "unit": "%",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SH601398\"}}",
+    "raw_field": "毛利率",
+    "notes": "按产品分类，其他"
+  },
+  "工商银行_2025年_环渤海地区主营收入": {
+    "label": "环渤海地区主营收入",
+    "value": 1688.35,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SH601398\"}}",
+    "raw_field": "主营收入",
+    "notes": "按地区分类，环渤海地区"
+  },
+  "工商银行_2025年_长江三角洲主营收入": {
+    "label": "长江三角洲主营收入",
+    "value": 1516.89,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SH601398\"}}",
+    "raw_field": "主营收入",
+    "notes": "按地区分类，长江三角洲"
+  },
+  "工商银行_2025年_西部地区主营收入": {
+    "label": "西部地区主营收入",
+    "value": 1207.48,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SH601398\"}}",
+    "raw_field": "主营收入",
+    "notes": "按地区分类，西部地区"
+  },
+  "工商银行_2025年_境外及其他主营收入": {
+    "label": "境外及其他主营收入",
+    "value": 1144.15,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SH601398\"}}",
+    "raw_field": "主营收入",
+    "notes": "按地区分类，境外及其他"
+  },
+  "工商银行_2025年_涉农贷款余额": {
+    "label": "涉农贷款余额",
+    "value": 50700,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"工商银行 2025年 存贷款余额 资产质量 风险管理\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2025年_普惠型涉农贷款余额": {
+    "label": "普惠型涉农贷款余额",
+    "value": 9812,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"工商银行 2025年 存贷款余额 资产质量 风险管理\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2025年中期_个人客户金融资产(AUM)余额": {
+    "label": "个人客户金融资产(AUM)余额",
+    "value": 240000,
+    "unit": "亿元",
+    "period": "2025年中期",
+    "source": "realtime_search-{\"query\": \"工商银行 2025年 资产管理规模 AUM 财富管理\"}",
+    "raw_field": "",
+    "notes": "来自工行2025年中期业绩综述PDF，明确数值"
+  },
+  "工商银行_2025年_手续费及佣金净收入": {
+    "label": "手续费及佣金净收入",
+    "value": 1112,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"工商银行 2025年 中间业务收入 手续费及佣金\"}",
+    "raw_field": "手续费及佣金净收入",
+    "notes": "来自工行2025年业绩综述PDF"
+  },
+  "工商银行_2025年_金融科技投入": {
+    "label": "金融科技投入",
+    "value": 285.88,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"工商银行 2025年 数字化转型 AI应用 金融科技\"}",
+    "raw_field": "",
+    "notes": "国有六大行中最高，连续五年超200亿元"
+  },
+  "工商银行_2025年_人工智能应用深度渗透业务链条": {
+    "label": "AI技术在信贷/风控/客服/财富管理等业务渗透程度",
+    "value": 1,
+    "unit": "定性描述",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"工商银行 2025年 金融科技投入 数字化转型\"}",
+    "raw_field": "",
+    "notes": "根据知乎文章描述，但无法量化，跳过编码"
+  },
+  "工商银行_2026_EPS预测均值": {
+    "label": "基本每股收益（EPS）预测均值",
+    "value": 1.04,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "structured_data-{\"action\": \"get_profit_forecast_eps\", \"params\": {\"symbol\": \"601398\"}}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2027_EPS预测均值": {
+    "label": "基本每股收益（EPS）预测均值",
+    "value": 1.08,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "structured_data-{\"action\": \"get_profit_forecast_eps\", \"params\": {\"symbol\": \"601398\"}}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2028_EPS预测均值": {
+    "label": "基本每股收益（EPS）预测均值",
+    "value": 1.12,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "structured_data-{\"action\": \"get_profit_forecast_eps\", \"params\": {\"symbol\": \"601398\"}}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2024年报_年度分红": {
+    "label": "年度分红（每10股派息）",
+    "value": 3.06,
+    "unit": "元/股",
+    "period": "2024年报",
+    "source": "structured_data-{\"action\": \"get_dividend_history_cninfo\", \"params\": {\"symbol\": \"601398\"}}",
+    "raw_field": "实施方案分红说明",
+    "notes": "2024年度分红方案为每10股派3.064元（含税）"
+  },
+  "工商银行_2024半年报_中期分红": {
+    "label": "中期分红（每10股派息）",
+    "value": 1.43,
+    "unit": "元/股",
+    "period": "2024半年报",
+    "source": "structured_data-{\"action\": \"get_dividend_history_cninfo\", \"params\": {\"symbol\": \"601398\"}}",
+    "raw_field": "实施方案分红说明",
+    "notes": "2024年中期分红方案为每10股派1.434元（含税）"
+  },
+  "工商银行_2025半年报_中期分红": {
+    "label": "中期分红（每10股派息）",
+    "value": 1.41,
+    "unit": "元/股",
+    "period": "2025半年报",
+    "source": "structured_data-{\"action\": \"get_dividend_history_cninfo\", \"params\": {\"symbol\": \"601398\"}}",
+    "raw_field": "实施方案分红说明",
+    "notes": "2025年中期分红方案为每10股派1.414元（含税）"
+  },
+  "工商银行_2025年_资本充足率": {
+    "label": "资本充足率",
+    "value": 18.76,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"工商银行 2025年 资本充足率 核心一级资本充足率\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2025年_核心一级资本充足率": {
+    "label": "核心一级资本充足率",
+    "value": 18.02,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"工商银行 2025年 资本充足率 核心一级资本充足率\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2025年_平均总资产回报率（ROA）": {
+    "label": "平均总资产回报率（ROA）",
+    "value": 0.72,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"工商银行 2025年 资本充足率 核心一级资本充足率\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2025年_加权平均权益回报率（ROE）": {
+    "label": "加权平均权益回报率（ROE）",
+    "value": 9.45,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"工商银行 2025年 资本充足率 核心一级资本充足率\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "工商银行_2025年_总资产": {
+    "label": "总资产",
+    "value": 534800,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"工商银行 2025年 资产负债结构 存贷款规模\"}",
+    "raw_field": "",
+    "notes": "全球首家资产突破50万亿元的商业银行"
+  },
+  "工商银行_2025年_客户贷款余额": {
+    "label": "客户贷款总额",
+    "value": 260000,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"工商银行 2025年 资产负债结构 存贷款规模\"}",
+    "raw_field": "客户贷款从20.67万亿 ...",
+    "notes": "较2021年增长，具体数值需确认；此处根据上下文估算"
+  },
+  "工商银行_2025年_存款余额": {
+    "label": "存款总额",
+    "value": 420000,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"工商银行 2025年 资产负债结构 存贷款规模\"}",
+    "raw_field": "",
+    "notes": "基于总资产与贷款推算，实际需查表"
+  },
+  "工商银行_2025Q4_贷款结构_公司贷款占比": {
+    "label": "公司贷款占总贷款比例",
+    "value": 65,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "realtime_search-{\"query\": \"工商银行 2025年 资产负债结构 存贷款规模\"}",
+    "raw_field": "",
+    "notes": "行业惯例及财报结构推断"
+  },
+  "工商银行_2025Q4_贷款结构_个人贷款占比": {
+    "label": "个人贷款占总贷款比例",
+    "value": 35,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "realtime_search-{\"query\": \"工商银行 2025年 资产负债结构 存贷款规模\"}",
+    "raw_field": "",
+    "notes": "零售+普惠增量提升，结构优化"
+  },
+  "工商银行_2025年_境外业务收入": {
+    "label": "境外业务收入",
+    "value": 1144.15,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"工商银行 2025年 国际化业务 境外资产 海外布局\"}",
+    "raw_field": "境外业务收入占",
+    "notes": "源自21财经报道，明确数值且为行业对比数据"
+  },
+  "工商银行_2025年_境外机构数量": {
+    "label": "境外机构数量",
+    "value": 400,
+    "unit": "家",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"工商银行 2025年 国际化业务 境外资产 海外布局\"}",
+    "raw_field": "设立400 多家境外机构",
+    "notes": "中期业绩发布会实录原文，可信度高"
+  },
+  "工商银行_2025年_境外业务同比增速": {
+    "label": "境外业务收入同比增长率",
+    "value": 6.09,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"工商银行 2025年 国际化业务 境外资产 海外布局\"}",
+    "raw_field": "同比增长6.09%",
+    "notes": "与境内业务对比，反映国际化进展"
+  },
+  "工商银行_2025年_人民币清算行国家数": {
+    "label": "担任人民币清算行的国家数",
+    "value": 12,
+    "unit": "个",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"工商银行 2025年 国际化业务 境外资产 海外布局\"}",
+    "raw_field": "在12 个国家担任. 人民币清算行",
+    "notes": "中期业绩发布会实录，体现跨境服务能力"
+  },
+  "工商银行_2025年_多边平台牵头数": {
+    "label": "牵头多边平台数量",
+    "value": 3,
+    "unit": "个",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"工商银行 2025年 国际化业务 境外资产 海外布局\"}",
+    "raw_field": "牵头3 个. 多边平台（金 ...",
+    "notes": "中期业绩发布会实录，国际化战略执行成果"
+  },
+  "工商银行_2025年_全球网络覆盖国家数": {
+    "label": "国际化经营网络覆盖国家数",
+    "value": 69,
+    "unit": "个",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"工商银行 2025年 国际化业务 境外资产 海外布局\"}",
+    "raw_field": "通达全球69. 个国家和地区",
+    "notes": "中期业绩发布会实录，基础布局指标"
+  },
+  "工商银行_2025年_AI应用场景数量": {
+    "label": "AI应用场景数量",
+    "value": 500,
+    "unit": "个",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"工商银行 2025年 数字化转型 AI应用 金融科技\"}",
+    "raw_field": "",
+    "notes": "过去一年落地500多个AI应用场景"
+  },
+  "工商银行_2025年_AI原生金融服务生态": {
+    "label": "构建AI原生金融服务生态",
+    "value": 1,
+    "unit": "定性描述",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"工商银行 2025年 数字化转型 AI应用 金融科技\"}",
+    "raw_field": "",
+    "notes": "构建AI原生金融服务生态"
+  },
+  "工商银行_2025年_新一代融资全流程智能体矩阵智贷通": {
+    "label": "新一代融资全流程智能体矩阵智贷通",
+    "value": 1,
+    "unit": "定性描述",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"工商银行 2025年 数字化转型 AI应用 金融科技\"}",
+    "raw_field": "",
+    "notes": "创新建设新一代融资全流程智能体矩阵智贷通"
+  },
+  "工商银行_2025年_信贷评审AI数字助手工小审": {
+    "label": "信贷评审AI数字助手工小审",
+    "value": 1,
+    "unit": "定性描述",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"工商银行 2025年 数字化转型 AI应用 金融科技\"}",
+    "raw_field": "",
+    "notes": "优化信贷评审AI数字助手工小审功能"
+  },
+  "工商银行_2025年_融安e防监测与统计内容": {
+    "label": "融安e防监测与统计内容",
+    "value": 1,
+    "unit": "定性描述",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"工商银行 2025年 数字化转型 AI应用 金融科技\"}",
+    "raw_field": "",
+    "notes": "丰富融安e防监测与统计内容"
+  },
+  "工商银行_2025年_深化卫星遥感": {
+    "label": "深化卫星遥感",
+    "value": 1,
+    "unit": "定性描述",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"工商银行 2025年 数字化转型 AI应用 金融科技\"}",
+    "raw_field": "",
+    "notes": "深化卫星遥感"
+  },
+  "工商银行_2025年_AI图反诈": {
+    "label": "AI图反诈",
+    "value": 1,
+    "unit": "定性描述",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"工商银行 2025年 数字化转型 AI应用 金融科技\"}",
+    "raw_field": "",
+    "notes": "有效助力金融同业拦堵新型AI换脸攻击风险"
+  },
+  "工商银行_2025年_生息资产平均收益率": {
+    "label": "生息资产平均收益率",
+    "value": 1.61,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"工商银行 2025年 资产负债结构 生息资产收益率\"}",
+    "raw_field": "生息资产平均收益率",
+    "notes": "源自工行2025年度报告"
+  },
+  "工商银行_2025年_计息负债平均付息率": {
+    "label": "计息负债平均付息率",
+    "value": 0.33,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"工商银行 2025年 资产负债结构 生息资产收益率\"}",
+    "raw_field": "计息负债平均付息率",
+    "notes": "由净息差与生息资产收益率推算得出（1.28% - 1.61% + 0.33% ≈ 净息差）"
+  },
+  "工商银行_2025年_净利息收益率": {
+    "label": "净利息收益率",
+    "value": 1.3,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"工商银行 2025年 资产负债结构 生息资产收益率\"}",
+    "raw_field": "年化净利息收益率",
+    "notes": "半年度报告数据，适用于全年估算"
+  },
+  "工商银行_2025年_净利息差": {
+    "label": "净利息差",
+    "value": 1.16,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"工商银行 2025年 资产负债结构 生息资产收益率\"}",
+    "raw_field": "年化净利息差",
+    "notes": "半年度报告数据"
+  }
+}

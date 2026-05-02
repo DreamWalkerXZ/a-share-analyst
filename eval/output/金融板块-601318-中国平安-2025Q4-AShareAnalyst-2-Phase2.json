@@ -1,0 +1,1550 @@
+{
+  "中国平安_2025Q4_营业收入": {
+    "label": "营业收入（主营业务）",
+    "value": 2175.66,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "营业收入（主营业务）",
+    "notes": ""
+  },
+  "中国平安_2025Q4_营业税金及附加": {
+    "label": "营业税金及附加",
+    "value": 9.92,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "营业税金及附加",
+    "notes": ""
+  },
+  "中国平安_2025Q4_营业利润": {
+    "label": "营业利润",
+    "value": 58.18,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "营业利润",
+    "notes": ""
+  },
+  "中国平安_2025Q4_利润总额": {
+    "label": "利润总额",
+    "value": 45.63,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "利润总额",
+    "notes": ""
+  },
+  "中国平安_2025Q4_所得税费用": {
+    "label": "所得税费用",
+    "value": 13.29,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "所得税费用",
+    "notes": ""
+  },
+  "中国平安_2025Q4_净利润": {
+    "label": "净利润（含少数股东）",
+    "value": 32.34,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "净利润（含少数股东）",
+    "notes": ""
+  },
+  "中国平安_2025Q4_归母净利润": {
+    "label": "归母净利润",
+    "value": 19.22,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "归母净利润",
+    "notes": ""
+  },
+  "中国平安_2025Q4_扣非归母净利润": {
+    "label": "扣非归母净利润",
+    "value": 17.16,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "扣非归母净利润",
+    "notes": ""
+  },
+  "中国平安_2025Q4_少数股东损益": {
+    "label": "少数股东损益",
+    "value": 13.12,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "少数股东损益",
+    "notes": ""
+  },
+  "中国平安_2025Q4_基本每股收益": {
+    "label": "基本每股收益（EPS）",
+    "value": 0.12,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "基本每股收益（EPS）[每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "中国平安_2025Q4_稀释每股收益": {
+    "label": "稀释每股收益",
+    "value": 0.2,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "稀释每股收益 [每股值，单位元/股，勿除1e8]",
+    "notes": ""
+  },
+  "中国平安_2025年_营业收入（主营业务）": {
+    "label": "营业收入（主营业务）",
+    "value": 10505.06,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国平安_2025年_营业税金及附加": {
+    "label": "营业税金及附加",
+    "value": 37.64,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国平安_2025年_营业利润": {
+    "label": "营业利润",
+    "value": 1876.96,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国平安_2025年_利润总额": {
+    "label": "利润总额",
+    "value": 1855.9,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国平安_2025年_所得税费用": {
+    "label": "所得税费用",
+    "value": 272.89,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国平安_2025年_净利润（含少数股东）": {
+    "label": "净利润（含少数股东）",
+    "value": 1583.01,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国平安_2025年_归母净利润": {
+    "label": "归母净利润",
+    "value": 1347.78,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国平安_2025年_扣非归母净利润": {
+    "label": "扣非归母净利润",
+    "value": 1437.73,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国平安_2025年_少数股东损益": {
+    "label": "少数股东损益",
+    "value": 235.23,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国平安_2025年_基本每股收益": {
+    "label": "基本每股收益",
+    "value": 7.68,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国平安_2025年_稀释每股收益": {
+    "label": "稀释每股收益",
+    "value": 7.44,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国平安_2025Q4_总资产": {
+    "label": "总资产",
+    "value": 138984.71,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国平安_2025Q4_总负债": {
+    "label": "总负债",
+    "value": 124824.83,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国平安_2025Q4_股东权益合计": {
+    "label": "股东权益合计",
+    "value": 14159.88,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国平安_2025Q4_货币资金": {
+    "label": "货币资金（银行存款等狭义现金，不含短期理财）",
+    "value": 7456.79,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国平安_2025Q4_应收账款": {
+    "label": "应收账款",
+    "value": 436.78,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国平安_2025Q4_固定资产": {
+    "label": "固定资产",
+    "value": 446.24,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国平安_2025Q4_无形资产": {
+    "label": "无形资产",
+    "value": 221.96,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国平安_2025Q4_应交税费": {
+    "label": "应交税费",
+    "value": 203.02,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国平安_2025Q4_应付职工薪酬": {
+    "label": "应付职工薪酬",
+    "value": 608.31,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国平安_2025Q4_经营活动现金流入合计": {
+    "label": "经营活动现金流入合计",
+    "value": 5745.69,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "经营活动现金流入合计",
+    "notes": ""
+  },
+  "中国平安_2025Q4_经营活动现金流出合计": {
+    "label": "经营活动现金流出合计",
+    "value": 2560.84,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "经营活动现金流出合计",
+    "notes": ""
+  },
+  "中国平安_2025Q4_经营活动现金流量净额": {
+    "label": "经营活动现金流量净额",
+    "value": 3184.85,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "经营活动现金流量净额 [总量，非每股！]",
+    "notes": "NETCASH_OPERATE是总量（亿元），与PER_NETCASH是不同概念，请勿混淆"
+  },
+  "中国平安_2025Q4_支付的税款": {
+    "label": "支付的税款",
+    "value": 139.28,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "支付的税款",
+    "notes": ""
+  },
+  "中国平安_2025Q4_投资活动现金流量净额": {
+    "label": "投资活动现金流量净额",
+    "value": -1131.07,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "投资活动现金流量净额",
+    "notes": ""
+  },
+  "中国平安_2025Q4_投资支付的现金": {
+    "label": "投资支付的现金",
+    "value": 10238.03,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "投资支付的现金",
+    "notes": ""
+  },
+  "中国平安_2025Q4_收回投资收到的现金": {
+    "label": "收回投资收到的现金",
+    "value": 8642.9,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "收回投资收到的现金",
+    "notes": ""
+  },
+  "中国平安_2025Q4_分红/偿债支付的现金": {
+    "label": "分红/偿债支付的现金",
+    "value": 258.91,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "分红/偿债支付的现金",
+    "notes": ""
+  },
+  "中国平安_2025Q4_筹资活动现金流量净额": {
+    "label": "筹资活动现金流量净额",
+    "value": -551.26,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "筹资活动现金流量净额",
+    "notes": ""
+  },
+  "中国平安_2025Q4_现金及现金等价物净增加额": {
+    "label": "现金及现金等价物净增加额",
+    "value": 1473.84,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "现金及现金等价物净增加额",
+    "notes": ""
+  },
+  "中国平安_2025Q4_期初现金及等价物余额": {
+    "label": "期初现金及等价物余额",
+    "value": 5028.4,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "期初现金及等价物余额（含货币基金，广义口径）",
+    "notes": ""
+  },
+  "中国平安_2025Q4_期末现金及等价物余额": {
+    "label": "期末现金及等价物余额",
+    "value": 6502.24,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "期末现金及等价物余额（含货币基金，广义口径）",
+    "notes": ""
+  },
+  "中国平安_2025年_经营活动现金流量净额": {
+    "label": "经营活动现金流量净额",
+    "value": 6586.32,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "经营活动现金流量净额 [总量，非每股！]",
+    "notes": ""
+  },
+  "中国平安_2025年_经营活动现金流入合计": {
+    "label": "经营活动现金流入合计",
+    "value": 18521.05,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "经营活动现金流入合计",
+    "notes": ""
+  },
+  "中国平安_2025年_经营活动现金流出合计": {
+    "label": "经营活动现金流出合计",
+    "value": 11934.73,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "经营活动现金流出合计",
+    "notes": ""
+  },
+  "中国平安_2025年_支付的税款": {
+    "label": "支付的税款",
+    "value": 577.53,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "支付的税款",
+    "notes": ""
+  },
+  "中国平安_2025年_投资活动现金流量净额": {
+    "label": "投资活动现金流量净额",
+    "value": -5599.53,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "投资活动现金流量净额",
+    "notes": ""
+  },
+  "中国平安_2025年_投资支付的现金": {
+    "label": "投资支付的现金",
+    "value": 40149.57,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "投资支付的现金",
+    "notes": ""
+  },
+  "中国平安_2025年_收回投资收到的现金": {
+    "label": "收回投资收到的现金",
+    "value": 32218.44,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "收回投资收到的现金",
+    "notes": ""
+  },
+  "中国平安_2025年_分红/偿债支付的现金": {
+    "label": "分红/偿债支付的现金",
+    "value": 771.46,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "分红/偿债支付的现金",
+    "notes": ""
+  },
+  "中国平安_2025年_筹资活动现金流量净额": {
+    "label": "筹资活动现金流量净额",
+    "value": 753.88,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "筹资活动现金流量净额",
+    "notes": ""
+  },
+  "中国平安_2025年_现金及现金等价物净增加额": {
+    "label": "现金及现金等价物净增加额",
+    "value": 1711.79,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "现金及现金等价物净增加额",
+    "notes": ""
+  },
+  "中国平安_2025年_期初现金及等价物余额": {
+    "label": "期初现金及等价物余额",
+    "value": 4790.45,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "期初现金及等价物余额（含货币基金，广义口径）",
+    "notes": ""
+  },
+  "中国平安_2025年_期末现金及等价物余额": {
+    "label": "期末现金及等价物余额",
+    "value": 6502.24,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "期末现金及等价物余额（含货币基金，广义口径）",
+    "notes": ""
+  },
+  "中国平安_2025年_经营活动现金流同比增速": {
+    "label": "经营活动现金流同比增速",
+    "value": 72.2,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "经营活动现金流同比增速",
+    "notes": ""
+  },
+  "中国平安_2025年_投资活动现金流同比增速": {
+    "label": "投资活动现金流同比增速",
+    "value": -34.52,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "投资活动现金流同比增速",
+    "notes": ""
+  },
+  "中国平安_2025年_筹资活动现金流同比增速": {
+    "label": "筹资活动现金流同比增速",
+    "value": 143.57,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "筹资活动现金流同比增速",
+    "notes": ""
+  },
+  "中国平安_2025年_营业总收入": {
+    "label": "营业总收入",
+    "value": 10505.06,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "营业总收入 [总量]",
+    "notes": ""
+  },
+  "中国平安_2025年_基本每股收益（EPS）": {
+    "label": "基本每股收益（EPS）",
+    "value": 7.68,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "基本每股收益（EPS）[每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "中国平安_2025年_每股净资产": {
+    "label": "每股净资产",
+    "value": 55.25,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "每股净资产 [每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "中国平安_2025年_营业总收入全年同比增速（累计）": {
+    "label": "营业总收入全年同比增速（累计）",
+    "value": 2.1,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "营业总收入全年同比增速（累计）",
+    "notes": ""
+  },
+  "中国平安_2025年_归母净利润全年同比增速（累计）": {
+    "label": "归母净利润全年同比增速（累计）",
+    "value": 6.45,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "归母净利润全年同比增速（累计）",
+    "notes": ""
+  },
+  "中国平安_2025Q4_营业总收入": {
+    "label": "营业总收入",
+    "value": 2175.66,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "营业总收入 [总量]",
+    "notes": ""
+  },
+  "中国平安_2025Q4_每股净资产": {
+    "label": "每股净资产",
+    "value": 55.25,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "每股净资产 [每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "中国平安_2025Q4_每股经营现金流": {
+    "label": "每股经营现金流",
+    "value": 17.59,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "每股经营现金流 [每股值，元/股，勿除1e8；经营现金流总额在现金流量表中]",
+    "notes": ""
+  },
+  "中国平安_2025Q4_每股未分配利润": {
+    "label": "每股未分配利润",
+    "value": 42.35,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "每股未分配利润 [每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "中国平安_2025Q4_销售净利率": {
+    "label": "销售净利率",
+    "value": 1.49,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "销售净利率",
+    "notes": ""
+  },
+  "中国平安_2025Q4_净资产收益率稀释": {
+    "label": "净资产收益率（稀释）",
+    "value": 0.19,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "净资产收益率（稀释）",
+    "notes": ""
+  },
+  "中国平安_2025Q4_总资产净利率": {
+    "label": "总资产净利率（ROA）",
+    "value": 0.02,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "总资产净利率（ROA）",
+    "notes": ""
+  },
+  "中国平安_2025Q4_营业总收入同比增速": {
+    "label": "营业总收入同比增速",
+    "value": -14.19,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "营业总收入同比增速",
+    "notes": ""
+  },
+  "中国平安_2025Q4_归母净利润同比增速": {
+    "label": "归母净利润同比增速",
+    "value": -74.11,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "归母净利润同比增速",
+    "notes": ""
+  },
+  "中国平安_2025Q4_扣非归母净利润同比增速": {
+    "label": "扣非归母净利润同比增速",
+    "value": -68.36,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "扣非归母净利润同比增速",
+    "notes": ""
+  },
+  "中国平安_2025年_寿险及健康险主营收入": {
+    "label": "寿险及健康险主营收入",
+    "value": 5021.71,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国平安 2025Q4 保险业务 保费收入 同比\"}",
+    "raw_field": "",
+    "notes": "占总收入47.8%，为主要业务板块"
+  },
+  "中国平安_2025年_寿险及健康险收入占比": {
+    "label": "寿险及健康险收入占比",
+    "value": 47.8,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国平安 2025Q4 保险业务 保费收入 同比\"}",
+    "raw_field": "",
+    "notes": "最大业务板块"
+  },
+  "中国平安_2025年_寿险及健康险主营成本": {
+    "label": "寿险及健康险主营成本",
+    "value": 3778.76,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "主营成本 [总量]",
+    "notes": ""
+  },
+  "中国平安_2025年_寿险及健康险毛利率": {
+    "label": "寿险及健康险毛利率",
+    "value": 24.75,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国平安 2025Q4 年报 经营分析 亮点\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国平安_2025年_财产保险主营收入": {
+    "label": "财产保险主营收入",
+    "value": 3532.72,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国平安 2025Q4 保险业务 保费收入 同比\"}",
+    "raw_field": "",
+    "notes": "占比33.63%，毛利率较低"
+  },
+  "中国平安_2025年_财产保险收入占比": {
+    "label": "财产保险收入占比",
+    "value": 33.63,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国平安 2025Q4 保险业务 保费收入 同比\"}",
+    "raw_field": "",
+    "notes": "第二大业务板块"
+  },
+  "中国平安_2025年_财产保险主营成本": {
+    "label": "财产保险主营成本",
+    "value": 3342.07,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "主营成本 [总量]",
+    "notes": ""
+  },
+  "中国平安_2025年_财产保险毛利率": {
+    "label": "财产保险毛利率",
+    "value": 5.4,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国平安 2025Q4 年报 经营分析 亮点\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国平安__0.3935": {
+    "label": "PEG",
+    "value": 0.39,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国平安__7.1589": {
+    "label": "市盈率-TTM",
+    "value": 7.16,
+    "unit": "倍",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国平安__6.2753": {
+    "label": "市盈率-25E",
+    "value": 6.28,
+    "unit": "倍",
+    "period": "2025",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国平安__5.6172": {
+    "label": "市盈率-26E",
+    "value": 5.62,
+    "unit": "倍",
+    "period": "2026",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国平安__5.1587": {
+    "label": "市盈率-27E",
+    "value": 5.16,
+    "unit": "倍",
+    "period": "2027",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国平安__1.1207": {
+    "label": "市净率-MRQ",
+    "value": 1.12,
+    "unit": "倍",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国平安__0.7256": {
+    "label": "PEG",
+    "value": 0.73,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国平安__6.9587": {
+    "label": "市盈率-TTM",
+    "value": 6.96,
+    "unit": "倍",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国平安__6.4611": {
+    "label": "市盈率-25E",
+    "value": 6.46,
+    "unit": "倍",
+    "period": "2025",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国平安__5.8627": {
+    "label": "市盈率-26E",
+    "value": 5.86,
+    "unit": "倍",
+    "period": "2026",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国平安__5.366": {
+    "label": "市盈率-27E",
+    "value": 5.37,
+    "unit": "倍",
+    "period": "2027",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国平安__1.3058": {
+    "label": "市净率-MRQ",
+    "value": 1.31,
+    "unit": "倍",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国平安__ROE-3年平均_行业中值": {
+    "label": "ROE-3年平均",
+    "value": 15.62,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国平安__ROE-24A_行业中值": {
+    "label": "ROE-24A",
+    "value": 18.03,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国平安__净利率-3年平均_行业中值": {
+    "label": "净利率-3年平均",
+    "value": 13.76,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国平安__净利率-24A_行业中值": {
+    "label": "净利率-24A",
+    "value": 15.07,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国平安__ROE-3年平均_行业平均": {
+    "label": "ROE-3年平均",
+    "value": 17.66,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国平安__ROE-24A_行业平均": {
+    "label": "ROE-24A",
+    "value": 22.19,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国平安__净利率-3年平均_行业平均": {
+    "label": "净利率-3年平均",
+    "value": 13.48,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国平安__净利率-24A_行业平均": {
+    "label": "净利率-24A",
+    "value": 17.13,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国平安_2026_预测机构数": {
+    "label": "预测机构数",
+    "value": 24,
+    "unit": "",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "预测机构数",
+    "notes": ""
+  },
+  "中国平安_2026_最小值": {
+    "label": "预测每股收益最小值",
+    "value": 7.53,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最小值",
+    "notes": ""
+  },
+  "中国平安_2026_均值": {
+    "label": "预测每股收益均值",
+    "value": 8.21,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "中国平安_2026_最大值": {
+    "label": "预测每股收益最大值",
+    "value": 9.0,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "中国平安_2026_行业平均数": {
+    "label": "行业平均每股收益",
+    "value": 6.96,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "行业平均数",
+    "notes": ""
+  },
+  "中国平安_2027_预测机构数": {
+    "label": "预测机构数",
+    "value": 24,
+    "unit": "",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "预测机构数",
+    "notes": ""
+  },
+  "中国平安_2027_最小值": {
+    "label": "预测每股收益最小值",
+    "value": 7.89,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最小值",
+    "notes": ""
+  },
+  "中国平安_2027_均值": {
+    "label": "预测每股收益均值",
+    "value": 8.97,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "中国平安_2027_最大值": {
+    "label": "预测每股收益最大值",
+    "value": 9.89,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "中国平安_2027_行业平均数": {
+    "label": "行业平均每股收益",
+    "value": 7.6,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "行业平均数",
+    "notes": ""
+  },
+  "中国平安_2028_预测机构数": {
+    "label": "预测机构数",
+    "value": 23,
+    "unit": "",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "预测机构数",
+    "notes": ""
+  },
+  "中国平安_2028_最小值": {
+    "label": "预测每股收益最小值",
+    "value": 8.04,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最小值",
+    "notes": ""
+  },
+  "中国平安_2028_均值": {
+    "label": "预测每股收益均值",
+    "value": 9.77,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "中国平安_2028_最大值": {
+    "label": "预测每股收益最大值",
+    "value": 11.42,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "中国平安_2028_行业平均数": {
+    "label": "行业平均每股收益",
+    "value": 8.33,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "行业平均数",
+    "notes": ""
+  },
+  "中国平安_2026_净利润最小值": {
+    "label": "净利润最小值",
+    "value": 1321.64,
+    "unit": "亿元",
+    "period": "2026",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "最小值",
+    "notes": ""
+  },
+  "中国平安_2026_净利润均值": {
+    "label": "净利润均值",
+    "value": 1479.44,
+    "unit": "亿元",
+    "period": "2026",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "中国平安_2026_净利润最大值": {
+    "label": "净利润最大值",
+    "value": 1605.54,
+    "unit": "亿元",
+    "period": "2026",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "中国平安_2026_行业平均净利润": {
+    "label": "行业平均净利润",
+    "value": 924.81,
+    "unit": "亿元",
+    "period": "2026",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "行业平均数",
+    "notes": ""
+  },
+  "中国平安_2027_净利润最小值": {
+    "label": "净利润最小值",
+    "value": 1386.03,
+    "unit": "亿元",
+    "period": "2027",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "最小值",
+    "notes": ""
+  },
+  "中国平安_2027_净利润均值": {
+    "label": "净利润均值",
+    "value": 1616.87,
+    "unit": "亿元",
+    "period": "2027",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "中国平安_2027_净利润最大值": {
+    "label": "净利润最大值",
+    "value": 1771.7,
+    "unit": "亿元",
+    "period": "2027",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "中国平安_2027_行业平均净利润": {
+    "label": "行业平均净利润",
+    "value": 1014.93,
+    "unit": "亿元",
+    "period": "2027",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "行业平均数",
+    "notes": ""
+  },
+  "中国平安_2028_净利润最小值": {
+    "label": "净利润最小值",
+    "value": 1419.28,
+    "unit": "亿元",
+    "period": "2028",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "最小值",
+    "notes": ""
+  },
+  "中国平安_2028_净利润均值": {
+    "label": "净利润均值",
+    "value": 1762.34,
+    "unit": "亿元",
+    "period": "2028",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "中国平安_2028_净利润最大值": {
+    "label": "净利润最大值",
+    "value": 2060.0,
+    "unit": "亿元",
+    "period": "2028",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "中国平安_2028_行业平均净利润": {
+    "label": "行业平均净利润",
+    "value": 1119.19,
+    "unit": "亿元",
+    "period": "2028",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "行业平均数",
+    "notes": ""
+  },
+  "中国平安_2025年_年度分红": {
+    "label": "年度分红",
+    "value": 16.2,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_dividend_history_cninfo",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国平安_2025年_中期分红": {
+    "label": "中期分红",
+    "value": 9.5,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_dividend_history_cninfo",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国平安_2025Q4_税金及附加率": {
+    "label": "税金及附加率",
+    "value": 0.46,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "营业税金及附加 / 营业总收入"
+  },
+  "中国平安_2025年_税金及附加率": {
+    "label": "税金及附加率",
+    "value": 0.36,
+    "unit": "%",
+    "period": "2025年",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "营业税金及附加 / 营业总收入"
+  },
+  "中国平安_2025年_分红率": {
+    "label": "分红率",
+    "value": 33.46,
+    "unit": "%",
+    "period": "2025年",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "年度+中期派息合计（每10股）/ 基本每股收益"
+  },
+  "中国平安_2025年_银行主营收入": {
+    "label": "银行主营收入",
+    "value": 1314.42,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国平安 2025Q4 保险业务 保费收入 同比\"}",
+    "raw_field": "",
+    "notes": "银行业务收入稳定"
+  },
+  "中国平安_2025年_银行毛利率": {
+    "label": "银行毛利率",
+    "value": 39.11,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国平安 2025Q4 保险业务 保费收入 同比\"}",
+    "raw_field": "",
+    "notes": "毛利率达39.11%"
+  },
+  "中国平安_2025年_资产管理主营收入": {
+    "label": "资产管理主营收入",
+    "value": 513.46,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国平安 2025Q4 保险业务 保费收入 同比\"}",
+    "raw_field": "",
+    "notes": "收入占比较小"
+  },
+  "中国平安_2025年_资产管理毛利率": {
+    "label": "资产管理毛利率",
+    "value": 7.47,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国平安 2025Q4 保险业务 保费收入 同比\"}",
+    "raw_field": "",
+    "notes": "毛利率7.47%"
+  },
+  "中国平安_2025年_金融赋能主营收入": {
+    "label": "金融赋能主营收入",
+    "value": 493.58,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国平安 2025Q4 保险业务 保费收入 同比\"}",
+    "raw_field": "",
+    "notes": "新业务板块"
+  },
+  "中国平安_2025年_金融赋能毛利率": {
+    "label": "金融赋能毛利率",
+    "value": 1.36,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国平安 2025Q4 保险业务 保费收入 同比\"}",
+    "raw_field": "",
+    "notes": "毛利率较低"
+  },
+  "中国平安_2025Q4_寿险及健康险主营收入同比增速": {
+    "label": "寿险及健康险主营收入同比增速",
+    "value": 10.22,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "realtime_search-{\"query\": \"中国平安 保险业务 净息差 不良贷款率 2025年\"}",
+    "raw_field": "寿险及健康险主营收入同比增速",
+    "notes": "Q4寿险及健康险收入同比增长10.22%，增长强劲"
+  },
+  "中国平安_2025Q4_财产保险主营收入同比增速": {
+    "label": "财产保险主营收入同比增速",
+    "value": 1.99,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "realtime_search-{\"query\": \"中国平安 保险业务 净息差 不良贷款率 2025年\"}",
+    "raw_field": "财产保险主营收入同比增速",
+    "notes": "Q4财险收入同比增长1.99%，增速放缓"
+  },
+  "平安银行_2025年_净息差": {
+    "label": "净息差",
+    "value": 1.78,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国平安 保险业务 净息差 不良贷款率 2025年\"}",
+    "raw_field": "B净息差（%）",
+    "notes": "来自平安银行2025年业绩报告，净息差下降至1.78%"
+  },
+  "平安银行_2025年_不良贷款率": {
+    "label": "不良贷款率",
+    "value": 1.05,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国平安 保险业务 净息差 不良贷款率 2025年\"}",
+    "raw_field": "不良贷款率",
+    "notes": "2025年末不良贷款率为1.05%，较上年末下降0.01个百分点"
+  },
+  "平安银行_2025年_拨备覆盖率": {
+    "label": "拨备覆盖率",
+    "value": 220.88,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国平安 保险业务 净息差 不良贷款率 2025年\"}",
+    "raw_field": "拨备覆盖率",
+    "notes": "拨备覆盖率为220.88%，处于良好水平"
+  },
+  "中国平安_2025年_原保险保费收入同比": {
+    "label": "原保险保费收入同比增长率",
+    "value": 6.6,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国平安 2025Q4 保险业务 保费收入 同比\"}",
+    "raw_field": "同比增长6.6%",
+    "notes": "2025年全年原保险保费收入增长6.6%"
+  },
+  "中国平安_2025年_归母股东权益": {
+    "label": "归母股东权益",
+    "value": 10000,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国平安 2025Q4 保险业务 保费收入 同比\"}",
+    "raw_field": "首次破万亿",
+    "notes": "归母股东权益首次突破1万亿元"
+  },
+  "平安银行_2025年_个人贷款余额": {
+    "label": "个人贷款余额",
+    "value": 17272.94,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国平安 2025年 银行板块 存贷款余额 规模\"}",
+    "raw_field": "个人贷款余额",
+    "notes": "2025年末较上年末下降2.3%"
+  },
+  "平安银行_2025年_个人存款日均余额": {
+    "label": "个人存款日均余额",
+    "value": 12968.05,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国平安 2025年 银行板块 存贷款余额 规模\"}",
+    "raw_field": "个人存款日均余额",
+    "notes": "同比2024年增长2.7%"
+  },
+  "平安银行_2025年_总资产": {
+    "label": "总资产",
+    "value": 59257.77,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国平安 2025年 银行板块 存贷款余额 规模\"}",
+    "raw_field": "资产总额",
+    "notes": "较上年末增长2.7%"
+  },
+  "平安银行_2025Q3_总资产": {
+    "label": "总资产",
+    "value": 57667.64,
+    "unit": "亿元",
+    "period": "2025Q3",
+    "source": "realtime_search-{\"query\": \"中国平安 2025年 银行板块 存贷款余额 规模\"}",
+    "raw_field": "资产总额",
+    "notes": "截至2025年9月末"
+  },
+  "平安银行_2025Q3_发放贷款和垫款本金总额": {
+    "label": "发放贷款和垫款本金总额",
+    "value": 34177.53,
+    "unit": "亿元",
+    "period": "2025Q3",
+    "source": "realtime_search-{\"query\": \"中国平安 2025年 银行板块 存贷款余额 规模\"}",
+    "raw_field": "发放贷款和垫款本金总额",
+    "notes": "较上年末增长1.3%"
+  },
+  "中国平安_2025年_资产管理规模": {
+    "label": "资产管理规模",
+    "value": 800,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国平安 2025年 资产管理规模 AUM 管理资产\"}",
+    "raw_field": "资产管理规模",
+    "notes": "截至2025年3月31日，公司资产管理规模超8万亿元"
+  },
+  "中国平安_2025Q2_受托管理资产规模": {
+    "label": "受托管理资产规模",
+    "value": 591,
+    "unit": "亿元",
+    "period": "2025Q2",
+    "source": "realtime_search-{\"query\": \"中国平安 2025年 资产管理规模 AUM 管理资产\"}",
+    "raw_field": "受托资产管理规模",
+    "notes": "截至2025年6月30日，平安资管受托资产管理规模达5.91万亿元"
+  },
+  "中国平安_2025Q2_保险资金投资组合规模": {
+    "label": "保险资金投资组合规模",
+    "value": 620,
+    "unit": "亿元",
+    "period": "2025Q2",
+    "source": "realtime_search-{\"query\": \"中国平安 2025年 资产管理规模 AUM 管理资产\"}",
+    "raw_field": "保险资金投资组合规模",
+    "notes": "截至2025年6月30日，保险资金投资组合规模超6.20万亿元，较年初增长8.2%"
+  },
+  "中国平安_2025年_综合投资收益率": {
+    "label": "综合投资收益率",
+    "value": 6.3,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国平安 2025年 保险资金投资收益率\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国平安_2025年_保险资金投资组合规模": {
+    "label": "保险资金投资组合规模",
+    "value": 64900,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国平安 2025年 保险资金投资收益率\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国平安_2025Q4_EPSJB": {
+    "label": "基本每股收益",
+    "value": 0.12,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"601318.SH\", \"indicator\": \"现金流量\"}}",
+    "raw_field": "EPSJB",
+    "notes": "单季盈利极低，同比大幅下滑"
+  },
+  "中国平安_2025Q4_BPS": {
+    "label": "每股净资产",
+    "value": 55.25,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"601318.SH\", \"indicator\": \"现金流量\"}}",
+    "raw_field": "BPS",
+    "notes": "账面价值指标，支撑估值底线"
+  },
+  "中国平安_2025Q4_PER_NETCASH": {
+    "label": "每股经营现金流",
+    "value": 17.59,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"601318.SH\", \"indicator\": \"现金流量\"}}",
+    "raw_field": "PER_NETCASH",
+    "notes": "经营造血能力指标，高于当期EPS，质量尚可"
+  },
+  "中国平安_2025Q4_PER_UNASSIGN_PROFIT": {
+    "label": "每股未分配利润",
+    "value": 42.35,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"601318.SH\", \"indicator\": \"现金流量\"}}",
+    "raw_field": "PER_UNASSIGN_PROFIT",
+    "notes": "可用于未来分红或再投资的留存收益"
+  },
+  "中国平安_2025Q4_TOTALOPERATEREVE": {
+    "label": "营业总收入",
+    "value": 2175.66,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"601318.SH\", \"indicator\": \"现金流量\"}}",
+    "raw_field": "TOTALOPERATEREVE",
+    "notes": "主营业务收入连续负增长，承压明显"
+  },
+  "中国平安_2025Q4_PARENTNETPROFIT": {
+    "label": "归母净利润",
+    "value": 19.22,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"601318.SH\", \"indicator\": \"现金流量\"}}",
+    "raw_field": "PARENTNETPROFIT",
+    "notes": "单季盈利极低，同比大幅下滑"
+  },
+  "中国平安_2025Q4_DED_PARENT_PROFIT": {
+    "label": "扣非归母净利润",
+    "value": 17.16,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"601318.SH\", \"indicator\": \"现金流量\"}}",
+    "raw_field": "DEDU_PARENT_PROFIT",
+    "notes": "核心业务持续失血，需关注结构性改善"
+  },
+  "中国平安_2025Q4_ROE_DILUTED": {
+    "label": "净资产收益率（稀释）",
+    "value": 0.19,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"601318.SH\", \"indicator\": \"现金流量\"}}",
+    "raw_field": "ROE_DILUTED",
+    "notes": "反映股东权益收益水平，Q4盈利能力显著下滑"
+  },
+  "中国平安_2025Q4_JROA": {
+    "label": "总资产净利率（ROA）",
+    "value": 0.02,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"601318.SH\", \"indicator\": \"现金流量\"}}",
+    "raw_field": "JROA",
+    "notes": "资产整体运营效率，Q4表现低迷"
+  },
+  "中国平安_2025Q4_TOTALOPERATEREVETZ": {
+    "label": "营业总收入同比增速",
+    "value": -14.19,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"601318.SH\", \"indicator\": \"营运能力\"}}",
+    "raw_field": "TOTALOPERATEREVETZ",
+    "notes": "主营业务收入连续负增长，承压明显"
+  },
+  "中国平安_2025Q4_PARENTNETPROFITTZ": {
+    "label": "归母净利润同比增速",
+    "value": -74.11,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"601318.SH\", \"indicator\": \"现金流量\"}}",
+    "raw_field": "PARENTNETPROFITTZ",
+    "notes": "盈利断崖式下跌，主要受投资收益拖累"
+  },
+  "中国平安_2025Q4_DPNP_YOY_RATIO": {
+    "label": "扣非归母净利润同比增速",
+    "value": -68.36,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"601318.SH\", \"indicator\": \"现金流量\"}}",
+    "raw_field": "DPNP_YOY_RATIO",
+    "notes": "剔除一次性损益后主业仍严重亏损"
+  },
+  "中国平安_2025Q4_NETPROFITRPHBZC": {
+    "label": "净利润率环比变化",
+    "value": -97.03,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"601318.SH\", \"indicator\": \"营运能力\"}}",
+    "raw_field": "NETPROFITRPHBZC",
+    "notes": "环比Q3大幅下降，盈利能力恶化"
+  },
+  "中国平安_2025Q4_KFJLRGDHBZC": {
+    "label": "扣非净利润环比变化",
+    "value": -97.49,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"601318.SH\", \"indicator\": \"营运能力\"}}",
+    "raw_field": "KFJLRGDHBZC",
+    "notes": "核心业务持续失血，需关注结构性改善"
+  },
+  "中国平安_2025年_车险保费收入": {
+    "label": "车险保费收入",
+    "value": 2304,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国平安 2025年 财险业务 车险保费\"}",
+    "raw_field": "",
+    "notes": "来自东方财富网财险业务解析，为全年数据"
+  },
+  "中国平安_2025年_非车险业务保费收入": {
+    "label": "非车险业务保费收入",
+    "value": 1128,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国平安 2025年 非车险业务 保费收入\"}",
+    "raw_field": "",
+    "notes": "根据东方财富网财险业务解析，2025年财险总保费3432亿，其中车险2304亿，推算非车险为1128亿"
+  }
+}

@@ -12,7 +12,7 @@ wheels/
 .env
 
 # Generated outputs and local caches
-output/
+/output/
 data/cache/
 
 # Claude Code

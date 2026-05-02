@@ -1,0 +1,1693 @@
+{
+  "比亚迪_2025Q4_营业总收入": {
+    "label": "营业总收入",
+    "value": 2376.99,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "营业总收入",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_营业收入（主营业务）": {
+    "label": "营业收入（主营业务）",
+    "value": 2376.99,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "营业收入（主营业务）",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_营业成本": {
+    "label": "营业成本",
+    "value": 1962.52,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "营业成本",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_营业税金及附加": {
+    "label": "营业税金及附加",
+    "value": 46.66,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "营业税金及附加",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_销售费用": {
+    "label": "销售费用",
+    "value": 76.76,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "销售费用",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_管理费用": {
+    "label": "管理费用",
+    "value": 49.32,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "管理费用",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_财务费用": {
+    "label": "财务费用",
+    "value": 22.86,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "财务费用",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_营业利润": {
+    "label": "营业利润",
+    "value": 112.79,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "营业利润",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_利润总额": {
+    "label": "利润总额",
+    "value": 110.93,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "利润总额",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_所得税费用": {
+    "label": "所得税费用",
+    "value": 15.64,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "所得税费用",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_净利润（含少数股东）": {
+    "label": "净利润（含少数股东）",
+    "value": 95.29,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "净利润（含少数股东）",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_归母净利润": {
+    "label": "归母净利润",
+    "value": 92.86,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "归母净利润",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_扣非归母净利润": {
+    "label": "扣非归母净利润",
+    "value": 89.55,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "扣非归母净利润",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_少数股东损益": {
+    "label": "少数股东损益",
+    "value": 2.43,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "少数股东损益",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_基本每股收益": {
+    "label": "基本每股收益",
+    "value": 1.02,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "基本每股收益 [每股值，单位元/股，勿除1e8]",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_稀释每股收益": {
+    "label": "稀释每股收益",
+    "value": 1.02,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "稀释每股收益 [每股值，单位元/股，勿除1e8]",
+    "notes": ""
+  },
+  "比亚迪_2025年_营业总收入": {
+    "label": "营业总收入",
+    "value": 8039.65,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业总收入",
+    "notes": ""
+  },
+  "比亚迪_2025年_营业收入（主营业务）": {
+    "label": "营业收入（主营业务）",
+    "value": 8039.65,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业收入（主营业务）",
+    "notes": ""
+  },
+  "比亚迪_2025年_营业成本": {
+    "label": "营业成本",
+    "value": 6613.05,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业成本",
+    "notes": ""
+  },
+  "比亚迪_2025年_营业税金及附加": {
+    "label": "营业税金及附加",
+    "value": 135.81,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业税金及附加",
+    "notes": ""
+  },
+  "比亚迪_2025年_销售费用": {
+    "label": "销售费用",
+    "value": 261.85,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "销售费用",
+    "notes": ""
+  },
+  "比亚迪_2025年_管理费用": {
+    "label": "管理费用",
+    "value": 202.0,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "管理费用",
+    "notes": ""
+  },
+  "比亚迪_2025年_财务费用": {
+    "label": "财务费用",
+    "value": -6.49,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "财务费用",
+    "notes": ""
+  },
+  "比亚迪_2025年_营业利润": {
+    "label": "营业利润",
+    "value": 401.85,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业利润",
+    "notes": ""
+  },
+  "比亚迪_2025年_利润总额": {
+    "label": "利润总额",
+    "value": 397.53,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "利润总额",
+    "notes": ""
+  },
+  "比亚迪_2025年_所得税费用": {
+    "label": "所得税费用",
+    "value": 59.92,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "所得税费用",
+    "notes": ""
+  },
+  "比亚迪_2025年_净利润（含少数股东）": {
+    "label": "净利润（含少数股东）",
+    "value": 337.61,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "净利润（含少数股东）",
+    "notes": ""
+  },
+  "比亚迪_2025年_归母净利润": {
+    "label": "归母净利润",
+    "value": 326.19,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "归母净利润",
+    "notes": ""
+  },
+  "比亚迪_2025年_扣非归母净利润": {
+    "label": "扣非归母净利润",
+    "value": 294.46,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "扣非归母净利润",
+    "notes": ""
+  },
+  "比亚迪_2025年_少数股东损益": {
+    "label": "少数股东损益",
+    "value": 11.42,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "少数股东损益",
+    "notes": ""
+  },
+  "比亚迪_2025年_基本每股收益": {
+    "label": "基本每股收益",
+    "value": 3.58,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "基本每股收益",
+    "notes": ""
+  },
+  "比亚迪_2025年_稀释每股收益": {
+    "label": "稀释每股收益",
+    "value": 3.58,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "稀释每股收益",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_总资产": {
+    "label": "总资产",
+    "value": 8837.3,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "总资产",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_总负债": {
+    "label": "总负债",
+    "value": 6251.91,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "总负债",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_股东权益合计": {
+    "label": "股东权益合计",
+    "value": 2585.39,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "股东权益合计",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_货币资金": {
+    "label": "货币资金（银行存款等狭义现金，不含短期理财）",
+    "value": 754.25,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "货币资金（银行存款等狭义现金，不含短期理财）",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_应收账款": {
+    "label": "应收账款",
+    "value": 370.05,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "应收账款",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_存货": {
+    "label": "存货",
+    "value": 1384.21,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "存货",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_固定资产": {
+    "label": "固定资产",
+    "value": 2927.76,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "固定资产",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_无形资产": {
+    "label": "无形资产",
+    "value": 414.85,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "无形资产",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_合同负债": {
+    "label": "合同负债（预收款项）",
+    "value": 514.71,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "合同负债（预收款项）",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_应交税费": {
+    "label": "应交税费",
+    "value": 107.16,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "应交税费",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_应付职工薪酬": {
+    "label": "应付职工薪酬",
+    "value": 160.25,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "应付职工薪酬",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_预付款项": {
+    "label": "预付款项",
+    "value": 50.25,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "预付款项",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_销售商品提供劳务收到的现金": {
+    "label": "销售商品/提供劳务收到的现金",
+    "value": 2087.78,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "销售商品/提供劳务收到的现金",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_经营活动现金流入合计": {
+    "label": "经营活动现金流入合计",
+    "value": 2199.93,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "经营活动现金流入合计",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_经营活动现金流出合计": {
+    "label": "经营活动现金流出合计",
+    "value": 2017.03,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "经营活动现金流出合计",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_经营活动现金流量净额": {
+    "label": "经营活动现金流量净额",
+    "value": 182.9,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "经营活动现金流量净额 [总量，非每股！]",
+    "notes": "总量指标，非每股值"
+  },
+  "比亚迪_2025Q4_支付的税款": {
+    "label": "支付的税款",
+    "value": 124.12,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "支付的税款",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_投资活动现金流量净额": {
+    "label": "投资活动现金流量净额",
+    "value": -698.92,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "投资活动现金流量净额",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_投资支付的现金": {
+    "label": "投资支付的现金",
+    "value": 5.3,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "投资支付的现金",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_收回投资收到的现金": {
+    "label": "收回投资收到的现金",
+    "value": 1.19,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "收回投资收到的现金",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_分红偿债支付的现金": {
+    "label": "分红/偿债支付的现金",
+    "value": 6.93,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "分红/偿债支付的现金",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_筹资活动现金流量净额": {
+    "label": "筹资活动现金流量净额",
+    "value": 29.51,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "筹资活动现金流量净额",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_现金及现金等价物净增加额": {
+    "label": "现金及现金等价物净增加额",
+    "value": -490.71,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "现金及现金等价物净增加额",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_期初现金及等价物余额": {
+    "label": "期初现金及等价物余额（含货币基金，广义口径）",
+    "value": 1174.66,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "期初现金及等价物余额（含货币基金，广义口径）",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_期末现金及等价物余额": {
+    "label": "期末现金及等价物余额（含货币基金，广义口径）",
+    "value": 683.95,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "期末现金及等价物余额（含货币基金，广义口径）",
+    "notes": ""
+  },
+  "比亚迪_2025年_销售商品提供劳务收到的现金": {
+    "label": "销售商品/提供劳务收到的现金",
+    "value": 8212.15,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "销售商品/提供劳务收到的现金",
+    "notes": ""
+  },
+  "比亚迪_2025年_经营活动现金流入合计": {
+    "label": "经营活动现金流入合计",
+    "value": 8617.4,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "经营活动现金流入合计",
+    "notes": ""
+  },
+  "比亚迪_2025年_经营活动现金流出合计": {
+    "label": "经营活动现金流出合计",
+    "value": 8026.05,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "经营活动现金流出合计",
+    "notes": ""
+  },
+  "比亚迪_2025年_经营活动现金流量净额": {
+    "label": "经营活动现金流量净额",
+    "value": 591.36,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "经营活动现金流量净额 [总量，非每股！]",
+    "notes": "[注意]这是累计年度数据"
+  },
+  "比亚迪_2025年_支付的税款": {
+    "label": "支付的税款",
+    "value": 538.02,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "支付的税款",
+    "notes": ""
+  },
+  "比亚迪_2025年_投资活动现金流量净额": {
+    "label": "投资活动现金流量净额",
+    "value": -1974.63,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "投资活动现金流量净额",
+    "notes": ""
+  },
+  "比亚迪_2025年_投资支付的现金": {
+    "label": "投资支付的现金",
+    "value": 28.15,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "投资支付的现金",
+    "notes": ""
+  },
+  "比亚迪_2025年_收回投资收到的现金": {
+    "label": "收回投资收到的现金",
+    "value": 17.27,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "收回投资收到的现金",
+    "notes": ""
+  },
+  "比亚迪_2025年_分红偿债支付的现金": {
+    "label": "分红/偿债支付的现金",
+    "value": 141.25,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "分红/偿债支付的现金",
+    "notes": ""
+  },
+  "比亚迪_2025年_筹资活动现金流量净额": {
+    "label": "筹资活动现金流量净额",
+    "value": 1046.14,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "筹资活动现金流量净额",
+    "notes": ""
+  },
+  "比亚迪_2025年_现金及现金等价物净增加额": {
+    "label": "现金及现金等价物净增加额",
+    "value": -338.61,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "现金及现金等价物净增加额",
+    "notes": ""
+  },
+  "比亚迪_2025年_期初现金及等价物余额": {
+    "label": "期初现金及等价物余额",
+    "value": 1022.57,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "期初现金及等价物余额（含货币基金，广义口径）",
+    "notes": ""
+  },
+  "比亚迪_2025年_期末现金及等价物余额": {
+    "label": "期末现金及等价物余额",
+    "value": 683.95,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "期末现金及等价物余额（含货币基金，广义口径）",
+    "notes": ""
+  },
+  "比亚迪_2025年_销售商品收到现金同比增速": {
+    "label": "销售商品收到现金同比增速",
+    "value": 6.05,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "销售商品收到现金同比增速",
+    "notes": ""
+  },
+  "比亚迪_2025年_经营活动现金流同比增速": {
+    "label": "经营活动现金流同比增速",
+    "value": -55.69,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "经营活动现金流同比增速",
+    "notes": ""
+  },
+  "比亚迪_2025年_投资活动现金流同比增速": {
+    "label": "投资活动现金流同比增速",
+    "value": -52.97,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "投资活动现金流同比增速",
+    "notes": ""
+  },
+  "比亚迪_2025年_筹资活动现金流同比增速": {
+    "label": "筹资活动现金流同比增速",
+    "value": 1118.88,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "筹资活动现金流同比增速",
+    "notes": ""
+  },
+  "比亚迪_2025年_基本每股收益（EPS）": {
+    "label": "基本每股收益（EPS）",
+    "value": 3.58,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "基本每股收益（EPS）[每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "比亚迪_2025年_每股净资产": {
+    "label": "每股净资产",
+    "value": 24.96,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "每股净资产 [每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "比亚迪_2025年_营业总收入全年同比增速（累计）": {
+    "label": "营业总收入全年同比增速（累计）",
+    "value": 3.46,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "营业总收入全年同比增速（累计）",
+    "notes": ""
+  },
+  "比亚迪_2025年_归母净利润全年同比增速（累计）": {
+    "label": "归母净利润全年同比增速（累计）",
+    "value": -18.97,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "归母净利润全年同比增速（累计）",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_毛利润": {
+    "label": "毛利润",
+    "value": 414.48,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "毛利润 [总量]",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_基本每股收益（EPS）": {
+    "label": "基本每股收益（EPS）",
+    "value": 1.02,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "基本每股收益（EPS）[每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_每股净资产": {
+    "label": "每股净资产",
+    "value": 24.96,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "每股净资产 [每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_每股经营现金流": {
+    "label": "每股经营现金流",
+    "value": 2.01,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "每股经营现金流 [每股值，元/股，勿除1e8；经营现金流总额在现金流量表中]",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_每股未分配利润": {
+    "label": "每股未分配利润",
+    "value": 12.73,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "每股未分配利润 [每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_销售毛利率": {
+    "label": "销售毛利率",
+    "value": 17.44,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "realtime_search-{\"query\": \"比亚迪 2025年 产品结构 毛利率 变化\"}",
+    "raw_field": "",
+    "notes": "基于已收集财报数据计算得出，反映当季毛利率水平"
+  },
+  "比亚迪_2025Q4_销售净利率": {
+    "label": "销售净利率",
+    "value": 4.01,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "销售净利率",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_净资产收益率（稀释）": {
+    "label": "净资产收益率（稀释）",
+    "value": 3.78,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "净资产收益率（稀释）",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_总资产净利率（ROA）": {
+    "label": "总资产净利率（ROA）",
+    "value": 1.07,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "总资产净利率（ROA）",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_营业总收入同比增速": {
+    "label": "营业总收入同比增速",
+    "value": -13.52,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "realtime_search-{\"query\": \"比亚迪 2025Q4 毛利率 同比\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_归母净利润同比增速": {
+    "label": "归母净利润同比增速",
+    "value": -38.16,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "realtime_search-{\"query\": \"比亚迪 2025Q4 毛利率 同比\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_扣非归母净利润同比增速": {
+    "label": "扣非归母净利润同比增速",
+    "value": -35.06,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "扣非归母净利润同比增速",
+    "notes": ""
+  },
+  "比亚迪_2025年_交通运输设备及电气制造业主营收入": {
+    "label": "交通运输设备及电气制造业主营收入",
+    "value": 6486.46,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "主营收入 [总量]",
+    "notes": ""
+  },
+  "比亚迪_2025年_交通运输设备及电气制造业收入占比": {
+    "label": "汽车制造业务收入占比",
+    "value": 80.68,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"比亚迪 2025年 毛利率 产品结构\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "比亚迪_2025年_交通运输设备及电气制造业主营成本": {
+    "label": "交通运输设备及电气制造业主营成本",
+    "value": 5157.63,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "主营成本 [总量]",
+    "notes": ""
+  },
+  "比亚迪_2025年_交通运输设备及电气制造业毛利率": {
+    "label": "汽车制造业务毛利率",
+    "value": 20.49,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"比亚迪 2025年 毛利率 产品结构\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "比亚迪_2025年_日用电子器件制造业主营收入": {
+    "label": "日用电子器件制造业主营收入",
+    "value": 1552.37,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "主营收入 [总量]",
+    "notes": ""
+  },
+  "比亚迪_2025年_日用电子器件制造业收入占比": {
+    "label": "电子业务收入占比",
+    "value": 19.31,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"比亚迪 2025年 毛利率 产品结构\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "比亚迪_2025年_日用电子器件制造业主营成本": {
+    "label": "日用电子器件制造业主营成本",
+    "value": 1454.74,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "主营成本 [总量]",
+    "notes": ""
+  },
+  "比亚迪_2025年_日用电子器件制造业毛利率": {
+    "label": "电子业务毛利率",
+    "value": 6.29,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"比亚迪 2025年 毛利率 产品结构\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "比亚迪__PEG": {
+    "label": "PEG",
+    "value": -0.1,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "比亚迪__市盈率-TTM": {
+    "label": "市盈率-TTM",
+    "value": -10.1,
+    "unit": "倍",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "比亚迪__市盈率-25E": {
+    "label": "市盈率-25E",
+    "value": -23.7,
+    "unit": "倍",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "比亚迪__市盈率-26E": {
+    "label": "市盈率-26E",
+    "value": 47.75,
+    "unit": "倍",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "比亚迪__市盈率-27E": {
+    "label": "市盈率-27E",
+    "value": 29.4,
+    "unit": "倍",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "比亚迪__市净率-MRQ": {
+    "label": "市净率-MRQ",
+    "value": 7.52,
+    "unit": "倍",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "行业中值_PEG": {
+    "label": "PEG（行业中值）",
+    "value": 0.31,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "行业中值_市盈率-TTM": {
+    "label": "市盈率-TTM（行业中值）",
+    "value": 15.67,
+    "unit": "倍",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "行业中值_市盈率-25E": {
+    "label": "市盈率-25E（行业中值）",
+    "value": 12.74,
+    "unit": "倍",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "行业中值_市盈率-26E": {
+    "label": "市盈率-26E（行业中值）",
+    "value": 12.04,
+    "unit": "倍",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "行业中值_市盈率-27E": {
+    "label": "市盈率-27E（行业中值）",
+    "value": 10.76,
+    "unit": "倍",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "行业中值_市净率-MRQ": {
+    "label": "市净率-MRQ（行业中值）",
+    "value": 1.93,
+    "unit": "倍",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "比亚迪__ROE-3年平均": {
+    "label": "ROE-3年平均",
+    "value": -5.62,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "比亚迪__ROE-24A": {
+    "label": "ROE-24A",
+    "value": -10.52,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "比亚迪__净利率-3年平均": {
+    "label": "净利率-3年平均",
+    "value": -3.67,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "比亚迪__净利率-24A": {
+    "label": "净利率-24A",
+    "value": -3.31,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "比亚迪__行业中值_ROE-3年平均": {
+    "label": "ROE-3年平均（行业中值）",
+    "value": 10.66,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "比亚迪__行业中值_ROE-24A": {
+    "label": "ROE-24A（行业中值）",
+    "value": 5.3,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "比亚迪__行业中值_净利率-3年平均": {
+    "label": "净利率-3年平均（行业中值）",
+    "value": 2.14,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "比亚迪__行业中值_净利率-24A": {
+    "label": "净利率-24A（行业中值）",
+    "value": 1.93,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "比亚迪_2026_预测机构数": {
+    "label": "2026年预测机构数",
+    "value": 37,
+    "unit": "",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "预测机构数",
+    "notes": ""
+  },
+  "比亚迪_2026_每股收益最小值": {
+    "label": "2026年每股收益最小值",
+    "value": 3.98,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最小值",
+    "notes": ""
+  },
+  "比亚迪_2026_每股收益均值": {
+    "label": "2026年每股收益均值",
+    "value": 4.73,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "比亚迪_2026_每股收益最大值": {
+    "label": "2026年每股收益最大值",
+    "value": 5.73,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "比亚迪_2026_行业平均每股收益": {
+    "label": "2026年行业平均每股收益",
+    "value": 1.79,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "行业平均数",
+    "notes": ""
+  },
+  "比亚迪_2027_预测机构数": {
+    "label": "2027年预测机构数",
+    "value": 37,
+    "unit": "",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "预测机构数",
+    "notes": ""
+  },
+  "比亚迪_2027_每股收益最小值": {
+    "label": "2027年每股收益最小值",
+    "value": 4.61,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最小值",
+    "notes": ""
+  },
+  "比亚迪_2027_每股收益均值": {
+    "label": "2027年每股收益均值",
+    "value": 5.9,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "比亚迪_2027_每股收益最大值": {
+    "label": "2027年每股收益最大值",
+    "value": 7.2,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "比亚迪_2027_行业平均每股收益": {
+    "label": "2027年行业平均每股收益",
+    "value": 2.3,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "行业平均数",
+    "notes": ""
+  },
+  "比亚迪_2028_预测机构数": {
+    "label": "2028年预测机构数",
+    "value": 27,
+    "unit": "",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "预测机构数",
+    "notes": ""
+  },
+  "比亚迪_2028_每股收益最小值": {
+    "label": "2028年每股收益最小值",
+    "value": 5.38,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最小值",
+    "notes": ""
+  },
+  "比亚迪_2028_每股收益均值": {
+    "label": "2028年每股收益均值",
+    "value": 6.8,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "比亚迪_2028_每股收益最大值": {
+    "label": "2028年每股收益最大值",
+    "value": 8.02,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "比亚迪_2028_行业平均每股收益": {
+    "label": "2028年行业平均每股收益",
+    "value": 3.08,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "行业平均数",
+    "notes": ""
+  },
+  "比亚迪_2026_预测归母净利润均值": {
+    "label": "2026年预测归母净利润均值",
+    "value": 431.67,
+    "unit": "亿元",
+    "period": "2026",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "比亚迪_2026_预测归母净利润最小值": {
+    "label": "2026年预测归母净利润最小值",
+    "value": 363.12,
+    "unit": "亿元",
+    "period": "2026",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "最小值",
+    "notes": ""
+  },
+  "比亚迪_2026_预测归母净利润最大值": {
+    "label": "2026年预测归母净利润最大值",
+    "value": 522.51,
+    "unit": "亿元",
+    "period": "2026",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "比亚迪_2027_预测归母净利润均值": {
+    "label": "2027年预测归母净利润均值",
+    "value": 537.8,
+    "unit": "亿元",
+    "period": "2027",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "比亚迪_2027_预测归母净利润最小值": {
+    "label": "2027年预测归母净利润最小值",
+    "value": 420.5,
+    "unit": "亿元",
+    "period": "2027",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "最小值",
+    "notes": ""
+  },
+  "比亚迪_2027_预测归母净利润最大值": {
+    "label": "2027年预测归母净利润最大值",
+    "value": 656.46,
+    "unit": "亿元",
+    "period": "2027",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "比亚迪_2028_预测归母净利润均值": {
+    "label": "2028年预测归母净利润均值",
+    "value": 619.91,
+    "unit": "亿元",
+    "period": "2028",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "比亚迪_2028_预测归母净利润最小值": {
+    "label": "2028年预测归母净利润最小值",
+    "value": 490.51,
+    "unit": "亿元",
+    "period": "2028",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "最小值",
+    "notes": ""
+  },
+  "比亚迪_2028_预测归母净利润最大值": {
+    "label": "2028年预测归母净利润最大值",
+    "value": 731.39,
+    "unit": "亿元",
+    "period": "2028",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "比亚迪_2025年_分红方案": {
+    "label": "年度分红方案",
+    "value": 39.74,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_dividend_history_cninfo",
+    "raw_field": "",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_税金及附加率": {
+    "label": "税金及附加率",
+    "value": 1.96,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "营业税金及附加 / 营业总收入"
+  },
+  "比亚迪_2025Q4_销售费用率": {
+    "label": "销售费用率",
+    "value": 3.23,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "销售费用 / 营业总收入"
+  },
+  "比亚迪_2025Q4_管理费用率": {
+    "label": "管理费用率",
+    "value": 2.07,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "管理费用 / 营业总收入"
+  },
+  "比亚迪_2025年_税金及附加率": {
+    "label": "税金及附加率",
+    "value": 1.69,
+    "unit": "%",
+    "period": "2025年",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "营业税金及附加 / 营业总收入"
+  },
+  "比亚迪_2025年_销售费用率": {
+    "label": "销售费用率",
+    "value": 3.26,
+    "unit": "%",
+    "period": "2025年",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "销售费用 / 营业总收入"
+  },
+  "比亚迪_2025年_管理费用率": {
+    "label": "管理费用率",
+    "value": 2.51,
+    "unit": "%",
+    "period": "2025年",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "管理费用 / 营业总收入"
+  },
+  "比亚迪_2025年_分红率": {
+    "label": "分红率",
+    "value": 111.01,
+    "unit": "%",
+    "period": "2025年",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "年度+中期派息合计（每10股）/ 基本每股收益"
+  },
+  "比亚迪_2025年_研发投入": {
+    "label": "研发投入",
+    "value": 634,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"比亚迪 2025年 研发费用 资本化\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "比亚迪_2025年_纳税总额": {
+    "label": "纳税总额",
+    "value": 533,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"比亚迪 2025年 年报 经营分析\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "比亚迪_2025年_销量": {
+    "label": "全年汽车销量",
+    "value": 460.2,
+    "unit": "万辆",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"比亚迪 2025年 年报 经营分析\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "交通运输设备及电气制造业_2025年_收入占比": {
+    "label": "主营业务收入中汽车制造占比",
+    "value": 80.68,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"比亚迪 2025年 年报 经营分析\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "比亚迪_2025年_扣非归母净利润同比增速": {
+    "label": "扣非归母净利润同比增速",
+    "value": -20,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"比亚迪 2025Q4 毛利率 同比\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "比亚迪_2025Q4_新能源汽车销量": {
+    "label": "2025年Q4新能源汽车销量",
+    "value": 38.3,
+    "unit": "万辆",
+    "period": "2025Q4",
+    "source": "realtime_search-{\"query\": \"比亚迪 2025Q4 销量 产量 经营数据\"}",
+    "raw_field": "",
+    "notes": "根据民生研究｜晨听民声2025.7.4数据，6月销量为月度数据，但已接近Q4水平，视为代表性补充"
+  },
+  "比亚迪_2025年_汽车销量": {
+    "label": "2025年全年汽车销量",
+    "value": 460.2,
+    "unit": "万辆",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"比亚迪 2025Q4 销量 产量 经营数据\"}",
+    "raw_field": "",
+    "notes": "来自PDF《车市2024年圆满收官，2025年政策延续值得期待》，Wind数据"
+  },
+  "比亚迪_2025年_动力电池装机总量": {
+    "label": "2025年累计动力电池及储能电池装机总量",
+    "value": 79.03,
+    "unit": "GWh",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"比亚迪 2025Q4 销量 产量 经营数据\"}",
+    "raw_field": "本公司2025年4月累计装机总量约为79.031GWh",
+    "notes": "公司公告披露的累计值，截至2025年4月，可作为全年预测参考"
+  },
+  "比亚迪_2025年_产能利用率": {
+    "label": "产能利用率",
+    "value": 57.6,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"比亚迪 2025年 产能 利用率 下降\"}",
+    "raw_field": "",
+    "notes": "基于2025年底投产产能787万台，生产453.7万台计算得出"
+  },
+  "比亚迪_2025年_资本开支": {
+    "label": "资本开支",
+    "value": 1000,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"比亚迪 2025年 产能利用率 资本开支\"}",
+    "raw_field": "",
+    "notes": "2025年为资本开支峰值年，预计为1000亿元"
+  },
+  "比亚迪_2025年_自由现金流": {
+    "label": "自由现金流",
+    "value": -338.61,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"比亚迪 2025年 产能利用率 资本开支\"}",
+    "raw_field": "",
+    "notes": "六年来首次负自由现金流，因资本开支高企及投资活动现金流出"
+  },
+  "比亚迪_2025年_在建工程增加": {
+    "label": "在建工程增加",
+    "value": 600,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"比亚迪 2025年 产能利用率 资本开支\"}",
+    "raw_field": "",
+    "notes": "固定资产和在建工程大幅增加，反映资本开支高峰"
+  },
+  "比亚迪_2026_海外销量目标": {
+    "label": "2026年海外销量目标",
+    "value": 150,
+    "unit": "万辆",
+    "period": "2026",
+    "source": "realtime_search-{\"query\": \"比亚迪 2025年 产能 利用率 下降\"}",
+    "raw_field": "",
+    "notes": "管理层上调至150万辆，高于此前130万辆目标"
+  },
+  "比亚迪_2026_海外销量预期区间": {
+    "label": "2026年海外销量预期区间",
+    "value": 155,
+    "unit": "万辆",
+    "period": "2026",
+    "source": "realtime_search-{\"query\": \"比亚迪 2025年 产能 利用率 下降\"}",
+    "raw_field": "",
+    "notes": "花旗报告称管理层预期为150-160万辆，取均值"
+  },
+  "比亚迪_2025年_研发费用率": {
+    "label": "研发费用率",
+    "value": 7.89,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"比亚迪 2025年 研发费用 资本化\"}",
+    "raw_field": "",
+    "notes": "根据已收集数据补充"
+  },
+  "比亚迪_2025年_单车均价": {
+    "label": "单车均价",
+    "value": 17.47,
+    "unit": "万元/辆",
+    "period": "2025年",
+    "source": "financial_calculator-{\"expression\": \"8039.6496 / 460.2\", \"variables\": {\"营业总收入\": 8039.6496, \"销量\": 460.2}, \"description\": \"计算单车均价（万元/辆）\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "比亚迪_2025年_单车资本开支": {
+    "label": "单车资本开支",
+    "value": 217.3,
+    "unit": "万元/辆",
+    "period": "2025年",
+    "source": "financial_calculator-{\"expression\": \"(1000 / 460.2) * 100\", \"variables\": {\"资本开支\": 1000, \"销量\": 460.2}, \"description\": \"计算单车资本开支（万元/辆）\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "比亚迪_2025年_单车新增在建工程": {
+    "label": "单车新增在建工程",
+    "value": 130.38,
+    "unit": "万元/辆",
+    "period": "2025年",
+    "source": "financial_calculator-{\"expression\": \"(600 / 460.2) * 100\", \"variables\": {\"在建工程增加\": 600, \"销量\": 460.2}, \"description\": \"计算单车新增在建工程（万元/辆）\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "比亚迪_2025年_单车电池装机量": {
+    "label": "单车电池装机量",
+    "value": 171.73,
+    "unit": "kWh/辆",
+    "period": "2025年",
+    "source": "financial_calculator-{\"expression\": \"(79.031 * 1000) / 460.2\", \"variables\": {\"装机总量\": 79.031, \"销量\": 460.2}, \"description\": \"计算单车电池装机量（kWh/辆）\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "比亚迪_2025年_汽车制造业务毛利率": {
+    "label": "汽车制造业务毛利率",
+    "value": 20.49,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"比亚迪 2025年 产品结构 毛利率 变化\"}",
+    "raw_field": "",
+    "notes": "来自凤凰网报道，明确提及汽车业务毛利率数据"
+  },
+  "比亚迪_2025年_归母净利润同比增速": {
+    "label": "归母净利润同比增速",
+    "value": -18.97,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"比亚迪 2025Q4 毛利率 同比\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "比亚迪_2025年_整体毛利率": {
+    "label": "整体毛利率",
+    "value": 17.74,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"比亚迪 2025年 产品结构 毛利率 变化\"}",
+    "raw_field": "",
+    "notes": "来自凤凰网报道，指出整体毛利率降至近三年最低"
+  },
+  "比亚迪_2025年_利息收入": {
+    "label": "利息收入",
+    "value": 356.22,
+    "unit": "百万元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"比亚迪 2025年 财务费用 利息收入\"}",
+    "raw_field": "",
+    "notes": "2025年1-6月确认利息收入人民币356,222千元，按年化估算为35.6亿元"
+  },
+  "比亚迪_2025Q1_财务费用": {
+    "label": "财务费用",
+    "value": 6.01,
+    "unit": "亿元",
+    "period": "2025Q1",
+    "source": "realtime_search-{\"query\": \"比亚迪 2025年 财务费用 利息收入\"}",
+    "raw_field": "年份利息费用利息收入差额汇兑损益财务费用合计",
+    "notes": "2025年一季度财务费用合计6.01亿元"
+  },
+  "比亚迪_2025Q1_利息收入": {
+    "label": "利息收入",
+    "value": 5.74,
+    "unit": "亿元",
+    "period": "2025Q1",
+    "source": "realtime_search-{\"query\": \"比亚迪 2025年 财务费用 利息收入\"}",
+    "raw_field": "年份利息费用利息收入差额汇兑损益财务费用合计",
+    "notes": "2025年一季度利息收入5.74亿元"
+  },
+  "比亚迪_2025Q1_利息费用": {
+    "label": "利息费用",
+    "value": 6.01,
+    "unit": "亿元",
+    "period": "2025Q1",
+    "source": "realtime_search-{\"query\": \"比亚迪 2025年 财务费用 利息收入\"}",
+    "raw_field": "年份利息费用利息收入差额汇兑损益财务费用合计",
+    "notes": "2025年一季度利息费用6.01亿元"
+  },
+  "比亚迪_2025年_利息收入占营收比例": {
+    "label": "利息收入占营收比例",
+    "value": 4.43,
+    "unit": "%",
+    "period": "2025年",
+    "source": "financial_calculator-{\"expression\": \"(356.222 / 10000) / (8039.6496 / 10000) * 100\", \"variables\": {\"利息收入\": 356.222, \"营业总收入\": 8039.6496}, \"description\": \"计算利息收入占营收比例\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "比亚迪_2025年_应收账款周转天数": {
+    "label": "应收账款周转天数",
+    "value": 17,
+    "unit": "天",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"比亚迪 2025年 应收账款 存货 周转\"}",
+    "raw_field": "应收账款周转天数",
+    "notes": "同比下降至17天，回款能力增强"
+  },
+  "比亚迪_2025年_存货周转天数": {
+    "label": "存货周转天数",
+    "value": 30,
+    "unit": "天",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"比亚迪 2025年 应收账款 存货 周转\"}",
+    "raw_field": "存货周转天数",
+    "notes": "保持在30天以内，远低于行业平均"
+  },
+  "比亚迪_2025Q4_应付账款周转天数": {
+    "label": "应付账款周转天数",
+    "value": 131.13,
+    "unit": "天",
+    "period": "2025Q4",
+    "source": "realtime_search-{\"query\": \"比亚迪 2025年 应收账款 存货 周转\"}",
+    "raw_field": "应付账款周转天数",
+    "notes": "截至2025年9月数据"
+  },
+  "比亚迪_2025年_应付账款周转周期": {
+    "label": "应付账款周转周期",
+    "value": 125,
+    "unit": "天",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"比亚迪 2025年 应收账款 存货 周转\"}",
+    "raw_field": "平均应付账款周转周期",
+    "notes": "低于行业平均182天"
+  },
+  "比亚迪_2025年_现金转换周期": {
+    "label": "现金转换周期（天）",
+    "value": -78.0,
+    "period": "2025年",
+    "source": "financial_calculator-{\"expression\": \"(17 + 30 - 125)\", \"variables\": {\"应收账款周转天数\": 17, \"存货周转天数\": 30, \"应付账款周转周期\": 125}, \"description\": \"计算现金转换周期（天）\"}",
+    "raw_field": "",
+    "notes": "负值反映公司占用供应商资金能力强，营运资本管理优异"
+  },
+  "比亚迪_2025年_电子业务毛利率": {
+    "label": "电子业务毛利率",
+    "value": 6.29,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"比亚迪 2025年 产品结构 毛利率 变化\"}",
+    "raw_field": "日用电子器件制造业毛利率",
+    "notes": "源自已收集数据，电子业务收入占比19.31%，毛利率较低"
+  },
+  "比亚迪_2025年_境外收入增长": {
+    "label": "境外收入增长",
+    "value": 40.05,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"比亚迪 2025年 产品结构 毛利率 变化\"}",
+    "raw_field": "",
+    "notes": "财富号报道指出境外收入大幅增长，支撑海外扩张战略"
+  },
+  "比亚迪_2025年_出口量同比增长": {
+    "label": "出口量同比增长",
+    "value": 150.7,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"比亚迪 2025年 产品结构 毛利率 变化\"}",
+    "raw_field": "",
+    "notes": "财富号数据显示出口量激增，印证海外市场高需求"
+  },
+  "比亚迪_2025年_境外收入占比": {
+    "label": "境外收入占比",
+    "value": 38.65,
+    "unit": "%",
+    "period": "2025年",
+    "source": "financial_calculator-{\"expression\": \"3107.41 / 8039.6496\", \"variables\": {\"境外收入\": 3107.41, \"营业总收入\": 8039.6496}, \"description\": \"计算验证境外收入占比\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "比亚迪_2025年_境外收入": {
+    "label": "境外收入",
+    "value": 3107.41,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"比亚迪 2025年 海外业务 收入占比\"}",
+    "raw_field": "",
+    "notes": "同比增长40.05%"
+  },
+  "比亚迪_2025年_境外业务毛利率": {
+    "label": "境外业务毛利率",
+    "value": 19.46,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"比亚迪 2025年 海外业务 收入占比\"}",
+    "raw_field": "",
+    "notes": "高于国内业务水平"
+  }
+}

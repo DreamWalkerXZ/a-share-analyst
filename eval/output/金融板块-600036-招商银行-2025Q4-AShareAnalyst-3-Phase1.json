@@ -1,0 +1,1082 @@
+{
+  "招商银行_2025Q4_营业收入（主营业务）": {
+    "label": "营业收入（主营业务）",
+    "value": 861.12,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "招商银行_2025Q4_营业税金及附加": {
+    "label": "营业税金及附加",
+    "value": 8.51,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "招商银行_2025Q4_营业利润": {
+    "label": "营业利润",
+    "value": 440.25,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "招商银行_2025Q4_利润总额": {
+    "label": "利润总额",
+    "value": 439.04,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "招商银行_2025Q4_所得税费用": {
+    "label": "所得税费用",
+    "value": 73.15,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "招商银行_2025Q4_净利润（含少数股东）": {
+    "label": "净利润（含少数股东）",
+    "value": 365.89,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "招商银行_2025Q4_归母净利润": {
+    "label": "归母净利润",
+    "value": 364.09,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "招商银行_2025Q4_扣非归母净利润": {
+    "label": "扣非归母净利润",
+    "value": 363.17,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "招商银行_2025Q4_少数股东损益": {
+    "label": "少数股东损益",
+    "value": 1.8,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "招商银行_2025Q4_基本每股收益": {
+    "label": "基本每股收益",
+    "value": 1.27,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "招商银行_2025Q4_稀释每股收益": {
+    "label": "稀释每股收益",
+    "value": 1.27,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "招商银行_2025年_营业收入": {
+    "label": "营业收入（主营业务）",
+    "value": 3375.32,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "招商银行_2025年_营业税金及附加": {
+    "label": "营业税金及附加",
+    "value": 30.97,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "招商银行_2025年_营业利润": {
+    "label": "营业利润",
+    "value": 1792.52,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "招商银行_2025年_利润总额": {
+    "label": "利润总额",
+    "value": 1789.93,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "招商银行_2025年_所得税费用": {
+    "label": "所得税费用",
+    "value": 278.67,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "招商银行_2025年_净利润": {
+    "label": "净利润（含少数股东）",
+    "value": 1511.26,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "招商银行_2025年_归母净利润": {
+    "label": "归母净利润",
+    "value": 1501.81,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "招商银行_2025年_扣非归母净利润": {
+    "label": "扣非归母净利润",
+    "value": 1500.07,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "招商银行_2025年_少数股东损益": {
+    "label": "少数股东损益",
+    "value": 9.45,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "招商银行_2025年_基本每股收益": {
+    "label": "基本每股收益",
+    "value": 5.7,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "招商银行_2025年_稀释每股收益": {
+    "label": "稀释每股收益",
+    "value": 5.7,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "招商银行_2025Q4_总资产": {
+    "label": "总资产",
+    "value": 130705.23,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "总资产",
+    "notes": ""
+  },
+  "招商银行_2025Q4_总负债": {
+    "label": "总负债",
+    "value": 117896.24,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "总负债",
+    "notes": ""
+  },
+  "招商银行_2025Q4_股东权益合计": {
+    "label": "股东权益合计",
+    "value": 12808.99,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "股东权益合计",
+    "notes": ""
+  },
+  "招商银行_2025Q4_固定资产": {
+    "label": "固定资产",
+    "value": 1306.42,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "固定资产",
+    "notes": ""
+  },
+  "招商银行_2025Q4_无形资产": {
+    "label": "无形资产",
+    "value": 60.0,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "无形资产",
+    "notes": ""
+  },
+  "招商银行_2025Q4_应交税费": {
+    "label": "应交税费",
+    "value": 147.13,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "应交税费",
+    "notes": ""
+  },
+  "招商银行_2025Q4_应付职工薪酬": {
+    "label": "应付职工薪酬",
+    "value": 359.59,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "应付职工薪酬",
+    "notes": ""
+  },
+  "招商银行_2025Q4_经营活动现金流入合计": {
+    "label": "经营活动现金流入合计",
+    "value": 4886.33,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "招商银行_2025Q4_经营活动现金流出合计": {
+    "label": "经营活动现金流出合计",
+    "value": 2133.1,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "招商银行_2025Q4_经营活动现金流量净额": {
+    "label": "经营活动现金流量净额",
+    "value": 2753.23,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": "[总量，非每股！]"
+  },
+  "招商银行_2025Q4_支付的税款": {
+    "label": "支付的税款",
+    "value": 140.12,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "招商银行_2025Q4_投资活动现金流量净额": {
+    "label": "投资活动现金流量净额",
+    "value": 5.59,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "招商银行_2025Q4_投资支付的现金": {
+    "label": "投资支付的现金",
+    "value": 10842.26,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "招商银行_2025Q4_收回投资收到的现金": {
+    "label": "收回投资收到的现金",
+    "value": 10594.95,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "招商银行_2025Q4_分红/偿债支付的现金": {
+    "label": "分红/偿债支付的现金",
+    "value": 27.03,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "招商银行_2025Q4_筹资活动现金流量净额": {
+    "label": "筹资活动现金流量净额",
+    "value": -272.92,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "招商银行_2025Q4_现金及现金等价物净增加额": {
+    "label": "现金及现金等价物净增加额",
+    "value": 2459.62,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "招商银行_2025Q4_期初现金及等价物余额": {
+    "label": "期初现金及等价物余额（含货币基金，广义口径）",
+    "value": 4638.6,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "招商银行_2025Q4_期末现金及等价物余额": {
+    "label": "期末现金及等价物余额（含货币基金，广义口径）",
+    "value": 7098.22,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "招商银行_2025年_经营活动现金流量净额": {
+    "label": "经营活动现金流量净额",
+    "value": 4514.57,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "经营活动现金流量净额 [总量，非每股！]",
+    "notes": ""
+  },
+  "招商银行_2025年_经营活动现金流入合计": {
+    "label": "经营活动现金流入合计",
+    "value": 14404.19,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "经营活动现金流入合计",
+    "notes": ""
+  },
+  "招商银行_2025年_经营活动现金流出合计": {
+    "label": "经营活动现金流出合计",
+    "value": 9889.62,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "经营活动现金流出合计",
+    "notes": ""
+  },
+  "招商银行_2025年_支付的税款": {
+    "label": "支付的税款",
+    "value": 473.66,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "支付的税款",
+    "notes": ""
+  },
+  "招商银行_2025年_投资活动现金流量净额": {
+    "label": "投资活动现金流量净额",
+    "value": -3249.2,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "投资活动现金流量净额",
+    "notes": ""
+  },
+  "招商银行_2025年_投资支付的现金": {
+    "label": "投资支付的现金",
+    "value": 27051.21,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "投资支付的现金",
+    "notes": ""
+  },
+  "招商银行_2025年_收回投资收到的现金": {
+    "label": "收回投资收到的现金",
+    "value": 22700.2,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "收回投资收到的现金",
+    "notes": ""
+  },
+  "招商银行_2025年_分红/偿债支付的现金": {
+    "label": "分红/偿债支付的现金",
+    "value": 554.45,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "分红/偿债支付的现金",
+    "notes": ""
+  },
+  "招商银行_2025年_筹资活动现金流量净额": {
+    "label": "筹资活动现金流量净额",
+    "value": -1699.38,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "筹资活动现金流量净额",
+    "notes": ""
+  },
+  "招商银行_2025年_现金及现金等价物净增加额": {
+    "label": "现金及现金等价物净增加额",
+    "value": -467.05,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "现金及现金等价物净增加额",
+    "notes": ""
+  },
+  "招商银行_2025年_期初现金及等价物余额（含货币基金，广义口径）": {
+    "label": "期初现金及等价物余额（含货币基金，广义口径）",
+    "value": 7565.27,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "期初现金及等价物余额（含货币基金，广义口径）",
+    "notes": ""
+  },
+  "招商银行_2025年_期末现金及等价物余额（含货币基金，广义口径）": {
+    "label": "期末现金及等价物余额（含货币基金，广义口径）",
+    "value": 7098.22,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "期末现金及等价物余额（含货币基金，广义口径）",
+    "notes": ""
+  },
+  "招商银行_2025年_经营活动现金流同比增速": {
+    "label": "经营活动现金流同比增速",
+    "value": 0.9919,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "经营活动现金流同比增速",
+    "notes": ""
+  },
+  "招商银行_2025年_投资活动现金流同比增速": {
+    "label": "投资活动现金流同比增速",
+    "value": -10.9476,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "投资活动现金流同比增速",
+    "notes": ""
+  },
+  "招商银行_2025年_筹资活动现金流同比增速": {
+    "label": "筹资活动现金流同比增速",
+    "value": -8007.7711,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "筹资活动现金流同比增速",
+    "notes": ""
+  },
+  "招商银行_2025年_营业总收入": {
+    "label": "营业总收入",
+    "value": 3375.32,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "营业总收入 [总量]",
+    "notes": ""
+  },
+  "招商银行_2025年_营业总收入全年同比增速": {
+    "label": "营业总收入全年同比增速",
+    "value": 0.013,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "营业总收入全年同比增速（累计）",
+    "notes": ""
+  },
+  "招商银行_2025年_归母净利润全年同比增速": {
+    "label": "归母净利润全年同比增速",
+    "value": 1.2063,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "归母净利润全年同比增速（累计）",
+    "notes": ""
+  },
+  "招商银行_2025Q4_营业总收入": {
+    "label": "营业总收入",
+    "value": 861.12,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "营业总收入 [总量]",
+    "notes": ""
+  },
+  "招商银行_2025Q4_基本每股收益（EPS）": {
+    "label": "基本每股收益（EPS）",
+    "value": 1.27,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "基本每股收益（EPS）[每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "招商银行_2025Q4_每股净资产": {
+    "label": "每股净资产",
+    "value": 43.43,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "每股净资产 [每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "招商银行_2025Q4_每股经营现金流": {
+    "label": "每股经营现金流",
+    "value": 10.9169,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "每股经营现金流 [每股值，元/股，勿除1e8；经营现金流总额在现金流量表中]",
+    "notes": ""
+  },
+  "招商银行_2025Q4_每股未分配利润": {
+    "label": "每股未分配利润",
+    "value": 26.9551,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "每股未分配利润 [每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "招商银行_2025Q4_销售净利率": {
+    "label": "销售净利率",
+    "value": 42.49,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "销售净利率",
+    "notes": ""
+  },
+  "招商银行_2025Q4_净资产收益率（稀释）": {
+    "label": "净资产收益率（稀释）",
+    "value": 2.8667,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "净资产收益率（稀释）",
+    "notes": ""
+  },
+  "招商银行_2025Q4_总资产净利率（ROA）": {
+    "label": "总资产净利率（ROA）",
+    "value": 0.2846,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "总资产净利率（ROA）",
+    "notes": ""
+  },
+  "招商银行_2025Q4_营业总收入同比增速": {
+    "label": "营业总收入同比增速",
+    "value": 1.5723,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "营业总收入同比增速",
+    "notes": ""
+  },
+  "招商银行_2025Q4_归母净利润同比增速": {
+    "label": "归母净利润同比增速",
+    "value": 3.4141,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "归母净利润同比增速",
+    "notes": ""
+  },
+  "招商银行_2025Q4_扣非归母净利润同比增速": {
+    "label": "扣非归母净利润同比增速",
+    "value": 3.7391,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "扣非归母净利润同比增速",
+    "notes": ""
+  },
+  "招商银行_2025年_零售金融业务主营收入": {
+    "label": "零售金融业务主营收入",
+    "value": 1910.17,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "主营收入 [总量]",
+    "notes": ""
+  },
+  "招商银行_2025年_零售金融业务收入占比": {
+    "label": "零售金融业务收入占比",
+    "value": 56.59,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "收入占比",
+    "notes": ""
+  },
+  "招商银行_2025年_零售金融业务主营成本": {
+    "label": "零售金融业务主营成本",
+    "value": 1003.12,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "主营成本 [总量]",
+    "notes": ""
+  },
+  "招商银行_2025年_零售金融业务毛利率": {
+    "label": "零售金融业务毛利率",
+    "value": 47.49,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "毛利率",
+    "notes": ""
+  },
+  "招商银行_2025年_批发金融业务主营收入": {
+    "label": "批发金融业务主营收入",
+    "value": 1380.73,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "主营收入 [总量]",
+    "notes": ""
+  },
+  "招商银行_2025年_批发金融业务收入占比": {
+    "label": "批发金融业务收入占比",
+    "value": 40.91,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "收入占比",
+    "notes": ""
+  },
+  "招商银行_2025年_批发金融业务主营成本": {
+    "label": "批发金融业务主营成本",
+    "value": 525.27,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "主营成本 [总量]",
+    "notes": ""
+  },
+  "招商银行_2025年_批发金融业务毛利率": {
+    "label": "批发金融业务毛利率",
+    "value": 61.96,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "毛利率",
+    "notes": ""
+  },
+  "招商银行__PEG_行业中值": {
+    "label": "PEG 行业中值",
+    "value": 0.6488,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "PEG",
+    "notes": ""
+  },
+  "招商银行__市盈率-TTM_行业中值": {
+    "label": "市盈率-TTM 行业中值",
+    "value": 6.2598,
+    "unit": "倍",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "市盈率-TTM",
+    "notes": ""
+  },
+  "招商银行__市盈率-25E_行业中值": {
+    "label": "市盈率-25E 行业中值",
+    "value": 5.8946,
+    "unit": "倍",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "市盈率-25E",
+    "notes": ""
+  },
+  "招商银行__市盈率-26E_行业中值": {
+    "label": "市盈率-26E 行业中值",
+    "value": 5.3395,
+    "unit": "倍",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "市盈率-26E",
+    "notes": ""
+  },
+  "招商银行__市盈率-27E_行业中值": {
+    "label": "市盈率-27E 行业中值",
+    "value": 4.9614,
+    "unit": "倍",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "市盈率-27E",
+    "notes": ""
+  },
+  "招商银行__市净率-MRQ_行业中值": {
+    "label": "市净率-MRQ 行业中值",
+    "value": 0.574,
+    "unit": "倍",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "市净率-MRQ",
+    "notes": ""
+  },
+  "招商银行__PEG_行业平均": {
+    "label": "PEG 行业平均",
+    "value": 0.7529,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "PEG",
+    "notes": ""
+  },
+  "招商银行__市盈率-TTM_行业平均": {
+    "label": "市盈率-TTM 行业平均",
+    "value": 6.2039,
+    "unit": "倍",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "市盈率-TTM",
+    "notes": ""
+  },
+  "招商银行__市盈率-25E_行业平均": {
+    "label": "市盈率-25E 行业平均",
+    "value": 5.9067,
+    "unit": "倍",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "市盈率-25E",
+    "notes": ""
+  },
+  "招商银行__市盈率-26E_行业平均": {
+    "label": "市盈率-26E 行业平均",
+    "value": 5.585,
+    "unit": "倍",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "市盈率-26E",
+    "notes": ""
+  },
+  "招商银行__市盈率-27E_行业平均": {
+    "label": "市盈率-27E 行业平均",
+    "value": 5.2509,
+    "unit": "倍",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "市盈率-27E",
+    "notes": ""
+  },
+  "招商银行__市净率-MRQ_行业平均": {
+    "label": "市净率-MRQ 行业平均",
+    "value": 0.596,
+    "unit": "倍",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "市净率-MRQ",
+    "notes": ""
+  },
+  "招商银行_2025Q4_ROE-3年平均": {
+    "label": "ROE-3年平均",
+    "value": 9.53,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "招商银行_2025Q4_ROE-24A": {
+    "label": "ROE-24A",
+    "value": 9.0,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "招商银行_2025Q4_净利率-3年平均": {
+    "label": "净利率-3年平均",
+    "value": 37.33,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "招商银行_2025Q4_净利率-24A": {
+    "label": "净利率-24A",
+    "value": 37.8,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "招商银行__ROE-3年平均": {
+    "label": "ROE-3年平均",
+    "value": 9.37,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "招商银行__ROE-24A": {
+    "label": "ROE-24A",
+    "value": 9.07,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "招商银行__净利率-3年平均": {
+    "label": "净利率-3年平均",
+    "value": 39.6,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "招商银行__净利率-24A": {
+    "label": "净利率-24A",
+    "value": 39.985,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "招商银行_2026_预测机构数": {
+    "label": "预测机构数",
+    "value": 25,
+    "unit": "",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "预测机构数",
+    "notes": ""
+  },
+  "招商银行_2026_每股收益预测最小值": {
+    "label": "每股收益预测最小值",
+    "value": 5.75,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最小值",
+    "notes": ""
+  },
+  "招商银行_2026_每股收益预测均值": {
+    "label": "每股收益预测均值",
+    "value": 6.0,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "招商银行_2026_每股收益预测最大值": {
+    "label": "每股收益预测最大值",
+    "value": 6.22,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "招商银行_2026_行业平均每股收益": {
+    "label": "行业平均每股收益",
+    "value": 1.91,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "行业平均数",
+    "notes": ""
+  },
+  "招商银行_2027_预测机构数": {
+    "label": "预测机构数",
+    "value": 25,
+    "unit": "",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "预测机构数",
+    "notes": ""
+  },
+  "招商银行_2027_每股收益预测最小值": {
+    "label": "每股收益预测最小值",
+    "value": 5.89,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最小值",
+    "notes": ""
+  },
+  "招商银行_2027_每股收益预测均值": {
+    "label": "每股收益预测均值",
+    "value": 6.28,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "招商银行_2027_每股收益预测最大值": {
+    "label": "每股收益预测最大值",
+    "value": 6.6,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "招商银行_2027_行业平均每股收益": {
+    "label": "行业平均每股收益",
+    "value": 2.05,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "行业平均数",
+    "notes": ""
+  },
+  "招商银行_2028_预测机构数": {
+    "label": "预测机构数",
+    "value": 23,
+    "unit": "",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "预测机构数",
+    "notes": ""
+  },
+  "招商银行_2028_每股收益预测最小值": {
+    "label": "每股收益预测最小值",
+    "value": 6.34,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最小值",
+    "notes": ""
+  },
+  "招商银行_2028_每股收益预测均值": {
+    "label": "每股收益预测均值",
+    "value": 6.64,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "招商银行_2028_每股收益预测最大值": {
+    "label": "每股收益预测最大值",
+    "value": 7.02,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "招商银行_2028_行业平均每股收益": {
+    "label": "行业平均每股收益",
+    "value": 2.26,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "行业平均数",
+    "notes": ""
+  },
+  "招商银行_2026_预测净利润": {
+    "label": "预测净利润",
+    "value": 1544.3,
+    "unit": "亿元",
+    "period": "2026",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "招商银行_2027_预测净利润": {
+    "label": "预测净利润",
+    "value": 1612.32,
+    "unit": "亿元",
+    "period": "2027",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "招商银行_2028_预测净利润": {
+    "label": "预测净利润",
+    "value": 1704.19,
+    "unit": "亿元",
+    "period": "2028",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "招商银行_2025年_年度分红_每10股派": {
+    "label": "每10股派息金额",
+    "value": 20.0,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_dividend_history_cninfo",
+    "raw_field": "2025-07-04 年度分红: 每10股派20.0元",
+    "notes": ""
+  },
+  "招商银行_2026年_中期分红_每10股派": {
+    "label": "每10股中期派息金额",
+    "value": 10.13,
+    "unit": "元/股",
+    "period": "2026年",
+    "source": "get_dividend_history_cninfo",
+    "raw_field": "2026-01-10 中期分红: 每10股派10.13元",
+    "notes": ""
+  },
+  "招商银行_2025Q4_税金及附加率": {
+    "label": "税金及附加率",
+    "value": 0.99,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "营业税金及附加 / 营业总收入"
+  },
+  "招商银行_2025年_税金及附加率": {
+    "label": "税金及附加率",
+    "value": 0.92,
+    "unit": "%",
+    "period": "2025年",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "营业税金及附加 / 营业总收入"
+  }
+}

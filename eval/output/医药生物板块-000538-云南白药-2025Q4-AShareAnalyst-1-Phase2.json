@@ -1,0 +1,1442 @@
+{
+  "云南白药_2025Q4_营业总收入": {
+    "label": "营业总收入",
+    "value": 105.33,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "营业总收入",
+    "notes": ""
+  },
+  "云南白药_2025Q4_营业收入（主营业务）": {
+    "label": "营业收入（主营业务）",
+    "value": 105.33,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "营业收入（主营业务）",
+    "notes": ""
+  },
+  "云南白药_2025Q4_营业成本": {
+    "label": "营业成本",
+    "value": 75.93,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "营业成本",
+    "notes": ""
+  },
+  "云南白药_2025Q4_营业税金及附加": {
+    "label": "营业税金及附加",
+    "value": 0.65,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "营业税金及附加",
+    "notes": ""
+  },
+  "云南白药_2025Q4_销售费用": {
+    "label": "销售费用",
+    "value": 19.04,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "销售费用",
+    "notes": ""
+  },
+  "云南白药_2025Q4_管理费用": {
+    "label": "管理费用",
+    "value": 4.65,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "管理费用",
+    "notes": ""
+  },
+  "云南白药_2025Q4_财务费用": {
+    "label": "财务费用",
+    "value": -0.08,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "财务费用",
+    "notes": ""
+  },
+  "云南白药_2025Q4_营业利润": {
+    "label": "营业利润",
+    "value": 4.34,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "营业利润",
+    "notes": ""
+  },
+  "云南白药_2025Q4_利润总额": {
+    "label": "利润总额",
+    "value": 4.28,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "利润总额",
+    "notes": ""
+  },
+  "云南白药_2025Q4_所得税费用": {
+    "label": "所得税费用",
+    "value": 0.27,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "所得税费用",
+    "notes": ""
+  },
+  "云南白药_2025Q4_净利润（含少数股东）": {
+    "label": "净利润（含少数股东）",
+    "value": 4.01,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "净利润（含少数股东）",
+    "notes": ""
+  },
+  "云南白药_2025Q4_归母净利润": {
+    "label": "归母净利润",
+    "value": 3.76,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "归母净利润",
+    "notes": ""
+  },
+  "云南白药_2025Q4_扣非归母净利润": {
+    "label": "扣非归母净利润",
+    "value": 3.15,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "扣非归母净利润",
+    "notes": ""
+  },
+  "云南白药_2025Q4_少数股东损益": {
+    "label": "少数股东损益",
+    "value": 0.24,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "少数股东损益",
+    "notes": ""
+  },
+  "云南白药_2025Q4_基本每股收益": {
+    "label": "基本每股收益",
+    "value": 0.21,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "基本每股收益 [每股值，单位元/股，勿除1e8]",
+    "notes": ""
+  },
+  "云南白药_2025Q4_稀释每股收益": {
+    "label": "稀释每股收益",
+    "value": 0.21,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "稀释每股收益 [每股值，单位元/股，勿除1e8]",
+    "notes": ""
+  },
+  "云南白药_2025年_营业总收入": {
+    "label": "营业总收入",
+    "value": 411.87,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业总收入",
+    "notes": ""
+  },
+  "云南白药_2025年_营业收入（主营业务）": {
+    "label": "营业收入（主营业务）",
+    "value": 411.87,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业收入（主营业务）",
+    "notes": ""
+  },
+  "云南白药_2025年_营业成本": {
+    "label": "营业成本",
+    "value": 290.33,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业成本",
+    "notes": ""
+  },
+  "云南白药_2025年_营业税金及附加": {
+    "label": "营业税金及附加",
+    "value": 2.34,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业税金及附加",
+    "notes": ""
+  },
+  "云南白药_2025年_销售费用": {
+    "label": "销售费用",
+    "value": 56.19,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "销售费用",
+    "notes": ""
+  },
+  "云南白药_2025年_管理费用": {
+    "label": "管理费用",
+    "value": 10.2,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "管理费用",
+    "notes": ""
+  },
+  "云南白药_2025年_财务费用": {
+    "label": "财务费用",
+    "value": -0.47,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "财务费用",
+    "notes": ""
+  },
+  "云南白药_2025年_营业利润": {
+    "label": "营业利润",
+    "value": 60.39,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业利润",
+    "notes": ""
+  },
+  "云南白药_2025年_利润总额": {
+    "label": "利润总额",
+    "value": 60.43,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "利润总额",
+    "notes": ""
+  },
+  "云南白药_2025年_所得税费用": {
+    "label": "所得税费用",
+    "value": 8.53,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "所得税费用",
+    "notes": ""
+  },
+  "云南白药_2025年_净利润（含少数股东）": {
+    "label": "净利润（含少数股东）",
+    "value": 51.9,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "净利润（含少数股东）",
+    "notes": ""
+  },
+  "云南白药_2025年_归母净利润": {
+    "label": "归母净利润",
+    "value": 51.53,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "归母净利润",
+    "notes": ""
+  },
+  "云南白药_2025年_扣非归母净利润": {
+    "label": "扣非归母净利润",
+    "value": 48.65,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "扣非归母净利润",
+    "notes": ""
+  },
+  "云南白药_2025年_少数股东损益": {
+    "label": "少数股东损益",
+    "value": 0.36,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "少数股东损益",
+    "notes": ""
+  },
+  "云南白药_2025年_基本每股收益": {
+    "label": "基本每股收益",
+    "value": 2.89,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "基本每股收益 [每股值，单位元/股，勿除1e8]",
+    "notes": "[每股值，元/股]"
+  },
+  "云南白药_2025年_稀释每股收益": {
+    "label": "稀释每股收益",
+    "value": 2.89,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "稀释每股收益 [每股值，单位元/股，勿除1e8]",
+    "notes": "[每股值，元/股]"
+  },
+  "云南白药_2025Q4_总资产": {
+    "label": "总资产",
+    "value": 542.69,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "总资产",
+    "notes": ""
+  },
+  "云南白药_2025Q4_总负债": {
+    "label": "总负债",
+    "value": 141.21,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "总负债",
+    "notes": ""
+  },
+  "云南白药_2025Q4_股东权益合计": {
+    "label": "股东权益合计",
+    "value": 401.48,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "股东权益合计",
+    "notes": ""
+  },
+  "云南白药_2025Q4_货币资金": {
+    "label": "货币资金（银行存款等狭义现金，不含短期理财）",
+    "value": 91.08,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "货币资金（银行存款等狭义现金，不含短期理财）",
+    "notes": ""
+  },
+  "云南白药_2025Q4_应收账款": {
+    "label": "应收账款",
+    "value": 101.6,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "应收账款",
+    "notes": ""
+  },
+  "云南白药_2025Q4_存货": {
+    "label": "存货",
+    "value": 62.31,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "存货",
+    "notes": ""
+  },
+  "云南白药_2025Q4_固定资产": {
+    "label": "固定资产",
+    "value": 32.74,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "固定资产",
+    "notes": ""
+  },
+  "云南白药_2025Q4_无形资产": {
+    "label": "无形资产",
+    "value": 6.99,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "无形资产",
+    "notes": ""
+  },
+  "云南白药_2025Q4_合同负债": {
+    "label": "合同负债（预收款项）",
+    "value": 15.06,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "合同负债（预收款项）",
+    "notes": ""
+  },
+  "云南白药_2025Q4_应交税费": {
+    "label": "应交税费",
+    "value": 2.78,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "应交税费",
+    "notes": ""
+  },
+  "云南白药_2025Q4_应付职工薪酬": {
+    "label": "应付职工薪酬",
+    "value": 14.83,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "应付职工薪酬",
+    "notes": ""
+  },
+  "云南白药_2025Q4_预付款项": {
+    "label": "预付款项",
+    "value": 4.34,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "预付款项",
+    "notes": ""
+  },
+  "云南白药_2025Q4_销售商品提供劳务收到的现金": {
+    "label": "销售商品/提供劳务收到的现金",
+    "value": 113.15,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2025Q4_经营活动现金流入合计": {
+    "label": "经营活动现金流入合计",
+    "value": 115.97,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2025Q4_经营活动现金流出合计": {
+    "label": "经营活动现金流出合计",
+    "value": 114.54,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2025Q4_经营活动现金流量净额": {
+    "label": "经营活动现金流量净额",
+    "value": 1.44,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": "[注意]这是总量（亿元），与每股经营现金流不同"
+  },
+  "云南白药_2025Q4_支付的税款": {
+    "label": "支付的税款",
+    "value": 7.27,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2025Q4_投资活动现金流量净额": {
+    "label": "投资活动现金流量净额",
+    "value": 2.28,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2025Q4_投资支付的现金": {
+    "label": "投资支付的现金",
+    "value": 19.2,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2025Q4_收回投资收到的现金": {
+    "label": "收回投资收到的现金",
+    "value": 22.56,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2025Q4_分红偿债支付的现金": {
+    "label": "分红/偿债支付的现金",
+    "value": 0.09,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2025Q4_筹资活动现金流量净额": {
+    "label": "筹资活动现金流量净额",
+    "value": 1.21,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2025Q4_现金及现金等价物净增加额": {
+    "label": "现金及现金等价物净增加额",
+    "value": 4.91,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2025Q4_期初现金及等价物余额": {
+    "label": "期初现金及等价物余额（含货币基金，广义口径）",
+    "value": 80.42,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2025Q4_期末现金及等价物余额": {
+    "label": "期末现金及等价物余额（含货币基金，广义口径）",
+    "value": 85.32,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2025年_销售商品收到现金": {
+    "label": "销售商品/提供劳务收到的现金",
+    "value": 454.55,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2025年_经营活动现金流量净额": {
+    "label": "经营活动现金流量净额",
+    "value": 46.0,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": "[总量，非每股！]"
+  },
+  "云南白药_2025年_支付的税款": {
+    "label": "支付的税款",
+    "value": 30.05,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2025年_投资活动现金流量净额": {
+    "label": "投资活动现金流量净额",
+    "value": -19.85,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2025年_投资支付的现金": {
+    "label": "投资支付的现金",
+    "value": 81.2,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2025年_收回投资收到的现金": {
+    "label": "收回投资收到的现金",
+    "value": 66.52,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2025年_筹资活动现金流量净额": {
+    "label": "筹资活动现金流量净额",
+    "value": -43.49,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2025年_现金及现金等价物净增加额": {
+    "label": "现金及现金等价物净增加额",
+    "value": -17.43,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2025年_期末现金及等价物余额": {
+    "label": "期末现金及等价物余额（含货币基金，广义口径）",
+    "value": 85.32,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2025年_经营活动现金流同比增速": {
+    "label": "经营活动现金流同比增速",
+    "value": 7.04,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2025年_投资活动现金流同比增速": {
+    "label": "投资活动现金流同比增速",
+    "value": -65.58,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2025年_基本每股收益（EPS）": {
+    "label": "基本每股收益（EPS）",
+    "value": 2.89,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "基本每股收益（EPS）[每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "云南白药_2025年_每股净资产": {
+    "label": "每股净资产",
+    "value": 22.44,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "每股净资产 [每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "云南白药_2025年_营业总收入全年同比增速": {
+    "label": "营业总收入全年同比增速",
+    "value": 2.88,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "营业总收入全年同比增速（累计）",
+    "notes": ""
+  },
+  "云南白药_2025年_归母净利润全年同比增速": {
+    "label": "归母净利润全年同比增速",
+    "value": 8.51,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "归母净利润全年同比增速（累计）",
+    "notes": ""
+  },
+  "云南白药_2025Q4_毛利润": {
+    "label": "毛利润",
+    "value": 29.39,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "毛利润 [总量]",
+    "notes": ""
+  },
+  "云南白药_2025Q4_基本每股收益（EPS）": {
+    "label": "基本每股收益（EPS）",
+    "value": 0.21,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "基本每股收益（EPS）[每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "云南白药_2025Q4_每股净资产": {
+    "label": "每股净资产",
+    "value": 22.44,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "每股净资产 [每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "云南白药_2025Q4_每股经营现金流": {
+    "label": "每股经营现金流",
+    "value": 0.08,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "每股经营现金流 [每股值，元/股，勿除1e8；经营现金流总额在现金流量表中]",
+    "notes": ""
+  },
+  "云南白药_2025Q4_每股未分配利润": {
+    "label": "每股未分配利润",
+    "value": 10.2,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "每股未分配利润 [每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "云南白药_2025Q4_销售毛利率": {
+    "label": "销售毛利率",
+    "value": 27.91,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "financial_calculator-{\"expression\": \"(29.3945 / 105.3278) * 100\", \"variables\": {\"a\": 29.3945, \"b\": 105.3278}, \"description\": \"计算2025Q4毛利率\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2025Q4_销售净利率": {
+    "label": "销售净利率",
+    "value": 3.81,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "structured_data",
+    "raw_field": "销售净利率",
+    "notes": ""
+  },
+  "云南白药_2025Q4_净资产收益率（稀释）": {
+    "label": "净资产收益率（稀释）",
+    "value": 0.94,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "净资产收益率（稀释）",
+    "notes": ""
+  },
+  "云南白药_2025Q4_总资产净利率（ROA）": {
+    "label": "总资产净利率（ROA）",
+    "value": 0.74,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "总资产净利率（ROA）",
+    "notes": ""
+  },
+  "云南白药_2025Q4_营业总收入同比增速": {
+    "label": "营业总收入同比增速",
+    "value": 4.1,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "营业总收入同比增速",
+    "notes": ""
+  },
+  "云南白药_2025Q4_归母净利润同比增速": {
+    "label": "归母净利润同比增速",
+    "value": -10.96,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "归母净利润同比增速",
+    "notes": ""
+  },
+  "云南白药_2025Q4_扣非归母净利润同比增速": {
+    "label": "扣非归母净利润同比增速",
+    "value": 21.86,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "structured_data",
+    "raw_field": "扣非归母净利润同比增速",
+    "notes": ""
+  },
+  "云南白药_2025年_药品流通主营收入": {
+    "label": "药品流通主营收入",
+    "value": 229.48,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "主营收入 [总量]",
+    "notes": ""
+  },
+  "云南白药_2025年_药品流通收入占比": {
+    "label": "药品流通收入占比",
+    "value": 55.72,
+    "unit": "%",
+    "period": "2025年",
+    "source": "financial_calculator-{\"expression\": \"(229.4831 / 411.87) * 100\", \"variables\": {\"a\": 229.4831, \"b\": 411.87}, \"description\": \"重新计算药品流通收入占比\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2025年_药品流通主营成本": {
+    "label": "药品流通主营成本",
+    "value": 215.34,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "主营成本 [总量]",
+    "notes": ""
+  },
+  "云南白药_2025年_药品流通毛利率": {
+    "label": "药品流通业务毛利率",
+    "value": 6.16,
+    "unit": "%",
+    "period": "2025年",
+    "source": "structured_data",
+    "raw_field": "药品流通毛利率",
+    "notes": ""
+  },
+  "云南白药_2025年_药品销售主营收入": {
+    "label": "药品销售主营收入",
+    "value": 81.53,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "主营收入 [总量]",
+    "notes": ""
+  },
+  "云南白药_2025年_药品销售收入占比": {
+    "label": "药品销售收入占比",
+    "value": 19.79,
+    "unit": "%",
+    "period": "2025年",
+    "source": "financial_calculator-{\"expression\": \"(81.527 / 411.87) * 100\", \"variables\": {\"a\": 81.527, \"b\": 411.87}, \"description\": \"重新计算药品销售收入占比\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2025年_药品销售主营成本": {
+    "label": "药品销售主营成本",
+    "value": 25.29,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "主营成本 [总量]",
+    "notes": ""
+  },
+  "云南白药_2025年_药品销售毛利率": {
+    "label": "药品销售毛利率",
+    "value": 68.98,
+    "unit": "%",
+    "period": "2025年",
+    "source": "structured_data",
+    "raw_field": "药品销售毛利率",
+    "notes": ""
+  },
+  "云南白药__PEG": {
+    "label": "PEG",
+    "value": 1.08,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药__市盈率-TTM": {
+    "label": "市盈率-TTM",
+    "value": 18.01,
+    "unit": "倍",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药__市盈率-25E": {
+    "label": "市盈率-25E",
+    "value": 17.02,
+    "unit": "倍",
+    "period": "2025",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药__市盈率-26E": {
+    "label": "市盈率-26E",
+    "value": 15.75,
+    "unit": "倍",
+    "period": "2026",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药__市盈率-27E": {
+    "label": "市盈率-27E",
+    "value": 14.65,
+    "unit": "倍",
+    "period": "2027",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药__市净率-MRQ": {
+    "label": "市净率-MRQ",
+    "value": 2.25,
+    "unit": "倍",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药__ROE-3年平均": {
+    "label": "ROE-3年平均",
+    "value": 1.76,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药__ROE-24A": {
+    "label": "ROE-24A",
+    "value": -2.64,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药__净利率-3年平均": {
+    "label": "净利率-3年平均",
+    "value": 5.48,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药__净利率-24A": {
+    "label": "净利率-24A",
+    "value": 0.16,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药__行业中值_ROE-3年平均": {
+    "label": "行业中值 ROE-3年平均",
+    "value": 6.75,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药__行业中值_ROE-24A": {
+    "label": "行业中值 ROE-24A",
+    "value": 6.13,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药__行业中值_净利率-3年平均": {
+    "label": "行业中值 净利率-3年平均",
+    "value": 7.32,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药__行业中值_净利率-24A": {
+    "label": "行业中值 净利率-24A",
+    "value": 7.48,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2026_预测EPS均值": {
+    "label": "2026年预测每股收益均值",
+    "value": 3.14,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2026_预测EPS最小值": {
+    "label": "2026年预测每股收益最小值",
+    "value": 3.02,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2026_预测EPS最大值": {
+    "label": "2026年预测每股收益最大值",
+    "value": 3.38,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2026_预测机构数": {
+    "label": "预测机构数",
+    "value": 15,
+    "unit": "",
+    "period": "2026",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2026_行业平均EPS": {
+    "label": "2026年行业平均每股收益",
+    "value": 1.48,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2027_预测EPS均值": {
+    "label": "2027年预测每股收益均值",
+    "value": 3.4,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2027_预测EPS最小值": {
+    "label": "2027年预测每股收益最小值",
+    "value": 3.16,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2027_预测EPS最大值": {
+    "label": "2027年预测每股收益最大值",
+    "value": 3.7,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2027_预测机构数": {
+    "label": "预测机构数",
+    "value": 15,
+    "unit": "",
+    "period": "2027",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2027_行业平均EPS": {
+    "label": "2027年行业平均每股收益",
+    "value": 1.73,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2028_预测EPS均值": {
+    "label": "2028年预测每股收益均值",
+    "value": 3.69,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2028_预测EPS最小值": {
+    "label": "2028年预测每股收益最小值",
+    "value": 3.31,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2028_预测EPS最大值": {
+    "label": "2028年预测每股收益最大值",
+    "value": 4.36,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2028_预测机构数": {
+    "label": "预测机构数",
+    "value": 12,
+    "unit": "",
+    "period": "2028",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2028_行业平均EPS": {
+    "label": "2028年行业平均每股收益",
+    "value": 2.04,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2026_归母净利润最小值": {
+    "label": "归母净利润最小值",
+    "value": 53.96,
+    "unit": "亿元",
+    "period": "2026",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2026_归母净利润均值": {
+    "label": "归母净利润均值",
+    "value": 56.02,
+    "unit": "亿元",
+    "period": "2026",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2026_归母净利润最大值": {
+    "label": "归母净利润最大值",
+    "value": 60.24,
+    "unit": "亿元",
+    "period": "2026",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2026_行业平均数": {
+    "label": "行业平均数",
+    "value": 14.34,
+    "unit": "亿元",
+    "period": "2026",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2027_归母净利润最小值": {
+    "label": "归母净利润最小值",
+    "value": 56.35,
+    "unit": "亿元",
+    "period": "2027",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2027_归母净利润均值": {
+    "label": "归母净利润均值",
+    "value": 60.57,
+    "unit": "亿元",
+    "period": "2027",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2027_归母净利润最大值": {
+    "label": "归母净利润最大值",
+    "value": 65.98,
+    "unit": "亿元",
+    "period": "2027",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2027_行业平均数": {
+    "label": "行业平均数",
+    "value": 16.53,
+    "unit": "亿元",
+    "period": "2027",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2028_归母净利润最小值": {
+    "label": "归母净利润最小值",
+    "value": 58.98,
+    "unit": "亿元",
+    "period": "2028",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2028_归母净利润均值": {
+    "label": "归母净利润均值",
+    "value": 65.87,
+    "unit": "亿元",
+    "period": "2028",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2028_归母净利润最大值": {
+    "label": "归母净利润最大值",
+    "value": 77.88,
+    "unit": "亿元",
+    "period": "2028",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2028_行业平均数": {
+    "label": "行业平均数",
+    "value": 21.56,
+    "unit": "亿元",
+    "period": "2028",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2025年_年度分红": {
+    "label": "年度分红",
+    "value": 11.85,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "structured_data",
+    "raw_field": "年度分红",
+    "notes": ""
+  },
+  "云南白药_2025年_特别分红": {
+    "label": "特别分红",
+    "value": 10.19,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "structured_data",
+    "raw_field": "特别分红",
+    "notes": ""
+  },
+  "云南白药_2025Q4_税金及附加率": {
+    "label": "税金及附加率",
+    "value": 0.62,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "营业税金及附加 / 营业总收入"
+  },
+  "云南白药_2025Q4_销售费用率": {
+    "label": "销售费用率",
+    "value": 18.08,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "financial_calculator-{\"expression\": \"(19.0417 / 105.3278) * 100\", \"variables\": {\"a\": 19.0417, \"b\": 105.3278}, \"description\": \"计算2025Q4销售费用率\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2025Q4_管理费用率": {
+    "label": "管理费用率",
+    "value": 4.41,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "financial_calculator-{\"expression\": \"(4.6481 / 105.3278) * 100\", \"variables\": {\"a\": 4.6481, \"b\": 105.3278}, \"description\": \"计算2025Q4管理费用率\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2025年_税金及附加率": {
+    "label": "税金及附加率",
+    "value": 0.57,
+    "unit": "%",
+    "period": "2025年",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "营业税金及附加 / 营业总收入"
+  },
+  "云南白药_2025年_销售费用率": {
+    "label": "销售费用率",
+    "value": 13.64,
+    "unit": "%",
+    "period": "2025年",
+    "source": "structured_data",
+    "raw_field": "销售费用率",
+    "notes": ""
+  },
+  "云南白药_2025年_管理费用率": {
+    "label": "管理费用率",
+    "value": 2.48,
+    "unit": "%",
+    "period": "2025年",
+    "source": "structured_data",
+    "raw_field": "管理费用率",
+    "notes": ""
+  },
+  "云南白药_2025年_分红率": {
+    "label": "分红率",
+    "value": 76.26,
+    "unit": "%",
+    "period": "2025年",
+    "source": "structured_data",
+    "raw_field": "分红率",
+    "notes": ""
+  },
+  "中药行业_2025年_营收中位数": {
+    "label": "中药行业2025年营收中位数",
+    "value": 19.54,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中药行业 2025年 经营分析 景气度\"}",
+    "raw_field": "奇正藏药的前世今生：2025年营收24.16亿高于行业中位数",
+    "notes": "新浪财经报道，奇正藏药2025年营收24.16亿元高于行业中位数19.54亿元"
+  },
+  "中药行业_2025年_营收平均数": {
+    "label": "中药行业2025年营收平均数",
+    "value": 50.46,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中药行业 2025年 经营分析 景气度\"}",
+    "raw_field": "奇正藏药的前世今生：2025年营收24.16亿高于行业中位数",
+    "notes": "新浪财经报道，奇正藏药2025年营收24.16亿元高于行业平均数50.46亿元"
+  },
+  "奇正藏药_2025年_营收": {
+    "label": "奇正藏药2025年营业收入",
+    "value": 24.16,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中药行业 2025年 经营分析 景气度\"}",
+    "raw_field": "奇正藏药的前世今生：2025年营收24.16亿高于行业中位数",
+    "notes": "新浪财经报道，奇正藏药2025年营收24.16亿元，排名29/68"
+  },
+  "云南白药_2025年_营收行业排名": {
+    "label": "营收在中药行业排名",
+    "value": 2,
+    "unit": "",
+    "period": "2025年",
+    "source": "structured_data",
+    "raw_field": "云南白药2025年营收在中药行业排名",
+    "notes": ""
+  },
+  "白云山_2025年_营收": {
+    "label": "白云山2025年营业收入",
+    "value": 776.56,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中药行业 2025年 经营分析 景气度\"}",
+    "raw_field": "奇正藏药的前世今生：2025年营收24.16亿高于行业中位数",
+    "notes": "新浪财经报道，白云山2025年营收776.56亿元，行业排名第一"
+  },
+  "云南白药_2025年_净利润率": {
+    "label": "净利润率",
+    "value": 12.6,
+    "unit": "%",
+    "period": "2025年",
+    "source": "financial_calculator-{\"expression\": \"(51.8994 / 411.87) * 100\", \"variables\": {\"a\": 51.8994, \"b\": 411.87}, \"description\": \"计算2025年净利润率\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2025年_归母净利润同比增速": {
+    "label": "归母净利润同比增速",
+    "value": 8.51,
+    "unit": "%",
+    "period": "2025年",
+    "source": "structured_data",
+    "raw_field": "归母净利润全年同比增速",
+    "notes": ""
+  },
+  "云南白药_2025年_归母净利润率": {
+    "label": "归母净利润率",
+    "value": 12.51,
+    "unit": "%",
+    "period": "2025年",
+    "source": "financial_calculator-{\"expression\": \"(51.5349 / 411.87) * 100\", \"variables\": {\"a\": 51.5349, \"b\": 411.87}, \"description\": \"计算2025年归母净利润率\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2025Q4_归母净利润率": {
+    "label": "归母净利润率",
+    "value": 3.57,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "financial_calculator-{\"expression\": \"(3.7637 / 105.3278) * 100\", \"variables\": {\"a\": 3.7637, \"b\": 105.3278}, \"description\": \"计算2025Q4归母净利润率\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2025Q4_扣非归母净利润率": {
+    "label": "扣非归母净利润率",
+    "value": 2.99,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "financial_calculator-{\"expression\": \"(3.1463 / 105.3278) * 100\", \"variables\": {\"a\": 3.1463, \"b\": 105.3278}, \"description\": \"计算2025Q4扣非归母净利润率\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2025年_核心系列产品销售收入": {
+    "label": "核心系列产品销售收入",
+    "value": 55,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"云南白药 核心产品 销量 市场份额 2025\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2025年_健康品板块营业收入": {
+    "label": "健康品板块营业收入",
+    "value": 67.45,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"云南白药 核心产品 销量 市场份额 2025\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2025年_云南白药牙膏市场份额": {
+    "label": "云南白药牙膏全渠道市场份额",
+    "value": 1,
+    "unit": "",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"云南白药 核心产品 销量 市场份额 2025\"}",
+    "raw_field": "",
+    "notes": "稳居第一，数据来源：尼尔森零售研究数据"
+  },
+  "云南白药_2025年_核心系列产品收入占比": {
+    "label": "核心系列产品收入占比",
+    "value": 13.35,
+    "unit": "%",
+    "period": "2025年",
+    "source": "financial_calculator-{\"expression\": \"(55 / 411.87) * 100\", \"variables\": {\"a\": 55, \"b\": 411.87}, \"description\": \"计算核心系列产品收入占比\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2025年_健康品板块收入占比": {
+    "label": "健康品板块收入占比",
+    "value": 16.38,
+    "unit": "%",
+    "period": "2025年",
+    "source": "financial_calculator-{\"expression\": \"(67.45 / 411.87) * 100\", \"variables\": {\"a\": 67.45, \"b\": 411.87}, \"description\": \"计算健康品板块收入占比\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2025年_其他业务收入占比": {
+    "label": "其他业务收入占比",
+    "value": 24.49,
+    "unit": "%",
+    "period": "2025年",
+    "source": "financial_calculator-{\"expression\": \"(411.87 - 229.4831 - 81.527) / 411.87 * 100\", \"variables\": {\"a\": 411.87, \"b\": 229.4831, \"c\": 81.527}, \"description\": \"计算其他业务收入占比\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "云南白药_2025年_其他业务收入占比（扣除健康品）": {
+    "label": "其他业务收入占比（扣除健康品）",
+    "value": 8.11,
+    "unit": "%",
+    "period": "2025年",
+    "source": "financial_calculator-{\"expression\": \"(411.87 - 229.4831 - 81.527 - 67.45) / 411.87 * 100\", \"variables\": {\"a\": 411.87, \"b\": 229.4831, \"c\": 81.527, \"d\": 67.45}",
+    "raw_field": "",
+    "notes": "重新计算其他业务收入占比，剔除药品流通、药品销售和健康品板块后剩余业务占比"
+  },
+  "云南白药_2025年_健康品板块毛利率": {
+    "label": "健康品板块毛利率",
+    "value": 62.51,
+    "unit": "%",
+    "period": "2025年",
+    "source": "financial_calculator-{\"expression\": \"(67.45 - 25.2874) / 67.45 * 100\", \"variables\": {\"a\": 67.45, \"b\": 25.2874}, \"description\": \"计算健康品板块毛利率\"}",
+    "raw_field": "",
+    "notes": "基于健康品营业收入67.45亿元与成本25.2874亿元计算得出"
+  }
+}

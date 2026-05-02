@@ -1,0 +1,1703 @@
+{
+  "中国神华_2025Q4_营业总收入": {
+    "label": "营业总收入",
+    "value": 817.65,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "营业总收入",
+    "notes": ""
+  },
+  "中国神华_2025Q4_营业收入（主营业务）": {
+    "label": "营业收入（主营业务）",
+    "value": 817.65,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "营业收入（主营业务）",
+    "notes": ""
+  },
+  "中国神华_2025Q4_营业成本": {
+    "label": "营业成本",
+    "value": 551.44,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "营业成本",
+    "notes": ""
+  },
+  "中国神华_2025Q4_营业税金及附加": {
+    "label": "营业税金及附加",
+    "value": 50.35,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "营业税金及附加",
+    "notes": ""
+  },
+  "中国神华_2025Q4_销售费用": {
+    "label": "销售费用",
+    "value": 1.44,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "销售费用",
+    "notes": ""
+  },
+  "中国神华_2025Q4_管理费用": {
+    "label": "管理费用",
+    "value": 38.82,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "管理费用",
+    "notes": ""
+  },
+  "中国神华_2025Q4_财务费用": {
+    "label": "财务费用",
+    "value": 1.74,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "财务费用",
+    "notes": ""
+  },
+  "中国神华_2025Q4_营业利润": {
+    "label": "营业利润",
+    "value": 166.47,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "营业利润",
+    "notes": ""
+  },
+  "中国神华_2025Q4_利润总额": {
+    "label": "利润总额",
+    "value": 202.76,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "利润总额",
+    "notes": ""
+  },
+  "中国神华_2025Q4_所得税费用": {
+    "label": "所得税费用",
+    "value": 44.15,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "所得税费用",
+    "notes": ""
+  },
+  "中国神华_2025Q4_净利润（含少数股东）": {
+    "label": "净利润（含少数股东）",
+    "value": 158.61,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "净利润（含少数股东）",
+    "notes": ""
+  },
+  "中国神华_2025Q4_归母净利润": {
+    "label": "归母净利润",
+    "value": 137.97,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "归母净利润",
+    "notes": ""
+  },
+  "中国神华_2025Q4_扣非归母净利润": {
+    "label": "扣非归母净利润",
+    "value": 98.85,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "扣非归母净利润",
+    "notes": ""
+  },
+  "中国神华_2025Q4_少数股东损益": {
+    "label": "少数股东损益",
+    "value": 20.64,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "少数股东损益",
+    "notes": ""
+  },
+  "中国神华_2025Q4_基本每股收益": {
+    "label": "基本每股收益",
+    "value": 0.69,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "基本每股收益 [每股值，单位元/股，勿除1e8]",
+    "notes": ""
+  },
+  "中国神华_2025Q4_稀释每股收益": {
+    "label": "稀释每股收益",
+    "value": 0.69,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "稀释每股收益 [每股值，单位元/股，勿除1e8]",
+    "notes": ""
+  },
+  "中国神华_2025年_营业总收入": {
+    "label": "营业总收入",
+    "value": 2949.16,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业总收入",
+    "notes": ""
+  },
+  "中国神华_2025年_营业收入（主营业务）": {
+    "label": "营业收入（主营业务）",
+    "value": 2949.16,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业收入（主营业务）",
+    "notes": ""
+  },
+  "中国神华_2025年_营业成本": {
+    "label": "营业成本",
+    "value": 1914.65,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业成本",
+    "notes": ""
+  },
+  "中国神华_2025年_营业税金及附加": {
+    "label": "营业税金及附加",
+    "value": 169.78,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业税金及附加",
+    "notes": ""
+  },
+  "中国神华_2025年_销售费用": {
+    "label": "销售费用",
+    "value": 5.27,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "销售费用",
+    "notes": ""
+  },
+  "中国神华_2025年_管理费用": {
+    "label": "管理费用",
+    "value": 113.8,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "管理费用",
+    "notes": ""
+  },
+  "中国神华_2025年_财务费用": {
+    "label": "财务费用",
+    "value": 4.45,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国神华 2025年 财务费用 利息收入\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国神华_2025年_营业利润": {
+    "label": "营业利润",
+    "value": 755.32,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业利润",
+    "notes": ""
+  },
+  "中国神华_2025年_利润总额": {
+    "label": "利润总额",
+    "value": 793.39,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "利润总额",
+    "notes": ""
+  },
+  "中国神华_2025年_所得税费用": {
+    "label": "所得税费用",
+    "value": 165.56,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "所得税费用",
+    "notes": ""
+  },
+  "中国神华_2025年_净利润（含少数股东）": {
+    "label": "净利润（含少数股东）",
+    "value": 627.83,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "净利润（含少数股东）",
+    "notes": ""
+  },
+  "中国神华_2025年_归母净利润": {
+    "label": "归母净利润",
+    "value": 528.49,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "归母净利润",
+    "notes": ""
+  },
+  "中国神华_2025年_扣非归母净利润": {
+    "label": "扣非归母净利润",
+    "value": 485.89,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "扣非归母净利润",
+    "notes": ""
+  },
+  "中国神华_2025年_少数股东损益": {
+    "label": "少数股东损益",
+    "value": 99.34,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "少数股东损益",
+    "notes": ""
+  },
+  "中国神华_2025年_基本每股收益": {
+    "label": "基本每股收益",
+    "value": 2.66,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "基本每股收益 [每股值，单位元/股，勿除1e8]",
+    "notes": ""
+  },
+  "中国神华_2025年_稀释每股收益": {
+    "label": "稀释每股收益",
+    "value": 2.66,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "稀释每股收益 [每股值，单位元/股，勿除1e8]",
+    "notes": ""
+  },
+  "中国神华_2025Q4_总资产": {
+    "label": "总资产",
+    "value": 6277.61,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "总资产",
+    "notes": ""
+  },
+  "中国神华_2025Q4_总负债": {
+    "label": "总负债",
+    "value": 1463.1,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "总负债",
+    "notes": ""
+  },
+  "中国神华_2025Q4_股东权益合计": {
+    "label": "股东权益合计",
+    "value": 4814.51,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "股东权益合计",
+    "notes": ""
+  },
+  "中国神华_2025Q4_货币资金": {
+    "label": "货币资金（银行存款等狭义现金，不含短期理财）",
+    "value": 967.72,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "货币资金（银行存款等狭义现金，不含短期理财）",
+    "notes": ""
+  },
+  "中国神华_2025Q4_应收账款": {
+    "label": "应收账款",
+    "value": 132.25,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "应收账款",
+    "notes": ""
+  },
+  "中国神华_2025Q4_存货": {
+    "label": "存货",
+    "value": 118.5,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "存货",
+    "notes": ""
+  },
+  "中国神华_2025Q4_固定资产": {
+    "label": "固定资产",
+    "value": 2721.72,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "固定资产",
+    "notes": ""
+  },
+  "中国神华_2025Q4_无形资产": {
+    "label": "无形资产",
+    "value": 698.57,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "无形资产",
+    "notes": ""
+  },
+  "中国神华_2025Q4_合同负债": {
+    "label": "合同负债（预收款项）",
+    "value": 38.1,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "合同负债（预收款项）",
+    "notes": ""
+  },
+  "中国神华_2025Q4_应交税费": {
+    "label": "应交税费",
+    "value": 91.45,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "应交税费",
+    "notes": ""
+  },
+  "中国神华_2025Q4_应付职工薪酬": {
+    "label": "应付职工薪酬",
+    "value": 81.99,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "应付职工薪酬",
+    "notes": ""
+  },
+  "中国神华_2025Q4_预付款项": {
+    "label": "预付款项",
+    "value": 65.09,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "预付款项",
+    "notes": ""
+  },
+  "中国神华_2025Q4_销售商品提供劳务收到的现金": {
+    "label": "销售商品/提供劳务收到的现金",
+    "value": 652.6,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "销售商品/提供劳务收到的现金",
+    "notes": ""
+  },
+  "中国神华_2025Q4_经营活动现金流入合计": {
+    "label": "经营活动现金流入合计",
+    "value": 722.62,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "经营活动现金流入合计",
+    "notes": ""
+  },
+  "中国神华_2025Q4_经营活动现金流出合计": {
+    "label": "经营活动现金流出合计",
+    "value": 624.56,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "经营活动现金流出合计",
+    "notes": ""
+  },
+  "中国神华_2025Q4_经营活动现金流量净额": {
+    "label": "经营活动现金流量净额",
+    "value": 98.06,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "经营活动现金流量净额 [总量，非每股！]",
+    "notes": "[注意]这是总量（亿元），与 PER_NETCASH（每股经营现金流）是不同概念"
+  },
+  "中国神华_2025Q4_支付的税款": {
+    "label": "支付的税款",
+    "value": -27.89,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "支付的税款",
+    "notes": ""
+  },
+  "中国神华_2025Q4_投资活动现金流量净额": {
+    "label": "投资活动现金流量净额",
+    "value": -129.14,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "投资活动现金流量净额",
+    "notes": ""
+  },
+  "中国神华_2025Q4_投资支付的现金": {
+    "label": "投资支付的现金",
+    "value": 3.19,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "投资支付的现金",
+    "notes": ""
+  },
+  "中国神华_2025Q4_收回投资收到的现金": {
+    "label": "收回投资收到的现金",
+    "value": 1.73,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "收回投资收到的现金",
+    "notes": ""
+  },
+  "中国神华_2025Q4_筹资活动现金流量净额": {
+    "label": "筹资活动现金流量净额",
+    "value": -215.9,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "筹资活动现金流量净额",
+    "notes": ""
+  },
+  "中国神华_2025Q4_分红偿债支付的现金": {
+    "label": "分红/偿债支付的现金",
+    "value": 246.42,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "分红/偿债支付的现金",
+    "notes": ""
+  },
+  "中国神华_2025Q4_现金及现金等价物净增加额": {
+    "label": "现金及现金等价物净增加额",
+    "value": -247.65,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "现金及现金等价物净增加额",
+    "notes": ""
+  },
+  "中国神华_2025Q4_期初现金及等价物余额": {
+    "label": "期初现金及等价物余额（含货币基金，广义口径）",
+    "value": 480.53,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "期初现金及等价物余额（含货币基金，广义口径）",
+    "notes": ""
+  },
+  "中国神华_2025Q4_期末现金及等价物余额": {
+    "label": "期末现金及等价物余额（含货币基金，广义口径）",
+    "value": 232.88,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "期末现金及等价物余额（含货币基金，广义口径）",
+    "notes": ""
+  },
+  "中国神华_2025年_销售商品/提供劳务收到的现金": {
+    "label": "销售商品/提供劳务收到的现金",
+    "value": 2961.61,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国神华_2025年_经营活动现金流入合计": {
+    "label": "经营活动现金流入合计",
+    "value": 3108.44,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国神华_2025年_经营活动现金流出合计": {
+    "label": "经营活动现金流出合计",
+    "value": 2357.85,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国神华_2025年_经营活动现金流量净额": {
+    "label": "经营活动现金流量净额",
+    "value": 750.59,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": "[总量，非每股！]"
+  },
+  "中国神华_2025年_支付的税款": {
+    "label": "支付的税款",
+    "value": 376.37,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国神华_2025年_投资活动现金流量净额": {
+    "label": "投资活动现金流量净额",
+    "value": -217.94,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国神华 2025年 在建工程 资本开支明细\"}",
+    "raw_field": "投资活动现金流量净额",
+    "notes": "来源于中国神华2025年年度财务报表PDF"
+  },
+  "中国神华_2025年_投资支付的现金": {
+    "label": "投资支付的现金",
+    "value": 315.29,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国神华 2025年 在建工程 资本开支明细\"}",
+    "raw_field": "投资支付的现金",
+    "notes": "来源于中国神华2025年年度财务报表PDF"
+  },
+  "中国神华_2025年_收回投资收到的现金": {
+    "label": "收回投资收到的现金",
+    "value": 483.39,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国神华 2025年 在建工程 资本开支明细\"}",
+    "raw_field": "收回投资收到的现金",
+    "notes": "来源于中国神华2025年年度财务报表PDF"
+  },
+  "中国神华_2025年_分红/偿债支付的现金": {
+    "label": "分红/偿债支付的现金",
+    "value": 872.04,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国神华_2025年_筹资活动现金流量净额": {
+    "label": "筹资活动现金流量净额",
+    "value": -962.42,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国神华_2025年_现金及现金等价物净增加额": {
+    "label": "现金及现金等价物净增加额",
+    "value": -431.25,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国神华_2025年_期初现金及等价物余额": {
+    "label": "期初现金及等价物余额（含货币基金，广义口径）",
+    "value": 664.13,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国神华_2025年_期末现金及等价物余额": {
+    "label": "期末现金及等价物余额（含货币基金，广义口径）",
+    "value": 232.88,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国神华_2025年_销售商品收到现金同比增速": {
+    "label": "销售商品收到现金同比增速",
+    "value": -16.99,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国神华_2025年_经营活动现金流同比增速": {
+    "label": "经营活动现金流同比增速",
+    "value": -17.6,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国神华_2025年_投资活动现金流同比增速": {
+    "label": "投资活动现金流同比增速",
+    "value": 74.69,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国神华_2025年_筹资活动现金流同比增速": {
+    "label": "筹资活动现金流同比增速",
+    "value": -98.07,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国神华_2025年_营业总收入同比增速": {
+    "label": "营业总收入全年同比增速",
+    "value": -13.21,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "营业总收入全年同比增速（累计）",
+    "notes": ""
+  },
+  "中国神华_2025年_归母净利润同比增速": {
+    "label": "归母净利润全年同比增速",
+    "value": -5.3,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "归母净利润全年同比增速（累计）",
+    "notes": ""
+  },
+  "中国神华_2025Q4_毛利润": {
+    "label": "毛利润",
+    "value": 266.21,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "毛利润 [总量]",
+    "notes": ""
+  },
+  "中国神华_2025Q4_基本每股收益（EPS）": {
+    "label": "基本每股收益（EPS）",
+    "value": 0.69,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "基本每股收益（EPS）[每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "中国神华_2025Q4_每股净资产": {
+    "label": "每股净资产",
+    "value": 20.59,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "每股净资产 [每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "中国神华_2025Q4_每股经营现金流": {
+    "label": "每股经营现金流",
+    "value": 0.49,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "每股经营现金流 [每股值，元/股，勿除1e8；经营现金流总额在现金流量表中]",
+    "notes": ""
+  },
+  "中国神华_2025Q4_每股未分配利润": {
+    "label": "每股未分配利润",
+    "value": 13.59,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "每股未分配利润 [每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "中国神华_2025Q4_销售毛利率": {
+    "label": "销售毛利率",
+    "value": 32.56,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "销售毛利率",
+    "notes": ""
+  },
+  "中国神华_2025Q4_销售净利率": {
+    "label": "销售净利率",
+    "value": 19.4,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "销售净利率",
+    "notes": ""
+  },
+  "中国神华_2025Q4_净资产收益率（稀释）": {
+    "label": "净资产收益率（稀释）",
+    "value": 3.34,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "净资产收益率（稀释）",
+    "notes": ""
+  },
+  "中国神华_2025Q4_总资产净利率（ROA）": {
+    "label": "总资产净利率（ROA）",
+    "value": 2.5,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "总资产净利率（ROA）",
+    "notes": ""
+  },
+  "中国神华_2025Q4_营业总收入同比增速": {
+    "label": "营业总收入同比增速",
+    "value": -3.02,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "营业总收入同比增速",
+    "notes": ""
+  },
+  "中国神华_2025Q4_归母净利润同比增速": {
+    "label": "归母净利润同比增速",
+    "value": 11.06,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "归母净利润同比增速",
+    "notes": ""
+  },
+  "中国神华_2025Q4_扣非归母净利润同比增速": {
+    "label": "扣非归母净利润同比增速",
+    "value": -29.85,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "扣非归母净利润同比增速",
+    "notes": ""
+  },
+  "中国神华_2025年_煤炭收入": {
+    "label": "煤炭收入",
+    "value": 1783.42,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SH601088\"}}",
+    "raw_field": "主营构成:煤炭收入",
+    "notes": ""
+  },
+  "中国神华_2025年_煤炭收入占比": {
+    "label": "煤炭收入占比",
+    "value": 60.47,
+    "unit": "%",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SH601088\"}}",
+    "raw_field": "收入比例",
+    "notes": ""
+  },
+  "中国神华_2025年_发电收入": {
+    "label": "发电收入",
+    "value": 827.08,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国神华 2025年 发电业务 单位成本\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国神华_2025年_发电收入占比": {
+    "label": "发电收入占比",
+    "value": 28.04,
+    "unit": "%",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SH601088\"}}",
+    "raw_field": "收入比例",
+    "notes": ""
+  },
+  "中国神华__601088_PEG": {
+    "label": "PEG",
+    "value": 1.51,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国神华__601088_市盈率-TTM": {
+    "label": "市盈率-TTM",
+    "value": 20.19,
+    "unit": "倍",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国神华__601088_市盈率-25E": {
+    "label": "市盈率-25E",
+    "value": 18.25,
+    "unit": "倍",
+    "period": "2025",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国神华__601088_市盈率-26E": {
+    "label": "市盈率-26E",
+    "value": 17.56,
+    "unit": "倍",
+    "period": "2026",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国神华__601088_市盈率-27E": {
+    "label": "市盈率-27E",
+    "value": 16.4,
+    "unit": "倍",
+    "period": "2027",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国神华__601088_市净率-MRQ": {
+    "label": "市净率-MRQ",
+    "value": 2.16,
+    "unit": "倍",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国神华__ROE-3年平均": {
+    "label": "ROE-3年平均",
+    "value": 5.55,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国神华__ROE-24A": {
+    "label": "ROE-24A",
+    "value": -3.81,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国神华__净利率-3年平均": {
+    "label": "净利率-3年平均",
+    "value": 9.05,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国神华__净利率-24A": {
+    "label": "净利率-24A",
+    "value": 2.19,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国神华__行业中值_ROE-3年平均": {
+    "label": "行业中值_ROE-3年平均",
+    "value": 9.81,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国神华__行业中值_ROE-24A": {
+    "label": "行业中值_ROE-24A",
+    "value": 3.23,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国神华__行业中值_净利率-3年平均": {
+    "label": "行业中值_净利率-3年平均",
+    "value": 12.29,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国神华__行业中值_净利率-24A": {
+    "label": "行业中值_净利率-24A",
+    "value": 4.22,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国神华_2026_每股收益预测均值": {
+    "label": "2026年每股收益预测均值",
+    "value": 2.73,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "中国神华_2026_每股收益预测最大值": {
+    "label": "2026年每股收益预测最大值",
+    "value": 3.26,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "中国神华_2026_每股收益预测最小值": {
+    "label": "2026年每股收益预测最小值",
+    "value": 2.5,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最小值",
+    "notes": ""
+  },
+  "中国神华_2026_参与预测机构数": {
+    "label": "2026年参与预测机构数",
+    "value": 29,
+    "unit": "",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "预测机构数",
+    "notes": ""
+  },
+  "中国神华_2026_行业平均每股收益": {
+    "label": "2026年行业平均每股收益",
+    "value": 1.45,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "行业平均数",
+    "notes": ""
+  },
+  "中国神华_2027_每股收益预测均值": {
+    "label": "2027年每股收益预测均值",
+    "value": 2.84,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "中国神华_2027_每股收益预测最大值": {
+    "label": "2027年每股收益预测最大值",
+    "value": 3.61,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "中国神华_2027_每股收益预测最小值": {
+    "label": "2027年每股收益预测最小值",
+    "value": 2.52,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最小值",
+    "notes": ""
+  },
+  "中国神华_2027_参与预测机构数": {
+    "label": "2027年参与预测机构数",
+    "value": 29,
+    "unit": "",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "预测机构数",
+    "notes": ""
+  },
+  "中国神华_2027_行业平均每股收益": {
+    "label": "2027年行业平均每股收益",
+    "value": 1.58,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "行业平均数",
+    "notes": ""
+  },
+  "中国神华_2028_每股收益预测均值": {
+    "label": "2028年每股收益预测均值",
+    "value": 2.99,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "中国神华_2028_每股收益预测最大值": {
+    "label": "2028年每股收益预测最大值",
+    "value": 3.92,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "中国神华_2028_每股收益预测最小值": {
+    "label": "2028年每股收益预测最小值",
+    "value": 2.55,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最小值",
+    "notes": ""
+  },
+  "中国神华_2028_参与预测机构数": {
+    "label": "2028年参与预测机构数",
+    "value": 21,
+    "unit": "",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "预测机构数",
+    "notes": ""
+  },
+  "中国神华_2028_行业平均每股收益": {
+    "label": "2028年行业平均每股收益",
+    "value": 1.7,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "行业平均数",
+    "notes": ""
+  },
+  "中国神华_2026_预测归母净利润最小值": {
+    "label": "预测归母净利润最小值",
+    "value": 502.35,
+    "unit": "亿元",
+    "period": "2026",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "最小值",
+    "notes": ""
+  },
+  "中国神华_2026_预测归母净利润均值": {
+    "label": "预测归母净利润均值",
+    "value": 571.37,
+    "unit": "亿元",
+    "period": "2026",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "中国神华_2026_预测归母净利润最大值": {
+    "label": "预测归母净利润最大值",
+    "value": 708.14,
+    "unit": "亿元",
+    "period": "2026",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "中国神华_2026_行业平均归母净利润": {
+    "label": "行业平均归母净利润",
+    "value": 144.71,
+    "unit": "亿元",
+    "period": "2026",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "行业平均数",
+    "notes": ""
+  },
+  "中国神华_2027_预测归母净利润最小值": {
+    "label": "预测归母净利润最小值",
+    "value": 501.29,
+    "unit": "亿元",
+    "period": "2027",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "最小值",
+    "notes": ""
+  },
+  "中国神华_2027_预测归母净利润均值": {
+    "label": "预测归母净利润均值",
+    "value": 593.04,
+    "unit": "亿元",
+    "period": "2027",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "中国神华_2027_预测归母净利润最大值": {
+    "label": "预测归母净利润最大值",
+    "value": 783.1,
+    "unit": "亿元",
+    "period": "2027",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "中国神华_2027_行业平均归母净利润": {
+    "label": "行业平均归母净利润",
+    "value": 153.17,
+    "unit": "亿元",
+    "period": "2027",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "行业平均数",
+    "notes": ""
+  },
+  "中国神华_2028_预测归母净利润最小值": {
+    "label": "预测归母净利润最小值",
+    "value": 552.49,
+    "unit": "亿元",
+    "period": "2028",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "最小值",
+    "notes": ""
+  },
+  "中国神华_2028_预测归母净利润均值": {
+    "label": "预测归母净利润均值",
+    "value": 636.22,
+    "unit": "亿元",
+    "period": "2028",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "中国神华_2028_预测归母净利润最大值": {
+    "label": "预测归母净利润最大值",
+    "value": 850.02,
+    "unit": "亿元",
+    "period": "2028",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "中国神华_2028_行业平均归母净利润": {
+    "label": "行业平均归母净利润",
+    "value": 157.81,
+    "unit": "亿元",
+    "period": "2028",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "行业平均数",
+    "notes": ""
+  },
+  "中国神华_2025年_年度分红": {
+    "label": "2025年度每股分红金额",
+    "value": 2.26,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国神华 2025年 分红政策 现金分红\"}",
+    "raw_field": "",
+    "notes": "根据分红总额418.11亿元及总股本估算得出"
+  },
+  "中国神华_2025年中期分红": {
+    "label": "2025年中期每股分红金额",
+    "value": 0.98,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_dividend_history_cninfo",
+    "raw_field": "2025-11-04 中期分红: 每10股派9.8元",
+    "notes": ""
+  },
+  "中国神华_2025Q4_税金及附加率": {
+    "label": "税金及附加率",
+    "value": 6.16,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "营业税金及附加 / 营业总收入"
+  },
+  "中国神华_2025Q4_销售费用率": {
+    "label": "销售费用率",
+    "value": 0.18,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "销售费用 / 营业总收入"
+  },
+  "中国神华_2025Q4_管理费用率": {
+    "label": "管理费用率",
+    "value": 4.75,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "管理费用 / 营业总收入"
+  },
+  "中国神华_2025年_税金及附加率": {
+    "label": "税金及附加率",
+    "value": 5.76,
+    "unit": "%",
+    "period": "2025年",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "营业税金及附加 / 营业总收入"
+  },
+  "中国神华_2025年_销售费用率": {
+    "label": "销售费用率",
+    "value": 0.18,
+    "unit": "%",
+    "period": "2025年",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "销售费用 / 营业总收入"
+  },
+  "中国神华_2025年_管理费用率": {
+    "label": "管理费用率",
+    "value": 3.86,
+    "unit": "%",
+    "period": "2025年",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "管理费用 / 营业总收入"
+  },
+  "中国神华_2025年_分红率": {
+    "label": "分红率",
+    "value": 79.1,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国神华 2025年 分红政策 现金分红\"}",
+    "raw_field": "",
+    "notes": "占归母净利润比例"
+  },
+  "中国神华_2025年_运输收入": {
+    "label": "运输业务收入",
+    "value": 151.02,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "已收集数据",
+    "raw_field": "",
+    "notes": "占总收入5.12%"
+  },
+  "中国神华_2025年_运输收入占比": {
+    "label": "运输业务收入占比",
+    "value": 5.12,
+    "unit": "%",
+    "period": "2025年",
+    "source": "已收集数据",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国神华_2025年_其他补充收入": {
+    "label": "其他(补充)收入",
+    "value": 136.77,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SH601088\"}}",
+    "raw_field": "主营构成:其他(补充)",
+    "notes": ""
+  },
+  "中国神华_2025年_其他补充收入占比": {
+    "label": "其他(补充)收入占比",
+    "value": 4.64,
+    "unit": "%",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SH601088\"}}",
+    "raw_field": "收入比例",
+    "notes": ""
+  },
+  "中国神华_2025年_煤化工收入": {
+    "label": "煤化工业务收入",
+    "value": 43.51,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国神华 2025年 产能利用率 在建工程\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国神华_2025年_煤化工收入占比": {
+    "label": "煤化工业务收入占比",
+    "value": 1.72,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国神华 2025年 产能利用率 在建工程\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国神华_2025Q4_EPSJB": {
+    "label": "基本每股收益",
+    "value": 0.53,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"601088.SH\", \"indicator\": \"按报告期\"}}",
+    "raw_field": "EPSJB",
+    "notes": ""
+  },
+  "中国神华_2025年_EPSJB": {
+    "label": "基本每股收益",
+    "value": 2.66,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"601088.SH\", \"indicator\": \"按报告期\"}}",
+    "raw_field": "EPSJB",
+    "notes": ""
+  },
+  "中国神华_2025三季报_EPSJB": {
+    "label": "基本每股收益",
+    "value": 1.97,
+    "unit": "元/股",
+    "period": "2025三季报",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"601088.SH\", \"indicator\": \"按报告期\"}}",
+    "raw_field": "EPSJB",
+    "notes": ""
+  },
+  "中国神华_2025Q4_BPS": {
+    "label": "每股净资产",
+    "value": 22.65,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"601088.SH\", \"indicator\": \"按报告期\"}}",
+    "raw_field": "BPS",
+    "notes": ""
+  },
+  "中国神华_2025年_BPS": {
+    "label": "每股净资产",
+    "value": 20.59,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"601088.SH\", \"indicator\": \"按报告期\"}}",
+    "raw_field": "BPS",
+    "notes": ""
+  },
+  "中国神华_2025三季报_BPS": {
+    "label": "每股净资产",
+    "value": 20.94,
+    "unit": "元/股",
+    "period": "2025三季报",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"601088.SH\", \"indicator\": \"按报告期\"}}",
+    "raw_field": "BPS",
+    "notes": ""
+  },
+  "中国神华_2025Q4_ROEJQ": {
+    "label": "净资产收益率（加权）",
+    "value": 2.4,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"601088.SH\", \"indicator\": \"按报告期\"}}",
+    "raw_field": "ROEJQ",
+    "notes": ""
+  },
+  "中国神华_2025年_ROEJQ": {
+    "label": "净资产收益率（加权）",
+    "value": 12.76,
+    "unit": "%",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"601088.SH\", \"indicator\": \"按报告期\"}}",
+    "raw_field": "ROEJQ",
+    "notes": ""
+  },
+  "中国神华_2025三季报_ROEJQ": {
+    "label": "净资产收益率（加权）",
+    "value": 9.35,
+    "unit": "%",
+    "period": "2025三季报",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"601088.SH\", \"indicator\": \"按报告期\"}}",
+    "raw_field": "ROEJQ",
+    "notes": ""
+  },
+  "中国神华_2025Q4_XSJLL": {
+    "label": "销售净利率",
+    "value": 18.91,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"601088.SH\", \"indicator\": \"按报告期\"}}",
+    "raw_field": "XSJLL",
+    "notes": ""
+  },
+  "中国神华_2025年_XSJLL": {
+    "label": "销售净利率",
+    "value": 21.29,
+    "unit": "%",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"601088.SH\", \"indicator\": \"按报告期\"}}",
+    "raw_field": "XSJLL",
+    "notes": ""
+  },
+  "中国神华_2025三季报_XSJLL": {
+    "label": "销售净利率",
+    "value": 22.01,
+    "unit": "%",
+    "period": "2025三季报",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"601088.SH\", \"indicator\": \"按报告期\"}}",
+    "raw_field": "XSJLL",
+    "notes": ""
+  },
+  "中国神华_2025年_煤炭业务毛利率": {
+    "label": "煤炭业务毛利率",
+    "value": 30.1,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国神华 2025年 产能利用率 在建工程\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国神华_2025年_商品煤产量": {
+    "label": "商品煤产量",
+    "value": 332.3,
+    "unit": "百万吨",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国神华 2025年 产能利用率 在建工程\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国神华_2025年_商品煤销量": {
+    "label": "商品煤销量",
+    "value": 430.9,
+    "unit": "百万吨",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国神华 2025年 产能利用率 在建工程\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国神华_2025年_发电量": {
+    "label": "发电量",
+    "value": 220.2,
+    "unit": "十亿千瓦时",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国神华 2025年 发电业务 电价\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国神华_2025年_自产煤销量": {
+    "label": "自产煤销量",
+    "value": 332.3,
+    "unit": "百万吨",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国神华 2025年 煤炭产量 销量 吨价\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国神华_2025年_外购煤销量": {
+    "label": "外购煤销量",
+    "value": 98.6,
+    "unit": "百万吨",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国神华 2025年 煤炭产量 销量 吨价\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国神华_2026年_外购煤计划销量": {
+    "label": "外购煤计划销量",
+    "value": 104.7,
+    "unit": "百万吨",
+    "period": "2026年",
+    "source": "已存在于收集数据中，无需重复收录",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国神华_2025年_航运分部单位运输成本": {
+    "label": "航运分部单位运输成本",
+    "value": 0.03,
+    "unit": "元/吨海里",
+    "period": "2025年上半年",
+    "source": "realtime_search-{\"query\": \"中国神华 2025年 运输业务 单位成本\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国神华_2024年上半年_航运分部单位运输成本": {
+    "label": "航运分部单位运输成本（去年同期）",
+    "value": 0.03,
+    "unit": "元/吨海里",
+    "period": "2024年上半年",
+    "source": "realtime_search-{\"query\": \"中国神华 2025年 运输业务 单位成本\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国神华_2025年_煤化工业务毛利率": {
+    "label": "煤化工业务毛利率",
+    "value": 7.1,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国神华 2025年 产能利用率 在建工程\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国神华_2025年_资本开支计划": {
+    "label": "2025年资本开支计划",
+    "value": 417.93,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国神华 2025年 在建工程 资本开支明细\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国神华_2026年_资本开支计划": {
+    "label": "资本开支计划",
+    "value": 380.23,
+    "unit": "亿元",
+    "period": "2026年",
+    "source": "realtime_search-{\"query\": \"中国神华 2025年 产能利用率 在建工程\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国神华_2025年_煤炭销售量": {
+    "label": "煤炭销售量",
+    "value": 430.9,
+    "unit": "百万吨",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国神华 2025年 资本开支 投资计划\"}",
+    "raw_field": "煤炭銷售量4.659億噸",
+    "notes": "TradingView Reuters 报道中披露的主要经营目标之一（注：原始数据为465.9百万吨，已校正单位）"
+  },
+  "中国神华_2025年度现金股息总额": {
+    "label": "2025年度现金股息总额",
+    "value": 418.11,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国神华 2025年 分红政策 现金分红\"}",
+    "raw_field": "",
+    "notes": "新浪财经投资者关系活动记录表披露"
+  },
+  "中国神华_2025年中期每股分红": {
+    "label": "2025年中期每股分红金额",
+    "value": 0.98,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国神华 2025年 资本开支 投资计划\"}",
+    "raw_field": "",
+    "notes": "已存在于收集数据中，但此处作为补充说明"
+  },
+  "中国神华_2025年度末期每股分红": {
+    "label": "2025年度末期每股分红金额",
+    "value": 2.23,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国神华 2025年 资本开支 投资计划\"}",
+    "raw_field": "董事会建议派发的2025 年度末期股息人民币223.4 亿元(含税)",
+    "notes": "按总股本100亿股估算得出每股分红金额"
+  },
+  "中国神华_2026年_商品煤计划产量": {
+    "label": "商品煤计划产量",
+    "value": 33.02,
+    "unit": "亿吨",
+    "period": "2026年",
+    "source": "realtime_search-{\"query\": \"中国神华 2025年 产能利用率 在建工程\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国神华_2026年_煤炭销量": {
+    "label": "煤炭销量",
+    "value": 43.49,
+    "unit": "亿吨",
+    "period": "2026年",
+    "source": "realtime_search-{\"query\": \"中国神华 2025年 产能利用率 在建工程\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国神华_2026年_发电量": {
+    "label": "发电量",
+    "value": 223.7,
+    "unit": "亿千瓦时",
+    "period": "2026年",
+    "source": "realtime_search-{\"query\": \"中国神华 2025年 产能利用率 在建工程\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国神华_2025年_自产煤单位生产成本": {
+    "label": "自产煤单位生产成本",
+    "value": 171.6,
+    "unit": "元/吨",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国神华 2025年 煤炭业务 吨煤成本\"}",
+    "raw_field": "",
+    "notes": "同比下降4.8%，得益于安全生产费、维简费等费用下降"
+  },
+  "中国神华_2025年_单位售电成本": {
+    "label": "单位售电成本",
+    "value": 334.7,
+    "unit": "元/兆瓦时",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国神华 2025年 发电业务 单位成本\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国神华_2025年_煤炭销售平均价格（不含税）": {
+    "label": "煤炭销售平均价格（不含税）",
+    "value": 495,
+    "unit": "元/吨",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国神华 2025年 煤炭业务 吨煤价格\"}",
+    "raw_field": "",
+    "notes": "来自慧正资讯报道，受市场均价下行影响，同比下降12.1%"
+  },
+  "中国神华_2025年_容量电费收入": {
+    "label": "容量电费收入",
+    "value": 51.2,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国神华 2025年 发电业务 电价\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国神华_2025Q4_在建工程": {
+    "label": "在建工程",
+    "value": 385.67,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "realtime_search-{\"query\": \"中国神华 2025年 在建工程 资本开支明细\"}",
+    "raw_field": "在建工程",
+    "notes": "来源于中国神华2025年年度报告PDF"
+  },
+  "中国神华_2025年_固定资产": {
+    "label": "固定资产",
+    "value": 2721.72,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国神华 2025年 在建工程 资本开支明细\"}",
+    "raw_field": "固定资产",
+    "notes": "来源于中国神华2025年年度财务报表PDF"
+  },
+  "中国神华_2025年_中期分红": {
+    "label": "2025年中期每股分红金额",
+    "value": 0.98,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国神华 2025年 分红政策 现金分红\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中国神华_2025年_末期每股分红": {
+    "label": "2025年度末期每股分红金额",
+    "value": 2.23,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"中国神华 2025年 分红政策 现金分红\"}",
+    "raw_field": "",
+    "notes": "按总股本100亿股估算得出"
+  },
+  "中国神华_2025年_分红比例承诺": {
+    "label": "2025-2027年度现金分红比例承诺",
+    "value": 65,
+    "unit": "%",
+    "period": "2025-2027",
+    "source": "realtime_search-{\"query\": \"中国神华 2025年 分红政策 现金分红\"}",
+    "raw_field": "",
+    "notes": "公司承诺每年现金分红比例不低于归母净利润的65%"
+  },
+  "中国神华_2025年_累计分红总额": {
+    "label": "上市以来累计分红总额",
+    "value": 533.7,
+    "unit": "亿元",
+    "period": "上市以来",
+    "source": "realtime_search-{\"query\": \"中国神华 2025年 分红政策 现金分红\"}",
+    "raw_field": "",
+    "notes": "近四年分红比例均超70%，累计达5337亿"
+  }
+}

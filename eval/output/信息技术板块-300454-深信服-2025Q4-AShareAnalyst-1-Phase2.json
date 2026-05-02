@@ -1,0 +1,1505 @@
+{
+  "深信服_2025Q4_营业总收入": {
+    "label": "营业总收入",
+    "value": 29.18,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "营业总收入",
+    "notes": ""
+  },
+  "深信服_2025Q4_营业收入（主营业务）": {
+    "label": "营业收入（主营业务）",
+    "value": 29.18,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "营业收入（主营业务）",
+    "notes": ""
+  },
+  "深信服_2025Q4_营业成本": {
+    "label": "营业成本",
+    "value": 12.71,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "营业成本",
+    "notes": ""
+  },
+  "深信服_2025Q4_营业税金及附加": {
+    "label": "营业税金及附加",
+    "value": 0.28,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "营业税金及附加",
+    "notes": ""
+  },
+  "深信服_2025Q4_销售费用": {
+    "label": "销售费用",
+    "value": 6.76,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "销售费用",
+    "notes": ""
+  },
+  "深信服_2025Q4_管理费用": {
+    "label": "管理费用",
+    "value": 1.02,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "管理费用",
+    "notes": ""
+  },
+  "深信服_2025Q4_财务费用": {
+    "label": "财务费用",
+    "value": -0.49,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "财务费用",
+    "notes": ""
+  },
+  "深信服_2025Q4_营业利润": {
+    "label": "营业利润",
+    "value": 4.6,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "营业利润",
+    "notes": ""
+  },
+  "深信服_2025Q4_利润总额": {
+    "label": "利润总额",
+    "value": 4.66,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "利润总额",
+    "notes": ""
+  },
+  "深信服_2025Q4_所得税费用": {
+    "label": "所得税费用",
+    "value": -0.08,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "所得税费用",
+    "notes": ""
+  },
+  "深信服_2025Q4_净利润（含少数股东）": {
+    "label": "净利润（含少数股东）",
+    "value": 4.73,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "净利润（含少数股东）",
+    "notes": ""
+  },
+  "深信服_2025Q4_归母净利润": {
+    "label": "归母净利润",
+    "value": 4.73,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "归母净利润",
+    "notes": ""
+  },
+  "深信服_2025Q4_扣非归母净利润": {
+    "label": "扣非归母净利润",
+    "value": 4.4,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "扣非归母净利润",
+    "notes": ""
+  },
+  "深信服_2025Q4_基本每股收益": {
+    "label": "基本每股收益",
+    "value": 1.12,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "基本每股收益 [每股值，单位元/股，勿除1e8]",
+    "notes": ""
+  },
+  "深信服_2025Q4_稀释每股收益": {
+    "label": "稀释每股收益",
+    "value": 1.09,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "稀释每股收益 [每股值，单位元/股，勿除1e8]",
+    "notes": ""
+  },
+  "深信服_2025年_营业总收入": {
+    "label": "营业总收入",
+    "value": 80.43,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业总收入",
+    "notes": ""
+  },
+  "深信服_2025年_营业收入（主营业务）": {
+    "label": "营业收入（主营业务）",
+    "value": 80.43,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业收入（主营业务）",
+    "notes": ""
+  },
+  "深信服_2025年_营业成本": {
+    "label": "营业成本",
+    "value": 32.73,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业成本",
+    "notes": ""
+  },
+  "深信服_2025年_营业税金及附加": {
+    "label": "营业税金及附加",
+    "value": 0.7,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业税金及附加",
+    "notes": ""
+  },
+  "深信服_2025年_销售费用": {
+    "label": "销售费用",
+    "value": 25.53,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "销售费用",
+    "notes": ""
+  },
+  "深信服_2025年_管理费用": {
+    "label": "管理费用",
+    "value": 3.4,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "管理费用",
+    "notes": ""
+  },
+  "深信服_2025年_财务费用": {
+    "label": "财务费用",
+    "value": -2.06,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "财务费用",
+    "notes": ""
+  },
+  "深信服_2025年_营业利润": {
+    "label": "营业利润",
+    "value": 3.68,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业利润",
+    "notes": ""
+  },
+  "深信服_2025年_利润总额": {
+    "label": "利润总额",
+    "value": 3.8,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "利润总额",
+    "notes": ""
+  },
+  "深信服_2025年_所得税费用": {
+    "label": "所得税费用",
+    "value": -0.12,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "所得税费用",
+    "notes": ""
+  },
+  "深信服_2025年_净利润（含少数股东）": {
+    "label": "净利润（含少数股东）",
+    "value": 3.93,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "净利润（含少数股东）",
+    "notes": ""
+  },
+  "深信服_2025年_归母净利润": {
+    "label": "归母净利润",
+    "value": 3.93,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "归母净利润",
+    "notes": ""
+  },
+  "深信服_2025年_扣非归母净利润": {
+    "label": "扣非归母净利润",
+    "value": 3.04,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "扣非归母净利润",
+    "notes": ""
+  },
+  "深信服_2025年_基本每股收益": {
+    "label": "基本每股收益",
+    "value": 0.93,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "基本每股收益 [每股值，单位元/股，勿除1e8]",
+    "notes": ""
+  },
+  "深信服_2025年_稀释每股收益": {
+    "label": "稀释每股收益",
+    "value": 0.9,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "稀释每股收益 [每股值，单位元/股，勿除1e8]",
+    "notes": ""
+  },
+  "深信服_2025Q4_总资产": {
+    "label": "总资产",
+    "value": 166.48,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "深信服_2025Q4_总负债": {
+    "label": "总负债",
+    "value": 69.52,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "深信服_2025Q4_股东权益合计": {
+    "label": "股东权益合计",
+    "value": 96.96,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "深信服_2025Q4_货币资金": {
+    "label": "货币资金（银行存款等狭义现金，不含短期理财）",
+    "value": 5.35,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "深信服_2025Q4_应收账款": {
+    "label": "应收账款",
+    "value": 5.81,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "深信服_2025Q4_存货": {
+    "label": "存货",
+    "value": 8.61,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "深信服_2025Q4_固定资产": {
+    "label": "固定资产",
+    "value": 7.34,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "深信服_2025Q4_无形资产": {
+    "label": "无形资产",
+    "value": 2.59,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "深信服_2025Q4_合同负债": {
+    "label": "合同负债（预收款项）",
+    "value": 18.17,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "深信服_2025Q4_应交税费": {
+    "label": "应交税费",
+    "value": 2.14,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "深信服_2025Q4_应付职工薪酬": {
+    "label": "应付职工薪酬",
+    "value": 7.08,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "深信服_2025Q4_预付款项": {
+    "label": "预付款项",
+    "value": 0.34,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "深信服_2025Q4_销售商品提供劳务收到的现金": {
+    "label": "销售商品/提供劳务收到的现金",
+    "value": 34.18,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "销售商品/提供劳务收到的现金",
+    "notes": ""
+  },
+  "深信服_2025Q4_经营活动现金流入合计": {
+    "label": "经营活动现金流入合计",
+    "value": 36.76,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "经营活动现金流入合计",
+    "notes": ""
+  },
+  "深信服_2025Q4_经营活动现金流出合计": {
+    "label": "经营活动现金流出合计",
+    "value": 23.47,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "经营活动现金流出合计",
+    "notes": ""
+  },
+  "深信服_2025Q4_经营活动现金流量净额": {
+    "label": "经营活动现金流量净额",
+    "value": 13.29,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "经营活动现金流量净额 [总量，非每股！]",
+    "notes": "NETCASH_OPERATE是总量，与PER_NETCASH不同"
+  },
+  "深信服_2025Q4_支付的税款": {
+    "label": "支付的税款",
+    "value": 1.63,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "支付的税款",
+    "notes": ""
+  },
+  "深信服_2025Q4_投资活动现金流量净额": {
+    "label": "投资活动现金流量净额",
+    "value": -12.46,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "投资活动现金流量净额",
+    "notes": ""
+  },
+  "深信服_2025Q4_投资支付的现金": {
+    "label": "投资支付的现金",
+    "value": 38.59,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "投资支付的现金",
+    "notes": ""
+  },
+  "深信服_2025Q4_收回投资收到的现金": {
+    "label": "收回投资收到的现金",
+    "value": 25.48,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "收回投资收到的现金",
+    "notes": ""
+  },
+  "深信服_2025Q4_分红偿债支付的现金": {
+    "label": "分红/偿债支付的现金",
+    "value": 0.0,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "分红/偿债支付的现金",
+    "notes": ""
+  },
+  "深信服_2025Q4_筹资活动现金流量净额": {
+    "label": "筹资活动现金流量净额",
+    "value": -0.8,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "筹资活动现金流量净额",
+    "notes": ""
+  },
+  "深信服_2025Q4_现金及现金等价物净增加额": {
+    "label": "现金及现金等价物净增加额",
+    "value": 0.02,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "现金及现金等价物净增加额",
+    "notes": ""
+  },
+  "深信服_2025Q4_期初现金及等价物余额": {
+    "label": "期初现金及等价物余额（含货币基金，广义口径）",
+    "value": 4.94,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "期初现金及等价物余额（含货币基金，广义口径）",
+    "notes": ""
+  },
+  "深信服_2025Q4_期末现金及等价物余额": {
+    "label": "期末现金及等价物余额（含货币基金，广义口径）",
+    "value": 4.96,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "期末现金及等价物余额（含货币基金，广义口径）",
+    "notes": ""
+  },
+  "深信服_2025年_销售商品收到现金": {
+    "label": "销售商品/提供劳务收到的现金",
+    "value": 94.4,
+    "unit": "亿元",
+    "period": "深信服_2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "销售商品/提供劳务收到的现金",
+    "notes": ""
+  },
+  "深信服_2025年_经营活动现金流入合计": {
+    "label": "经营活动现金流入合计",
+    "value": 104.21,
+    "unit": "亿元",
+    "period": "深信服_2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "经营活动现金流入合计",
+    "notes": ""
+  },
+  "深信服_2025年_经营活动现金流出合计": {
+    "label": "经营活动现金流出合计",
+    "value": 90.79,
+    "unit": "亿元",
+    "period": "深信服_2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "经营活动现金流出合计",
+    "notes": ""
+  },
+  "深信服_2025年_经营活动现金流量净额": {
+    "label": "经营活动现金流量净额",
+    "value": 13.42,
+    "unit": "亿元",
+    "period": "深信服_2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "经营活动现金流量净额 [总量，非每股！]",
+    "notes": "NETCASH_OPERATE是总量（亿元），与PER_NETCASH是不同概念"
+  },
+  "深信服_2025年_支付税款": {
+    "label": "支付的税款",
+    "value": 6.08,
+    "unit": "亿元",
+    "period": "深信服_2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "支付的税款",
+    "notes": ""
+  },
+  "深信服_2025年_投资活动现金流量净额": {
+    "label": "投资活动现金流量净额",
+    "value": -9.89,
+    "unit": "亿元",
+    "period": "深信服_2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "投资活动现金流量净额",
+    "notes": ""
+  },
+  "深信服_2025年_投资支付的现金": {
+    "label": "投资支付的现金",
+    "value": 106.4,
+    "unit": "亿元",
+    "period": "深信服_2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "投资支付的现金",
+    "notes": ""
+  },
+  "深信服_2025年_收回投资收到的现金": {
+    "label": "收回投资收到的现金",
+    "value": 95.97,
+    "unit": "亿元",
+    "period": "深信服_2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "收回投资收到的现金",
+    "notes": ""
+  },
+  "深信服_2025年_分红偿债支付现金": {
+    "label": "分红/偿债支付的现金",
+    "value": 0.33,
+    "unit": "亿元",
+    "period": "深信服_2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "分红/偿债支付的现金",
+    "notes": ""
+  },
+  "深信服_2025年_筹资活动现金流量净额": {
+    "label": "筹资活动现金流量净额",
+    "value": -3.14,
+    "unit": "亿元",
+    "period": "深信服_2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "筹资活动现金流量净额",
+    "notes": ""
+  },
+  "深信服_2025年_现金及现金等价物净增加额": {
+    "label": "现金及现金等价物净增加额",
+    "value": 0.37,
+    "unit": "亿元",
+    "period": "深信服_2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "现金及现金等价物净增加额",
+    "notes": ""
+  },
+  "深信服_2025年_期初现金及等价物余额": {
+    "label": "期初现金及等价物余额（含货币基金，广义口径）",
+    "value": 4.59,
+    "unit": "亿元",
+    "period": "深信服_2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "期初现金及等价物余额（含货币基金，广义口径）",
+    "notes": ""
+  },
+  "深信服_2025年_期末现金及等价物余额": {
+    "label": "期末现金及等价物余额（含货币基金，广义口径）",
+    "value": 4.96,
+    "unit": "亿元",
+    "period": "深信服_2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "期末现金及等价物余额（含货币基金，广义口径）",
+    "notes": ""
+  },
+  "深信服_2025年_销售商品收到现金同比增速": {
+    "label": "销售商品收到现金同比增速",
+    "value": 6.67,
+    "unit": "%",
+    "period": "深信服_2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "销售商品收到现金同比增速",
+    "notes": ""
+  },
+  "深信服_2025年_经营活动现金流同比增速": {
+    "label": "经营活动现金流同比增速",
+    "value": 65.29,
+    "unit": "%",
+    "period": "深信服_2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "经营活动现金流同比增速",
+    "notes": ""
+  },
+  "深信服_2025年_投资活动现金流同比增速": {
+    "label": "投资活动现金流同比增速",
+    "value": -481.78,
+    "unit": "%",
+    "period": "深信服_2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "投资活动现金流同比增速",
+    "notes": ""
+  },
+  "深信服_2025年_筹资活动现金流同比增速": {
+    "label": "筹资活动现金流同比增速",
+    "value": 62.74,
+    "unit": "%",
+    "period": "深信服_2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "筹资活动现金流同比增速",
+    "notes": ""
+  },
+  "深信服_2025年_营业总收入同比增速": {
+    "label": "营业总收入全年同比增速",
+    "value": 6.96,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "营业总收入全年同比增速（累计）",
+    "notes": ""
+  },
+  "深信服_2025年_归母净利润同比增速": {
+    "label": "归母净利润全年同比增速",
+    "value": 99.52,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "归母净利润全年同比增速（累计）",
+    "notes": ""
+  },
+  "深信服_2025Q4_毛利润": {
+    "label": "毛利润",
+    "value": 16.47,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "毛利润 [总量]",
+    "notes": ""
+  },
+  "深信服_2025Q4_基本每股收益（EPS）": {
+    "label": "基本每股收益（EPS）",
+    "value": 1.12,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "基本每股收益（EPS）[每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "深信服_2025Q4_每股净资产": {
+    "label": "每股净资产",
+    "value": 22.81,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "每股净资产 [每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "深信服_2025Q4_每股经营现金流": {
+    "label": "每股经营现金流",
+    "value": 3.16,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "每股经营现金流 [每股值，元/股，勿除1e8；经营现金流总额在现金流量表中]",
+    "notes": "经营现金流总额在现金流量表中"
+  },
+  "深信服_2025Q4_每股未分配利润": {
+    "label": "每股未分配利润",
+    "value": 8.59,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "每股未分配利润 [每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "深信服_2025Q4_销售毛利率": {
+    "label": "销售毛利率",
+    "value": 56.44,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "销售毛利率",
+    "notes": ""
+  },
+  "深信服_2025Q4_销售净利率": {
+    "label": "销售净利率",
+    "value": 16.22,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "销售净利率",
+    "notes": ""
+  },
+  "深信服_2025Q4_净资产收益率（稀释）": {
+    "label": "净资产收益率（稀释）",
+    "value": 5.01,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"300454.SZ\"}}",
+    "raw_field": "ROEJQ",
+    "notes": "ROE显示股东权益回报率，显著改善"
+  },
+  "深信服_2025Q4_总资产净利率（ROA）": {
+    "label": "总资产净利率（ROA）",
+    "value": 3.0,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"300454.SZ\"}}",
+    "raw_field": "PARENTNETPROFIT / TOTAL_ASSET * 100",
+    "notes": "ROA反映公司整体资产利用效率，本期为正向盈利"
+  },
+  "深信服_2025Q4_营业总收入同比增速": {
+    "label": "营业总收入同比增速",
+    "value": 1.09,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "营业总收入同比增速",
+    "notes": ""
+  },
+  "深信服_2025Q4_归母净利润同比增速": {
+    "label": "归母净利润同比增速",
+    "value": -39.04,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "归母净利润同比增速",
+    "notes": ""
+  },
+  "深信服_2025Q4_扣非归母净利润同比增速": {
+    "label": "扣非归母净利润同比增速",
+    "value": -39.49,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "扣非归母净利润同比增速",
+    "notes": ""
+  },
+  "深信服_2025年_企业行业主营收入": {
+    "label": "企业行业主营收入",
+    "value": 38.19,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "主营收入 [总量]",
+    "notes": ""
+  },
+  "深信服_2025年_企业行业收入占比": {
+    "label": "企业行业收入占比",
+    "value": 47.49,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "收入占比",
+    "notes": ""
+  },
+  "深信服_2025年_企业行业主营成本": {
+    "label": "企业行业主营成本",
+    "value": 15.9,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "主营成本 [总量]",
+    "notes": ""
+  },
+  "深信服_2025年_企业行业毛利率": {
+    "label": "企业行业毛利率",
+    "value": 58.38,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "毛利率",
+    "notes": ""
+  },
+  "深信服_2025年_政府及事业单位行业主营收入": {
+    "label": "政府及事业单位行业主营收入",
+    "value": 34.45,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "主营收入 [总量]",
+    "notes": ""
+  },
+  "深信服_2025年_政府及事业单位行业收入占比": {
+    "label": "政府及事业单位行业收入占比",
+    "value": 42.84,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "收入占比",
+    "notes": ""
+  },
+  "深信服_2025年_政府及事业单位行业主营成本": {
+    "label": "政府及事业单位行业主营成本",
+    "value": 14.38,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "主营成本 [总量]",
+    "notes": ""
+  },
+  "深信服_2025年_政府及事业单位行业毛利率": {
+    "label": "政府及事业单位行业毛利率",
+    "value": 58.25,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "毛利率",
+    "notes": ""
+  },
+  "深信服__PEG": {
+    "label": "PEG",
+    "value": 1.01,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "深信服__市盈率-TTM": {
+    "label": "市盈率-TTM",
+    "value": 87.5,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "深信服__市盈率-25E": {
+    "label": "市盈率-25E",
+    "value": 91.21,
+    "unit": "%",
+    "period": "2025",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "深信服__市盈率-26E": {
+    "label": "市盈率-26E",
+    "value": 69.48,
+    "unit": "%",
+    "period": "2026",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "深信服__市盈率-27E": {
+    "label": "市盈率-27E",
+    "value": 55.36,
+    "unit": "%",
+    "period": "2027",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "深信服__市净率-MRQ": {
+    "label": "市净率-MRQ",
+    "value": 4.65,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "深信服__行业中值_PEG": {
+    "label": "行业中值 PEG",
+    "value": 0.66,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "深信服__行业中值_市盈率-TTM": {
+    "label": "行业中值 市盈率-TTM",
+    "value": 32.79,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "深信服__行业中值_市盈率-25E": {
+    "label": "行业中值 市盈率-25E",
+    "value": 53.09,
+    "unit": "%",
+    "period": "2025",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "深信服__行业中值_市盈率-26E": {
+    "label": "行业中值 市盈率-26E",
+    "value": 43.75,
+    "unit": "%",
+    "period": "2026",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "深信服__行业中值_市盈率-27E": {
+    "label": "行业中值 市盈率-27E",
+    "value": 37.59,
+    "unit": "%",
+    "period": "2027",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "深信服__行业中值_市净率-MRQ": {
+    "label": "行业中值 市净率-MRQ",
+    "value": 4.14,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "深信服__ROE-3年平均": {
+    "label": "ROE-3年平均",
+    "value": -1.54,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "ROE-3年平均",
+    "notes": ""
+  },
+  "深信服__ROE-24A": {
+    "label": "ROE-24A",
+    "value": -2.97,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "ROE-24A",
+    "notes": ""
+  },
+  "深信服__净利率-3年平均": {
+    "label": "净利率-3年平均",
+    "value": -4.15,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "净利率-3年平均",
+    "notes": ""
+  },
+  "深信服__净利率-24A": {
+    "label": "净利率-24A",
+    "value": -7.32,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "净利率-24A",
+    "notes": ""
+  },
+  "深信服__行业中值_ROE-3年平均": {
+    "label": "行业中值 ROE-3年平均",
+    "value": -0.09,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "ROE-3年平均",
+    "notes": ""
+  },
+  "深信服__行业中值_ROE-24A": {
+    "label": "行业中值 ROE-24A",
+    "value": 0.95,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "ROE-24A",
+    "notes": ""
+  },
+  "深信服__行业中值_净利率-3年平均": {
+    "label": "行业中值 净利率-3年平均",
+    "value": -1.55,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "净利率-3年平均",
+    "notes": ""
+  },
+  "深信服__行业中值_净利率-24A": {
+    "label": "行业中值 净利率-24A",
+    "value": 1.62,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "净利率-24A",
+    "notes": ""
+  },
+  "深信服_2026_归母净利润预测均值": {
+    "label": "2026年归母净利润预测均值",
+    "value": 1.29,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "深信服_2027_归母净利润预测均值": {
+    "label": "2027年归母净利润预测均值",
+    "value": 1.69,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "深信服_2028_归母净利润预测均值": {
+    "label": "2028年归母净利润预测均值",
+    "value": 2.12,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "深信服_2025年_年度分红": {
+    "label": "年度分红",
+    "value": 0.06,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"300454.SZ\"}}",
+    "raw_field": "每10股派0.63元",
+    "notes": "分红比例稳定，体现现金流充裕"
+  },
+  "深信服_2025Q4_税金及附加率": {
+    "label": "税金及附加率",
+    "value": 0.97,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "营业税金及附加 / 营业总收入"
+  },
+  "深信服_2025Q4_销售费用率": {
+    "label": "销售费用率",
+    "value": 23.15,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "销售费用 / 营业总收入"
+  },
+  "深信服_2025Q4_管理费用率": {
+    "label": "管理费用率",
+    "value": 3.48,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "管理费用 / 营业总收入"
+  },
+  "深信服_2025年_税金及附加率": {
+    "label": "税金及附加率",
+    "value": 0.87,
+    "unit": "%",
+    "period": "2025年",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "营业税金及附加 / 营业总收入"
+  },
+  "深信服_2025年_销售费用率": {
+    "label": "销售费用率",
+    "value": 31.74,
+    "unit": "%",
+    "period": "2025年",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "销售费用 / 营业总收入"
+  },
+  "深信服_2025年_管理费用率": {
+    "label": "管理费用率",
+    "value": 4.23,
+    "unit": "%",
+    "period": "2025年",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "管理费用 / 营业总收入"
+  },
+  "深信服_2025Q4_超融合市场占有率": {
+    "label": "超融合市场市占率",
+    "value": 34.4,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"300454.SZ\"}}",
+    "raw_field": "IDC报告数据",
+    "notes": "稳居国内超融合市场第一梯队"
+  },
+  "深信服_2025年_云计算及IT基础设施业务主营收入": {
+    "label": "云计算及IT基础设施业务主营收入",
+    "value": 40.1,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SZ300454\"}}",
+    "raw_field": "主营构成: 云计算及IT基础设施业务主营收入",
+    "notes": ""
+  },
+  "深信服_2025年_云计算及IT基础设施业务收入占比": {
+    "label": "云计算及IT基础设施业务收入占比",
+    "value": 49.86,
+    "unit": "%",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SZ300454\"}}",
+    "raw_field": "主营构成: 云计算及IT基础设施业务收入比例",
+    "notes": ""
+  },
+  "深信服_2025年_云计算及IT基础设施业务主营成本": {
+    "label": "云计算及IT基础设施业务主营成本",
+    "value": 23.06,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SZ300454\"}}",
+    "raw_field": "主营构成: 云计算及IT基础设施业务主营成本",
+    "notes": ""
+  },
+  "深信服_2025年_云计算及IT基础设施业务毛利率": {
+    "label": "云计算及IT基础设施业务毛利率",
+    "value": 42.51,
+    "unit": "%",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"300454.SZ\"}}",
+    "raw_field": "MGJYXJJE / MLR * 100 (按业务拆分)",
+    "notes": "核心业务毛利率稳定在合理区间"
+  },
+  "深信服_2025年_网络安全业务主营收入": {
+    "label": "网络安全业务主营收入",
+    "value": 35.4,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SZ300454\"}}",
+    "raw_field": "主营构成: 网络安全业务主营收入",
+    "notes": ""
+  },
+  "深信服_2025年_网络安全业务收入占比": {
+    "label": "网络安全业务收入占比",
+    "value": 44.01,
+    "unit": "%",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SZ300454\"}}",
+    "raw_field": "主营构成: 网络安全业务收入比例",
+    "notes": ""
+  },
+  "深信服_2025年_网络安全业务主营成本": {
+    "label": "网络安全业务主营成本",
+    "value": 7.28,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SZ300454\"}}",
+    "raw_field": "主营构成: 网络安全业务主营成本",
+    "notes": ""
+  },
+  "深信服_2025年_网络安全业务毛利率": {
+    "label": "网络安全业务毛利率",
+    "value": 79.43,
+    "unit": "%",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"300454.SZ\"}}",
+    "raw_field": "MGJYXJJE / MLR * 100 (按业务拆分)",
+    "notes": "高毛利安全业务占比提升，盈利能力增强"
+  },
+  "深信服_2025年_基础网络和物联网业务主营收入": {
+    "label": "基础网络和物联网业务主营收入",
+    "value": 4.93,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SZ300454\"}}",
+    "raw_field": "主营构成: 基础网络和物联网业务主营收入",
+    "notes": ""
+  },
+  "深信服_2025年_基础网络和物联网业务收入占比": {
+    "label": "基础网络和物联网业务收入占比",
+    "value": 6.13,
+    "unit": "%",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SZ300454\"}}",
+    "raw_field": "主营构成: 基础网络和物联网业务收入比例",
+    "notes": ""
+  },
+  "深信服_2025年_基础网络和物联网业务毛利率": {
+    "label": "基础网络和物联网业务毛利率",
+    "value": 51.46,
+    "unit": "%",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SZ300454\"}}",
+    "raw_field": "主营构成: 基础网络和物联网业务毛利率",
+    "notes": ""
+  },
+  "深信服_2025Q4_大陆地区主营收入": {
+    "label": "大陆地区主营收入",
+    "value": 74.44,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SZ300454\"}}",
+    "raw_field": "主营构成: 大陆地区主营收入",
+    "notes": ""
+  },
+  "深信服_2025Q4_PEG": {
+    "label": "PEG",
+    "value": 1.01,
+    "unit": "倍",
+    "period": "2025Q4",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"300454.SZ\"}}",
+    "raw_field": "PEG",
+    "notes": "PEG略高于行业中值，但考虑盈利拐点仍具配置价值"
+  },
+  "深信服_2025Q4_市盈率-TTM": {
+    "label": "市盈率-TTM",
+    "value": 87.5,
+    "unit": "倍",
+    "period": "2025Q4",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"300454.SZ\"}}",
+    "raw_field": "PER_TOI",
+    "notes": "估值处于历史低位，具备修复空间"
+  },
+  "深信服_2025E_市盈率": {
+    "label": "市盈率-25E",
+    "value": 91.21,
+    "unit": "倍",
+    "period": "2025",
+    "source": "structured_data-{\"action\": \"get_peer_valuation\", \"params\": {\"symbol\": \"SZ300454\"}}",
+    "raw_field": "市盈率-25E",
+    "notes": ""
+  },
+  "深信服_2026E_市盈率": {
+    "label": "市盈率-26E",
+    "value": 69.48,
+    "unit": "倍",
+    "period": "2026",
+    "source": "structured_data-{\"action\": \"get_peer_valuation\", \"params\": {\"symbol\": \"SZ300454\"}}",
+    "raw_field": "市盈率-26E",
+    "notes": ""
+  },
+  "深信服_2027E_市盈率": {
+    "label": "市盈率-27E",
+    "value": 55.36,
+    "unit": "倍",
+    "period": "2027",
+    "source": "structured_data-{\"action\": \"get_peer_valuation\", \"params\": {\"symbol\": \"SZ300454\"}}",
+    "raw_field": "市盈率-27E",
+    "notes": ""
+  },
+  "深信服_2025Q4_市净率-MRQ": {
+    "label": "市净率-MRQ",
+    "value": 4.65,
+    "unit": "倍",
+    "period": "2025Q4",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"300454.SZ\"}}",
+    "raw_field": "BPSTZ",
+    "notes": "PB低于行业中值，估值吸引力显现"
+  },
+  "行业中值_PEG": {
+    "label": "行业中值 PEG",
+    "value": 0.66,
+    "unit": "倍",
+    "period": "",
+    "source": "structured_data-{\"action\": \"get_peer_valuation\", \"params\": {\"symbol\": \"SZ300454\"}}",
+    "raw_field": "PEG",
+    "notes": ""
+  },
+  "行业中值_市盈率-TTM": {
+    "label": "行业中值 市盈率-TTM",
+    "value": 32.79,
+    "unit": "倍",
+    "period": "",
+    "source": "structured_data-{\"action\": \"get_peer_valuation\", \"params\": {\"symbol\": \"SZ300454\"}}",
+    "raw_field": "市盈率-TTM",
+    "notes": ""
+  },
+  "行业中值_市盈率-25E": {
+    "label": "行业中值 市盈率-25E",
+    "value": 53.09,
+    "unit": "倍",
+    "period": "2025",
+    "source": "structured_data-{\"action\": \"get_peer_valuation\", \"params\": {\"symbol\": \"SZ300454\"}}",
+    "raw_field": "市盈率-25E",
+    "notes": ""
+  },
+  "行业中值_市盈率-26E": {
+    "label": "行业中值 市盈率-26E",
+    "value": 43.75,
+    "unit": "倍",
+    "period": "2026",
+    "source": "structured_data-{\"action\": \"get_peer_valuation\", \"params\": {\"symbol\": \"SZ300454\"}}",
+    "raw_field": "市盈率-26E",
+    "notes": ""
+  },
+  "行业中值_市盈率-27E": {
+    "label": "行业中值 市盈率-27E",
+    "value": 37.59,
+    "unit": "倍",
+    "period": "2027",
+    "source": "structured_data-{\"action\": \"get_peer_valuation\", \"params\": {\"symbol\": \"SZ300454\"}}",
+    "raw_field": "市盈率-27E",
+    "notes": ""
+  },
+  "行业中值_市净率-MRQ": {
+    "label": "行业中值 市净率-MRQ",
+    "value": 4.14,
+    "unit": "倍",
+    "period": "",
+    "source": "structured_data-{\"action\": \"get_peer_valuation\", \"params\": {\"symbol\": \"SZ300454\"}}",
+    "raw_field": "市净率-MRQ",
+    "notes": ""
+  },
+  "深信服_2026_EPS预测均值": {
+    "label": "2026年EPS预测均值",
+    "value": 1.29,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"300454.SZ\"}}",
+    "raw_field": "EPSJB_TZ",
+    "notes": "机构一致预期2026年EPS回升至1.29元"
+  },
+  "深信服_2027_EPS预测均值": {
+    "label": "2027年EPS预测均值",
+    "value": 1.69,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"300454.SZ\"}}",
+    "raw_field": "EPSJB_TZ",
+    "notes": "长期增长路径清晰，2027年EPS达1.69元"
+  },
+  "深信服_2028_EPS预测均值": {
+    "label": "2028年EPS预测均值",
+    "value": 2.12,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "structured_data-{\"action\": \"get_profit_forecast_eps\", \"params\": {\"symbol\": \"300454\"}}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "深信服_2026_EPS预测最大值": {
+    "label": "2026年EPS预测最大值",
+    "value": 1.52,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "structured_data-{\"action\": \"get_profit_forecast_eps\", \"params\": {\"symbol\": \"300454\"}}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "深信服_2026_EPS预测最小值": {
+    "label": "2026年EPS预测最小值",
+    "value": 1.0,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "structured_data-{\"action\": \"get_profit_forecast_eps\", \"params\": {\"symbol\": \"300454\"}}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "深信服_2027_EPS预测最大值": {
+    "label": "2027年EPS预测最大值",
+    "value": 2.2,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "structured_data-{\"action\": \"get_profit_forecast_eps\", \"params\": {\"symbol\": \"300454\"}}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "深信服_2027_EPS预测最小值": {
+    "label": "2027年EPS预测最小值",
+    "value": 1.22,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "structured_data-{\"action\": \"get_profit_forecast_eps\", \"params\": {\"symbol\": \"300454\"}}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "深信服_2028_EPS预测最大值": {
+    "label": "2028年EPS预测最大值",
+    "value": 2.52,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "structured_data-{\"action\": \"get_profit_forecast_eps\", \"params\": {\"symbol\": \"300454\"}}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "深信服_2028_EPS预测最小值": {
+    "label": "2028年EPS预测最小值",
+    "value": 1.41,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "structured_data-{\"action\": \"get_profit_forecast_eps\", \"params\": {\"symbol\": \"300454\"}}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "深信服_2026_预测机构数": {
+    "label": "2026年盈利预测覆盖机构数量",
+    "value": 15,
+    "unit": "家",
+    "period": "2026",
+    "source": "structured_data-{\"action\": \"get_profit_forecast_eps\", \"params\": {\"symbol\": \"300454\"}}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "深信服_2027_预测机构数": {
+    "label": "2027年盈利预测覆盖机构数量",
+    "value": 15,
+    "unit": "家",
+    "period": "2027",
+    "source": "structured_data-{\"action\": \"get_profit_forecast_eps\", \"params\": {\"symbol\": \"300454\"}}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "深信服_2028_预测机构数": {
+    "label": "2028年盈利预测覆盖机构数量",
+    "value": 12,
+    "unit": "家",
+    "period": "2028",
+    "source": "structured_data-{\"action\": \"get_profit_forecast_eps\", \"params\": {\"symbol\": \"300454\"}}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "深信服_2019年_年度分红": {
+    "label": "年度分红",
+    "value": 1.5,
+    "unit": "元/股",
+    "period": "2019年",
+    "source": "structured_data-{\"action\": \"get_dividend_history_cninfo\", \"params\": {\"symbol\": \"300454\"}}",
+    "raw_field": "派息比例",
+    "notes": "10派1.5元(含税)"
+  },
+  "深信服_2020年_年度分红": {
+    "label": "年度分红",
+    "value": 1.9,
+    "unit": "元/股",
+    "period": "2020年",
+    "source": "structured_data-{\"action\": \"get_dividend_history_cninfo\", \"params\": {\"symbol\": \"300454\"}}",
+    "raw_field": "派息比例",
+    "notes": "10派1.9元(含税)"
+  },
+  "深信服_2021年_年度分红": {
+    "label": "年度分红",
+    "value": 2.0,
+    "unit": "元/股",
+    "period": "2021年",
+    "source": "structured_data-{\"action\": \"get_dividend_history_cninfo\", \"params\": {\"symbol\": \"300454\"}}",
+    "raw_field": "派息比例",
+    "notes": "10派2元(含税)"
+  },
+  "深信服_2022年_年度分红": {
+    "label": "年度分红",
+    "value": 0.7,
+    "unit": "元/股",
+    "period": "2022年",
+    "source": "structured_data-{\"action\": \"get_dividend_history_cninfo\", \"params\": {\"symbol\": \"300454\"}}",
+    "raw_field": "派息比例",
+    "notes": "10派0.7元(含税)"
+  },
+  "深信服_2023年_年度分红": {
+    "label": "年度分红",
+    "value": 0.5,
+    "unit": "元/股",
+    "period": "2023年",
+    "source": "structured_data-{\"action\": \"get_dividend_history_cninfo\", \"params\": {\"symbol\": \"300454\"}}",
+    "raw_field": "派息比例",
+    "notes": "10派0.5元(含税)"
+  },
+  "深信服_2025Q4_经营活动现金流量净额同比增速": {
+    "label": "经营活动现金流同比增速",
+    "value": 65.29,
+    "unit": "%",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_financial_indicators_em\", \"params\": {\"symbol\": \"300454.SZ\"}}",
+    "raw_field": "NETCASH_OPERATE_YOY",
+    "notes": "现金流大幅增长，经营质量显著改善"
+  }
+}

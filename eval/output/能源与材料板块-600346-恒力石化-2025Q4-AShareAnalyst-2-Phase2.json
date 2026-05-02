@@ -1,0 +1,1559 @@
+{
+  "恒力石化_2025Q4_营业总收入": {
+    "label": "营业总收入",
+    "value": 436.2,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2025Q4_营业收入（主营业务）": {
+    "label": "营业收入（主营业务）",
+    "value": 436.02,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2025Q4_营业成本": {
+    "label": "营业成本",
+    "value": 383.61,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2025Q4_营业税金及附加": {
+    "label": "营业税金及附加",
+    "value": 5.27,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2025Q4_销售费用": {
+    "label": "销售费用",
+    "value": 0.52,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2025Q4_管理费用": {
+    "label": "管理费用",
+    "value": 8.09,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2025Q4_财务费用": {
+    "label": "财务费用",
+    "value": 8.65,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2025Q4_营业利润": {
+    "label": "营业利润",
+    "value": 26.53,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2025Q4_利润总额": {
+    "label": "利润总额",
+    "value": 27.53,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2025Q4_所得税费用": {
+    "label": "所得税费用",
+    "value": 7.02,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2025Q4_净利润（含少数股东）": {
+    "label": "净利润（含少数股东）",
+    "value": 20.51,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2025Q4_归母净利润": {
+    "label": "归母净利润",
+    "value": 20.52,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "",
+    "raw_field": "归母净利润",
+    "notes": ""
+  },
+  "恒力石化_2025Q4_扣非归母净利润": {
+    "label": "扣非归母净利润",
+    "value": 17.64,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "",
+    "raw_field": "扣非归母净利润",
+    "notes": ""
+  },
+  "恒力石化_2025Q4_少数股东损益": {
+    "label": "少数股东损益",
+    "value": -0.01,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2025Q4_基本每股收益": {
+    "label": "基本每股收益",
+    "value": 0.3,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2025Q4_稀释每股收益": {
+    "label": "稀释每股收益",
+    "value": 0.3,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2025年_营业总收入": {
+    "label": "营业总收入",
+    "value": 2010.87,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业总收入",
+    "notes": ""
+  },
+  "恒力石化_2025年_营业收入（主营业务）": {
+    "label": "营业收入（主营业务）",
+    "value": 2009.86,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业收入（主营业务）",
+    "notes": ""
+  },
+  "恒力石化_2025年_营业成本": {
+    "label": "营业成本",
+    "value": 1745.68,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业成本",
+    "notes": ""
+  },
+  "恒力石化_2025年_营业税金及附加": {
+    "label": "营业税金及附加",
+    "value": 89.69,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业税金及附加",
+    "notes": ""
+  },
+  "恒力石化_2025年_销售费用": {
+    "label": "销售费用",
+    "value": 2.91,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "销售费用",
+    "notes": ""
+  },
+  "恒力石化_2025年_管理费用": {
+    "label": "管理费用",
+    "value": 24.96,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "管理费用",
+    "notes": ""
+  },
+  "恒力石化_2025年_财务费用": {
+    "label": "财务费用",
+    "value": 43.83,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "财务费用",
+    "notes": ""
+  },
+  "恒力石化_2025年_营业利润": {
+    "label": "营业利润",
+    "value": 93.08,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业利润",
+    "notes": ""
+  },
+  "恒力石化_2025年_利润总额": {
+    "label": "利润总额",
+    "value": 94.2,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "利润总额",
+    "notes": ""
+  },
+  "恒力石化_2025年_所得税费用": {
+    "label": "所得税费用",
+    "value": 23.46,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "所得税费用",
+    "notes": ""
+  },
+  "恒力石化_2025年_净利润（含少数股东）": {
+    "label": "净利润（含少数股东）",
+    "value": 70.74,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "净利润（含少数股东）",
+    "notes": ""
+  },
+  "恒力石化_2025年_归母净利润": {
+    "label": "归母净利润",
+    "value": 70.75,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "归母净利润",
+    "notes": ""
+  },
+  "恒力石化_2025年_扣非归母净利润": {
+    "label": "扣非归母净利润",
+    "value": 59.49,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "扣非归母净利润",
+    "notes": ""
+  },
+  "恒力石化_2025年_少数股东损益": {
+    "label": "少数股东损益",
+    "value": -0.0,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "少数股东损益",
+    "notes": ""
+  },
+  "恒力石化_2025年_基本每股收益": {
+    "label": "基本每股收益",
+    "value": 1.01,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "基本每股收益 [每股值，单位元/股，勿除1e8]",
+    "notes": ""
+  },
+  "恒力石化_2025年_稀释每股收益": {
+    "label": "稀释每股收益",
+    "value": 1.01,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "稀释每股收益 [每股值，单位元/股，勿除1e8]",
+    "notes": ""
+  },
+  "恒力石化_2025Q4_总资产": {
+    "label": "总资产",
+    "value": 2622.59,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "总资产",
+    "notes": ""
+  },
+  "恒力石化_2025Q4_总负债": {
+    "label": "总负债",
+    "value": 1954.68,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "总负债",
+    "notes": ""
+  },
+  "恒力石化_2025Q4_股东权益合计": {
+    "label": "股东权益合计",
+    "value": 667.91,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "股东权益合计",
+    "notes": ""
+  },
+  "恒力石化_2025Q4_货币资金": {
+    "label": "货币资金",
+    "value": 294.53,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "货币资金（银行存款等狭义现金，不含短期理财）",
+    "notes": ""
+  },
+  "恒力石化_2025Q4_应收账款": {
+    "label": "应收账款",
+    "value": 6.42,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "应收账款",
+    "notes": ""
+  },
+  "恒力石化_2025Q4_存货": {
+    "label": "存货",
+    "value": 237.12,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "存货",
+    "notes": ""
+  },
+  "恒力石化_2025Q4_固定资产": {
+    "label": "固定资产",
+    "value": 1486.3,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "固定资产",
+    "notes": ""
+  },
+  "恒力石化_2025Q4_无形资产": {
+    "label": "无形资产",
+    "value": 89.11,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "无形资产",
+    "notes": ""
+  },
+  "恒力石化_2025Q4_合同负债": {
+    "label": "合同负债",
+    "value": 102.8,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "合同负债（预收款项）",
+    "notes": ""
+  },
+  "恒力石化_2025Q4_应交税费": {
+    "label": "应交税费",
+    "value": 20.35,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "应交税费",
+    "notes": ""
+  },
+  "恒力石化_2025Q4_应付职工薪酬": {
+    "label": "应付职工薪酬",
+    "value": 4.65,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "应付职工薪酬",
+    "notes": ""
+  },
+  "恒力石化_2025Q4_预付款项": {
+    "label": "预付款项",
+    "value": 14.23,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "预付款项",
+    "notes": ""
+  },
+  "恒力石化_2025Q4_销售商品/提供劳务收到的现金": {
+    "label": "销售商品/提供劳务收到的现金",
+    "value": 557.85,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2025Q4_经营活动现金流入合计": {
+    "label": "经营活动现金流入合计",
+    "value": 533.19,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2025Q4_经营活动现金流出合计": {
+    "label": "经营活动现金流出合计",
+    "value": 423.31,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2025Q4_经营活动现金流量净额": {
+    "label": "经营活动现金流量净额",
+    "value": 109.87,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": "[总量，非每股！]"
+  },
+  "恒力石化_2025Q4_支付的税款": {
+    "label": "支付的税款",
+    "value": 15.51,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2025Q4_投资活动现金流量净额": {
+    "label": "投资活动现金流量净额",
+    "value": -13.21,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2025Q4_投资支付的现金": {
+    "label": "投资支付的现金",
+    "value": 361.72,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2025Q4_收回投资收到的现金": {
+    "label": "收回投资收到的现金",
+    "value": 370.78,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2025Q4_分红/偿债支付的现金": {
+    "label": "分红/偿债支付的现金",
+    "value": 7.51,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2025Q4_筹资活动现金流量净额": {
+    "label": "筹资活动现金流量净额",
+    "value": -153.32,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2025Q4_现金及现金等价物净增加额": {
+    "label": "现金及现金等价物净增加额",
+    "value": -56.7,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2025Q4_期初现金及等价物余额": {
+    "label": "期初现金及等价物余额（含货币基金，广义口径）",
+    "value": 287.87,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2025Q4_期末现金及等价物余额": {
+    "label": "期末现金及等价物余额（含货币基金，广义口径）",
+    "value": 231.17,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2025年_销售商品收到现金": {
+    "label": "销售商品/提供劳务收到的现金",
+    "value": 2344.67,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "销售商品/提供劳务收到的现金",
+    "notes": ""
+  },
+  "恒力石化_2025年_经营活动现金流入合计": {
+    "label": "经营活动现金流入合计",
+    "value": 2427.38,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "经营活动现金流入合计",
+    "notes": ""
+  },
+  "恒力石化_2025年_经营活动现金流出合计": {
+    "label": "经营活动现金流出合计",
+    "value": 2116.16,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "经营活动现金流出合计",
+    "notes": ""
+  },
+  "恒力石化_2025年_经营活动现金流量净额": {
+    "label": "经营活动现金流量净额 [总量，非每股！]",
+    "value": 311.22,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "经营活动现金流量净额 [总量，非每股！]",
+    "notes": "[注意]这是累计年度数据"
+  },
+  "恒力石化_2025年_支付的税款": {
+    "label": "支付的税款",
+    "value": 131.28,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "支付的税款",
+    "notes": ""
+  },
+  "恒力石化_2025年_投资活动现金流量净额": {
+    "label": "投资活动现金流量净额",
+    "value": -91.49,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "投资活动现金流量净额",
+    "notes": ""
+  },
+  "恒力石化_2025年_投资支付的现金": {
+    "label": "投资支付的现金",
+    "value": 456.0,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "投资支付的现金",
+    "notes": ""
+  },
+  "恒力石化_2025年_收回投资收到的现金": {
+    "label": "收回投资收到的现金",
+    "value": 446.55,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "收回投资收到的现金",
+    "notes": ""
+  },
+  "恒力石化_2025年_分红偿债支付现金": {
+    "label": "分红/偿债支付的现金",
+    "value": 83.53,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "分红/偿债支付的现金",
+    "notes": ""
+  },
+  "恒力石化_2025年_筹资活动现金流量净额": {
+    "label": "筹资活动现金流量净额",
+    "value": -233.23,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "筹资活动现金流量净额",
+    "notes": ""
+  },
+  "恒力石化_2025年_现金及现金等价物净增加额": {
+    "label": "现金及现金等价物净增加额",
+    "value": -14.29,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "现金及现金等价物净增加额",
+    "notes": ""
+  },
+  "恒力石化_2025年_期初现金及等价物余额": {
+    "label": "期初现金及等价物余额（含货币基金，广义口径）",
+    "value": 245.46,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "期初现金及等价物余额（含货币基金，广义口径）",
+    "notes": ""
+  },
+  "恒力石化_2025年_期末现金及等价物余额": {
+    "label": "期末现金及等价物余额（含货币基金，广义口径）",
+    "value": 231.17,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "期末现金及等价物余额（含货币基金，广义口径）",
+    "notes": ""
+  },
+  "恒力石化_2025年_销售商品收到现金同比增速": {
+    "label": "销售商品收到现金同比增速",
+    "value": -15.42,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "销售商品收到现金同比增速",
+    "notes": ""
+  },
+  "恒力石化_2025年_经营活动现金流同比增速": {
+    "label": "经营活动现金流同比增速",
+    "value": 36.9,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"恒力石化 2025Q4 年报 经营分析 亮点\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2025年_投资活动现金流同比增速": {
+    "label": "投资活动现金流同比增速",
+    "value": 56.23,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"恒力石化 2025Q4 年报 经营分析 亮点\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2025年_筹资活动现金流同比增速": {
+    "label": "筹资活动现金流同比增速",
+    "value": -398.35,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"恒力石化 2025Q4 年报 经营分析 亮点\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2025年_基本每股收益（EPS）": {
+    "label": "基本每股收益（EPS）",
+    "value": 1.01,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "基本每股收益（EPS）[每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "恒力石化_2025年_每股净资产": {
+    "label": "每股净资产",
+    "value": 9.49,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "每股净资产 [每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "恒力石化_2025年_营业总收入全年同比增速": {
+    "label": "营业总收入全年同比增速",
+    "value": -14.94,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "营业总收入全年同比增速（累计）",
+    "notes": ""
+  },
+  "恒力石化_2025年_归母净利润全年同比增速": {
+    "label": "归母净利润全年同比增速",
+    "value": 0.44,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "归母净利润全年同比增速（累计）",
+    "notes": ""
+  },
+  "恒力石化_2025Q4_毛利润": {
+    "label": "毛利润",
+    "value": 52.41,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2025Q4_基本每股收益（EPS）": {
+    "label": "基本每股收益（EPS）",
+    "value": 0.3,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2025Q4_每股净资产": {
+    "label": "每股净资产",
+    "value": 9.49,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2025Q4_每股经营现金流": {
+    "label": "每股经营现金流",
+    "value": 1.56,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "",
+    "raw_field": "每股经营现金流",
+    "notes": "经营现金流总额在现金流量表中"
+  },
+  "恒力石化_2025Q4_每股未分配利润": {
+    "label": "每股未分配利润",
+    "value": 5.61,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2025Q4_销售毛利率": {
+    "label": "销售毛利率",
+    "value": 12.02,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "",
+    "raw_field": "销售毛利率",
+    "notes": ""
+  },
+  "恒力石化_2025Q4_销售净利率": {
+    "label": "销售净利率",
+    "value": 4.7,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "",
+    "raw_field": "销售净利率",
+    "notes": ""
+  },
+  "恒力石化_2025Q4_净资产收益率（稀释）": {
+    "label": "净资产收益率（稀释）",
+    "value": 3.12,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "",
+    "raw_field": "净资产收益率（稀释）",
+    "notes": ""
+  },
+  "恒力石化_2025Q4_总资产净利率（ROA）": {
+    "label": "总资产净利率（ROA）",
+    "value": 0.76,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2025Q4_营业总收入同比增速": {
+    "label": "营业总收入同比增速",
+    "value": -25.49,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2025Q4_归母净利润同比增速": {
+    "label": "归母净利润同比增速",
+    "value": 5.83,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2025Q4_扣非归母净利润同比增速": {
+    "label": "扣非归母净利润同比增速",
+    "value": 202.86,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2025年_石油化工行业主营收入": {
+    "label": "石油化工行业主营收入",
+    "value": 1914.83,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SH600346\"}}",
+    "raw_field": "主营收入",
+    "notes": "按行业分类的石油化工板块核心业务收入"
+  },
+  "恒力石化_2025年_石油化工行业收入占比": {
+    "label": "石油化工行业收入占比",
+    "value": 95.27,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "收入占比",
+    "notes": ""
+  },
+  "恒力石化_2025年_石油化工行业主营成本": {
+    "label": "石油化工行业主营成本",
+    "value": 1660.59,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "主营成本 [总量]",
+    "notes": ""
+  },
+  "恒力石化_2025年_石油化工行业毛利率": {
+    "label": "石油化工行业毛利率",
+    "value": 13.28,
+    "unit": "%",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SH600346\"}}",
+    "raw_field": "毛利率",
+    "notes": "石油化工板块整体盈利能力"
+  },
+  "恒力石化_2025年_其他行业主营收入": {
+    "label": "其他行业主营收入",
+    "value": 71.87,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "主营收入 [总量]",
+    "notes": ""
+  },
+  "恒力石化_2025年_其他行业收入占比": {
+    "label": "其他行业收入占比",
+    "value": 3.58,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "收入占比",
+    "notes": ""
+  },
+  "恒力石化_2025年_其他行业主营成本": {
+    "label": "其他行业主营成本",
+    "value": 65.63,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "主营成本 [总量]",
+    "notes": ""
+  },
+  "恒力石化_2025年_其他行业毛利率": {
+    "label": "其他行业毛利率",
+    "value": 8.68,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "毛利率",
+    "notes": ""
+  },
+  "恒力石化__PEG": {
+    "label": "PEG",
+    "value": 0.28,
+    "unit": "%",
+    "period": "",
+    "source": "realtime_search-{\"query\": \"恒力石化 2025Q4 年报 经营分析 亮点\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化__市盈率-TTM": {
+    "label": "市盈率-TTM",
+    "value": 48.56,
+    "unit": "倍",
+    "period": "",
+    "source": "realtime_search-{\"query\": \"恒力石化 2025Q4 年报 经营分析 亮点\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化__市盈率-25E": {
+    "label": "市盈率-25E",
+    "value": 14.7,
+    "unit": "倍",
+    "period": "2025",
+    "source": "realtime_search-{\"query\": \"恒力石化 2025Q4 年报 经营分析 亮点\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化__市盈率-26E": {
+    "label": "市盈率-26E",
+    "value": 11.62,
+    "unit": "倍",
+    "period": "2026",
+    "source": "realtime_search-{\"query\": \"恒力石化 2025Q4 年报 经营分析 亮点\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化__市盈率-27E": {
+    "label": "市盈率-27E",
+    "value": 8.95,
+    "unit": "倍",
+    "period": "2027",
+    "source": "realtime_search-{\"query\": \"恒力石化 2025Q4 年报 经营分析 亮点\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化__市净率-MRQ": {
+    "label": "市净率-MRQ",
+    "value": 1.77,
+    "unit": "倍",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化__ROE-3年平均_行业中值": {
+    "label": "ROE-3年平均_行业中值",
+    "value": 1.23,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化__ROE-24A_行业中值": {
+    "label": "ROE-24A_行业中值",
+    "value": 1.23,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化__净利率-3年平均_行业中值": {
+    "label": "净利率-3年平均_行业中值",
+    "value": 0.48,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化__净利率-24A_行业中值": {
+    "label": "净利率-24A_行业中值",
+    "value": 0.4,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化__ROE-3年平均_行业平均": {
+    "label": "ROE-3年平均_行业平均",
+    "value": -1.3,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化__ROE-24A_行业平均": {
+    "label": "ROE-24A_行业平均",
+    "value": -1.32,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化__净利率-3年平均_行业平均": {
+    "label": "净利率-3年平均_行业平均",
+    "value": 0.29,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化__净利率-24A_行业平均": {
+    "label": "净利率-24A_行业平均",
+    "value": 0.82,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2026_预测每股收益": {
+    "label": "预测每股收益",
+    "value": 1.58,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "恒力石化_2027_预测每股收益": {
+    "label": "预测每股收益",
+    "value": 1.83,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "恒力石化_2028_预测每股收益": {
+    "label": "预测每股收益",
+    "value": 2.25,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "恒力石化_2026_归母净利润预测最小值": {
+    "label": "归母净利润预测最小值",
+    "value": 75.48,
+    "unit": "亿元",
+    "period": "2026",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2026_归母净利润预测均值": {
+    "label": "归母净利润预测均值",
+    "value": 111.33,
+    "unit": "亿元",
+    "period": "2026",
+    "source": "structured_data-{\"action\": \"get_profit_forecast_eps\", \"params\": {\"symbol\": \"600346\"}}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2026_归母净利润预测最大值": {
+    "label": "归母净利润预测最大值",
+    "value": 149.73,
+    "unit": "亿元",
+    "period": "2026",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2027_归母净利润预测最小值": {
+    "label": "归母净利润预测最小值",
+    "value": 90.44,
+    "unit": "亿元",
+    "period": "2027",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2027_归母净利润预测均值": {
+    "label": "归母净利润预测均值",
+    "value": 129.16,
+    "unit": "亿元",
+    "period": "2027",
+    "source": "structured_data-{\"action\": \"get_profit_forecast_eps\", \"params\": {\"symbol\": \"600346\"}}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2027_归母净利润预测最大值": {
+    "label": "归母净利润预测最大值",
+    "value": 167.61,
+    "unit": "亿元",
+    "period": "2027",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2028_归母净利润预测最小值": {
+    "label": "归母净利润预测最小值",
+    "value": 114.37,
+    "unit": "亿元",
+    "period": "2028",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2028_归母净利润预测均值": {
+    "label": "归母净利润预测均值",
+    "value": 158.19,
+    "unit": "亿元",
+    "period": "2028",
+    "source": "structured_data-{\"action\": \"get_profit_forecast_eps\", \"params\": {\"symbol\": \"600346\"}}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2028_归母净利润预测最大值": {
+    "label": "归母净利润预测最大值",
+    "value": 228.19,
+    "unit": "亿元",
+    "period": "2028",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2025年_年度分红": {
+    "label": "每10股派4.5元",
+    "value": 4.5,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"恒力石化 2025Q4 年报 经营分析 亮点\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2025年中部分红": {
+    "label": "每10股派0.8元",
+    "value": 0.8,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"恒力石化 2025Q4 年报 经营分析 亮点\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2025Q4_税金及附加率": {
+    "label": "税金及附加率",
+    "value": 1.21,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "营业税金及附加 / 营业总收入"
+  },
+  "恒力石化_2025Q4_销售费用率": {
+    "label": "销售费用率",
+    "value": 0.12,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "销售费用 / 营业总收入"
+  },
+  "恒力石化_2025Q4_管理费用率": {
+    "label": "管理费用率",
+    "value": 1.85,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "管理费用 / 营业总收入"
+  },
+  "恒力石化_2025年_税金及附加率": {
+    "label": "税金及附加率",
+    "value": 4.46,
+    "unit": "%",
+    "period": "2025年",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "营业税金及附加 / 营业总收入"
+  },
+  "恒力石化_2025年_销售费用率": {
+    "label": "销售费用率",
+    "value": 0.14,
+    "unit": "%",
+    "period": "2025年",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "销售费用 / 营业总收入"
+  },
+  "恒力石化_2025年_管理费用率": {
+    "label": "管理费用率",
+    "value": 1.24,
+    "unit": "%",
+    "period": "2025年",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "管理费用 / 营业总收入"
+  },
+  "恒力石化_2025年_归母净利润同比增速": {
+    "label": "归母净利润全年同比增速",
+    "value": 0.44,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"恒力石化 2025Q4 年报 经营分析 亮点\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2025年_营业总收入同比增速": {
+    "label": "营业总收入全年同比增速",
+    "value": -14.94,
+    "unit": "%",
+    "period": "2025年",
+    "source": "realtime_search-{\"query\": \"恒力石化 2025Q4 年报 经营分析 亮点\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2025年_PTA主营收入": {
+    "label": "PTA主营收入",
+    "value": 572.26,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SH600346\"}}",
+    "raw_field": "主营收入",
+    "notes": "按产品分类的PTA业务收入"
+  },
+  "恒力石化_2025年_聚酯产品主营收入": {
+    "label": "聚酯产品主营收入",
+    "value": 399.76,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SH600346\"}}",
+    "raw_field": "主营收入",
+    "notes": "按产品分类的聚酯业务收入"
+  },
+  "恒力石化_2025年_炼化产品主营收入": {
+    "label": "炼化产品主营收入",
+    "value": 942.81,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SH600346\"}}",
+    "raw_field": "主营收入",
+    "notes": "按产品分类的炼化业务收入，占比最高"
+  },
+  "恒力石化_2025年_境内主营收入": {
+    "label": "境内主营收入",
+    "value": 1831.54,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SH600346\"}}",
+    "raw_field": "主营收入",
+    "notes": "按地区分类的国内业务收入"
+  },
+  "恒力石化_2025年_境外主营收入": {
+    "label": "境外主营收入",
+    "value": 178.32,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SH600346\"}}",
+    "raw_field": "主营收入",
+    "notes": "按地区分类的国际业务收入"
+  },
+  "恒力石化_2025年_PTA毛利率": {
+    "label": "PTA毛利率",
+    "value": 4.83,
+    "unit": "%",
+    "period": "2025年",
+    "source": "financial_calculator-{\"expression\": \"PTA毛利率 - 石油化工行业毛利率\", \"variables\": {\"PTA毛利率\": 4.83, \"石油化工行业毛利率\": 13.28}, \"description\": \"计算PTA毛利率与行业平均差异\"...}",
+    "raw_field": "PTA毛利率",
+    "notes": "PTA业务盈利水平较低"
+  },
+  "恒力石化_2025年_聚酯产品毛利率": {
+    "label": "聚酯产品毛利率",
+    "value": 7.35,
+    "unit": "%",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SH600346\"}}",
+    "raw_field": "毛利率",
+    "notes": "聚酯业务盈利能力一般"
+  },
+  "恒力石化_2025年_炼化产品毛利率": {
+    "label": "炼化产品毛利率",
+    "value": 20.91,
+    "unit": "%",
+    "period": "2025年",
+    "source": "",
+    "raw_field": "炼化产品毛利率",
+    "notes": "恒力石化炼化板块盈利能力突出，毛利率达20.91%"
+  },
+  "恒力石化_2025年_境内主营利润": {
+    "label": "境内主营利润",
+    "value": 261.68,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SH600346\"}}",
+    "raw_field": "主营利润",
+    "notes": "国内业务产生的毛利贡献"
+  },
+  "恒力石化_2025年_境外主营利润": {
+    "label": "境外主营利润",
+    "value": 2.5,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "structured_data-{\"action\": \"get_main_business_breakdown\", \"params\": {\"symbol\": \"SH600346\"}}",
+    "raw_field": "主营利润",
+    "notes": "国际业务利润贡献较小"
+  },
+  "恒力石化_2025Q4_ROE-3年平均排名": {
+    "label": "ROE-3年平均行业排名",
+    "value": 1.0,
+    "unit": "",
+    "period": "2025Q4",
+    "source": "structured_data-{\"action\": \"get_peer_dupont\", \"params\": {\"symbol\": \"SH600346\"}}",
+    "raw_field": "ROE-3年平均排名",
+    "notes": "恒力石化在行业中ROE三年平均排名第一"
+  },
+  "恒力石化_2024A_ROE": {
+    "label": "净资产收益率（ROE）",
+    "value": 10.87,
+    "unit": "%",
+    "period": "2024A",
+    "source": "structured_data-{\"action\": \"get_peer_dupont\", \"params\": {\"symbol\": \"SH600346\"}}",
+    "raw_field": "ROE-24A",
+    "notes": "2024年年度ROE数据"
+  },
+  "恒力石化_2023A_ROE": {
+    "label": "净资产收益率（ROE）",
+    "value": 11.42,
+    "unit": "%",
+    "period": "2023A",
+    "source": "structured_data-{\"action\": \"get_peer_dupont\", \"params\": {\"symbol\": \"SH600346\"}}",
+    "raw_field": "ROE-23A",
+    "notes": "2023年年度ROE数据"
+  },
+  "恒力石化_2022A_ROE": {
+    "label": "净资产收益率（ROE）",
+    "value": 12.24,
+    "unit": "%",
+    "period": "2022A",
+    "source": "structured_data-{\"action\": \"get_peer_dupont\", \"params\": {\"symbol\": \"SH600346\"}}",
+    "raw_field": "ROE-22A",
+    "notes": "2022年年度ROE数据"
+  },
+  "恒力石化_2024A_净利率": {
+    "label": "销售净利率",
+    "value": 3.52,
+    "unit": "%",
+    "period": "2024A",
+    "source": "structured_data-{\"action\": \"get_peer_dupont\", \"params\": {\"symbol\": \"SH600346\"}}",
+    "raw_field": "净利率-24A",
+    "notes": "2024年年度净利率数据"
+  },
+  "恒力石化_2023A_净利率": {
+    "label": "销售净利率",
+    "value": 2.99,
+    "unit": "%",
+    "period": "2023A",
+    "source": "structured_data-{\"action\": \"get_peer_dupont\", \"params\": {\"symbol\": \"SH600346\"}}",
+    "raw_field": "净利率-23A",
+    "notes": "2023年年度净利率数据"
+  },
+  "恒力石化_2022A_净利率": {
+    "label": "销售净利率",
+    "value": 2.94,
+    "unit": "%",
+    "period": "2022A",
+    "source": "structured_data-{\"action\": \"get_peer_dupont\", \"params\": {\"symbol\": \"SH600346\"}}",
+    "raw_field": "净利率-22A",
+    "notes": "2022年年度净利率数据"
+  },
+  "广汇能源_2024A_ROE": {
+    "label": "净资产收益率（ROE）",
+    "value": 5.26,
+    "unit": "%",
+    "period": "2024A",
+    "source": "structured_data-{\"action\": \"get_peer_dupont\", \"params\": {\"symbol\": \"SH600346\"}}",
+    "raw_field": "ROE-24A",
+    "notes": "竞争对手广汇能源2024年ROE"
+  },
+  "广汇能源_2023A_ROE": {
+    "label": "净资产收益率（ROE）",
+    "value": 10.57,
+    "unit": "%",
+    "period": "2023A",
+    "source": "structured_data-{\"action\": \"get_peer_dupont\", \"params\": {\"symbol\": \"SH600346\"}}",
+    "raw_field": "ROE-23A",
+    "notes": "竞争对手广汇能源2023年ROE"
+  },
+  "广汇能源_2024A_净利率": {
+    "label": "销售净利率",
+    "value": 3.96,
+    "unit": "%",
+    "period": "2024A",
+    "source": "structured_data-{\"action\": \"get_peer_dupont\", \"params\": {\"symbol\": \"SH600346\"}}",
+    "raw_field": "净利率-24A",
+    "notes": "竞争对手广汇能源2024年净利率"
+  },
+  "中国石油_2024A_ROE": {
+    "label": "净资产收益率（ROE）",
+    "value": 10.04,
+    "unit": "%",
+    "period": "2024A",
+    "source": "structured_data-{\"action\": \"get_peer_dupont\", \"params\": {\"symbol\": \"SH600346\"}}",
+    "raw_field": "ROE-24A",
+    "notes": "竞争对手中国石油2024年ROE"
+  },
+  "润贝航科_2024A_ROE": {
+    "label": "净资产收益率（ROE）",
+    "value": 14.7,
+    "unit": "%",
+    "period": "2024A",
+    "source": "structured_data-{\"action\": \"get_peer_dupont\", \"params\": {\"symbol\": \"SH600346\"}}",
+    "raw_field": "ROE-24A",
+    "notes": "竞争对手润贝航科2024年ROE"
+  },
+  "恒力石化_2026_EPS预测均值": {
+    "label": "预测每股收益",
+    "value": 1.58,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "",
+    "raw_field": "恒力石化_2026_EPS预测均值",
+    "notes": ""
+  },
+  "恒力石化_2027_EPS预测均值": {
+    "label": "预测每股收益",
+    "value": 1.83,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "structured_data-{\"action\": \"get_profit_forecast_eps\", \"params\": {\"symbol\": \"600346\"}}",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "恒力石化_2028_EPS预测均值": {
+    "label": "预测每股收益",
+    "value": 2.25,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "structured_data-{\"action\": \"get_profit_forecast_eps\", \"params\": {\"symbol\": \"600346\"}}",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "恒力石化_2026_EPS预测最大值": {
+    "label": "预测每股收益",
+    "value": 2.13,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "structured_data-{\"action\": \"get_profit_forecast_eps\", \"params\": {\"symbol\": \"600346\"}}",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "恒力石化_2027_EPS预测最大值": {
+    "label": "预测每股收益",
+    "value": 2.38,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "structured_data-{\"action\": \"get_profit_forecast_eps\", \"params\": {\"symbol\": \"600346\"}}",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "恒力石化_2028_EPS预测最大值": {
+    "label": "预测每股收益",
+    "value": 3.24,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "structured_data-{\"action\": \"get_profit_forecast_eps\", \"params\": {\"symbol\": \"600346\"}}",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "恒力石化_2026_EPS预测最小值": {
+    "label": "预测每股收益",
+    "value": 1.07,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "structured_data-{\"action\": \"get_profit_forecast_eps\", \"params\": {\"symbol\": \"600346\"}}",
+    "raw_field": "最小值",
+    "notes": ""
+  },
+  "恒力石化_2027_EPS预测最小值": {
+    "label": "预测每股收益",
+    "value": 1.28,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "structured_data-{\"action\": \"get_profit_forecast_eps\", \"params\": {\"symbol\": \"600346\"}}",
+    "raw_field": "最小值",
+    "notes": ""
+  },
+  "恒力石化_2028_EPS预测最小值": {
+    "label": "预测每股收益",
+    "value": 1.62,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "structured_data-{\"action\": \"get_profit_forecast_eps\", \"params\": {\"symbol\": \"600346\"}}",
+    "raw_field": "最小值",
+    "notes": ""
+  },
+  "恒力石化_2025年_炼化产品与PTA毛利率差异百分比": {
+    "label": "炼化产品与PTA毛利率差异百分比",
+    "value": 332.92,
+    "unit": "%",
+    "period": "2025年",
+    "source": "",
+    "raw_field": "炼化产品与PTA毛利率差异百分比",
+    "notes": ""
+  },
+  "恒力石化_2025年_PTA主营收入占比": {
+    "label": "PTA主营收入占石油化工行业主营收入比重",
+    "value": 29.89,
+    "unit": "%",
+    "period": "2025年",
+    "source": "",
+    "raw_field": "PTA主营收入占比",
+    "notes": ""
+  },
+  "恒力石化_2025年_炼化产品主营收入占比": {
+    "label": "炼化产品主营收入占石油化工行业主营收入比重",
+    "value": 49.24,
+    "unit": "%",
+    "period": "2025年",
+    "source": "",
+    "raw_field": "炼化产品主营收入占比",
+    "notes": ""
+  },
+  "恒力石化_2025年_炼化产品主营利润占比": {
+    "label": "炼化产品主营利润占境内主营利润比重",
+    "value": 74.99,
+    "unit": "%",
+    "period": "2025年",
+    "source": "financial_calculator-{\"expression\": \"炼化产品主营利润 / 境内主营利润 * 100\", \"variables\": {\"炼化产品主营利润\": 196.237, \"境内主营利润\": 261.6752}, \"description\": \"计算炼化产品主营利润占境内主营利润比重\"}",
+    "raw_field": "",
+    "notes": "炼化板块贡献境内利润近75%，是核心盈利来源"
+  },
+  "恒力石化_2025年_PTA主营利润占比": {
+    "label": "PTA利润占境内主营利润比重",
+    "value": 10.53,
+    "unit": "%",
+    "period": "2025年",
+    "source": "financial_calculator-{\"expression\": \"PTA主营利润 / 境内主营利润 * 100\", \"variables\": {\"PTA主营利润\": 27.5438, \"境内主营利润\": 261.6752}, \"description\": \"计算PTA利润占境内主营利润比重\"}",
+    "raw_field": "",
+    "notes": ""
+  },
+  "恒力石化_2025年_聚酯产品主营利润占比": {
+    "label": "聚酯产品主营利润占境内主营利润比重",
+    "value": 11.23,
+    "unit": "%",
+    "period": "2025年",
+    "source": "financial_calculator-{\"expression\": \"聚酯产品主营利润 / 境内主营利润 * 100\", \"variables\": {\"聚酯产品主营利润\": 29.3864, \"境内主营利润\": 261.6752}, \"description\": \"计算聚酯产品利润占境内主营利润比重\"}",
+    "raw_field": "",
+    "notes": "聚酯业务对境内整体盈利贡献约11.2%"
+  },
+  "恒力石化_2025年_境外主营利润占比": {
+    "label": "境外业务利润占境内主营利润比重",
+    "value": 0.96,
+    "unit": "%",
+    "period": "2025年",
+    "source": "financial_calculator-{\"expression\": \"境外主营利润 / 境内主营利润 * 100\", \"variables\": {\"境外主营利润\": 2.5004, \"境内主营利润\": 261.6752}, \"description\": \"计算境外业务利润占境内主营利润比重\"}",
+    "raw_field": "",
+    "notes": "国际业务对境内整体盈利贡献微乎其微，占比不足1%"
+  },
+  "恒力石化_2025年_炼化产品毛利润": {
+    "label": "炼化产品毛利润",
+    "value": 19714.24,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "financial_calculator-{\"expression\": \"942.814 * 20.91\", \"variables\": {}, \"description\": \"计算炼化产品毛利润（亿元）\"}",
+    "raw_field": "",
+    "notes": ""
+  }
+}

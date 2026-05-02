@@ -1,0 +1,1361 @@
+{
+  "中联重科_2025Q4_营业总收入": {
+    "label": "营业总收入",
+    "value": 149.5147,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "营业总收入",
+    "notes": ""
+  },
+  "中联重科_2025Q4_营业收入（主营业务）": {
+    "label": "营业收入（主营业务）",
+    "value": 149.5147,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "营业收入（主营业务）",
+    "notes": ""
+  },
+  "中联重科_2025Q4_营业成本": {
+    "label": "营业成本",
+    "value": 107.8146,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "营业成本",
+    "notes": ""
+  },
+  "中联重科_2025Q4_营业税金及附加": {
+    "label": "营业税金及附加",
+    "value": 1.0292,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "营业税金及附加",
+    "notes": ""
+  },
+  "中联重科_2025Q4_销售费用": {
+    "label": "销售费用",
+    "value": 14.444,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "销售费用",
+    "notes": ""
+  },
+  "中联重科_2025Q4_管理费用": {
+    "label": "管理费用",
+    "value": 5.7177,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "管理费用",
+    "notes": ""
+  },
+  "中联重科_2025Q4_财务费用": {
+    "label": "财务费用",
+    "value": 3.2509,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "财务费用",
+    "notes": ""
+  },
+  "中联重科_2025Q4_营业利润": {
+    "label": "营业利润",
+    "value": 10.7139,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "营业利润",
+    "notes": ""
+  },
+  "中联重科_2025Q4_利润总额": {
+    "label": "利润总额",
+    "value": 11.9097,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "利润总额",
+    "notes": ""
+  },
+  "中联重科_2025Q4_所得税费用": {
+    "label": "所得税费用",
+    "value": 1.8902,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "所得税费用",
+    "notes": ""
+  },
+  "中联重科_2025Q4_净利润（含少数股东）": {
+    "label": "净利润（含少数股东）",
+    "value": 10.0195,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "净利润（含少数股东）",
+    "notes": ""
+  },
+  "中联重科_2025Q4_归母净利润": {
+    "label": "归母净利润",
+    "value": 9.3812,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "归母净利润",
+    "notes": ""
+  },
+  "中联重科_2025Q4_扣非归母净利润": {
+    "label": "扣非归母净利润",
+    "value": 7.2616,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "扣非归母净利润",
+    "notes": ""
+  },
+  "中联重科_2025Q4_少数股东损益": {
+    "label": "少数股东损益",
+    "value": 0.6383,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "少数股东损益",
+    "notes": ""
+  },
+  "中联重科_2025Q4_基本每股收益": {
+    "label": "基本每股收益",
+    "value": 0.11,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "基本每股收益 [每股值，单位元/股，勿除1e8]",
+    "notes": ""
+  },
+  "中联重科_2025Q4_稀释每股收益": {
+    "label": "稀释每股收益",
+    "value": 0.11,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_income_statement_quarterly",
+    "raw_field": "稀释每股收益 [每股值，单位元/股，勿除1e8]",
+    "notes": ""
+  },
+  "中联重科_2025年_营业总收入": {
+    "label": "营业总收入",
+    "value": 521.0713,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业总收入",
+    "notes": ""
+  },
+  "中联重科_2025年_营业收入（主营业务）": {
+    "label": "营业收入（主营业务）",
+    "value": 521.0713,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业收入（主营业务）",
+    "notes": ""
+  },
+  "中联重科_2025年_营业成本": {
+    "label": "营业成本",
+    "value": 374.9681,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业成本",
+    "notes": ""
+  },
+  "中联重科_2025年_营业税金及附加": {
+    "label": "营业税金及附加",
+    "value": 3.5855,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业税金及附加",
+    "notes": ""
+  },
+  "中联重科_2025年_销售费用": {
+    "label": "销售费用",
+    "value": 45.3704,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "销售费用",
+    "notes": ""
+  },
+  "中联重科_2025年_管理费用": {
+    "label": "管理费用",
+    "value": 20.5736,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "管理费用",
+    "notes": ""
+  },
+  "中联重科_2025年_财务费用": {
+    "label": "财务费用",
+    "value": 2.0258,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "财务费用",
+    "notes": ""
+  },
+  "中联重科_2025年_营业利润": {
+    "label": "营业利润",
+    "value": 57.1244,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "营业利润",
+    "notes": ""
+  },
+  "中联重科_2025年_利润总额": {
+    "label": "利润总额",
+    "value": 58.7359,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "利润总额",
+    "notes": ""
+  },
+  "中联重科_2025年_所得税费用": {
+    "label": "所得税费用",
+    "value": 7.6671,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "所得税费用",
+    "notes": ""
+  },
+  "中联重科_2025年_净利润（含少数股东）": {
+    "label": "净利润（含少数股东）",
+    "value": 51.0687,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "净利润（含少数股东）",
+    "notes": ""
+  },
+  "中联重科_2025年_归母净利润": {
+    "label": "归母净利润",
+    "value": 48.5849,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "归母净利润",
+    "notes": ""
+  },
+  "中联重科_2025年_扣非归母净利润": {
+    "label": "扣非归母净利润",
+    "value": 33.6968,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "扣非归母净利润",
+    "notes": ""
+  },
+  "中联重科_2025年_少数股东损益": {
+    "label": "少数股东损益",
+    "value": 2.4838,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "少数股东损益",
+    "notes": ""
+  },
+  "中联重科_2025年_基本每股收益": {
+    "label": "基本每股收益",
+    "value": 0.56,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "基本每股收益 [每股值，单位元/股，勿除1e8]",
+    "notes": ""
+  },
+  "中联重科_2025年_稀释每股收益": {
+    "label": "稀释每股收益",
+    "value": 0.56,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_income_statement_report",
+    "raw_field": "稀释每股收益 [每股值，单位元/股，勿除1e8]",
+    "notes": ""
+  },
+  "中联重科_2025Q4_总资产": {
+    "label": "总资产",
+    "value": 1331.4107,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "总资产: 1331.4107 亿元",
+    "notes": ""
+  },
+  "中联重科_2025Q4_总负债": {
+    "label": "总负债",
+    "value": 732.6831,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "总负债: 732.6831 亿元",
+    "notes": ""
+  },
+  "中联重科_2025Q4_股东权益合计": {
+    "label": "股东权益合计",
+    "value": 598.7276,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "股东权益合计: 598.7276 亿元",
+    "notes": ""
+  },
+  "中联重科_2025Q4_货币资金": {
+    "label": "货币资金（银行存款等狭义现金，不含短期理财）",
+    "value": 137.8173,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "货币资金（银行存款等狭义现金，不含短期理财）: 137.8173 亿元",
+    "notes": ""
+  },
+  "中联重科_2025Q4_应收账款": {
+    "label": "应收账款",
+    "value": 345.7438,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "应收账款: 345.7438 亿元",
+    "notes": ""
+  },
+  "中联重科_2025Q4_存货": {
+    "label": "存货",
+    "value": 205.165,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "存货: 205.165 亿元",
+    "notes": ""
+  },
+  "中联重科_2025Q4_固定资产": {
+    "label": "固定资产",
+    "value": 138.3723,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "固定资产: 138.3723 亿元",
+    "notes": ""
+  },
+  "中联重科_2025Q4_无形资产": {
+    "label": "无形资产",
+    "value": 46.4718,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "无形资产: 46.4718 亿元",
+    "notes": ""
+  },
+  "中联重科_2025Q4_合同负债": {
+    "label": "合同负债（预收款项）",
+    "value": 14.3714,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "合同负债（预收款项）: 14.3714 亿元",
+    "notes": ""
+  },
+  "中联重科_2025Q4_应交税费": {
+    "label": "应交税费",
+    "value": 9.0664,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "应交税费: 9.0664 亿元",
+    "notes": ""
+  },
+  "中联重科_2025Q4_应付职工薪酬": {
+    "label": "应付职工薪酬",
+    "value": 8.1501,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "应付职工薪酬: 8.1501 亿元",
+    "notes": ""
+  },
+  "中联重科_2025Q4_预付款项": {
+    "label": "预付款项",
+    "value": 35.605,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_balance_sheet_report",
+    "raw_field": "预付款项: 35.605 亿元",
+    "notes": ""
+  },
+  "中联重科_2025Q4_销售商品提供劳务收到的现金": {
+    "label": "销售商品/提供劳务收到的现金",
+    "value": 139.1959,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "销售商品/提供劳务收到的现金",
+    "notes": ""
+  },
+  "中联重科_2025Q4_经营活动现金流入合计": {
+    "label": "经营活动现金流入合计",
+    "value": 148.3113,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "经营活动现金流入合计",
+    "notes": ""
+  },
+  "中联重科_2025Q4_经营活动现金流出合计": {
+    "label": "经营活动现金流出合计",
+    "value": 128.2334,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "经营活动现金流出合计",
+    "notes": ""
+  },
+  "中联重科_2025Q4_经营活动现金流量净额": {
+    "label": "经营活动现金流量净额",
+    "value": 20.0779,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "经营活动现金流量净额 [总量，非每股！]",
+    "notes": "NETCASH_OPERATE是总量（亿元），与PER_NETCASH不同"
+  },
+  "中联重科_2025Q4_支付的税款": {
+    "label": "支付的税款",
+    "value": 11.2249,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "支付的税款",
+    "notes": ""
+  },
+  "中联重科_2025Q4_投资活动现金流量净额": {
+    "label": "投资活动现金流量净额",
+    "value": 12.1395,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "投资活动现金流量净额",
+    "notes": ""
+  },
+  "中联重科_2025Q4_投资支付的现金": {
+    "label": "投资支付的现金",
+    "value": 5.2381,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "投资支付的现金",
+    "notes": ""
+  },
+  "中联重科_2025Q4_收回投资收到的现金": {
+    "label": "收回投资收到的现金",
+    "value": 23.9266,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "收回投资收到的现金",
+    "notes": ""
+  },
+  "中联重科_2025Q4_分红偿债支付的现金": {
+    "label": "分红/偿债支付的现金",
+    "value": 4.6322,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "分红/偿债支付的现金",
+    "notes": ""
+  },
+  "中联重科_2025Q4_筹资活动现金流量净额": {
+    "label": "筹资活动现金流量净额",
+    "value": -29.2158,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "筹资活动现金流量净额",
+    "notes": ""
+  },
+  "中联重科_2025Q4_现金及现金等价物净增加额": {
+    "label": "现金及现金等价物净增加额",
+    "value": 2.4768,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "现金及现金等价物净增加额",
+    "notes": ""
+  },
+  "中联重科_2025Q4_期末现金及等价物余额": {
+    "label": "期末现金及等价物余额（含货币基金，广义口径）",
+    "value": 118.7201,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_cashflow_quarterly",
+    "raw_field": "期末现金及等价物余额（含货币基金，广义口径）",
+    "notes": ""
+  },
+  "中联重科_2025年_销售商品/提供劳务收到的现金": {
+    "label": "销售商品/提供劳务收到的现金",
+    "value": 520.3872,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中联重科_2025年_经营活动现金流入合计": {
+    "label": "经营活动现金流入合计",
+    "value": 556.4892,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中联重科_2025年_经营活动现金流出合计": {
+    "label": "经营活动现金流出合计",
+    "value": 507.7502,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中联重科_2025年_经营活动现金流量净额": {
+    "label": "经营活动现金流量净额",
+    "value": 48.739,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": "[总量，非每股！]"
+  },
+  "中联重科_2025年_支付的税款": {
+    "label": "支付的税款",
+    "value": 36.2831,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中联重科_2025年_投资活动现金流量净额": {
+    "label": "投资活动现金流量净额",
+    "value": -56.4109,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中联重科_2025年_投资支付的现金": {
+    "label": "投资支付的现金",
+    "value": 56.5088,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中联重科_2025年_收回投资收到的现金": {
+    "label": "收回投资收到的现金",
+    "value": 57.8607,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中联重科_2025年_分红/偿债支付的现金": {
+    "label": "分红/偿债支付的现金",
+    "value": 36.8264,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中联重科_2025年_筹资活动现金流量净额": {
+    "label": "筹资活动现金流量净额",
+    "value": 4.6541,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中联重科_2025年_现金及现金等价物净增加额": {
+    "label": "现金及现金等价物净增加额",
+    "value": -2.8341,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中联重科_2025年_期初现金及等价物余额": {
+    "label": "期初现金及等价物余额（含货币基金，广义口径）",
+    "value": 121.5542,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中联重科_2025年_期末现金及等价物余额": {
+    "label": "期末现金及等价物余额（含货币基金，广义口径）",
+    "value": 118.7201,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中联重科_2025年_销售商品收到现金同比增速": {
+    "label": "销售商品收到现金同比增速",
+    "value": -4.876,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中联重科_2025年_经营活动现金流同比增速": {
+    "label": "经营活动现金流同比增速",
+    "value": 127.5339,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中联重科_2025年_投资活动现金流同比增速": {
+    "label": "投资活动现金流同比增速",
+    "value": -93.0869,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中联重科_2025年_筹资活动现金流同比增速": {
+    "label": "筹资活动现金流同比增速",
+    "value": 168.5116,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_cashflow_report",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中联重科_2025年_营业总收入全年同比增速（累计）": {
+    "label": "营业总收入全年同比增速（累计）",
+    "value": 14.5761,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "营业总收入全年同比增速（累计）",
+    "notes": ""
+  },
+  "中联重科_2025年_归母净利润全年同比增速（累计）": {
+    "label": "归母净利润全年同比增速（累计）",
+    "value": 38.0104,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_financial_indicators_em_by_report",
+    "raw_field": "归母净利润全年同比增速（累计）",
+    "notes": ""
+  },
+  "中联重科_2025Q4_毛利润": {
+    "label": "毛利润",
+    "value": 41.7001,
+    "unit": "亿元",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "毛利润 [总量]",
+    "notes": ""
+  },
+  "中联重科_2025Q4_基本每股收益（EPS）": {
+    "label": "基本每股收益（EPS）",
+    "value": 0.11,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "基本每股收益（EPS）[每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "中联重科_2025Q4_每股净资产": {
+    "label": "每股净资产",
+    "value": 6.6564,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "每股净资产 [每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "中联重科_2025Q4_每股经营现金流": {
+    "label": "每股经营现金流",
+    "value": 0.2322,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "每股经营现金流 [每股值，元/股，勿除1e8；经营现金流总额在现金流量表中]",
+    "notes": ""
+  },
+  "中联重科_2025Q4_每股未分配利润": {
+    "label": "每股未分配利润",
+    "value": 3.1222,
+    "unit": "元/股",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "每股未分配利润 [每股值，元/股，勿除1e8]",
+    "notes": ""
+  },
+  "中联重科_2025Q4_销售毛利率": {
+    "label": "销售毛利率",
+    "value": 27.8903,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "销售毛利率",
+    "notes": ""
+  },
+  "中联重科_2025Q4_销售净利率": {
+    "label": "销售净利率",
+    "value": 6.7013,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "销售净利率",
+    "notes": ""
+  },
+  "中联重科_2025Q4_净资产收益率（稀释）": {
+    "label": "净资产收益率（稀释）",
+    "value": 1.6189,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "净资产收益率（稀释）",
+    "notes": ""
+  },
+  "中联重科_2025Q4_总资产净利率（ROA）": {
+    "label": "总资产净利率（ROA）",
+    "value": 0.7583,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "总资产净利率（ROA）",
+    "notes": ""
+  },
+  "中联重科_2025Q4_营业总收入同比增速": {
+    "label": "营业总收入同比增速",
+    "value": 34.7897,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "营业总收入同比增速",
+    "notes": ""
+  },
+  "中联重科_2025Q4_归母净利润同比增速": {
+    "label": "归母净利润同比增速",
+    "value": 145.992,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "归母净利润同比增速",
+    "notes": ""
+  },
+  "中联重科_2025Q4_扣非归母净利润同比增速": {
+    "label": "扣非归母净利润同比增速",
+    "value": 99.688,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "get_financial_indicators_em_quarterly",
+    "raw_field": "扣非归母净利润同比增速",
+    "notes": ""
+  },
+  "中联重科_2025年_工程机械主营收入": {
+    "label": "工程机械主营收入",
+    "value": 481.182,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "主营收入 [总量]",
+    "notes": ""
+  },
+  "中联重科_2025年_工程机械收入占比": {
+    "label": "工程机械收入占比",
+    "value": 92.34,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "收入占比",
+    "notes": ""
+  },
+  "中联重科_2025年_工程机械主营成本": {
+    "label": "工程机械主营成本",
+    "value": 342.8426,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "主营成本 [总量]",
+    "notes": ""
+  },
+  "中联重科_2025年_工程机械毛利率": {
+    "label": "工程机械毛利率",
+    "value": 28.75,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "毛利率",
+    "notes": ""
+  },
+  "中联重科_2025年_农业机械主营收入": {
+    "label": "农业机械主营收入",
+    "value": 35.4157,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "主营收入 [总量]",
+    "notes": ""
+  },
+  "中联重科_2025年_农业机械收入占比": {
+    "label": "农业机械收入占比",
+    "value": 6.8,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "收入占比",
+    "notes": ""
+  },
+  "中联重科_2025年_农业机械主营成本": {
+    "label": "农业机械主营成本",
+    "value": 31.9432,
+    "unit": "亿元",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "主营成本 [总量]",
+    "notes": ""
+  },
+  "中联重科_2025年_农业机械毛利率": {
+    "label": "农业机械毛利率",
+    "value": 9.8,
+    "unit": "%",
+    "period": "2025年",
+    "source": "get_main_business_breakdown",
+    "raw_field": "毛利率",
+    "notes": ""
+  },
+  "中联重科__PEG": {
+    "label": "PEG",
+    "value": 0.3118,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中联重科__市盈率-TTM": {
+    "label": "市盈率-TTM",
+    "value": 15.87,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中联重科__市盈率-25E": {
+    "label": "市盈率-25E",
+    "value": 11.4623,
+    "unit": "%",
+    "period": "2025",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中联重科__市盈率-26E": {
+    "label": "市盈率-26E",
+    "value": 9.4571,
+    "unit": "%",
+    "period": "2026",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中联重科__市盈率-27E": {
+    "label": "市盈率-27E",
+    "value": 7.8722,
+    "unit": "%",
+    "period": "2027",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中联重科__市净率-MRQ": {
+    "label": "市净率-MRQ",
+    "value": 1.1789,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "行业平均_PEG": {
+    "label": "PEG",
+    "value": 0.4661,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "行业平均_市盈率-TTM": {
+    "label": "市盈率-TTM",
+    "value": 61.2129,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "行业平均_市盈率-25E": {
+    "label": "市盈率-25E",
+    "value": 26.7058,
+    "unit": "%",
+    "period": "2025",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "行业平均_市盈率-26E": {
+    "label": "市盈率-26E",
+    "value": 21.5636,
+    "unit": "%",
+    "period": "2026",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "行业平均_市盈率-27E": {
+    "label": "市盈率-27E",
+    "value": 11.9122,
+    "unit": "%",
+    "period": "2027",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "行业平均_市净率-MRQ": {
+    "label": "市净率-MRQ",
+    "value": 3.6095,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_valuation",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中联重科__ROE-3年平均": {
+    "label": "ROE-3年平均",
+    "value": 9.36,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中联重科__ROE-24A": {
+    "label": "ROE-24A",
+    "value": 8.38,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中联重科__净利率-3年平均": {
+    "label": "净利率-3年平均",
+    "value": 7.41,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中联重科__净利率-24A": {
+    "label": "净利率-24A",
+    "value": 7.52,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中联重科__行业中值_ROE-3年平均": {
+    "label": "行业中值 ROE-3年平均",
+    "value": 8.6,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中联重科__行业中值_ROE-24A": {
+    "label": "行业中值 ROE-24A",
+    "value": 8.9,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中联重科__行业中值_净利率-3年平均": {
+    "label": "行业中值 净利率-3年平均",
+    "value": 8.98,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中联重科__行业中值_净利率-24A": {
+    "label": "行业中值 净利率-24A",
+    "value": 9.51,
+    "unit": "%",
+    "period": "",
+    "source": "get_peer_dupont",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中联重科_2026_预测机构数": {
+    "label": "预测机构数",
+    "value": 25,
+    "unit": "",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "预测机构数",
+    "notes": ""
+  },
+  "中联重科_2026_每股收益最小值": {
+    "label": "每股收益最小值",
+    "value": 0.65,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最小值",
+    "notes": ""
+  },
+  "中联重科_2026_每股收益均值": {
+    "label": "每股收益均值",
+    "value": 0.69,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "中联重科_2026_每股收益最大值": {
+    "label": "每股收益最大值",
+    "value": 0.73,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "中联重科_2026_行业平均每股收益": {
+    "label": "行业平均每股收益",
+    "value": 2.37,
+    "unit": "元/股",
+    "period": "2026",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "行业平均数",
+    "notes": ""
+  },
+  "中联重科_2027_预测机构数": {
+    "label": "预测机构数",
+    "value": 25,
+    "unit": "",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "预测机构数",
+    "notes": ""
+  },
+  "中联重科_2027_每股收益最小值": {
+    "label": "每股收益最小值",
+    "value": 0.73,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最小值",
+    "notes": ""
+  },
+  "中联重科_2027_每股收益均值": {
+    "label": "每股收益均值",
+    "value": 0.83,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "中联重科_2027_每股收益最大值": {
+    "label": "每股收益最大值",
+    "value": 0.93,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "中联重科_2027_行业平均每股收益": {
+    "label": "行业平均每股收益",
+    "value": 3.06,
+    "unit": "元/股",
+    "period": "2027",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "行业平均数",
+    "notes": ""
+  },
+  "中联重科_2028_预测机构数": {
+    "label": "预测机构数",
+    "value": 22,
+    "unit": "",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "预测机构数",
+    "notes": ""
+  },
+  "中联重科_2028_每股收益最小值": {
+    "label": "每股收益最小值",
+    "value": 0.93,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最小值",
+    "notes": ""
+  },
+  "中联重科_2028_每股收益均值": {
+    "label": "每股收益均值",
+    "value": 1.01,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "均值",
+    "notes": ""
+  },
+  "中联重科_2028_每股收益最大值": {
+    "label": "每股收益最大值",
+    "value": 1.16,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "最大值",
+    "notes": ""
+  },
+  "中联重科_2028_行业平均每股收益": {
+    "label": "行业平均每股收益",
+    "value": 3.89,
+    "unit": "元/股",
+    "period": "2028",
+    "source": "get_profit_forecast_eps",
+    "raw_field": "行业平均数",
+    "notes": ""
+  },
+  "中联重科_2026_预测归母净利润最小值": {
+    "label": "预测归母净利润最小值",
+    "value": 56.22,
+    "unit": "亿元",
+    "period": "2026",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中联重科_2026_预测归母净利润均值": {
+    "label": "预测归母净利润均值",
+    "value": 59.95,
+    "unit": "亿元",
+    "period": "2026",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中联重科_2026_预测归母净利润最大值": {
+    "label": "预测归母净利润最大值",
+    "value": 62.84,
+    "unit": "亿元",
+    "period": "2026",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中联重科_2026_行业平均归母净利润": {
+    "label": "行业平均归母净利润",
+    "value": 17.0,
+    "unit": "亿元",
+    "period": "2026",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中联重科_2027_预测归母净利润最小值": {
+    "label": "预测归母净利润最小值",
+    "value": 63.13,
+    "unit": "亿元",
+    "period": "2027",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中联重科_2027_预测归母净利润均值": {
+    "label": "预测归母净利润均值",
+    "value": 72.16,
+    "unit": "亿元",
+    "period": "2027",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中联重科_2027_预测归母净利润最大值": {
+    "label": "预测归母净利润最大值",
+    "value": 80.23,
+    "unit": "亿元",
+    "period": "2027",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中联重科_2027_行业平均归母净利润": {
+    "label": "行业平均归母净利润",
+    "value": 21.21,
+    "unit": "亿元",
+    "period": "2027",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中联重科_2028_预测归母净利润最小值": {
+    "label": "预测归母净利润最小值",
+    "value": 80.21,
+    "unit": "亿元",
+    "period": "2028",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中联重科_2028_预测归母净利润均值": {
+    "label": "预测归母净利润均值",
+    "value": 87.35,
+    "unit": "亿元",
+    "period": "2028",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中联重科_2028_预测归母净利润最大值": {
+    "label": "预测归母净利润最大值",
+    "value": 100.41,
+    "unit": "亿元",
+    "period": "2028",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中联重科_2028_行业平均归母净利润": {
+    "label": "行业平均归母净利润",
+    "value": 30.23,
+    "unit": "亿元",
+    "period": "2028",
+    "source": "get_profit_forecast_net_profit",
+    "raw_field": "",
+    "notes": ""
+  },
+  "中联重科_2025年_年度分红_每10股派3.0元": {
+    "label": "2025年度分红_每10股派3.0元",
+    "value": 3.0,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_dividend_history_cninfo",
+    "raw_field": "2025-07-17 年度分红: 每10股派3.0元",
+    "notes": ""
+  },
+  "中联重科_2025年中期_中期分红_每10股派2.0元": {
+    "label": "2025年中期分红_每10股派2.0元",
+    "value": 2.0,
+    "unit": "元/股",
+    "period": "2025年",
+    "source": "get_dividend_history_cninfo",
+    "raw_field": "2025-12-31 中期分红: 每10股派2.0元",
+    "notes": ""
+  },
+  "中联重科_2025Q4_税金及附加率": {
+    "label": "税金及附加率",
+    "value": 0.69,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "营业税金及附加 / 营业总收入"
+  },
+  "中联重科_2025Q4_销售费用率": {
+    "label": "销售费用率",
+    "value": 9.66,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "销售费用 / 营业总收入"
+  },
+  "中联重科_2025Q4_管理费用率": {
+    "label": "管理费用率",
+    "value": 3.82,
+    "unit": "%",
+    "period": "2025Q4",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "管理费用 / 营业总收入"
+  },
+  "中联重科_2025年_税金及附加率": {
+    "label": "税金及附加率",
+    "value": 0.69,
+    "unit": "%",
+    "period": "2025年",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "营业税金及附加 / 营业总收入"
+  },
+  "中联重科_2025年_销售费用率": {
+    "label": "销售费用率",
+    "value": 8.71,
+    "unit": "%",
+    "period": "2025年",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "销售费用 / 营业总收入"
+  },
+  "中联重科_2025年_管理费用率": {
+    "label": "管理费用率",
+    "value": 3.95,
+    "unit": "%",
+    "period": "2025年",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "管理费用 / 营业总收入"
+  },
+  "中联重科_2025年_分红率": {
+    "label": "分红率",
+    "value": 89.29,
+    "unit": "%",
+    "period": "2025年",
+    "source": "auto_derived",
+    "raw_field": "",
+    "notes": "年度+中期派息合计（每10股）/ 基本每股收益"
+  }
+}
