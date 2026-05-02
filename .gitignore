@@ -14,3 +14,6 @@ wheels/
 # Generated outputs and local caches
 output/
 data/cache/
+
+# Claude Code
+.claude/
