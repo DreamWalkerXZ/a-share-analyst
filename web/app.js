@@ -21,6 +21,8 @@ const processPanel = document.querySelector(".process-panel");
 
 let currentSource = null;
 let currentJobId = "";
+let latestState = null;
+let timerInterval = null;
 
 const idleSteps = [
   ["parse", "输入解析"],
@@ -166,13 +168,45 @@ function setStatus(status) {
   runButton.disabled = status === "running" || status === "queued";
 }
 
+function updateDurationDisplay() {
+  if (!latestState) {
+    duration.textContent = "0s";
+    return;
+  }
+
+  if (latestState.status === "running" || latestState.status === "queued") {
+    const startedAt = Number(latestState.started_at || Date.now() / 1000);
+    duration.textContent = formatDuration(Date.now() / 1000 - startedAt);
+    return;
+  }
+
+  duration.textContent = formatDuration(latestState.duration);
+}
+
+function syncTimer() {
+  if (latestState?.status === "running" || latestState?.status === "queued") {
+    if (!timerInterval) {
+      timerInterval = window.setInterval(updateDurationDisplay, 1000);
+    }
+    updateDurationDisplay();
+    return;
+  }
+
+  if (timerInterval) {
+    window.clearInterval(timerInterval);
+    timerInterval = null;
+  }
+  updateDurationDisplay();
+}
+
 function renderState(state) {
+  latestState = state;
   setStatus(state.status);
   renderSteps(state.steps);
   initialData.textContent = state.metrics?.initial_data ?? 0;
   finalData.textContent = state.metrics?.final_data ?? 0;
   toolCalls.textContent = state.metrics?.tool_calls ?? 0;
-  duration.textContent = formatDuration(state.duration);
+  syncTimer();
   if (state.output_path) {
     reportPath.textContent = state.output_path;
   }
@@ -255,6 +289,8 @@ function connectEvents(jobId) {
 
 form.addEventListener("submit", async (event) => {
   event.preventDefault();
+  latestState = null;
+  syncTimer();
   logStream.textContent = "";
   reportPreview.innerHTML = `<p class="empty-state">报告生成中</p>`;
   reportPath.textContent = "等待输出路径";
