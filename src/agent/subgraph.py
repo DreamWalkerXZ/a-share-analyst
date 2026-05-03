@@ -1,4 +1,6 @@
 import json
+import signal
+from contextlib import contextmanager
 from datetime import datetime
 from pathlib import Path
 from typing import Literal
@@ -45,6 +47,8 @@ MAX_TOOL_CALLS = 30
 PREFETCH_MAX_RECORDS = 2     # quarterly interfaces: 2 records (target + comparison)
 PREFETCH_MAX_RECORDS_ANNUAL = 1  # annual interfaces: 1 record (target year only)
 PREFETCH_MAX_CHARS = 20_000  # hard cap per interface to protect LLM context
+PREFETCH_TIMEOUT_SECONDS = 45  # akshare sources can hang indefinitely
+TOOL_TIMEOUT_SECONDS = 45      # bound Phase-2 tool calls for the same reason
 
 # Annual interfaces return cumulative year-to-date data; only the target year is meaningful.
 _ANNUAL_ACTIONS = {
@@ -112,6 +116,28 @@ def _filter_by_period(json_str: str, cutoff: str, max_records: int = PREFETCH_MA
         return json_str
 
 
+@contextmanager
+def _prefetch_deadline(seconds: int):
+    """Bound one pre-fetch call so a slow external data source cannot block the run."""
+    previous_handler = signal.getsignal(signal.SIGALRM)
+
+    def _raise_timeout(signum, frame):  # noqa: ARG001
+        raise TimeoutError(f"pre-fetch timed out after {seconds}s")
+
+    signal.signal(signal.SIGALRM, _raise_timeout)
+    signal.alarm(seconds)
+    try:
+        yield
+    finally:
+        signal.alarm(0)
+        signal.signal(signal.SIGALRM, previous_handler)
+
+
+def _run_prefetch_action(action: str, params: dict) -> str:
+    with _prefetch_deadline(PREFETCH_TIMEOUT_SECONDS):
+        return structured_data_tool._run(action=action, params=params)
+
+
 def prefetch_core_data(stock_code: str, period: str = "") -> dict[str, str]:
     """Phase 1: Call mandatory interfaces; filter to period cutoff; return raw JSON keyed by action."""
     prefix = _exchange_prefix(stock_code)
@@ -124,7 +150,7 @@ def prefetch_core_data(stock_code: str, period: str = "") -> dict[str, str]:
         try:
             if action == "get_financial_indicators_em":
                 results["get_financial_indicators_em_by_report"] = _filter_by_period(
-                    structured_data_tool._run(
+                    _run_prefetch_action(
                         action=action,
                         params={"symbol": f"{stock_code}.{prefix}", "indicator": "按报告期"},
                     ),
@@ -132,7 +158,7 @@ def prefetch_core_data(stock_code: str, period: str = "") -> dict[str, str]:
                     max_records=PREFETCH_MAX_RECORDS_ANNUAL,
                 )
                 results["get_financial_indicators_em_quarterly"] = _filter_by_period(
-                    structured_data_tool._run(
+                    _run_prefetch_action(
                         action=action,
                         params={"symbol": f"{stock_code}.{prefix}", "indicator": "按单季度"},
                     ),
@@ -140,14 +166,14 @@ def prefetch_core_data(stock_code: str, period: str = "") -> dict[str, str]:
                     max_records=PREFETCH_MAX_RECORDS,
                 )
             elif action in _PLAIN_CODE_ACTIONS:
-                raw = structured_data_tool._run(
+                raw = _run_prefetch_action(
                     action=action, params={"symbol": stock_code}
                 )
                 results[action] = raw[:PREFETCH_MAX_CHARS] + ("... [truncated]" if len(raw) > PREFETCH_MAX_CHARS else "")
             else:
                 n = PREFETCH_MAX_RECORDS_ANNUAL if action in _ANNUAL_ACTIONS else PREFETCH_MAX_RECORDS
                 results[action] = _filter_by_period(
-                    structured_data_tool._run(
+                    _run_prefetch_action(
                         action=action, params={"symbol": symbol_em}
                     ),
                     cutoff,
@@ -388,7 +414,8 @@ def react_tool(state: DataCollectionState) -> DataCollectionState:
             if tool is None:
                 raw_result = f"ERROR: 未知工具 {tool_name}"
             else:
-                raw_result = tool.invoke(tool_args)
+                with _prefetch_deadline(TOOL_TIMEOUT_SECONDS):
+                    raw_result = tool.invoke(tool_args)
                 if isinstance(raw_result, dict):
                     raw_result = json.dumps(raw_result, ensure_ascii=False)
         except Exception as exc:

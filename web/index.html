@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>A-share Analyst</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+    <script src="/static/app.js" defer></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-mark">A</span>
+        <span>A-share Analyst</span>
+      </div>
+      <div class="topbar-meta">
+        <span id="serverStatus" class="status-dot idle"></span>
+        <span>Local Console</span>
+      </div>
+    </header>
+
+    <main class="workspace">
+      <section class="panel command-panel">
+        <div class="panel-title">
+          <p class="eyebrow">Research Pipeline</p>
+          <h1>A 股研报生成台</h1>
+        </div>
+
+        <form id="runForm" class="run-form">
+          <label class="field">
+            <span>公司或代码</span>
+            <input id="companyInput" name="company" value="贵州茅台" autocomplete="off" />
+          </label>
+          <label class="field year-field">
+            <span>年份</span>
+            <input id="yearInput" name="year" value="2025" inputmode="numeric" maxlength="4" />
+          </label>
+          <fieldset class="quarter-group">
+            <legend>季度</legend>
+            <label><input type="radio" name="quarter" value="Q1" /><span>Q1</span></label>
+            <label><input type="radio" name="quarter" value="Q2" /><span>Q2</span></label>
+            <label><input type="radio" name="quarter" value="Q3" /><span>Q3</span></label>
+            <label><input type="radio" name="quarter" value="Q4" checked /><span>Q4</span></label>
+          </fieldset>
+          <button id="runButton" type="submit">生成研报</button>
+        </form>
+
+        <div class="switch-row">
+          <label class="switch">
+            <input id="noProxyInput" type="checkbox" checked />
+            <span></span>
+            <strong>无代理运行</strong>
+          </label>
+          <label class="switch">
+            <input id="traceInput" type="checkbox" checked />
+            <span></span>
+            <strong>关闭 LangSmith</strong>
+          </label>
+        </div>
+      </section>
+
+      <section class="panel metrics-panel">
+        <div class="metric">
+          <span>初始数据</span>
+          <strong id="initialData">0</strong>
+        </div>
+        <div class="metric">
+          <span>最终数据</span>
+          <strong id="finalData">0</strong>
+        </div>
+        <div class="metric">
+          <span>工具调用</span>
+          <strong id="toolCalls">0</strong>
+        </div>
+        <div class="metric">
+          <span>用时</span>
+          <strong id="duration">0s</strong>
+        </div>
+      </section>
+
+      <section class="panel process-panel">
+        <div class="panel-heading">
+          <h2>生成进程</h2>
+          <span id="jobStatus" class="run-state">待启动</span>
+        </div>
+        <ol id="steps" class="pipeline"></ol>
+        <div class="signal-board" aria-hidden="true">
+          <span style="--h: 34%"></span>
+          <span style="--h: 62%"></span>
+          <span style="--h: 46%"></span>
+          <span style="--h: 78%"></span>
+          <span style="--h: 53%"></span>
+          <span style="--h: 88%"></span>
+          <span style="--h: 42%"></span>
+          <span style="--h: 70%"></span>
+        </div>
+      </section>
+
+      <section class="panel log-panel">
+        <div class="panel-heading">
+          <h2>实时日志</h2>
+          <button id="clearLogButton" class="ghost-button" type="button">清空</button>
+        </div>
+        <pre id="logStream" class="log-stream"></pre>
+      </section>
+
+      <section class="panel report-panel">
+        <div class="panel-heading">
+          <div>
+            <h2>研报预览</h2>
+            <p id="reportPath" class="path-text">选择历史报告或等待生成完成</p>
+          </div>
+          <button id="refreshReportsButton" class="ghost-button" type="button">刷新</button>
+        </div>
+        <article id="reportPreview" class="markdown-preview">
+          <p class="empty-state">暂无报告内容</p>
+        </article>
+      </section>
+
+      <aside class="panel history-panel">
+        <div class="panel-heading">
+          <h2>历史报告</h2>
+        </div>
+        <div id="reportList" class="report-list"></div>
+      </aside>
+    </main>
+  </body>
+</html>
